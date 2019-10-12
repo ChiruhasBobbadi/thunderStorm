@@ -114,7 +114,7 @@
             </div>
             <div class="form-group col-md-4">
                 <label for="mrophn">MRO Phone Number</label>
-                <p class="lead" id="mrophn"><%=alert.mroPhone%></p>
+                <p class="lead" id="mrophn"><%= alert.mroPhone %></p>
             </div>
         </div>
         <div class="form-row">
@@ -124,7 +124,7 @@
 </span>
                 <p id="whatsapp" class="lead">
 
-                    <%=alert.hasWhatsApp===true ? 'Available' : 'Un Available'%>
+                    <%= alert.hasWhatsApp===true ? 'Available' : 'Un Available' %>
                 </p>
             </div>
 
@@ -132,7 +132,7 @@
         <span style="font-size: 48px; ">
  <i class="fab fa-telegram"> </i>
              <p id="telegram" class="lead">
-                  <%=alert.hasTelegram===true ? 'Available' : 'Un Available'%>
+                  <%= alert.hasTelegram===true ? 'Available' : 'Un Available' %>
              </p>
 </span>
             </div>
@@ -151,7 +151,16 @@
 
             </div>
             <div class="form-group col-md-4">
-                <a href="">edit</a>
+                <a href="/admin/update-mro" class="myLink"  target="_blank" rel="noopener noreferrer">edit</a>
+
+<!--                <script type="text/javascript">-->
+<!--                    $('.myLink').click(function () {-->
+
+<!--                        $(this).attr("href", this.href + "?edit=true");-->
+
+
+<!--                    });-->
+<!--                </script>-->
             </div>
         </div>
 

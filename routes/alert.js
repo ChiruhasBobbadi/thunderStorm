@@ -5,7 +5,7 @@ const route = require('../middleware/routeAuthenticator');
 
 router.get('/alerts',route,alertController.alert);
 
-router.post('/service',route,alertController.serviceAlert);
+router.get('/service',route,alertController.serviceAlert);
 
 
 

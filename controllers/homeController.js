@@ -1,6 +1,6 @@
 const activeAlerts = require('../models/activeAlerts');
 
-
+const savedAlerts = require('../models/savedAlerts');
 
 exports.getHome = (req,res,next)=>{
     /**
@@ -31,6 +31,34 @@ activeAlerts.find({}).populate('mandal').exec().then(activeAlerts => {
 exports.postHome = (req,res,next)=>{
 
 
+    const _id = req.query.id;
+
+    console.log(_id);
+    activeAlerts.findOne({mandal:_id}).populate('mandal').then(activeAlerts=>{
+
+        if(activeAlerts){
+            req.session.active=activeAlerts.mandal;
+            const saved = new savedAlerts({
+                time:activeAlerts.time,
+                mandal:activeAlerts.mandal
+            });
+
+            return saved.save()
+        }
+
+    }).then(res=>{
+        if(res)
+        return activeAlerts.deleteOne({mandal:_id})
+    }).then(result=>{
+
+        if(result){
+            res.redirect('/service')
+        }
+
+
+    }).catch(err=>{
+        console.log(err);
+    })
 
 
 

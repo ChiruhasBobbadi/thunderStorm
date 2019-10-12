@@ -1,20 +1,15 @@
 const User = require('../models/user');
-const mandal = require('../models/mandal');
-const activeAlerts = require('../models/activeAlerts');
-const tempAlerts = require('../models/tempAlerts');
+// const mandal = require('../models/mandal');
+// const activeAlerts = require('../models/activeAlerts');
+// const tempAlerts = require('../models/tempAlerts');
 
 exports.Login = (req, res, next) => {
 // render login page
-
-
-
     res.render('login/login')
 };
 
 
 exports.postLogin = (req, res, next) => {
-
-
     //check auth and if successful send to home else warn
     // if authenticated redirect to home
     User.findOne({email:req.body.email}).then(user=>{

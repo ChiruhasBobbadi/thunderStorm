@@ -1,7 +1,7 @@
 const servicedAlerts = require('../models/servicedAlerts');
 const json2xls = require('json2xls');
-const fs = require('fs')
-
+const fs = require('fs');
+const moment =require('moment');
 exports.getReports = (req,res,next)=>{
 
     // const fromDate = req.body.from;
@@ -13,6 +13,33 @@ exports.getReports = (req,res,next)=>{
     // }).catch(err=>{
     //     console.log(err);
     // })
+    res.render('reports/report',{
+        report:{}
+    })
+
+};
+exports.postReports = (req,res,next)=>{
+
+    // const fromDate = req.body.from;
+    // const toDate = req.body.to;
+    //
+
+    var from=new Date(req.body.date1).toISOString();
+    var to = new Date(req.body.date2).toISOString();
+
+    console.log(iso1);
+    servicedAlerts.find({date:{$gte:from,$lte:to}}).then(servicedAlerts=>{
+       req.report = servicedAlerts;
+        console.log(servicedAlerts);
+    }).catch(err=>{
+        console.log(err);
+    })
+
+
+
+
+
+    // console.log(d1);
 
 };
 

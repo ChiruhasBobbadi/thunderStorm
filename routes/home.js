@@ -5,6 +5,6 @@ const route = require('../middleware/routeAuthenticator');
 
 router.get('/home',route,homeController.getHome);
 
-// router.post('/home',route,homeController.postHome);
+router.post('/home',route,homeController.postHome);
 
 module.exports = router;

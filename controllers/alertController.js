@@ -1,5 +1,5 @@
 const activeAlerts = require('../models/activeAlerts');
-const savedAlerts = require('../models/savedAlerts');
+const mandals = require('../models/mandal');
 
 exports.alert = (req,res,next)=>{
 
@@ -13,38 +13,18 @@ exports.alert = (req,res,next)=>{
 
 exports.serviceAlert=(req,res,next)=>{
 
+    // console.log(req.session.active);
 
-    const _id = req.query.id;
-
-    console.log(_id);
-    activeAlerts.findOne({mandal:_id}).populate('mandal').then(activeAlerts=>{
-
-        if(activeAlerts){
-            req.active=activeAlerts;
-            const saved = new savedAlerts({
-                time:activeAlerts.time,
-                mandal:activeAlerts.mandal
-            });
-
-            return saved.save()
-        }
-
-    }).then(res=>{
-        return activeAlerts.deleteOne({mandal:_id})
-    }).then(result=>{
-        console.log(req.active);
-        if(result){
+    mandals.findOne({_id:req.session.active}).then(mandal=>{
+        if(mandal){
             res.render('alerts/service', {
-                alert:req.active.mandal
+                alert:mandal
             });
-
         }
-
-        // redirect to the data verification page..
-
     }).catch(err=>{
         console.log(err);
     })
+
 
 
 

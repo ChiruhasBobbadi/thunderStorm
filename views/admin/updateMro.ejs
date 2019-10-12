@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item ">
+                <a class="nav-link" href="#">Reports<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Alerts</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">admin</a>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+<br>
+
+
+
+<div class="container">
+<main>
+    <form class="well form-horizontal jumbotron vertical-center align-middle" action="/admin/update-mro" method="post"
+          id="contact_form">
+        <fieldset>
+
+            <!-- Form Name -->
+            <center><p class="display-4">Edit Details</p></center>
+            <br>
+
+            <!-- Text input-->
+            <center>
+                <div class="form-group" align-middle>
+                    <div class="row">
+                        <label class="col-md-4 control-label lead">MRO-Name</label>
+                        <div class="col-md-4 inputGroupContainer">
+                            <div class="input-group">
+
+                                <input name="mroName" id="mroName" placeholder="Name" class="form-control" type="text"
+                                       value="<%=mro.mroName %>">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </center>
+            <!-- Text input-->
+
+            <center>
+                <div class="form-group" align-middle>
+                    <div class="row">
+                        <label class="col-md-4 control-label lead">MRO-Phone</label>
+                        <div class="col-md-4 inputGroupContainer">
+                            <div class="input-group">
+
+                                <input  placeholder="phn-no" name="mroPhn" id="mroPhn" class="form-control" type="tel"
+                                       value="<%=mro.mroPhone %>">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </center>
+
+
+            <!-- Text input-->
+
+            <center>
+                <div class="form-group" align-middle>
+                    <div class="row">
+                        <label class="col-md-4 control-label lead">District</label>
+                        <div class="col-md-4 inputGroupContainer">
+                            <div class="input-group">
+
+                                <p class="lead"><%=mro.dist%></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </center>
+
+            <!-- Text input-->
+
+            <center>
+                <div class="form-group" align-middle>
+                    <div class="row">
+                        <label class="col-md-4 control-label lead">Mandal</label>
+                        <div class="col-md-4 inputGroupContainer">
+                            <div class="input-group">
+
+                                <p class="lead"><%=mro.mandal%></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </center>
+
+            <!-- Text input-->
+
+            <center>
+                <div class="form-group" align-middle>
+                    <div class="row">
+                        <label class="col-md-4 control-label lead">has-Whatsapp</label>
+                        <div class="col-md-4 inputGroupContainer">
+                            <div class="input-group">
+
+                                <input name="wha" placeholder="Whatsapp" class="form-control" type="text">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </center>
+
+            <center>
+                <div class="form-group" align-middle>
+                    <div class="row">
+                        <label class="col-md-4 control-label lead">has-Telegram</label>
+                        <div class="col-md-4 inputGroupContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                <input name="Telegram" placeholder="Telegram" class="form-control" type="text">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </center>
+
+
+            <!-- Select Basic -->
+
+            <!-- Success message -->
+
+            <!-- Button -->
+            <center>
+                <div class="form-group">
+                    <label class="col-md-4 control-label"></label>
+                    <div class="col-md-4"><br>
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="submit"
+                                                                                                     class="btn btn-primary Update"
+                                                                                                     value="Update">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <span class="glyphicon glyphicon-send"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</input>
+                    </div>
+                </div>
+            </center>
+        </fieldset>
+    </form>
+</main>
+
+</div>
+</div><!-- /.container -->
+</body>
+</html>
