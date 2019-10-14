@@ -1,8 +1,9 @@
 const servicedAlerts = require('../models/servicedAlerts');
+
 const json2xls = require('json2xls');
 const fs = require('fs');
-const moment =require('moment');
-exports.getReports = (req,res,next)=>{
+
+exports.getReports = (req, res, next) => {
 
     // const fromDate = req.body.from;
     // const toDate = req.body.to;
@@ -13,37 +14,69 @@ exports.getReports = (req,res,next)=>{
     // }).catch(err=>{
     //     console.log(err);
     // })
-    res.render('reports/report',{
-        report:{}
+    res.render('reports/report', {
+        reports: {}
     })
 
 };
-exports.postReports = (req,res,next)=>{
+exports.postReports = (req, res, next) => {
 
     // const fromDate = req.body.from;
     // const toDate = req.body.to;
     //
 
-    var from=new Date(req.body.date1).toISOString();
+    var from = new Date(req.body.date1).toISOString();
     var to = new Date(req.body.date2).toISOString();
 
-    console.log(iso1);
-    servicedAlerts.find({date:{$gte:from,$lte:to}}).then(servicedAlerts=>{
-       req.report = servicedAlerts;
-        console.log(servicedAlerts);
-    }).catch(err=>{
+
+    // console.log(iso1);
+    // servicedAlerts.find({date:{$gte:from,$lte:to}}).then(servicedAlerts=>{
+    //    req.report = servicedAlerts;
+    //     console.log(servicedAlerts);
+    // }).catch(err=>{
+    //     console.log(err);
+    // })
+
+    // const serviced = new servicedAlerts({
+    //     time: new Date(),
+    //     date: new Date().toISOString(),
+    //     mandal: {
+    //         "dist": "Krishna",
+    //         "mandal": "vij",
+    //         "mroName": "Chiruhas",
+    //         "mroPhone": "7386732234",
+    //         "hasWhatsApp": "false",
+    //         "hasTelegram": "true"
+    //     },
+    //     messaged: true,
+    //     messagedTime: new Date(),
+    //     called: true,
+    //     calledTime: new Date()
+    // });
+    // serviced.save().then(res => {
+    //     if (res) {
+    //         return
+    //     }
+    // })
+
+    servicedAlerts.find({date : {$lte: to, $gte: from}}).then(servicedAlerts => {
+            req.report = servicedAlerts;
+            servicedAlerts.from = req.body.date1;
+            servicedAlerts.to = req.body.date2;
+            res.render('reports/report', {
+                reports:servicedAlerts
+            });
+
+    }).catch(err => {
         console.log(err);
     })
-
-
-
 
 
     // console.log(d1);
 
 };
 
-exports.download = (req,res,next)=>{
+exports.download = (req, res, next) => {
     // const data = [
     //     {
     //         "userId": 1,
@@ -76,3 +109,5 @@ exports.download = (req,res,next)=>{
     fs.writeFileSync('data.xlsx', xls, 'binary');
 
 };
+
+

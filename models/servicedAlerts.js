@@ -13,8 +13,7 @@ const servicedAlertSchema = new Schema({
         required: true
     },
     mandal: {
-        type: Schema.Types.ObjectId,
-        ref: 'Mandal',
+        type: Object,
         required: true
     },
     messaged: {
@@ -33,17 +32,10 @@ const servicedAlertSchema = new Schema({
         type: String,
         required: true
     },
-    mroName:{
-        type: String,
-        required: true
-    },
-    mroPhone:{
-        type: String,
-        required: true
-    }
+
 });
 
 
 servicedAlertSchema.index({date:1});
 
-module.exports = mongoose.model('Active-Alert', servicedAlertSchema);
+module.exports = mongoose.model('serviced-alerts', servicedAlertSchema);

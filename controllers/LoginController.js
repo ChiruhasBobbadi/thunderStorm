@@ -1,9 +1,10 @@
 const User = require('../models/user');
-// const mandal = require('../models/mandal');
-// const activeAlerts = require('../models/activeAlerts');
-// const tempAlerts = require('../models/tempAlerts');
+const mandal = require('../models/mandal');
+const activeAlerts = require('../models/activeAlerts');
+const tempAlerts = require('../models/tempAlerts');
 
 exports.Login = (req, res, next) => {
+
 // render login page
     res.render('login/login')
 };
@@ -52,20 +53,21 @@ exports.postLogin = (req, res, next) => {
  * adding active alerts if they dont exits in tempalerts.
  */
 
-// mandal.findOne({mandal: "vij"}).then(mandal => {
-//
+//let m;
+//     mandal.findOne({mandal: "vij"}).then(mandal => {
+//     m=mandal;
 //     return tempAlerts.count({mandal: mandal})
 // })
 //     .then(cnt => {
 //         if (cnt === 0) {
-//             const alerts = new activeAlerts({mandal: mandal, date: new Date()});
+//             const alerts = new activeAlerts({mandal: m, time: new Date().toISOString()});
 //             return alerts.save()
 //         } else
 //             console.log("document already exits");
 //
 //     }).
 // then(res => {
-//     console.log(" ");
+//     console.log("active alert added");
 // }).catch(err => {
 //     console.log(err);
 // });
