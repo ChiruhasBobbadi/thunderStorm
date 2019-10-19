@@ -103,7 +103,7 @@ exports.download = (req, res, next) => {
         qux: 'moo',
         poo: 123,
         stux: new Date()
-    }
+    };
 
     var xls = json2xls(json);
     fs.writeFileSync('data.xlsx', xls, 'binary');

@@ -6,7 +6,7 @@ const session = require('express-session');
 const cookieParser = require('cookie-parser');
 const MongoDBStore = require('connect-mongodb-session')(session);
 const logger = require('morgan');
-
+const fs = require('fs');
 const mongoose = require('mongoose');
 const indexRouter = require('./routes/index');
 const alertRoute = require('./routes/alert');
@@ -14,6 +14,9 @@ const loginRoute = require('./routes/login');
 const homeRoute = require('./routes/home');
 const reportRoute = require('./routes/reports');
 const adminRoute = require('./routes/admin');
+const flash = require('connect-flash');
+
+
 const app = express();
 const MONGODB_URI =
     'mongodb://localhost:27017/ThunderStorm';
@@ -37,6 +40,8 @@ app.use(
     })
 );
 
+app.use(flash());
+
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
@@ -55,6 +60,9 @@ app.use(function (req, res, next) {
     next(createError(404));
 
 });
+
+
+
 
 
 

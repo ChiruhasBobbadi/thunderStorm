@@ -25,6 +25,13 @@
         crossorigin="anonymous"></script>
 
 <div class="container align-items-center">
+
+    <%if(errorMessage.length>0){%>
+    <div class="alert alert-danger" role="alert">
+       <%=errorMessage%>
+    </div>
+    <%}%>
+
     <form action="/login" method="post">
         <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>

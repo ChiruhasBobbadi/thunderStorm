@@ -29,6 +29,5 @@ const mandalSchema = new Schema({
     },
 
 });
-
-
+mandalSchema.index({mandal:1});
 module.exports = mongoose.model('Mandal', mandalSchema);

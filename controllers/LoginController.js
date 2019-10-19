@@ -2,11 +2,18 @@ const User = require('../models/user');
 const mandal = require('../models/mandal');
 const activeAlerts = require('../models/activeAlerts');
 const tempAlerts = require('../models/tempAlerts');
-
+const flash = require('connect-flash');
 exports.Login = (req, res, next) => {
 
+
+
+    res.render('login/login',{
+        errorMessage:req.flash('login')
+    })
+
+
 // render login page
-    res.render('login/login')
+
 };
 
 
@@ -27,6 +34,7 @@ exports.postLogin = (req, res, next) => {
            return res.redirect('/home');
 
         }
+        req.flash('login',"Invalid emailID or password");
          res.redirect('/login');
     })
 
@@ -96,3 +104,32 @@ exports.postLogin = (req, res, next) => {
 // })
 
 
+/**
+ * converting excel format to json and writing it to a file
+ * @type {{}}
+ */
+// const result = excelToJson({
+//     sourceFile: 'mro.xlsx',
+//     header:{
+//         // Is the number of rows that will be skipped and will not be present at our result object. Counting from top to bottom
+//         rows: 2 // 2, 3, 4, etc.
+//     },
+//     columnToKey: {
+//         A: 'sno',
+//         B: 'dist',
+//         C:  'mandal',
+//         D:  'mroPhone',
+//         E:  'hasTelegram',
+//         F:  'hasWhatsApp',
+//         G:'mroName'
+//     }
+// });
+//
+// const temp = JSON.stringify(result);
+// console.log(typeof temp);
+// //console.log(result[1]);
+// fs.writeFile(path.join(__dirname,"../","temp","temp.json"),temp,rest=>{
+//     console.log("sucess");
+//     console.log(rest);
+//     res.render('login/login')
+// })

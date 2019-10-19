@@ -1,18 +1,20 @@
 const user = require('../models/user');
 const mandal = require('../models/mandal');
+
+
 exports.update = (req,res,next)=>{
 res.render('admin/update',{
     mro:{}
 })
-}
+};
 
 exports.upload = (req,res,next)=>{
 
-}
+};
 
 exports.downloadRef = (req,res,next)=>{
 
-}
+};
 
 exports.getupdateMro=(req,res,next)=>{
 
@@ -20,22 +22,18 @@ exports.getupdateMro=(req,res,next)=>{
     res.render('admin/updateMro',{
         mro:req.session.active
     });
-}
+};
 exports.postUpdateMro = (req,res,next)=>{
 
     const mandalId = req.session.active._id;
     console.log(req.body.mroName);
     console.log(req.body.mroPhn);
-let m
+let m;
     if(mandalId){
         mandal.findById(mandalId).then(mandal=>{
             mandal.mroName = req.body.mroName;
             mandal.mroPhone = req.body.mroPhn;
             m =mandal;
-            // mandal.dist= mandal.dist;
-            // mandal.mandal = mandal.mandal;
-            // mandal.hasWhatsApp = mandal.hasWhatsApp;
-            // mandal.hasTelegram = mandal.hasTelegram;
             return mandal.save();
         }).then(result=>{
             if(result){
@@ -51,11 +49,13 @@ let m
 
 
 
-}
+};
 
 exports.adminLogin = (req,res,next)=>{
-    res.render('admin/login');
-}
+    res.render('admin/login',{
+        errorMessage:req.flash('admin_login')
+    });
+};
 
 exports.postLogin = (req,res,next)=>{
 
@@ -69,6 +69,7 @@ exports.postLogin = (req,res,next)=>{
                     res.redirect('/admin/update-mro');
                 }
                 else{
+                    req.flash('admin_login',"Invalid emailID or password");
                     res.redirect('/admin/login');
                 }
             }
@@ -77,4 +78,4 @@ exports.postLogin = (req,res,next)=>{
         })
     }
 
-}
+};
