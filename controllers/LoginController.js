@@ -128,7 +128,7 @@ exports.postLogin = (req, res, next) => {
 // const temp = JSON.stringify(result);
 // console.log(typeof temp);
 // //console.log(result[1]);
-// fs.writeFile(path.join(__dirname,"../","temp","temp.json"),temp,rest=>{
+// fs.writeFile(path.join(__dirname,"../","files","mroJsON.json"),temp,rest=>{
 //     console.log("sucess");
 //     console.log(rest);
 //     res.render('login/login')

@@ -1,0 +1,6034 @@
+{
+  "Sheet1": [
+    {
+      "sno": 1,
+      "dist": "Srikakulam",
+      "mandal": "Veeraghattam",
+      "mroPhone": 7995995849,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 2,
+      "dist": "Srikakulam",
+      "mandal": "Vangara",
+      "mroPhone": 7995995853,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 3,
+      "dist": "Srikakulam",
+      "mandal": "Regidiamadalavalas",
+      "mroPhone": 7995995851,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 4,
+      "dist": "Srikakulam",
+      "mandal": "Rajam",
+      "mroPhone": 7995995850,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 5,
+      "dist": "Srikakulam",
+      "mandal": "Ganguvari Singadam",
+      "mroPhone": 7995995840,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 6,
+      "dist": "Srikakulam",
+      "mandal": "Laveru",
+      "mroPhone": 7995995837,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 7,
+      "dist": "Srikakulam",
+      "mandal": "Ranastalam",
+      "mroPhone": 7995995838,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 8,
+      "dist": "Srikakulam",
+      "mandal": "Etcherla",
+      "mroPhone": 7995995836,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 9,
+      "dist": "Srikakulam",
+      "mandal": "Ponduru",
+      "mroPhone": 7995995839,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 10,
+      "dist": "Srikakulam",
+      "mandal": "Santhakaviti",
+      "mroPhone": 7995995852,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 11,
+      "dist": "Srikakulam",
+      "mandal": "Burja",
+      "mroPhone": 7995995833,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 12,
+      "dist": "Srikakulam",
+      "mandal": "Palakonda",
+      "mroPhone": 7995995848,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 13,
+      "dist": "Srikakulam",
+      "mandal": "Seethampeta",
+      "mroPhone": 7995995843,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 14,
+      "dist": "Srikakulam",
+      "mandal": "Bhamini",
+      "mroPhone": 7995995854,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 15,
+      "dist": "Srikakulam",
+      "mandal": "Kothuru",
+      "mroPhone": 7995995842,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 16,
+      "dist": "Srikakulam",
+      "mandal": "Hiramandalam",
+      "mroPhone": 7995995845,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 17,
+      "dist": "Srikakulam",
+      "mandal": "Sarubujjili",
+      "mroPhone": 7995995835,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 18,
+      "dist": "Srikakulam",
+      "mandal": "Amadalavalasa",
+      "mroPhone": 7995995832,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 19,
+      "dist": "Srikakulam",
+      "mandal": "Srikakulam",
+      "mroPhone": 7995995828,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 20,
+      "dist": "Srikakulam",
+      "mandal": "Gara",
+      "mroPhone": 7995995830,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 21,
+      "dist": "Srikakulam",
+      "mandal": "Polaki",
+      "mroPhone": 7995995829,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 22,
+      "dist": "Srikakulam",
+      "mandal": "Narasannapeta",
+      "mroPhone": 7995995831,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 23,
+      "dist": "Srikakulam",
+      "mandal": "Jalumuru",
+      "mroPhone": 7995995869,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 24,
+      "dist": "Srikakulam",
+      "mandal": "Saravakota",
+      "mroPhone": 7995995844,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 25,
+      "dist": "Srikakulam",
+      "mandal": "Pathapatnam",
+      "mroPhone": 7995995847,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 26,
+      "dist": "Srikakulam",
+      "mandal": "Meliaputti",
+      "mroPhone": 7995995846,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 27,
+      "dist": "Srikakulam",
+      "mandal": "Tekkali",
+      "mroPhone": 7995995867,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 28,
+      "dist": "Srikakulam",
+      "mandal": "Kotabommal",
+      "mroPhone": 7995995866,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 29,
+      "dist": "Srikakulam",
+      "mandal": "Santhabommali",
+      "mroPhone": 7995995864,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 30,
+      "dist": "Srikakulam",
+      "mandal": "Nandigam",
+      "mroPhone": 7995995863,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 31,
+      "dist": "Srikakulam",
+      "mandal": "Vajrapukothuru",
+      "mroPhone": 7995995861,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 32,
+      "dist": "Srikakulam",
+      "mandal": "Palasa",
+      "mroPhone": 7995995862,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 33,
+      "dist": "Srikakulam",
+      "mandal": "Mandasa",
+      "mroPhone": 7995995860,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 34,
+      "dist": "Srikakulam",
+      "mandal": "Sompeta",
+      "mroPhone": 7995995858,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 35,
+      "dist": "Srikakulam",
+      "mandal": "Kanchili",
+      "mroPhone": 7995995857,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 36,
+      "dist": "Srikakulam",
+      "mandal": "Kaviti",
+      "mroPhone": 7995995856,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 37,
+      "dist": "Srikakulam",
+      "mandal": "Ichchapuram",
+      "mroPhone": 7995995868,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 38,
+      "dist": "Srikakulam",
+      "mandal": "Laxminarasampet",
+      "mroPhone": 7995995834,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 39,
+      "dist": "Vizianagaram",
+      "mandal": "Komarada",
+      "mroPhone": 7901281578,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 40,
+      "dist": "Vizianagaram",
+      "mandal": "Gummalakshmipuram",
+      "mroPhone": 9397346675,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 41,
+      "dist": "Vizianagaram",
+      "mandal": "Kurupam",
+      "mroPhone": 9705724999,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 42,
+      "dist": "Vizianagaram",
+      "mandal": "Jiyyamma Valasa",
+      "mroPhone": 9573977228,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 43,
+      "dist": "Vizianagaram",
+      "mandal": "Garugubilli",
+      "mroPhone": 6300680379,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 44,
+      "dist": "Vizianagaram",
+      "mandal": "Parvathipuram",
+      "mroPhone": 9848277417,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 45,
+      "dist": "Vizianagaram",
+      "mandal": "Makkuva",
+      "mroPhone": 8500734471,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 46,
+      "dist": "Vizianagaram",
+      "mandal": "Seethanagaram",
+      "mroPhone": 9246676633,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 47,
+      "dist": "Vizianagaram",
+      "mandal": "Balajipeta",
+      "mroPhone": 9492766186,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 48,
+      "dist": "Vizianagaram",
+      "mandal": "Bobbili",
+      "mroPhone": 8499886055,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 49,
+      "dist": "Vizianagaram",
+      "mandal": "Salur",
+      "mroPhone": 9441479268,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 50,
+      "dist": "Vizianagaram",
+      "mandal": "Pachipenta",
+      "mroPhone": 9492048975,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 51,
+      "dist": "Vizianagaram",
+      "mandal": "Ramabhadrapuram",
+      "mroPhone": 9493639570,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 52,
+      "dist": "Vizianagaram",
+      "mandal": "Badangi",
+      "mroPhone": 9440971644,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 53,
+      "dist": "Vizianagaram",
+      "mandal": "Therlam",
+      "mroPhone": 9704189708,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 54,
+      "dist": "Vizianagaram",
+      "mandal": "Merakamudidam",
+      "mroPhone": 9494531593,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 55,
+      "dist": "Vizianagaram",
+      "mandal": "Dattirajeru",
+      "mroPhone": 8332087872,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 56,
+      "dist": "Vizianagaram",
+      "mandal": "Mentada",
+      "mroPhone": 9490496667,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 57,
+      "dist": "Vizianagaram",
+      "mandal": "Gajapathinagaram",
+      "mroPhone": 9640019369,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 58,
+      "dist": "Vizianagaram",
+      "mandal": "Bondapalle",
+      "mroPhone": 9398393168,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 59,
+      "dist": "Vizianagaram",
+      "mandal": "Gurla",
+      "mroPhone": 9491908464,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 60,
+      "dist": "Vizianagaram",
+      "mandal": "Garividi",
+      "mroPhone": 9492422922,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 61,
+      "dist": "Vizianagaram",
+      "mandal": "Cheepurupalle",
+      "mroPhone": 8500525525,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 62,
+      "dist": "Vizianagaram",
+      "mandal": "Nellimarla",
+      "mroPhone": 9491928651,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 63,
+      "dist": "Vizianagaram",
+      "mandal": "Pusapatirega",
+      "mroPhone": 8074371900,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 64,
+      "dist": "Vizianagaram",
+      "mandal": "Bhoghapuram",
+      "mroPhone": 9573333999,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 65,
+      "dist": "Vizianagaram",
+      "mandal": "Denkada",
+      "mroPhone": 9491535999,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 66,
+      "dist": "Vizianagaram",
+      "mandal": "Vizianagaram",
+      "mroPhone": 7036303484,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 67,
+      "dist": "Vizianagaram",
+      "mandal": "Gantyada",
+      "mroPhone": 9490842089,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 68,
+      "dist": "Vizianagaram",
+      "mandal": "Srungavarapukota",
+      "mroPhone": 8500632088,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 69,
+      "dist": "Vizianagaram",
+      "mandal": "Vepada",
+      "mroPhone": 8005203253,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 70,
+      "dist": "Vizianagaram",
+      "mandal": "Lakkavarapukota",
+      "mroPhone": 9348656555,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 71,
+      "dist": "Vizianagaram",
+      "mandal": "Jami",
+      "mroPhone": 9441051797,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 72,
+      "dist": "Vizianagaram",
+      "mandal": "Kothavalasa",
+      "mroPhone": 9441385077,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#REF!"
+    },
+    {
+      "sno": 73,
+      "dist": "Visakapatnam",
+      "mandal": "Munchingiputtu",
+      "mroPhone": 8333802353,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 74,
+      "dist": "Visakapatnam",
+      "mandal": "Pedabayalu",
+      "mroPhone": 8333817943,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Shaik Hussain"
+    },
+    {
+      "sno": 75,
+      "dist": "Visakapatnam",
+      "mandal": "Hukumpeta",
+      "mroPhone": 8333817944,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "D.S.SASTRY"
+    },
+    {
+      "sno": 76,
+      "dist": "Visakapatnam",
+      "mandal": "Dumbriguda",
+      "mroPhone": 9441921558,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "VANJANGI THRINADHARAO NAIDU"
+    },
+    {
+      "sno": 77,
+      "dist": "Visakapatnam",
+      "mandal": "Araku Valley",
+      "mroPhone": 8333817946,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 78,
+      "dist": "Visakapatnam",
+      "mandal": "Ananthagiri",
+      "mroPhone": 8332072585,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Setty Lingayya"
+    },
+    {
+      "sno": 79,
+      "dist": "Visakapatnam",
+      "mandal": "Devarapalle",
+      "mroPhone": 9491041478,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Y RAVI KUMAR"
+    },
+    {
+      "sno": 80,
+      "dist": "Visakapatnam",
+      "mandal": "Cheedikada",
+      "mroPhone": 8500734471,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": ".TARAKESWARI"
+    },
+    {
+      "sno": 81,
+      "dist": "Visakapatnam",
+      "mandal": "Madugula",
+      "mroPhone": 8500632088,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "L.RAMARAO"
+    },
+    {
+      "sno": 82,
+      "dist": "Visakapatnam",
+      "mandal": "Paderu",
+      "mroPhone": 8332841278,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "VANAPALLI PRAKASARAO"
+    },
+    {
+      "sno": 83,
+      "dist": "Visakapatnam",
+      "mandal": "Gangaraju Madugula",
+      "mroPhone": 9490041201,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 84,
+      "dist": "Visakapatnam",
+      "mandal": "Chintapalle",
+      "mroPhone": 9490149191,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B SATYANARAYANA"
+    },
+    {
+      "sno": 85,
+      "dist": "Visakapatnam",
+      "mandal": "Gudem Kothaveedhi",
+      "mroPhone": 9491080993,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "G T SRINIVAS"
+    },
+    {
+      "sno": 86,
+      "dist": "Visakapatnam",
+      "mandal": "Koyyuru",
+      "mroPhone": 8332087872,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "KSK NIGHTINGALE"
+    },
+    {
+      "sno": 87,
+      "dist": "Visakapatnam",
+      "mandal": "Golugonda",
+      "mroPhone": 9100064956,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P.AMBEDKAR"
+    },
+    {
+      "sno": 88,
+      "dist": "Visakapatnam",
+      "mandal": "Nathavaram",
+      "mroPhone": 9100064976,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": ".KANAKA RAO"
+    },
+    {
+      "sno": 89,
+      "dist": "Visakapatnam",
+      "mandal": "Narsipatnam",
+      "mroPhone": 9100064975,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "V.V.RAMANA"
+    },
+    {
+      "sno": 90,
+      "dist": "Visakapatnam",
+      "mandal": "Rolugunta",
+      "mroPhone": 9100064979,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "S JOHNSON"
+    },
+    {
+      "sno": 91,
+      "dist": "Visakapatnam",
+      "mandal": "Ravikamatham",
+      "mroPhone": 9010580985,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 92,
+      "dist": "Visakapatnam",
+      "mandal": "Butchayyapeta",
+      "mroPhone": 9100064944,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P LAKSHMI DEVI"
+    },
+    {
+      "sno": 93,
+      "dist": "Visakapatnam",
+      "mandal": "Chodavaram",
+      "mroPhone": 9100064946,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B.RAVIKUMAR"
+    },
+    {
+      "sno": 94,
+      "dist": "Visakapatnam",
+      "mandal": "K Kotapadu",
+      "mroPhone": 9100064948,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "V.PADMAVATHI"
+    },
+    {
+      "sno": 95,
+      "dist": "Visakapatnam",
+      "mandal": "Sabbavaram",
+      "mroPhone": 9100064939,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P.RAMARAO"
+    },
+    {
+      "sno": 96,
+      "dist": "Visakapatnam",
+      "mandal": "Pendurthi",
+      "mroPhone": 9100064938,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "L.SUDHAKAR NAIDU"
+    },
+    {
+      "sno": 97,
+      "dist": "Visakapatnam",
+      "mandal": "Anandapuram",
+      "mroPhone": 9100064933,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "M A SRINIVAS"
+    },
+    {
+      "sno": 98,
+      "dist": "Visakapatnam",
+      "mandal": "Padmanabham",
+      "mroPhone": 9100064935,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "S.V.AMBEDKAR"
+    },
+    {
+      "sno": 99,
+      "dist": "Visakapatnam",
+      "mandal": "Bheemunipatnam",
+      "mroPhone": 9100064934,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P.V.L.N.GANGAADHRA RAO"
+    },
+    {
+      "sno": 100,
+      "dist": "Visakapatnam",
+      "mandal": "Visakhapatnam(U)",
+      "mroPhone": 9849903824,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 101,
+      "dist": "Visakapatnam",
+      "mandal": "Visakhapatnam(R)",
+      "mroPhone": 9100064940,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 102,
+      "dist": "Visakapatnam",
+      "mandal": "Gajuwaka",
+      "mroPhone": 9849903843,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "C. CHANDRA SEKHARA RAO"
+    },
+    {
+      "sno": 103,
+      "dist": "Visakapatnam",
+      "mandal": "Pedagantyada",
+      "mroPhone": 9100064937,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P.U.MAHESWARA RAO"
+    },
+    {
+      "sno": 104,
+      "dist": "Visakapatnam",
+      "mandal": "Paravada",
+      "mroPhone": 9100064939,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 105,
+      "dist": "Visakapatnam",
+      "mandal": "Anakapalle",
+      "mroPhone": 9100064942,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 106,
+      "dist": "Visakapatnam",
+      "mandal": "Munagapaka",
+      "mroPhone": 9100064951,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "SA MAHESWARA RAO"
+    },
+    {
+      "sno": 107,
+      "dist": "Visakapatnam",
+      "mandal": "Kasimkota",
+      "mroPhone": 9494918484,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K.GNANAVENI"
+    },
+    {
+      "sno": 108,
+      "dist": "Visakapatnam",
+      "mandal": "Makavarapalem",
+      "mroPhone": 9100064958,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Y.SRINIVASA RAO"
+    },
+    {
+      "sno": 109,
+      "dist": "Visakapatnam",
+      "mandal": "Kotauratla",
+      "mroPhone": 9100064957,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "M.LAKSHMI"
+    },
+    {
+      "sno": 110,
+      "dist": "Visakapatnam",
+      "mandal": "Payakaraopeta",
+      "mroPhone": 9100064755,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 111,
+      "dist": "Visakapatnam",
+      "mandal": "Nakkapalle",
+      "mroPhone": 9100064959,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 112,
+      "dist": "Visakapatnam",
+      "mandal": "S Rayavaram",
+      "mroPhone": 9100065873,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 113,
+      "dist": "Visakapatnam",
+      "mandal": "Yelamanchili",
+      "mroPhone": 9100064953,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Y. APPALARAJU"
+    },
+    {
+      "sno": 114,
+      "dist": "Visakapatnam",
+      "mandal": "Rambilli",
+      "mroPhone": 9492048975,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "M.SAMBABU"
+    },
+    {
+      "sno": 115,
+      "dist": "Visakapatnam",
+      "mandal": "Atchutapuram",
+      "mroPhone": 9100064943,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P.KRISHNAMURTHY"
+    },
+    {
+      "sno": 116,
+      "dist": "Eastgodavari",
+      "mandal": "Maredumilli",
+      "mroPhone": 9441328968,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "V. Subbarao"
+    },
+    {
+      "sno": 117,
+      "dist": "Eastgodavari",
+      "mandal": "Y Ramavaram",
+      "mroPhone": 7013927362,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 118,
+      "dist": "Eastgodavari",
+      "mandal": "Addateegala",
+      "mroPhone": 9493931796,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "V. Murali Krishna"
+    },
+    {
+      "sno": 119,
+      "dist": "Eastgodavari",
+      "mandal": "Rajavommangi",
+      "mroPhone": 8332854900,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Ch. Venkateswarlu"
+    },
+    {
+      "sno": 120,
+      "dist": "Eastgodavari",
+      "mandal": "Kotananduru",
+      "mroPhone": 8008803205,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P SRI PALLAVI"
+    },
+    {
+      "sno": 121,
+      "dist": "Eastgodavari",
+      "mandal": "Tuni",
+      "mroPhone": 9849903887,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "BANDARU SURYANARAYANA"
+    },
+    {
+      "sno": 122,
+      "dist": "Eastgodavari",
+      "mandal": "Thondangi",
+      "mroPhone": 9849903907,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "V.Murali Krishna"
+    },
+    {
+      "sno": 123,
+      "dist": "Eastgodavari",
+      "mandal": "Gollaprolu",
+      "mroPhone": 9849903880,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Y.Jaya"
+    },
+    {
+      "sno": 124,
+      "dist": "Eastgodavari",
+      "mandal": "Sankhavaram",
+      "mroPhone": 9849903906,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "MASIGIRI SUJATHA"
+    },
+    {
+      "sno": 125,
+      "dist": "Eastgodavari",
+      "mandal": "Prathipadu",
+      "mroPhone": 9849903885,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K NAGA MALLESWARA RAO"
+    },
+    {
+      "sno": 126,
+      "dist": "Eastgodavari",
+      "mandal": "Yeleswaram",
+      "mroPhone": 9849903921,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "M RAVINDRA KUMAR"
+    },
+    {
+      "sno": 127,
+      "dist": "Eastgodavari",
+      "mandal": "Gangavaram",
+      "mroPhone": 9989105533,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "G. Chinna Rao"
+    },
+    {
+      "sno": 128,
+      "dist": "Eastgodavari",
+      "mandal": "Rampachodavaram",
+      "mroPhone": 8500727560,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Kota Lakshmi Kalyani"
+    },
+    {
+      "sno": 129,
+      "dist": "Eastgodavari",
+      "mandal": "Devipatnam",
+      "mroPhone": 9441813949,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "S Satyanarayana"
+    },
+    {
+      "sno": 130,
+      "dist": "Eastgodavari",
+      "mandal": "Seethanagaram",
+      "mroPhone": 9849701769,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "DEVARAPALLI BAPIRAJU"
+    },
+    {
+      "sno": 131,
+      "dist": "Eastgodavari",
+      "mandal": "Korukonda",
+      "mroPhone": 8008803195,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Riaz Hussain"
+    },
+    {
+      "sno": 132,
+      "dist": "Eastgodavari",
+      "mandal": "Gokavaram",
+      "mroPhone": 8008803194,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "PINDI V V GOPALAKRISHNA"
+    },
+    {
+      "sno": 133,
+      "dist": "Eastgodavari",
+      "mandal": "Jaggampeta",
+      "mroPhone": 9849903883,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "LAKAMANI SIVAMMA"
+    },
+    {
+      "sno": 134,
+      "dist": "Eastgodavari",
+      "mandal": "Kirlampudi",
+      "mroPhone": 9849903886,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "SHEIK MAHABOOB ALI"
+    },
+    {
+      "sno": 135,
+      "dist": "Eastgodavari",
+      "mandal": "Peddapuram",
+      "mroPhone": 9849903881,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "G BALA SUBRAHMANYAM"
+    },
+    {
+      "sno": 136,
+      "dist": "Eastgodavari",
+      "mandal": "Pithapuram",
+      "mroPhone": 9849903918,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B.Suguna"
+    },
+    {
+      "sno": 137,
+      "dist": "Eastgodavari",
+      "mandal": "Kothapalle",
+      "mroPhone": 8008803206,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B.Suguna"
+    },
+    {
+      "sno": 138,
+      "dist": "Eastgodavari",
+      "mandal": "Kakinada (Rural)",
+      "mroPhone": 9849903875,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K Subrahmanyam"
+    },
+    {
+      "sno": 139,
+      "dist": "Eastgodavari",
+      "mandal": "Kakinada(Urban)",
+      "mroPhone": 9849903874,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 140,
+      "dist": "Eastgodavari",
+      "mandal": "Samalkota",
+      "mroPhone": 9849903876,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 141,
+      "dist": "Eastgodavari",
+      "mandal": "Rangampeta",
+      "mroPhone": 9849903882,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "M KRISHNA MURTHY"
+    },
+    {
+      "sno": 142,
+      "dist": "Eastgodavari",
+      "mandal": "Gandepalle",
+      "mroPhone": 9849903884,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K.GEETHANJALI"
+    },
+    {
+      "sno": 143,
+      "dist": "Eastgodavari",
+      "mandal": "Rajanagaram",
+      "mroPhone": 9849903900,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "G.A.L.S.Devi"
+    },
+    {
+      "sno": 144,
+      "dist": "Eastgodavari",
+      "mandal": "Rajahmundry (Rural)",
+      "mroPhone": 9849903860,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 145,
+      "dist": "Eastgodavari",
+      "mandal": "Rajamundry (Urban)",
+      "mroPhone": 0,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 146,
+      "dist": "Eastgodavari",
+      "mandal": "Kadiam",
+      "mroPhone": 9849903901,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K.Rajyalakshmi"
+    },
+    {
+      "sno": 147,
+      "dist": "Eastgodavari",
+      "mandal": "Mandapeta",
+      "mroPhone": 9849903903,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K.V.V.Satyanarayana"
+    },
+    {
+      "sno": 148,
+      "dist": "Eastgodavari",
+      "mandal": "Anaparthi",
+      "mroPhone": 9849903910,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K.Gowrinaidu"
+    },
+    {
+      "sno": 149,
+      "dist": "Eastgodavari",
+      "mandal": "Biccavolu",
+      "mroPhone": 9849903913,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "D.S.Sarma"
+    },
+    {
+      "sno": 150,
+      "dist": "Eastgodavari",
+      "mandal": "Pedapudi",
+      "mroPhone": 8008803207,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "M Venkateswararao"
+    },
+    {
+      "sno": 151,
+      "dist": "Eastgodavari",
+      "mandal": "Karapa",
+      "mroPhone": 9849903908,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B Sridevi"
+    },
+    {
+      "sno": 152,
+      "dist": "Eastgodavari",
+      "mandal": "Thallarevu",
+      "mroPhone": 9849903878,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "L JOSEPH"
+    },
+    {
+      "sno": 153,
+      "dist": "Eastgodavari",
+      "mandal": "Kajuluru",
+      "mroPhone": 9849903877,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "SIRASAM POTHURAJU"
+    },
+    {
+      "sno": 154,
+      "dist": "Eastgodavari",
+      "mandal": "Ramachandrapuram",
+      "mroPhone": 9849903904,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "pydi chinnarao"
+    },
+    {
+      "sno": 155,
+      "dist": "Eastgodavari",
+      "mandal": "Rayavaram",
+      "mroPhone": 9849903905,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Vadlamani Sita"
+    },
+    {
+      "sno": 156,
+      "dist": "Eastgodavari",
+      "mandal": "Kapileswarapuram",
+      "mroPhone": 8008803196,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B.sai satyanarayana"
+    },
+    {
+      "sno": 157,
+      "dist": "Eastgodavari",
+      "mandal": "Alamuru",
+      "mroPhone": 9849903902,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K PADMAVATHI"
+    },
+    {
+      "sno": 158,
+      "dist": "Eastgodavari",
+      "mandal": "Atreyapuram",
+      "mroPhone": 8008803202,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Ramoji Pilla"
+    },
+    {
+      "sno": 159,
+      "dist": "Eastgodavari",
+      "mandal": "Ravulapalem",
+      "mroPhone": 9849903895,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Guda Veakateswara Raju"
+    },
+    {
+      "sno": 160,
+      "dist": "Eastgodavari",
+      "mandal": "Pamarru",
+      "mroPhone": 9849903991,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "MATTA PADMA KUMARI"
+    },
+    {
+      "sno": 161,
+      "dist": "Eastgodavari",
+      "mandal": "Kothapeta",
+      "mroPhone": 9849903894,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "NUKATHOTI SRIDHAR"
+    },
+    {
+      "sno": 162,
+      "dist": "Eastgodavari",
+      "mandal": "P Gannavaram",
+      "mroPhone": 9849903896,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 163,
+      "dist": "Eastgodavari",
+      "mandal": "Ambajipeta",
+      "mroPhone": 9849903890,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "A.B.V.S.B.SRINIVAS"
+    },
+    {
+      "sno": 164,
+      "dist": "Eastgodavari",
+      "mandal": "Ainavilli",
+      "mroPhone": 9849903105,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "VAKAPALLI SUSWAGATHAM"
+    },
+    {
+      "sno": 165,
+      "dist": "Eastgodavari",
+      "mandal": "Mummidivaram",
+      "mroPhone": 9849903897,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Yinumarthy Surya Prakasarao"
+    },
+    {
+      "sno": 166,
+      "dist": "Eastgodavari",
+      "mandal": "I Polavaram",
+      "mroPhone": 8008803203,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 167,
+      "dist": "Eastgodavari",
+      "mandal": "Katrenikona",
+      "mroPhone": 8008803199,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Nagabattula Ramesh"
+    },
+    {
+      "sno": 168,
+      "dist": "Eastgodavari",
+      "mandal": "Uppalaguptam",
+      "mroPhone": 8008803200,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "G venkata sathya prasad"
+    },
+    {
+      "sno": 169,
+      "dist": "Eastgodavari",
+      "mandal": "Amalapuram",
+      "mroPhone": 9849903888,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B BABY JNANAMBA"
+    },
+    {
+      "sno": 170,
+      "dist": "Eastgodavari",
+      "mandal": "Allavaram",
+      "mroPhone": 9849903861,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "VADDI SATYAVATHI"
+    },
+    {
+      "sno": 171,
+      "dist": "Eastgodavari",
+      "mandal": "Mamidikuduru",
+      "mroPhone": 8008803204,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "GOLLA CHINNIBABU"
+    },
+    {
+      "sno": 172,
+      "dist": "Eastgodavari",
+      "mandal": "Razole",
+      "mroPhone": 9849903891,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "G LAKSHMIPATHI"
+    },
+    {
+      "sno": 173,
+      "dist": "Eastgodavari",
+      "mandal": "Malikipuram",
+      "mroPhone": 9849903892,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 174,
+      "dist": "Eastgodavari",
+      "mandal": "Sakhinetipalle",
+      "mroPhone": 9849903893,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 175,
+      "dist": "Eastgodavari",
+      "mandal": "Routhulapudi",
+      "mroPhone": 8008803193,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 176,
+      "dist": "Eastgodavari",
+      "mandal": "(Yatapaka) Nellipaka",
+      "mroPhone": 7337396719,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Yeluri Hema Chandra Sri Sathish"
+    },
+    {
+      "sno": 177,
+      "dist": "Eastgodavari",
+      "mandal": "Kunavaram",
+      "mroPhone": 7331179060,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Chintalapalli Udaya Bhaskar"
+    },
+    {
+      "sno": 178,
+      "dist": "Eastgodavari",
+      "mandal": "Chintur",
+      "mroPhone": 7331179060,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 179,
+      "dist": "Eastgodavari",
+      "mandal": "Vararamachandrapur",
+      "mroPhone": 7331179068,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 180,
+      "dist": "Westgodavari",
+      "mandal": "Jeelugumilli",
+      "mroPhone": 9491041485,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 181,
+      "dist": "Westgodavari",
+      "mandal": "Buttayagudem",
+      "mroPhone": 9491041482,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P.N.D PRASAD"
+    },
+    {
+      "sno": 182,
+      "dist": "Westgodavari",
+      "mandal": "Polavaram",
+      "mroPhone": 9491041483,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 183,
+      "dist": "Westgodavari",
+      "mandal": "Thallapudi",
+      "mroPhone": 9491041469,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 184,
+      "dist": "Westgodavari",
+      "mandal": "Gopalapuram",
+      "mroPhone": 9491041484,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "N.Narasimha Murty"
+    },
+    {
+      "sno": 185,
+      "dist": "Westgodavari",
+      "mandal": "Koyyalagudem",
+      "mroPhone": 9491041481,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "A.Krishna Jyothi"
+    },
+    {
+      "sno": 186,
+      "dist": "Westgodavari",
+      "mandal": "Jangareddigudem",
+      "mroPhone": 9490141480,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 187,
+      "dist": "Westgodavari",
+      "mandal": "T Narasapuram",
+      "mroPhone": 9491041455,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 188,
+      "dist": "Westgodavari",
+      "mandal": "Chintalapudi",
+      "mroPhone": 9491041443,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "T.E.M RAJU"
+    },
+    {
+      "sno": 189,
+      "dist": "Westgodavari",
+      "mandal": "Lingapalem",
+      "mroPhone": 9491041452,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B.SOMASEKHARA RAO"
+    },
+    {
+      "sno": 190,
+      "dist": "Westgodavari",
+      "mandal": "Kamavarapukota",
+      "mroPhone": 9491041455,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 191,
+      "dist": "Westgodavari",
+      "mandal": "Dwaraka Tirumala",
+      "mroPhone": 9491041446,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "T.D.L Sujatha"
+    },
+    {
+      "sno": 192,
+      "dist": "Westgodavari",
+      "mandal": "Nallajerla",
+      "mroPhone": 9491041451,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Y RAVI KUMAR(FAC)"
+    },
+    {
+      "sno": 193,
+      "dist": "Westgodavari",
+      "mandal": "Devarapalle",
+      "mroPhone": 9491041478,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Y RAVI KUMAR"
+    },
+    {
+      "sno": 194,
+      "dist": "Westgodavari",
+      "mandal": "Chagallu",
+      "mroPhone": 9491041471,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "M MERICAMMA"
+    },
+    {
+      "sno": 195,
+      "dist": "Westgodavari",
+      "mandal": "Kovvur",
+      "mroPhone": 9491041468,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K.Vijaykumar"
+    },
+    {
+      "sno": 196,
+      "dist": "Westgodavari",
+      "mandal": "Nidadavole",
+      "mroPhone": 9491041470,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "M. SRINIVASA RAO"
+    },
+    {
+      "sno": 197,
+      "dist": "Westgodavari",
+      "mandal": "Tadepalligudem",
+      "mroPhone": 9491041442,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 198,
+      "dist": "Westgodavari",
+      "mandal": "Unguturu",
+      "mroPhone": 9491041448,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "S. SRINIVASA REDDY"
+    },
+    {
+      "sno": 199,
+      "dist": "Westgodavari",
+      "mandal": "Bhimadole",
+      "mroPhone": 9491041441,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "M.Gangaraju"
+    },
+    {
+      "sno": 200,
+      "dist": "Westgodavari",
+      "mandal": "Padavegi",
+      "mroPhone": 9491041445,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 201,
+      "dist": "Westgodavari",
+      "mandal": "Pedapadu",
+      "mroPhone": 9491041444,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 202,
+      "dist": "Westgodavari",
+      "mandal": "Eluru",
+      "mroPhone": 9491041440,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K.V.CHANDRA SEKHAR RAO"
+    },
+    {
+      "sno": 203,
+      "dist": "Westgodavari",
+      "mandal": "Denduluru",
+      "mroPhone": 9491041449,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Surisetti Satyanarayana"
+    },
+    {
+      "sno": 204,
+      "dist": "Westgodavari",
+      "mandal": "Nidamarru",
+      "mroPhone": 9491041453,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "M.Sundara Raju"
+    },
+    {
+      "sno": 205,
+      "dist": "Westgodavari",
+      "mandal": "Ganapavaram",
+      "mroPhone": 9491041450,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Appini Madhusudhana Rao"
+    },
+    {
+      "sno": 206,
+      "dist": "Westgodavari",
+      "mandal": "Pentapadu",
+      "mroPhone": 9491041447,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 207,
+      "dist": "Westgodavari",
+      "mandal": "Tanuku",
+      "mroPhone": 9491041477,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 208,
+      "dist": "Westgodavari",
+      "mandal": "Undrajavaram",
+      "mroPhone": 9491041474,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 209,
+      "dist": "Westgodavari",
+      "mandal": "Peravali",
+      "mroPhone": 9491041473,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 210,
+      "dist": "Westgodavari",
+      "mandal": "Iragavaram",
+      "mroPhone": 9491041476,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "G. Mammi"
+    },
+    {
+      "sno": 211,
+      "dist": "Westgodavari",
+      "mandal": "Attili",
+      "mroPhone": 9491041479,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "G.Kanaka Raju"
+    },
+    {
+      "sno": 212,
+      "dist": "Westgodavari",
+      "mandal": "Undi",
+      "mroPhone": 9491041459,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 213,
+      "dist": "Westgodavari",
+      "mandal": "Akiveedu",
+      "mroPhone": 9491041467,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "V. NAGARJUNA REDDY"
+    },
+    {
+      "sno": 214,
+      "dist": "Westgodavari",
+      "mandal": "Kalla",
+      "mroPhone": 9491041456,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "M.V.TILAK"
+    },
+    {
+      "sno": 215,
+      "dist": "Westgodavari",
+      "mandal": "Bheemavaram",
+      "mroPhone": 9491041460,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 216,
+      "dist": "Westgodavari",
+      "mandal": "Palakoderu",
+      "mroPhone": 9491041457,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 217,
+      "dist": "Westgodavari",
+      "mandal": "Veeravasaram",
+      "mroPhone": 9491041458,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 218,
+      "dist": "Westgodavari",
+      "mandal": "Penumantra",
+      "mroPhone": 9491041475,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 219,
+      "dist": "Westgodavari",
+      "mandal": "Penugonda",
+      "mroPhone": 9491041472,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 220,
+      "dist": "Westgodavari",
+      "mandal": "Achanta",
+      "mroPhone": 9491041461,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K.Sri Ramani"
+    },
+    {
+      "sno": 221,
+      "dist": "Westgodavari",
+      "mandal": "Poduru",
+      "mroPhone": 9491041462,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 222,
+      "dist": "Westgodavari",
+      "mandal": "Palacole",
+      "mroPhone": 9491041464,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 223,
+      "dist": "Westgodavari",
+      "mandal": "Yelamanchili",
+      "mroPhone": 9100064953,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Y. APPALARAJU"
+    },
+    {
+      "sno": 224,
+      "dist": "Westgodavari",
+      "mandal": "Narasapuram",
+      "mroPhone": 9491041465,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 225,
+      "dist": "Westgodavari",
+      "mandal": "Mogalthur",
+      "mroPhone": 9491041466,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "S.Harinath"
+    },
+    {
+      "sno": 226,
+      "dist": "Westgodavari",
+      "mandal": "Velairpad",
+      "mroPhone": 9490293329,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 227,
+      "dist": "Westgodavari",
+      "mandal": "Kukunoor",
+      "mroPhone": 9492362623,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "A.V.RAMANJANEYULU"
+    },
+    {
+      "sno": 228,
+      "dist": "Krishna",
+      "mandal": "Jaggayyapeta",
+      "mroPhone": 9849903996,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 229,
+      "dist": "Krishna",
+      "mandal": "Vatsavai",
+      "mroPhone": 9908664618,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "N SURESH BABU"
+    },
+    {
+      "sno": 230,
+      "dist": "Krishna",
+      "mandal": "Penuganchiprolu",
+      "mroPhone": 9908664619,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "K.NAGESWARA RAO"
+    },
+    {
+      "sno": 231,
+      "dist": "Krishna",
+      "mandal": "Nandigama",
+      "mroPhone": 9849903994,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "S SRIRAMA KRISHNA"
+    },
+    {
+      "sno": 232,
+      "dist": "Krishna",
+      "mandal": "Chandarlapadu",
+      "mroPhone": 9849903987,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "K Anjaneyulu"
+    },
+    {
+      "sno": 233,
+      "dist": "Krishna",
+      "mandal": "Kanchika Cherla",
+      "mroPhone": 9849903995,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 234,
+      "dist": "Krishna",
+      "mandal": "Veerulapadu",
+      "mroPhone": 9908664617,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 235,
+      "dist": "Krishna",
+      "mandal": "Ibrahimpatnam",
+      "mroPhone": 9849903999,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "K Venkata Sivaiah"
+    },
+    {
+      "sno": 236,
+      "dist": "Krishna",
+      "mandal": "G Konduru",
+      "mroPhone": 9908664616,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 237,
+      "dist": "Krishna",
+      "mandal": "Mylaram",
+      "mroPhone": 9849903972,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 238,
+      "dist": "Krishna",
+      "mandal": "A Konduru",
+      "mroPhone": 9908664627,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "M.SURESH KUMAR"
+    },
+    {
+      "sno": 239,
+      "dist": "Krishna",
+      "mandal": "Gampalagudem",
+      "mroPhone": 9908664628,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "Shakeerunnisa Begum"
+    },
+    {
+      "sno": 240,
+      "dist": "Krishna",
+      "mandal": "Tiruvuru",
+      "mroPhone": 9849903970,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "S BULLI BABU"
+    },
+    {
+      "sno": 241,
+      "dist": "Krishna",
+      "mandal": "Vissannapet",
+      "mroPhone": 9908664620,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 242,
+      "dist": "Krishna",
+      "mandal": "Reddigudem",
+      "mroPhone": 9908664622,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "R Ramakrishna"
+    },
+    {
+      "sno": 243,
+      "dist": "Krishna",
+      "mandal": "Vijayawada Rural",
+      "mroPhone": 9849903997,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "A.RAVEENDRA RAO"
+    },
+    {
+      "sno": 244,
+      "dist": "Krishna",
+      "mandal": "Vijayawada Urban",
+      "mroPhone": 9849903993,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "ABDUL RAHAMAN MASTHANA"
+    },
+    {
+      "sno": 245,
+      "dist": "Krishna",
+      "mandal": "Penamaluru",
+      "mroPhone": 9849904001,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "V.Murali Krishna"
+    },
+    {
+      "sno": 246,
+      "dist": "Krishna",
+      "mandal": "Thotlavalluru",
+      "mroPhone": 9849904000,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "G Bhadru"
+    },
+    {
+      "sno": 247,
+      "dist": "Krishna",
+      "mandal": "Kankipadu",
+      "mroPhone": 9849903998,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "DVS Yellarao"
+    },
+    {
+      "sno": 248,
+      "dist": "Krishna",
+      "mandal": "Gannavaram",
+      "mroPhone": 9849903975,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "KALAGARA .GOPALA KRISHNA"
+    },
+    {
+      "sno": 249,
+      "dist": "Krishna",
+      "mandal": "Agiripalle",
+      "mroPhone": 9908664624,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 250,
+      "dist": "Krishna",
+      "mandal": "Nuzvid",
+      "mroPhone": 9849903992,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "G. Victor Babu"
+    },
+    {
+      "sno": 251,
+      "dist": "Krishna",
+      "mandal": "Chatrai",
+      "mroPhone": 9908664621,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "Balakrishna Reddy"
+    },
+    {
+      "sno": 252,
+      "dist": "Krishna",
+      "mandal": "Musunuru",
+      "mroPhone": 9908664629,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "KB SEETARAM"
+    },
+    {
+      "sno": 253,
+      "dist": "Krishna",
+      "mandal": "Bapulapad",
+      "mroPhone": 9908664626,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 254,
+      "dist": "Krishna",
+      "mandal": "Unguturu",
+      "mroPhone": 9908664625,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "S. SRINIVASA REDDY"
+    },
+    {
+      "sno": 255,
+      "dist": "Krishna",
+      "mandal": "Vuyyuru",
+      "mroPhone": 9849903974,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "R.V.V.ROHINI DEVI"
+    },
+    {
+      "sno": 256,
+      "dist": "Krishna",
+      "mandal": "Pamidimukkala",
+      "mroPhone": 9908664623,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "B.L.N. RAJAKUMARI"
+    },
+    {
+      "sno": 257,
+      "dist": "Krishna",
+      "mandal": "Movva",
+      "mroPhone": 9908664611,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "B RAMA NAIK"
+    },
+    {
+      "sno": 258,
+      "dist": "Krishna",
+      "mandal": "Ghantasala",
+      "mroPhone": 9908664615,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "K.Sudha Rani (FAC)"
+    },
+    {
+      "sno": 259,
+      "dist": "Krishna",
+      "mandal": "Challapalle",
+      "mroPhone": 9908664610,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 260,
+      "dist": "Krishna",
+      "mandal": "Mopidevi",
+      "mroPhone": 9908664609,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "JAKKI VIMALA KUMARI"
+    },
+    {
+      "sno": 261,
+      "dist": "Krishna",
+      "mandal": "Avanigada",
+      "mroPhone": 9908664608,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 262,
+      "dist": "Krishna",
+      "mandal": "Nagayalanka",
+      "mroPhone": 9908664614,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "B Naradamuni"
+    },
+    {
+      "sno": 263,
+      "dist": "Krishna",
+      "mandal": "Koduru",
+      "mroPhone": 9908664613,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "K A NARAYANA REDDY"
+    },
+    {
+      "sno": 264,
+      "dist": "Krishna",
+      "mandal": "Machilipatnam",
+      "mroPhone": 9849903985,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "K. Srinivas"
+    },
+    {
+      "sno": 265,
+      "dist": "Krishna",
+      "mandal": "Gudur",
+      "mroPhone": 9849904073,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "S VARAKUMAR"
+    },
+    {
+      "sno": 266,
+      "dist": "Krishna",
+      "mandal": "Pamarru",
+      "mroPhone": 9849903991,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "MATTA PADMA KUMARI"
+    },
+    {
+      "sno": 267,
+      "dist": "Krishna",
+      "mandal": "Pedaparupudi",
+      "mroPhone": 9908664632,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "G.N.V.R. LALITHANJALI"
+    },
+    {
+      "sno": 268,
+      "dist": "Krishna",
+      "mandal": "Nandivada",
+      "mroPhone": 9908664631,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "B SAI SRINIVAS NAYAK"
+    },
+    {
+      "sno": 269,
+      "dist": "Krishna",
+      "mandal": "Gudivada",
+      "mroPhone": 9849903989,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "R Papamma"
+    },
+    {
+      "sno": 270,
+      "dist": "Krishna",
+      "mandal": "Gudlavalleru",
+      "mroPhone": 9908664630,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "KARRI SWARNA MARY"
+    },
+    {
+      "sno": 271,
+      "dist": "Krishna",
+      "mandal": "Pedana",
+      "mroPhone": 9849903978,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "M VENKATA SATYANARAYANA"
+    },
+    {
+      "sno": 272,
+      "dist": "Krishna",
+      "mandal": "Bantumilli",
+      "mroPhone": 9908664612,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "DASARI VIJAYA SEKHAR RAO"
+    },
+    {
+      "sno": 273,
+      "dist": "Krishna",
+      "mandal": "Mudinapalle",
+      "mroPhone": 9849903976,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 274,
+      "dist": "Krishna",
+      "mandal": "Mandavalli",
+      "mroPhone": 9849903980,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "P MADHUSUDANA RAO"
+    },
+    {
+      "sno": 275,
+      "dist": "Krishna",
+      "mandal": "Kaikalur",
+      "mroPhone": 9849903990,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "B SREENU NAIK"
+    },
+    {
+      "sno": 276,
+      "dist": "Krishna",
+      "mandal": "Kalidindi",
+      "mroPhone": 9908664641,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "VENNELA SREENU"
+    },
+    {
+      "sno": 277,
+      "dist": "Krishna",
+      "mandal": "Kruthivennu",
+      "mroPhone": 9849903969,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "V V BHARAT REDDY"
+    },
+    {
+      "sno": 278,
+      "dist": "Guntur",
+      "mandal": "Macherla",
+      "mroPhone": 9849904027,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B.G.S PRASADA RAO"
+    },
+    {
+      "sno": 279,
+      "dist": "Guntur",
+      "mandal": "Rentachintala",
+      "mroPhone": 7032929347,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K.Satish Kumar"
+    },
+    {
+      "sno": 280,
+      "dist": "Guntur",
+      "mandal": "Gurazala",
+      "mroPhone": 9949096528,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "D.Sri Rama Krishna"
+    },
+    {
+      "sno": 281,
+      "dist": "Guntur",
+      "mandal": "Dachepalle",
+      "mroPhone": 7032929344,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Y. Nagaraju"
+    },
+    {
+      "sno": 282,
+      "dist": "Guntur",
+      "mandal": "Machavaram",
+      "mroPhone": 7032929346,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P.Brahmaiah"
+    },
+    {
+      "sno": 283,
+      "dist": "Guntur",
+      "mandal": "Bellamkonda",
+      "mroPhone": 7032929340,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "L.Muni Raja"
+    },
+    {
+      "sno": 284,
+      "dist": "Guntur",
+      "mandal": "Atchampet",
+      "mroPhone": 9949098611,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K. Rambhupal Reddy"
+    },
+    {
+      "sno": 285,
+      "dist": "Guntur",
+      "mandal": "Krosuru",
+      "mroPhone": 7032929341,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K.Vijaya Kumari"
+    },
+    {
+      "sno": 286,
+      "dist": "Guntur",
+      "mandal": "Amaravathi",
+      "mroPhone": 9949098610,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "V.Lavanya"
+    },
+    {
+      "sno": 287,
+      "dist": "Guntur",
+      "mandal": "Thullur",
+      "mroPhone": 9849904017,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "I.Padmavathi"
+    },
+    {
+      "sno": 288,
+      "dist": "Guntur",
+      "mandal": "Thadepalle",
+      "mroPhone": 7032929342,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K.S.R.Krishna Rao"
+    },
+    {
+      "sno": 289,
+      "dist": "Guntur",
+      "mandal": "Mangalagiri",
+      "mroPhone": 9949098614,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "G.V.Ram prasad"
+    },
+    {
+      "sno": 290,
+      "dist": "Guntur",
+      "mandal": "Tadikonda",
+      "mroPhone": 9949098624,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Ch.Subramanyam"
+    },
+    {
+      "sno": 291,
+      "dist": "Guntur",
+      "mandal": "Pedakurapadu",
+      "mroPhone": 9949098618,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Sk..Basheer"
+    },
+    {
+      "sno": 292,
+      "dist": "Guntur",
+      "mandal": "Sattenapalle",
+      "mroPhone": 9849904018,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "D.Seeta Ramaiah"
+    },
+    {
+      "sno": 293,
+      "dist": "Guntur",
+      "mandal": "Rajupalem",
+      "mroPhone": 9949098622,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Ch.Usha"
+    },
+    {
+      "sno": 294,
+      "dist": "Guntur",
+      "mandal": "Piduguralla",
+      "mroPhone": 9949096535,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K.Ravi Babu"
+    },
+    {
+      "sno": 295,
+      "dist": "Guntur",
+      "mandal": "Karempudi",
+      "mroPhone": 7093004566,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "M.S.Srinivas"
+    },
+    {
+      "sno": 296,
+      "dist": "Guntur",
+      "mandal": "Durgi",
+      "mroPhone": 9949096527,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P.Uama Rani"
+    },
+    {
+      "sno": 297,
+      "dist": "Guntur",
+      "mandal": "Veldurthi",
+      "mroPhone": 7032929348,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "G.S.M. Prasad"
+    },
+    {
+      "sno": 298,
+      "dist": "Guntur",
+      "mandal": "Bollapalle",
+      "mroPhone": 7093995424,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "V.Pulla Rao"
+    },
+    {
+      "sno": 299,
+      "dist": "Guntur",
+      "mandal": "Nekarikallu",
+      "mroPhone": 9949096533,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "S.Suvarna Rao"
+    },
+    {
+      "sno": 300,
+      "dist": "Guntur",
+      "mandal": "Muppalla",
+      "mroPhone": 9949098616,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "V.V. Naga Jyothi"
+    },
+    {
+      "sno": 301,
+      "dist": "Guntur",
+      "mandal": "Phirangipuram",
+      "mroPhone": 9949098620,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "M.Rajya Lakshmi"
+    },
+    {
+      "sno": 302,
+      "dist": "Guntur",
+      "mandal": "Medikonduru",
+      "mroPhone": 9949098615,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "S.Rama Rao"
+    },
+    {
+      "sno": 303,
+      "dist": "Guntur",
+      "mandal": "Guntur",
+      "mroPhone": 9849904016,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Dr.P.Mohana Rao"
+    },
+    {
+      "sno": 304,
+      "dist": "Guntur",
+      "mandal": "Pedakakani",
+      "mroPhone": 9949098617,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P.Ravi Kumar"
+    },
+    {
+      "sno": 305,
+      "dist": "Guntur",
+      "mandal": "Duggirala",
+      "mroPhone": 7032929351,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K. Nagaraja Lakshmi"
+    },
+    {
+      "sno": 306,
+      "dist": "Guntur",
+      "mandal": "Kollipara",
+      "mroPhone": 9949098512,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "E.Rama Devi"
+    },
+    {
+      "sno": 307,
+      "dist": "Guntur",
+      "mandal": "Kollur",
+      "mroPhone": 9989991226,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P.Balamurali Krishna"
+    },
+    {
+      "sno": 308,
+      "dist": "Guntur",
+      "mandal": "Vemuru",
+      "mroPhone": 9949096524,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Ch.Subbaiah"
+    },
+    {
+      "sno": 309,
+      "dist": "Guntur",
+      "mandal": "Tenali",
+      "mroPhone": 9849904023,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "D.Venkateswarlu"
+    },
+    {
+      "sno": 310,
+      "dist": "Guntur",
+      "mandal": "Tsundur",
+      "mroPhone": 9949096523,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B.Padmavathi"
+    },
+    {
+      "sno": 311,
+      "dist": "Guntur",
+      "mandal": "Chebrole",
+      "mroPhone": 8341391105,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "M.Jawala Narasimham"
+    },
+    {
+      "sno": 312,
+      "dist": "Guntur",
+      "mandal": "Vatticherukuru",
+      "mroPhone": 9989991004,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "M.Madhu Sudhana Rao"
+    },
+    {
+      "sno": 313,
+      "dist": "Guntur",
+      "mandal": "Prathipadu",
+      "mroPhone": 9949098621,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "S.Chandra Sekhar"
+    },
+    {
+      "sno": 314,
+      "dist": "Guntur",
+      "mandal": "Edlapadu",
+      "mroPhone": 9849904026,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "G. Jaya paul"
+    },
+    {
+      "sno": 315,
+      "dist": "Guntur",
+      "mandal": "Nadendla",
+      "mroPhone": 9949096532,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "S.Usha Rani"
+    },
+    {
+      "sno": 316,
+      "dist": "Guntur",
+      "mandal": "Narasaraopeta",
+      "mroPhone": 9849904024,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "R.Subrananya Singh"
+    },
+    {
+      "sno": 317,
+      "dist": "Guntur",
+      "mandal": "Rompicherla",
+      "mroPhone": 9949097434,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "S.Subba Rao"
+    },
+    {
+      "sno": 318,
+      "dist": "Guntur",
+      "mandal": "Ipur",
+      "mroPhone": 9949096529,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B. Gangadhara Rao"
+    },
+    {
+      "sno": 319,
+      "dist": "Guntur",
+      "mandal": "Savalyapuram",
+      "mroPhone": 9949097435,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "J.Prabhakara Rao"
+    },
+    {
+      "sno": 320,
+      "dist": "Guntur",
+      "mandal": "Vinukonda",
+      "mroPhone": 9849904030,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "R.Brahmaiah"
+    },
+    {
+      "sno": 321,
+      "dist": "Guntur",
+      "mandal": "Nuzendla",
+      "mroPhone": 7032929343,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K.Chandravathi"
+    },
+    {
+      "sno": 322,
+      "dist": "Guntur",
+      "mandal": "Chilakaluripet",
+      "mroPhone": 9849904025,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "D.V.Sudhakar"
+    },
+    {
+      "sno": 323,
+      "dist": "Guntur",
+      "mandal": "Pedanandipadu",
+      "mroPhone": 9949098619,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "G.Sujatha"
+    },
+    {
+      "sno": 324,
+      "dist": "Guntur",
+      "mandal": "Kakumanu",
+      "mroPhone": 9949098631,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P.Anuradha"
+    },
+    {
+      "sno": 325,
+      "dist": "Guntur",
+      "mandal": "Ponnur",
+      "mroPhone": 9849904021,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B.V.Rama Rao"
+    },
+    {
+      "sno": 326,
+      "dist": "Guntur",
+      "mandal": "Amruthalur",
+      "mroPhone": 7032929349,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "S. Harnadh"
+    },
+    {
+      "sno": 327,
+      "dist": "Guntur",
+      "mandal": "Cherukupalle",
+      "mroPhone": 9949098629,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K.Elizabeth Rani"
+    },
+    {
+      "sno": 328,
+      "dist": "Guntur",
+      "mandal": "Bhattiprolu",
+      "mroPhone": 7032929350,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "C.Usha"
+    },
+    {
+      "sno": 329,
+      "dist": "Guntur",
+      "mandal": "Repalle",
+      "mroPhone": 9849904022,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "A.Srinivasa Rao"
+    },
+    {
+      "sno": 330,
+      "dist": "Guntur",
+      "mandal": "Nagaram",
+      "mroPhone": 7032929352,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K. Yedukondalu"
+    },
+    {
+      "sno": 331,
+      "dist": "Guntur",
+      "mandal": "Nizampatnam",
+      "mroPhone": 9989991003,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "V.Vasantha"
+    },
+    {
+      "sno": 332,
+      "dist": "Guntur",
+      "mandal": "Pittalavanipalem",
+      "mroPhone": 9949096522,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Y.Ragha Swami"
+    },
+    {
+      "sno": 333,
+      "dist": "Guntur",
+      "mandal": "Karlapalem",
+      "mroPhone": 9849904028,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P.Parvathi"
+    },
+    {
+      "sno": 334,
+      "dist": "Guntur",
+      "mandal": "Bapatla",
+      "mroPhone": 9849904020,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K.Raghavayya"
+    },
+    {
+      "sno": 335,
+      "dist": "Prakasam",
+      "mandal": "Yerragondapalem",
+      "mroPhone": 8886616098,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "MALADI SUBBARAO"
+    },
+    {
+      "sno": 336,
+      "dist": "Prakasam",
+      "mandal": "Pullalacheruvu",
+      "mroPhone": 8886616094,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "G.VIJAYA LAKSHMI"
+    },
+    {
+      "sno": 337,
+      "dist": "Prakasam",
+      "mandal": "Tripuranthakam",
+      "mroPhone": 8886616097,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "G.JAYAPAL"
+    },
+    {
+      "sno": 338,
+      "dist": "Prakasam",
+      "mandal": "Kurichedu",
+      "mroPhone": 8886616063,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "A.SRINIVASA RAO"
+    },
+    {
+      "sno": 339,
+      "dist": "Prakasam",
+      "mandal": "Donakonda",
+      "mroPhone": 8886616053,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "K.VENKATESWARLU"
+    },
+    {
+      "sno": 340,
+      "dist": "Prakasam",
+      "mandal": "Pedaaraveedu",
+      "mroPhone": 8886616095,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "B.DILEEP KUMAR"
+    },
+    {
+      "sno": 341,
+      "dist": "Prakasam",
+      "mandal": "Dornala",
+      "mroPhone": 8886616087,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "M.RATHNA KUMARI"
+    },
+    {
+      "sno": 342,
+      "dist": "Prakasam",
+      "mandal": "Ardhaveedu",
+      "mroPhone": 8886616084,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "V.B.NAGA JYOTHI"
+    },
+    {
+      "sno": 343,
+      "dist": "Prakasam",
+      "mandal": "Markapur",
+      "mroPhone": 8886616093,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "P.UMA RANI"
+    },
+    {
+      "sno": 344,
+      "dist": "Prakasam",
+      "mandal": "Tarlapadu",
+      "mroPhone": 8886616076,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 345,
+      "dist": "Prakasam",
+      "mandal": "Konakanamitla",
+      "mroPhone": 8886616057,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 346,
+      "dist": "Prakasam",
+      "mandal": "Podili",
+      "mroPhone": 8886616072,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "P.VIDYASAGARUDU"
+    },
+    {
+      "sno": 347,
+      "dist": "Prakasam",
+      "mandal": "Darsi",
+      "mroPhone": 8886616052,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "K.VIJAYA KUMARI"
+    },
+    {
+      "sno": 348,
+      "dist": "Prakasam",
+      "mandal": "Mundlamuru",
+      "mroPhone": 8886616067,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 349,
+      "dist": "Prakasam",
+      "mandal": "Thallur",
+      "mroPhone": 8886616075,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 350,
+      "dist": "Prakasam",
+      "mandal": "Addanki",
+      "mroPhone": 8886616023,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "P.BRAHMAIAH"
+    },
+    {
+      "sno": 351,
+      "dist": "Prakasam",
+      "mandal": "Ballikuruva",
+      "mroPhone": 8886616024,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 352,
+      "dist": "Prakasam",
+      "mandal": "Santhamaguluru",
+      "mroPhone": 8886616045,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 353,
+      "dist": "Prakasam",
+      "mandal": "Yeddanapudi",
+      "mroPhone": 8886616048,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "P.MARIYAMMA"
+    },
+    {
+      "sno": 354,
+      "dist": "Prakasam",
+      "mandal": "Martur",
+      "mroPhone": 8886616037,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "K.S.INDIRA DEVI"
+    },
+    {
+      "sno": 355,
+      "dist": "Prakasam",
+      "mandal": "Parchur",
+      "mroPhone": 8886616042,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "B.SRINIVASA RAO"
+    },
+    {
+      "sno": 356,
+      "dist": "Prakasam",
+      "mandal": "Karamchedu",
+      "mroPhone": 8886616032,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "CH.RAMESH"
+    },
+    {
+      "sno": 357,
+      "dist": "Prakasam",
+      "mandal": "Chirala",
+      "mroPhone": 8886616027,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "M.VENKATESWARLU"
+    },
+    {
+      "sno": 358,
+      "dist": "Prakasam",
+      "mandal": "Vetapalem",
+      "mroPhone": 8886616047,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "K.L.MAHESWARA RAO"
+    },
+    {
+      "sno": 359,
+      "dist": "Prakasam",
+      "mandal": "Inkollu",
+      "mroPhone": 8886616029,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "CH.LAKSHMI KUMARI"
+    },
+    {
+      "sno": 360,
+      "dist": "Prakasam",
+      "mandal": "Janakavarampangulu",
+      "mroPhone": 8886616028,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 361,
+      "dist": "Prakasam",
+      "mandal": "Korisapadu",
+      "mroPhone": 8886616034,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "S.SIVA NAGI REDDY"
+    },
+    {
+      "sno": 362,
+      "dist": "Prakasam",
+      "mandal": "Maddipadu",
+      "mroPhone": 8886616036,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "Swarna Usharani"
+    },
+    {
+      "sno": 363,
+      "dist": "Prakasam",
+      "mandal": "Chimakurthi",
+      "mroPhone": 8886616025,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 364,
+      "dist": "Prakasam",
+      "mandal": "Marripudi",
+      "mroPhone": 8886616065,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "M.JWALA NARASIMHAM"
+    },
+    {
+      "sno": 365,
+      "dist": "Prakasam",
+      "mandal": "Kanigiri",
+      "mroPhone": 8886616059,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "K.V.SATYANARAYANA"
+    },
+    {
+      "sno": 366,
+      "dist": "Prakasam",
+      "mandal": "Hanumanthunipadu",
+      "mroPhone": 8886616056,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 367,
+      "dist": "Prakasam",
+      "mandal": "Bestavaripeta",
+      "mroPhone": 8886616085,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "N.VENKATESWARLU"
+    },
+    {
+      "sno": 368,
+      "dist": "Prakasam",
+      "mandal": "Cumbum",
+      "mroPhone": 8886616086,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "S.SUVARNA RAO"
+    },
+    {
+      "sno": 369,
+      "dist": "Prakasam",
+      "mandal": "Racherla",
+      "mroPhone": 8886616096,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "K. ELIZABETHRANI"
+    },
+    {
+      "sno": 370,
+      "dist": "Prakasam",
+      "mandal": "Giddaluru",
+      "mroPhone": 8886616089,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 371,
+      "dist": "Prakasam",
+      "mandal": "Komarolu",
+      "mroPhone": 8886616092,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 372,
+      "dist": "Prakasam",
+      "mandal": "Chadrasekarapuram",
+      "mroPhone": 8886616049,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 373,
+      "dist": "Prakasam",
+      "mandal": "Veligandla",
+      "mroPhone": 8886616082,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "E.CHANDRAVATHI"
+    },
+    {
+      "sno": 374,
+      "dist": "Prakasam",
+      "mandal": "Pedacherlopalle",
+      "mroPhone": 8886616068,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 375,
+      "dist": "Prakasam",
+      "mandal": "Ponnaluru",
+      "mroPhone": 8886616073,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 376,
+      "dist": "Prakasam",
+      "mandal": "Kondapi",
+      "mroPhone": 8886616062,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "K.CHIRANJEEVI"
+    },
+    {
+      "sno": 377,
+      "dist": "Prakasam",
+      "mandal": "Santhanuthlapadu",
+      "mroPhone": 8886616043,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 378,
+      "dist": "Prakasam",
+      "mandal": "Ongole",
+      "mroPhone": 8886616039,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 379,
+      "dist": "Prakasam",
+      "mandal": "Naguluppalapadu",
+      "mroPhone": 8886616038,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 380,
+      "dist": "Prakasam",
+      "mandal": "Chinaganjam",
+      "mroPhone": 8886616026,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 381,
+      "dist": "Prakasam",
+      "mandal": "Kothapatnam",
+      "mroPhone": 8886616035,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "B.V.RAMANA RAO"
+    },
+    {
+      "sno": 382,
+      "dist": "Prakasam",
+      "mandal": "Tangutur",
+      "mroPhone": 8886616046,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "Malekar Raj Kumar"
+    },
+    {
+      "sno": 383,
+      "dist": "Prakasam",
+      "mandal": "Zarugumilli",
+      "mroPhone": 8886616083,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "CH.USHA"
+    },
+    {
+      "sno": 384,
+      "dist": "Prakasam",
+      "mandal": "Kandukur",
+      "mroPhone": 8886616058,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "A.SRI SILPA"
+    },
+    {
+      "sno": 385,
+      "dist": "Prakasam",
+      "mandal": "Voletivaripalem",
+      "mroPhone": 8886616082,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 386,
+      "dist": "Prakasam",
+      "mandal": "Pamur",
+      "mroPhone": 8886616069,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "R.VASUDEVA RAO"
+    },
+    {
+      "sno": 387,
+      "dist": "Prakasam",
+      "mandal": "Lingasamudram",
+      "mroPhone": 8886616064,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "I.SULOCHANA"
+    },
+    {
+      "sno": 388,
+      "dist": "Prakasam",
+      "mandal": "Gudluru",
+      "mroPhone": 8886616054,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "DUGGEMPUDI SITARAMAIAH"
+    },
+    {
+      "sno": 389,
+      "dist": "Prakasam",
+      "mandal": "Ulavapadu",
+      "mroPhone": 8886616078,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "I.PADMAVATHI"
+    },
+    {
+      "sno": 390,
+      "dist": "Prakasam",
+      "mandal": "Singarayakonda",
+      "mroPhone": 8886616074,
+      "hasTelegram": "yes",
+      "hasWhatsApp": "no",
+      "mroName": "S.V.S.KAMESWARA RAO"
+    },
+    {
+      "sno": 391,
+      "dist": "Nellore",
+      "mandal": "Seetharamapuram",
+      "mroPhone": 9177504908,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "TALLURI KOTESWARA RAO"
+    },
+    {
+      "sno": 392,
+      "dist": "Nellore",
+      "mandal": "Varikuntapadu",
+      "mroPhone": 9177504909,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "GOLLAPALLI SREENIVASULU"
+    },
+    {
+      "sno": 393,
+      "dist": "Nellore",
+      "mandal": "Kondapuram",
+      "mroPhone": 7674950733,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B.Rama Mohan"
+    },
+    {
+      "sno": 394,
+      "dist": "Nellore",
+      "mandal": "Jaladanki",
+      "mroPhone": 9989931789,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P ANURADHA"
+    },
+    {
+      "sno": 395,
+      "dist": "Nellore",
+      "mandal": "Kavali",
+      "mroPhone": 9849904063,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "GOLLA VENKATESWARLU"
+    },
+    {
+      "sno": 396,
+      "dist": "Nellore",
+      "mandal": "Bogole",
+      "mroPhone": 9989931790,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K HARIBABU"
+    },
+    {
+      "sno": 397,
+      "dist": "Nellore",
+      "mandal": "Kaligiri",
+      "mroPhone": 9989502062,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "AVSSS NAVEEN KUMAR"
+    },
+    {
+      "sno": 398,
+      "dist": "Nellore",
+      "mandal": "Vinjamur",
+      "mroPhone": 9989502061,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "V Lavanya"
+    },
+    {
+      "sno": 399,
+      "dist": "Nellore",
+      "mandal": "Duttalur",
+      "mroPhone": 9177504910,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P.RAVI KUMAR"
+    },
+    {
+      "sno": 400,
+      "dist": "Nellore",
+      "mandal": "Udayagiri",
+      "mroPhone": 9989502077,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "D SREERAMAKRISHNA"
+    },
+    {
+      "sno": 401,
+      "dist": "Nellore",
+      "mandal": "Marripadu",
+      "mroPhone": 9177504912,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "A Nirmalananda Baba"
+    },
+    {
+      "sno": 402,
+      "dist": "Nellore",
+      "mandal": "Atmakur",
+      "mroPhone": 9849904076,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "S Venkata Ramana"
+    },
+    {
+      "sno": 403,
+      "dist": "Nellore",
+      "mandal": "Anumasamudrampeta",
+      "mroPhone": 9177504901,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "T. VENKATA SUNEELU"
+    },
+    {
+      "sno": 404,
+      "dist": "Nellore",
+      "mandal": "Dagadarthi",
+      "mroPhone": 9989502063,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "D JAYA PRAKASH"
+    },
+    {
+      "sno": 405,
+      "dist": "Nellore",
+      "mandal": "Allur",
+      "mroPhone": 9989931792,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "M PRAMEELA"
+    },
+    {
+      "sno": 406,
+      "dist": "Nellore",
+      "mandal": "Vidavalur",
+      "mroPhone": 9989931793,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P BALAMURALIKRISHNA"
+    },
+    {
+      "sno": 407,
+      "dist": "Nellore",
+      "mandal": "Kodavalur",
+      "mroPhone": 9989931794,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "E. Ramadevi"
+    },
+    {
+      "sno": 408,
+      "dist": "Nellore",
+      "mandal": "Bucchireddipalem",
+      "mroPhone": 9849904065,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 409,
+      "dist": "Nellore",
+      "mandal": "Sangam",
+      "mroPhone": 9989502075,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 410,
+      "dist": "Nellore",
+      "mandal": "Chejerla",
+      "mroPhone": 9989931808,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "D. Padmavathamma"
+    },
+    {
+      "sno": 411,
+      "dist": "Nellore",
+      "mandal": "Ananthasagaram",
+      "mroPhone": 9177504902,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "M V K SUDHAKARA RAO"
+    },
+    {
+      "sno": 412,
+      "dist": "Nellore",
+      "mandal": "Kaluvoya",
+      "mroPhone": 9177504903,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Y NAGARAJU"
+    },
+    {
+      "sno": 413,
+      "dist": "Nellore",
+      "mandal": "Rapur",
+      "mroPhone": 9989502064,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K V RAMANAIAH"
+    },
+    {
+      "sno": 414,
+      "dist": "Nellore",
+      "mandal": "Podlakur",
+      "mroPhone": 9989502065,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "S M Hameed"
+    },
+    {
+      "sno": 415,
+      "dist": "Nellore",
+      "mandal": "Nellore",
+      "mroPhone": 9849904070,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "CHENNAIAH KOSURU"
+    },
+    {
+      "sno": 416,
+      "dist": "Nellore",
+      "mandal": "Kovur",
+      "mroPhone": 9849904069,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "V KRISHNA RAO"
+    },
+    {
+      "sno": 417,
+      "dist": "Nellore",
+      "mandal": "Indukurpet",
+      "mroPhone": 9989931798,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "M MADHUSUDHANA RAO"
+    },
+    {
+      "sno": 418,
+      "dist": "Nellore",
+      "mandal": "Thotapalligudur",
+      "mroPhone": 9989931797,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "M MADHUSUDHANA RAO"
+    },
+    {
+      "sno": 419,
+      "dist": "Nellore",
+      "mandal": "Muthukur",
+      "mroPhone": 9849904080,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "D V SUDHAKAR"
+    },
+    {
+      "sno": 420,
+      "dist": "Nellore",
+      "mandal": "Venkatachalam",
+      "mroPhone": 9849904072,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "CHOPPA RAVEENDRA BABU"
+    },
+    {
+      "sno": 421,
+      "dist": "Nellore",
+      "mandal": "Manubolu",
+      "mroPhone": 9989502066,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B LEELA RANI"
+    },
+    {
+      "sno": 422,
+      "dist": "Nellore",
+      "mandal": "Gudur",
+      "mroPhone": 9849904073,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "S VARAKUMAR"
+    },
+    {
+      "sno": 423,
+      "dist": "Nellore",
+      "mandal": "Sydapuram",
+      "mroPhone": 9989502071,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Irakam Muni Lakshmi"
+    },
+    {
+      "sno": 424,
+      "dist": "Nellore",
+      "mandal": "Dakkili",
+      "mroPhone": 9963474104,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "SK ABDUL KHADAR"
+    },
+    {
+      "sno": 425,
+      "dist": "Nellore",
+      "mandal": "Venkatagiri",
+      "mroPhone": 9989931806,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K RAJKUMAR"
+    },
+    {
+      "sno": 426,
+      "dist": "Nellore",
+      "mandal": "Balayapalle",
+      "mroPhone": 7032524559,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "V VASANTHA"
+    },
+    {
+      "sno": 427,
+      "dist": "Nellore",
+      "mandal": "Ojili",
+      "mroPhone": 9989931803,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "N. Ravindranath"
+    },
+    {
+      "sno": 428,
+      "dist": "Nellore",
+      "mandal": "Chillakur",
+      "mroPhone": 9989502067,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P V MALLIKARJUNA RAO"
+    },
+    {
+      "sno": 429,
+      "dist": "Nellore",
+      "mandal": "Kota",
+      "mroPhone": 9989502068,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P SANTHA KUMARI"
+    },
+    {
+      "sno": 430,
+      "dist": "Nellore",
+      "mandal": "Vakadu",
+      "mroPhone": 9989502069,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "M KHADAR BASHA"
+    },
+    {
+      "sno": 431,
+      "dist": "Nellore",
+      "mandal": "Chittamur",
+      "mroPhone": 9989931809,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "S CHANDRA SEKHAR"
+    },
+    {
+      "sno": 432,
+      "dist": "Nellore",
+      "mandal": "Naidupeta",
+      "mroPhone": 9849904067,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 433,
+      "dist": "Nellore",
+      "mandal": "Pellakur",
+      "mroPhone": 9989502072,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K NAGARAJALAKHMI"
+    },
+    {
+      "sno": 434,
+      "dist": "Nellore",
+      "mandal": "Doravarisatram",
+      "mroPhone": 9989931804,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Kamireddy Ramabhupal Reddy"
+    },
+    {
+      "sno": 435,
+      "dist": "Nellore",
+      "mandal": "Sullurpeta",
+      "mroPhone": 9849904074,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "A.SRINIVASA RAO"
+    },
+    {
+      "sno": 436,
+      "dist": "Nellore",
+      "mandal": "Tada",
+      "mroPhone": 9989502070,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K.YEDUKONDALU"
+    },
+    {
+      "sno": 437,
+      "dist": "Chittoor",
+      "mandal": "Peddamandyam",
+      "mroPhone": 9491077058,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 438,
+      "dist": "Chittoor",
+      "mandal": "Thamballapalle",
+      "mroPhone": 9491077057,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "V SURESH BABU"
+    },
+    {
+      "sno": 439,
+      "dist": "Chittoor",
+      "mandal": "Mulakalacheruvu",
+      "mroPhone": 9491077060,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 440,
+      "dist": "Chittoor",
+      "mandal": "Peddathippasamudra",
+      "mroPhone": 9491077059,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 441,
+      "dist": "Chittoor",
+      "mandal": "B Kothakota",
+      "mroPhone": 9491077056,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 442,
+      "dist": "Chittoor",
+      "mandal": "Kurabalakota",
+      "mroPhone": 9491077055,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 443,
+      "dist": "Chittoor",
+      "mandal": "Gurramkonda",
+      "mroPhone": 9491077062,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 444,
+      "dist": "Chittoor",
+      "mandal": "Kalakada",
+      "mroPhone": 9491077064,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 445,
+      "dist": "Chittoor",
+      "mandal": "Kambhamvaripalle",
+      "mroPhone": 9491077069,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 446,
+      "dist": "Chittoor",
+      "mandal": "Yarravaripalem",
+      "mroPhone": 9491077068,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 447,
+      "dist": "Chittoor",
+      "mandal": "Tirupati Urban",
+      "mroPhone": 9491077038,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 448,
+      "dist": "Chittoor",
+      "mandal": "Renigunta",
+      "mroPhone": 9491077043,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 449,
+      "dist": "Chittoor",
+      "mandal": "Yerpedu",
+      "mroPhone": 9491077044,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 450,
+      "dist": "Chittoor",
+      "mandal": "Srikalahasti",
+      "mroPhone": 9491077045,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "I SUBRAMANYAM"
+    },
+    {
+      "sno": 451,
+      "dist": "Chittoor",
+      "mandal": "Thottambedu",
+      "mroPhone": 9491077046,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 452,
+      "dist": "Chittoor",
+      "mandal": "Buchinaidu Khandri",
+      "mroPhone": 9491077047,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 453,
+      "dist": "Chittoor",
+      "mandal": "Varadaiahpalem",
+      "mroPhone": 9491077050,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 454,
+      "dist": "Chittoor",
+      "mandal": "Satyavedu",
+      "mroPhone": 9491077049,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "PC Sreenivasulu"
+    },
+    {
+      "sno": 455,
+      "dist": "Chittoor",
+      "mandal": "Nagalapuram",
+      "mroPhone": 9491077051,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 456,
+      "dist": "Chittoor",
+      "mandal": "Pichatur",
+      "mroPhone": 9491077052,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 457,
+      "dist": "Chittoor",
+      "mandal": "Vijaya Puram",
+      "mroPhone": 9491077037,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 458,
+      "dist": "Chittoor",
+      "mandal": "Nindra",
+      "mroPhone": 9491077036,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 459,
+      "dist": "Chittoor",
+      "mandal": "K V B Puram",
+      "mroPhone": 9491077048,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 460,
+      "dist": "Chittoor",
+      "mandal": "Narayanavanam",
+      "mroPhone": 9491077034,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 461,
+      "dist": "Chittoor",
+      "mandal": "Vadamalapeta",
+      "mroPhone": 9491077032,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 462,
+      "dist": "Chittoor",
+      "mandal": "Tirupati",
+      "mroPhone": 9491077039,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 463,
+      "dist": "Chittoor",
+      "mandal": "Ramachndrapuram",
+      "mroPhone": 9491077030,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 464,
+      "dist": "Chittoor",
+      "mandal": "Chandragiri",
+      "mroPhone": 9491077040,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P Venkatarayulu"
+    },
+    {
+      "sno": 465,
+      "dist": "Chittoor",
+      "mandal": "Chinnagottigallu",
+      "mroPhone": 9491077067,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 466,
+      "dist": "Chittoor",
+      "mandal": "Rompicherla",
+      "mroPhone": 9949097434,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Ch.Vijaya Jyothi Kumari"
+    },
+    {
+      "sno": 467,
+      "dist": "Chittoor",
+      "mandal": "Pileru",
+      "mroPhone": 9491077065,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 468,
+      "dist": "Chittoor",
+      "mandal": "Kalikiri",
+      "mroPhone": 9491077063,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 469,
+      "dist": "Chittoor",
+      "mandal": "Valmikipuram",
+      "mroPhone": 0,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 470,
+      "dist": "Chittoor",
+      "mandal": "Nimmanapalle",
+      "mroPhone": 9491077054,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 471,
+      "dist": "Chittoor",
+      "mandal": "Mandapalle",
+      "mroPhone": 9491077053,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 472,
+      "dist": "Chittoor",
+      "mandal": "Ramasamudram",
+      "mroPhone": 9491077072,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B RAMACHANDRAIAH"
+    },
+    {
+      "sno": 473,
+      "dist": "Chittoor",
+      "mandal": "Punganur",
+      "mroPhone": 9491077070,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 474,
+      "dist": "Chittoor",
+      "mandal": "Chowdepalle",
+      "mroPhone": 9491077071,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 475,
+      "dist": "Chittoor",
+      "mandal": "Somala",
+      "mroPhone": 9491077074,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 476,
+      "dist": "Chittoor",
+      "mandal": "Sodam",
+      "mroPhone": 9491077073,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 477,
+      "dist": "Chittoor",
+      "mandal": "Pulicherla",
+      "mroPhone": 9491077042,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 478,
+      "dist": "Chittoor",
+      "mandal": "Pakala",
+      "mroPhone": 9491077041,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K BABU RAJENDRA PRASAD"
+    },
+    {
+      "sno": 479,
+      "dist": "Chittoor",
+      "mandal": "Veduru Kuppam",
+      "mroPhone": 9491077029,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 480,
+      "dist": "Chittoor",
+      "mandal": "Puttur",
+      "mroPhone": 9491077027,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "G C Venkateswarlu"
+    },
+    {
+      "sno": 481,
+      "dist": "Chittoor",
+      "mandal": "Nagari",
+      "mroPhone": 9491077035,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 482,
+      "dist": "Chittoor",
+      "mandal": "Karvetinagar",
+      "mroPhone": 9491077031,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "SHAIK JAREENA"
+    },
+    {
+      "sno": 483,
+      "dist": "Chittoor",
+      "mandal": "Srirangarajapuram",
+      "mroPhone": 9491077028,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "M Lokeswari"
+    },
+    {
+      "sno": 484,
+      "dist": "Chittoor",
+      "mandal": "Palasamudram",
+      "mroPhone": 9491077033,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 485,
+      "dist": "Chittoor",
+      "mandal": "Gangadhara Nellore",
+      "mroPhone": 9491077021,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "G Ravindra Reddy"
+    },
+    {
+      "sno": 486,
+      "dist": "Chittoor",
+      "mandal": "Penumuru",
+      "mroPhone": 9491077023,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 487,
+      "dist": "Chittoor",
+      "mandal": "Puthalapattu",
+      "mroPhone": 9491077022,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Y Vijaya Bhaskar"
+    },
+    {
+      "sno": 488,
+      "dist": "Chittoor",
+      "mandal": "Irala",
+      "mroPhone": 9491077026,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "M PRASAD BABU"
+    },
+    {
+      "sno": 489,
+      "dist": "Chittoor",
+      "mandal": "Thavanampalle",
+      "mroPhone": 9491077025,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K Ramani"
+    },
+    {
+      "sno": 490,
+      "dist": "Chittoor",
+      "mandal": "Chittoor",
+      "mroPhone": 9491077018,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 491,
+      "dist": "Chittoor",
+      "mandal": "Gudipala",
+      "mroPhone": 9491077019,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 492,
+      "dist": "Chittoor",
+      "mandal": "Yadamari",
+      "mroPhone": 9491077020,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 493,
+      "dist": "Chittoor",
+      "mandal": "Bangarupalem",
+      "mroPhone": 9491077024,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "A GOPALAIAH"
+    },
+    {
+      "sno": 494,
+      "dist": "Chittoor",
+      "mandal": "Palamaner",
+      "mroPhone": 9491077076,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 495,
+      "dist": "Chittoor",
+      "mandal": "Gangavaram",
+      "mroPhone": 9989105533,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "G. Chinna Rao"
+    },
+    {
+      "sno": 496,
+      "dist": "Chittoor",
+      "mandal": "Pedda Panjani",
+      "mroPhone": 9491077075,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "M SURENDRA"
+    },
+    {
+      "sno": 497,
+      "dist": "Chittoor",
+      "mandal": "Baireddi Palle",
+      "mroPhone": 9491077078,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 498,
+      "dist": "Chittoor",
+      "mandal": "Venkatagiri Kota",
+      "mroPhone": 9491077079,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 499,
+      "dist": "Chittoor",
+      "mandal": "Rama Kuppam",
+      "mroPhone": 9491077080,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 500,
+      "dist": "Chittoor",
+      "mandal": "Santhi Puram",
+      "mroPhone": 9491077083,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 501,
+      "dist": "Chittoor",
+      "mandal": "Gudi Palle",
+      "mroPhone": 9491077082,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 502,
+      "dist": "Chittoor",
+      "mandal": "Kuppam",
+      "mroPhone": 9491077081,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "A S Nazeer Ahmad"
+    },
+    {
+      "sno": 503,
+      "dist": "Kadapa",
+      "mandal": "Kondapuram",
+      "mroPhone": 7674950733,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B.Rama Mohan"
+    },
+    {
+      "sno": 504,
+      "dist": "Kadapa",
+      "mandal": "Mylavaram",
+      "mroPhone": 7674950737,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Parthapa Pullaiah"
+    },
+    {
+      "sno": 505,
+      "dist": "Kadapa",
+      "mandal": "Peddamudium",
+      "mroPhone": 7674950738,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "V Venkata Subbaiah"
+    },
+    {
+      "sno": 506,
+      "dist": "Kadapa",
+      "mandal": "Raju Palem",
+      "mroPhone": 7396825004,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 507,
+      "dist": "Kadapa",
+      "mandal": "Duvvur",
+      "mroPhone": 7674950731,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "R.Sesharam Singh"
+    },
+    {
+      "sno": 508,
+      "dist": "Kadapa",
+      "mandal": "S Mydukur",
+      "mroPhone": 7674950736,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 509,
+      "dist": "Kadapa",
+      "mandal": "Brahmamgarimattam",
+      "mroPhone": 7674950719,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 510,
+      "dist": "Kadapa",
+      "mandal": "B Kodur",
+      "mroPhone": 7674950718,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 511,
+      "dist": "Kadapa",
+      "mandal": "Kalasapadu",
+      "mroPhone": 7674950723,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "N. Nagavahini"
+    },
+    {
+      "sno": 512,
+      "dist": "Kadapa",
+      "mandal": "Porumamilla",
+      "mroPhone": 7674950726,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "C. Chandra Sekhar Varma"
+    },
+    {
+      "sno": 513,
+      "dist": "Kadapa",
+      "mandal": "Badvel",
+      "mroPhone": 7674950720,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "G. Chinnaiah"
+    },
+    {
+      "sno": 514,
+      "dist": "Kadapa",
+      "mandal": "Gopavaram",
+      "mroPhone": 7674950707,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B. Parvathi"
+    },
+    {
+      "sno": 515,
+      "dist": "Kadapa",
+      "mandal": "Khajipet",
+      "mroPhone": 7674950707,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B. Parvathi"
+    },
+    {
+      "sno": 516,
+      "dist": "Kadapa",
+      "mandal": "Chapad",
+      "mroPhone": 7674950730,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 517,
+      "dist": "Kadapa",
+      "mandal": "Proddutur",
+      "mroPhone": 9959667574,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Z.Kiran Gnanamurthy"
+    },
+    {
+      "sno": 518,
+      "dist": "Kadapa",
+      "mandal": "Jammalamadugu",
+      "mroPhone": 7674950732,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "V. Pulla Reddy"
+    },
+    {
+      "sno": 519,
+      "dist": "Kadapa",
+      "mandal": "Muddanur",
+      "mroPhone": 7674950735,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "V.R. Uday Santhosh"
+    },
+    {
+      "sno": 520,
+      "dist": "Kadapa",
+      "mandal": "Simhadripuram",
+      "mroPhone": 7674950740,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "N. Anjaneyulu"
+    },
+    {
+      "sno": 521,
+      "dist": "Kadapa",
+      "mandal": "Lingala",
+      "mroPhone": 7674950734,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "L.V. Prasad"
+    },
+    {
+      "sno": 522,
+      "dist": "Kadapa",
+      "mandal": "Pulivendla",
+      "mroPhone": 9849466001,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "S.Md. Khasim"
+    },
+    {
+      "sno": 523,
+      "dist": "Kadapa",
+      "mandal": "Vemula",
+      "mroPhone": 7674950743,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "C.Narasimhulu"
+    },
+    {
+      "sno": 524,
+      "dist": "Kadapa",
+      "mandal": "Thandur",
+      "mroPhone": 7674950741,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 525,
+      "dist": "Kadapa",
+      "mandal": "Veerapunayunipalle",
+      "mroPhone": 9441429888,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B Subbaramaiah"
+    },
+    {
+      "sno": 526,
+      "dist": "Kadapa",
+      "mandal": "Yerraguntla",
+      "mroPhone": 7674950716,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B Maheswara Reddy"
+    },
+    {
+      "sno": 527,
+      "dist": "Kadapa",
+      "mandal": "Kamalapuram",
+      "mroPhone": 7674950706,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "N Ravi Sankar Reddy"
+    },
+    {
+      "sno": 528,
+      "dist": "Kadapa",
+      "mandal": "Vallur",
+      "mroPhone": 7674950714,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "S Mahaboob Chand"
+    },
+    {
+      "sno": 529,
+      "dist": "Kadapa",
+      "mandal": "Chennur",
+      "mroPhone": 7674950703,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B Santhamma"
+    },
+    {
+      "sno": 530,
+      "dist": "Kadapa",
+      "mandal": "Atlur",
+      "mroPhone": 7674950717,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 531,
+      "dist": "Kadapa",
+      "mandal": "Vontimitta",
+      "mroPhone": 9959667596,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "J. Sireesha"
+    },
+    {
+      "sno": 532,
+      "dist": "Kadapa",
+      "mandal": "Sidhout",
+      "mroPhone": 7674950729,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "N. Chandra Sekhar Reddy"
+    },
+    {
+      "sno": 533,
+      "dist": "Kadapa",
+      "mandal": "Kadapa",
+      "mroPhone": 9849904126,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "G Sreenivasulu"
+    },
+    {
+      "sno": 534,
+      "dist": "Kadapa",
+      "mandal": "Chintha Kommadinne",
+      "mroPhone": 7674950701,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "S RAMA"
+    },
+    {
+      "sno": 535,
+      "dist": "Kadapa",
+      "mandal": "Pendlimarri",
+      "mroPhone": 7674950709,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "D. Damodar Reddy"
+    },
+    {
+      "sno": 536,
+      "dist": "Kadapa",
+      "mandal": "Vempalle",
+      "mroPhone": 7674950742,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 537,
+      "dist": "Kadapa",
+      "mandal": "Chaknayapet",
+      "mroPhone": 7674950702,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 538,
+      "dist": "Kadapa",
+      "mandal": "Lakkireddipalle",
+      "mroPhone": 7674950708,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 539,
+      "dist": "Kadapa",
+      "mandal": "Ramapuram",
+      "mroPhone": 7674950710,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B Anuradha"
+    },
+    {
+      "sno": 540,
+      "dist": "Kadapa",
+      "mandal": "Veeraballe",
+      "mroPhone": 7674950715,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 541,
+      "dist": "Kadapa",
+      "mandal": "Rajampet",
+      "mroPhone": 9959667588,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K.P.Narsimhulu"
+    },
+    {
+      "sno": 542,
+      "dist": "Kadapa",
+      "mandal": "Nandalur",
+      "mroPhone": 7386539535,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "D. Chandra Sekhar"
+    },
+    {
+      "sno": 543,
+      "dist": "Kadapa",
+      "mandal": "Penagaluru",
+      "mroPhone": 7674950725,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 544,
+      "dist": "Kadapa",
+      "mandal": "Chitvel",
+      "mroPhone": 7674950721,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "V Narasimhulu"
+    },
+    {
+      "sno": 545,
+      "dist": "Kadapa",
+      "mandal": "Kodur",
+      "mroPhone": 9959667606,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 546,
+      "dist": "Kadapa",
+      "mandal": "Obulavaripalle",
+      "mroPhone": 7674950724,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 547,
+      "dist": "Kadapa",
+      "mandal": "Pullampeta",
+      "mroPhone": 7674950727,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 548,
+      "dist": "Kadapa",
+      "mandal": "T Sundupalle",
+      "mroPhone": 7674950712,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 549,
+      "dist": "Kadapa",
+      "mandal": "Sambepalle",
+      "mroPhone": 9959667561,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 550,
+      "dist": "Kadapa",
+      "mandal": "Chinnamandem",
+      "mroPhone": 7674950704,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "S. Premantha Kumar"
+    },
+    {
+      "sno": 551,
+      "dist": "Kadapa",
+      "mandal": "Royachoti",
+      "mroPhone": 7674950711,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 552,
+      "dist": "Kadapa",
+      "mandal": "Galiveedu",
+      "mroPhone": 7674950705,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P BHAVANI"
+    },
+    {
+      "sno": 553,
+      "dist": "Kadapa",
+      "mandal": "Narsapur",
+      "mroPhone": "#N/A",
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 554,
+      "dist": "Anantapur",
+      "mandal": "D Hirchal",
+      "mroPhone": 9160134765,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 555,
+      "dist": "Anantapur",
+      "mandal": "Bommanahal",
+      "mroPhone": 9493188856,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P.Balakrishnamurthy"
+    },
+    {
+      "sno": 556,
+      "dist": "Anantapur",
+      "mandal": "Vidapanakal",
+      "mroPhone": 9493188838,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "G.Shankaraiah"
+    },
+    {
+      "sno": 557,
+      "dist": "Anantapur",
+      "mandal": "Vajrakarur",
+      "mroPhone": 9493188837,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B.Anil Kumar"
+    },
+    {
+      "sno": 558,
+      "dist": "Anantapur",
+      "mandal": "Guntakal",
+      "mroPhone": 9493188833,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "C.Hari Prasad"
+    },
+    {
+      "sno": 559,
+      "dist": "Anantapur",
+      "mandal": "Gooty",
+      "mroPhone": 9493188832,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P.Vijayakumari"
+    },
+    {
+      "sno": 560,
+      "dist": "Anantapur",
+      "mandal": "Peddavadugur",
+      "mroPhone": 9493188835,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P.Nagabhushanam"
+    },
+    {
+      "sno": 561,
+      "dist": "Anantapur",
+      "mandal": "Yadiki",
+      "mroPhone": 9493188828,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Sake Brahmaiah"
+    },
+    {
+      "sno": 562,
+      "dist": "Anantapur",
+      "mandal": "Tadpatri",
+      "mroPhone": 9493188827,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 563,
+      "dist": "Anantapur",
+      "mandal": "Peddapappur",
+      "mroPhone": 9493188829,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 564,
+      "dist": "Anantapur",
+      "mandal": "Singanamala",
+      "mroPhone": 9493188823,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "G.Nagendra"
+    },
+    {
+      "sno": 565,
+      "dist": "Anantapur",
+      "mandal": "Pamidi",
+      "mroPhone": 9493188834,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K.Anwar Hussain"
+    },
+    {
+      "sno": 566,
+      "dist": "Anantapur",
+      "mandal": "Garladinne",
+      "mroPhone": 9493188825,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P.Gopal Reddy"
+    },
+    {
+      "sno": 567,
+      "dist": "Anantapur",
+      "mandal": "Kudair",
+      "mroPhone": 9493188822,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K.S. Viswanathan I.A.S (P)"
+    },
+    {
+      "sno": 568,
+      "dist": "Anantapur",
+      "mandal": "Uravakonda",
+      "mroPhone": 9493188836,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "T.Sreenivasulu"
+    },
+    {
+      "sno": 569,
+      "dist": "Anantapur",
+      "mandal": "Beluguppa",
+      "mroPhone": 9493188847,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "M.Balakishan"
+    },
+    {
+      "sno": 570,
+      "dist": "Anantapur",
+      "mandal": "Kanekal",
+      "mroPhone": 9493188855,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B.Vanisree"
+    },
+    {
+      "sno": 571,
+      "dist": "Anantapur",
+      "mandal": "Rayadurg",
+      "mroPhone": 9493188852,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 572,
+      "dist": "Anantapur",
+      "mandal": "Gummagatta",
+      "mroPhone": 9493188854,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "D.A.Afzal Khan"
+    },
+    {
+      "sno": 573,
+      "dist": "Anantapur",
+      "mandal": "Brahmasamudram",
+      "mroPhone": 9493188850,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K.Narasimha Rao"
+    },
+    {
+      "sno": 574,
+      "dist": "Anantapur",
+      "mandal": "Settur",
+      "mroPhone": 9493188851,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "D.V.Subramanyam"
+    },
+    {
+      "sno": 575,
+      "dist": "Anantapur",
+      "mandal": "Kundurpi",
+      "mroPhone": 9493188849,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "M.K.Rameshan"
+    },
+    {
+      "sno": 576,
+      "dist": "Anantapur",
+      "mandal": "Kalyandrug",
+      "mroPhone": 9493188846,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 577,
+      "dist": "Anantapur",
+      "mandal": "Atmakur",
+      "mroPhone": 9849904076,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "S Venkata Ramana"
+    },
+    {
+      "sno": 578,
+      "dist": "Anantapur",
+      "mandal": "Anantapur",
+      "mroPhone": 9493188819,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "A.Hari Kumar"
+    },
+    {
+      "sno": 579,
+      "dist": "Anantapur",
+      "mandal": "Bukkarayasamudram",
+      "mroPhone": 9493188824,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "V.Ramanjaneya Reddy"
+    },
+    {
+      "sno": 580,
+      "dist": "Anantapur",
+      "mandal": "Narpala",
+      "mroPhone": 9493188826,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K.Sreedhar Babu"
+    },
+    {
+      "sno": 581,
+      "dist": "Anantapur",
+      "mandal": "Putlur",
+      "mroPhone": 9493188830,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 582,
+      "dist": "Anantapur",
+      "mandal": "Yellanur",
+      "mroPhone": 9493188831,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "M.Suresh Babu (FAC)"
+    },
+    {
+      "sno": 583,
+      "dist": "Anantapur",
+      "mandal": "Tadimarri",
+      "mroPhone": 9493188841,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "N.Eswaramma"
+    },
+    {
+      "sno": 584,
+      "dist": "Anantapur",
+      "mandal": "Bathalapalle",
+      "mroPhone": 9493188842,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 585,
+      "dist": "Anantapur",
+      "mandal": "Raptadu",
+      "mroPhone": 9493188820,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "J Varaprasada Rao"
+    },
+    {
+      "sno": 586,
+      "dist": "Anantapur",
+      "mandal": "Kanaganapalle",
+      "mroPhone": 9493188844,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 587,
+      "dist": "Anantapur",
+      "mandal": "Kambadur",
+      "mroPhone": 9493188848,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "G.Masood Vali"
+    },
+    {
+      "sno": 588,
+      "dist": "Anantapur",
+      "mandal": "Ramagiri",
+      "mroPhone": 9493188845,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "S.Adinarayana"
+    },
+    {
+      "sno": 589,
+      "dist": "Anantapur",
+      "mandal": "Chenne Kothapalle",
+      "mroPhone": 9493188843,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 590,
+      "dist": "Anantapur",
+      "mandal": "Dharmavaram",
+      "mroPhone": 9493188840,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "S Mahaboob Basha"
+    },
+    {
+      "sno": 591,
+      "dist": "Anantapur",
+      "mandal": "Mudigubba",
+      "mroPhone": 9493188875,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "R.Madhava Reddy"
+    },
+    {
+      "sno": 592,
+      "dist": "Anantapur",
+      "mandal": "Talupula",
+      "mroPhone": 9493188878,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B.Sivaiah"
+    },
+    {
+      "sno": 593,
+      "dist": "Anantapur",
+      "mandal": "Nambulipulikunta",
+      "mroPhone": 9493188877,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 594,
+      "dist": "Anantapur",
+      "mandal": "Tanakal",
+      "mroPhone": 9493188881,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B.Lakshmi Naik"
+    },
+    {
+      "sno": 595,
+      "dist": "Anantapur",
+      "mandal": "Nallacheruvu",
+      "mroPhone": 9493188879,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K.M.Ranganna"
+    },
+    {
+      "sno": 596,
+      "dist": "Anantapur",
+      "mandal": "Gandlapenta",
+      "mroPhone": 9493188883,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "A.S.A.Hameed Basha"
+    },
+    {
+      "sno": 597,
+      "dist": "Anantapur",
+      "mandal": "Kadiri",
+      "mroPhone": 9493188874,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B.Venkataramana"
+    },
+    {
+      "sno": 598,
+      "dist": "Anantapur",
+      "mandal": "Amadagur",
+      "mroPhone": 9493188882,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P.Subbalakashumma"
+    },
+    {
+      "sno": 599,
+      "dist": "Anantapur",
+      "mandal": "Obuladevaracheruvu",
+      "mroPhone": 9493188880,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "L.Reddy"
+    },
+    {
+      "sno": 600,
+      "dist": "Anantapur",
+      "mandal": "Nallamada",
+      "mroPhone": 9493188876,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "S.Sreenivasulu"
+    },
+    {
+      "sno": 601,
+      "dist": "Anantapur",
+      "mandal": "Gorantla",
+      "mroPhone": 9493188873,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "T.Lakshman Das"
+    },
+    {
+      "sno": 602,
+      "dist": "Anantapur",
+      "mandal": "Puttaparthi",
+      "mroPhone": 9493188861,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "C.Sathyanarayana"
+    },
+    {
+      "sno": 603,
+      "dist": "Anantapur",
+      "mandal": "Bukkapatnam",
+      "mroPhone": 9493188863,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P.Usha Rani"
+    },
+    {
+      "sno": 604,
+      "dist": "Anantapur",
+      "mandal": "Kothacheruvu",
+      "mroPhone": 9493188862,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "M.G.Saraswathi"
+    },
+    {
+      "sno": 605,
+      "dist": "Anantapur",
+      "mandal": "Penu Konda",
+      "mroPhone": 9493188858,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "R.N.Haseena Sulthana"
+    },
+    {
+      "sno": 606,
+      "dist": "Anantapur",
+      "mandal": "Roddam",
+      "mroPhone": 9493188860,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "G.Ramasekhar"
+    },
+    {
+      "sno": 607,
+      "dist": "Anantapur",
+      "mandal": "Somandepalle",
+      "mroPhone": 9493188859,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 608,
+      "dist": "Anantapur",
+      "mandal": "Chilamathur",
+      "mroPhone": 9493188872,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "G.Maruthi"
+    },
+    {
+      "sno": 609,
+      "dist": "Anantapur",
+      "mandal": "Lepakshi",
+      "mroPhone": 9493188871,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "T.Ananda Kumar"
+    },
+    {
+      "sno": 610,
+      "dist": "Anantapur",
+      "mandal": "Hindupur",
+      "mroPhone": 9493188869,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "C.Viswanath"
+    },
+    {
+      "sno": 611,
+      "dist": "Anantapur",
+      "mandal": "Parigi",
+      "mroPhone": 9493188870,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "M.Bharath Kumar"
+    },
+    {
+      "sno": 612,
+      "dist": "Anantapur",
+      "mandal": "Madakasira",
+      "mroPhone": 9493188864,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "H.Harinath Rao"
+    },
+    {
+      "sno": 613,
+      "dist": "Anantapur",
+      "mandal": "Gudibanda",
+      "mroPhone": 9493188866,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "M.Mohan Das"
+    },
+    {
+      "sno": 614,
+      "dist": "Anantapur",
+      "mandal": "Amarapuram",
+      "mroPhone": 9493188865,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "N.Narayana"
+    },
+    {
+      "sno": 615,
+      "dist": "Anantapur",
+      "mandal": "Agali",
+      "mroPhone": 9493188868,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "G.Ravikumar Gowd (FAC)9493188868"
+    },
+    {
+      "sno": 616,
+      "dist": "Anantapur",
+      "mandal": "Rolla",
+      "mroPhone": 9493188867,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "M.Mohandas (FAC)"
+    },
+    {
+      "sno": 617,
+      "dist": "Kurnool",
+      "mandal": "Kowthalam",
+      "mroPhone": 8333988995,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 618,
+      "dist": "Kurnool",
+      "mandal": "Kosigi",
+      "mroPhone": 8333988996,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K Rajanikanth Reddy"
+    },
+    {
+      "sno": 619,
+      "dist": "Kurnool",
+      "mandal": "Mantralayam",
+      "mroPhone": 8333988993,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "J Rudhra Goud FAC"
+    },
+    {
+      "sno": 620,
+      "dist": "Kurnool",
+      "mandal": "Nandavaram",
+      "mroPhone": 8333988997,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B Adinarayana"
+    },
+    {
+      "sno": 621,
+      "dist": "Kurnool",
+      "mandal": "C Belagal",
+      "mroPhone": 9885422733,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "ANWAR HUSSAIN"
+    },
+    {
+      "sno": 622,
+      "dist": "Kurnool",
+      "mandal": "Gudur",
+      "mroPhone": 9849904073,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "S VARAKUMAR"
+    },
+    {
+      "sno": 623,
+      "dist": "Kurnool",
+      "mandal": "Kurnool",
+      "mroPhone": 9849904173,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "G Venkatesu"
+    },
+    {
+      "sno": 624,
+      "dist": "Kurnool",
+      "mandal": "Nandi Kotkur",
+      "mroPhone": 8333988968,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P.MuniKrishnaiah"
+    },
+    {
+      "sno": 625,
+      "dist": "Kurnool",
+      "mandal": "Pagidyala",
+      "mroPhone": 8333988969,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "SYED ZAKIR HUSSAIN"
+    },
+    {
+      "sno": 626,
+      "dist": "Kurnool",
+      "mandal": "Kothapalle",
+      "mroPhone": 8008803206,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B.Suguna"
+    },
+    {
+      "sno": 627,
+      "dist": "Kurnool",
+      "mandal": "Atmakur",
+      "mroPhone": 9849904076,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "S Venkata Ramana"
+    },
+    {
+      "sno": 628,
+      "dist": "Kurnool",
+      "mandal": "Srisailam",
+      "mroPhone": 9849904175,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": 0
+    },
+    {
+      "sno": 629,
+      "dist": "Kurnool",
+      "mandal": "Velgode",
+      "mroPhone": 8333988975,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K.V.SRINIVASULU"
+    },
+    {
+      "sno": 630,
+      "dist": "Kurnool",
+      "mandal": "Pamulapadu",
+      "mroPhone": 8333988974,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "T Venkata Ramesh Babu"
+    },
+    {
+      "sno": 631,
+      "dist": "Kurnool",
+      "mandal": "Jupadu Bungalow",
+      "mroPhone": 8333988970,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "R SIVA RAMUDU"
+    },
+    {
+      "sno": 632,
+      "dist": "Kurnool",
+      "mandal": "Midthur",
+      "mroPhone": 8333988971,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "C.BHULAKSHMI"
+    },
+    {
+      "sno": 633,
+      "dist": "Kurnool",
+      "mandal": "Orvakal",
+      "mroPhone": 9855874447,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Y NARENDRANATH REDDY"
+    },
+    {
+      "sno": 634,
+      "dist": "Kurnool",
+      "mandal": "Kallur",
+      "mroPhone": 8333988961,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "D Ravi Kumar"
+    },
+    {
+      "sno": 635,
+      "dist": "Kurnool",
+      "mandal": "Kodumur",
+      "mroPhone": 8333988963,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "A VENU GOPAL"
+    },
+    {
+      "sno": 636,
+      "dist": "Kurnool",
+      "mandal": "Gonegandla",
+      "mroPhone": 8333988959,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P.V.RAMANA RAO"
+    },
+    {
+      "sno": 637,
+      "dist": "Kurnool",
+      "mandal": "Yemmiganur",
+      "mroPhone": 9849904177,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "A BALAGANESHAIAH"
+    },
+    {
+      "sno": 638,
+      "dist": "Kurnool",
+      "mandal": "Pedda Kadalur",
+      "mroPhone": 8333988994,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "K Sateesh"
+    },
+    {
+      "sno": 639,
+      "dist": "Kurnool",
+      "mandal": "Adoni",
+      "mroPhone": 9849904161,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "G Sreenath"
+    },
+    {
+      "sno": 640,
+      "dist": "Kurnool",
+      "mandal": "Holagunda",
+      "mroPhone": 8333989016,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "E N ANJANEYULU"
+    },
+    {
+      "sno": 641,
+      "dist": "Kurnool",
+      "mandal": "Alur",
+      "mroPhone": 9849904167,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "S HASEENA BEE"
+    },
+    {
+      "sno": 642,
+      "dist": "Kurnool",
+      "mandal": "Aspari",
+      "mroPhone": 8333988998,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "R.S.SUBRAHMANYAM"
+    },
+    {
+      "sno": 643,
+      "dist": "Kurnool",
+      "mandal": "Devanakonda",
+      "mroPhone": 0,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": 0
+    },
+    {
+      "sno": 644,
+      "dist": "Kurnool",
+      "mandal": "Krishnagiri",
+      "mroPhone": 8333988966,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "M Rama Subbaiah"
+    },
+    {
+      "sno": 645,
+      "dist": "Kurnool",
+      "mandal": "Veldurthi",
+      "mroPhone": 9949096527,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P.Rajani Kumari"
+    },
+    {
+      "sno": 646,
+      "dist": "Kurnool",
+      "mandal": "Bethamcherla",
+      "mroPhone": 8333988956,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "S.TULASI NAIK"
+    },
+    {
+      "sno": 647,
+      "dist": "Kurnool",
+      "mandal": "Panyam",
+      "mroPhone": 8333988957,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B Nagaraju"
+    },
+    {
+      "sno": 648,
+      "dist": "Kurnool",
+      "mandal": "Gadivemula",
+      "mroPhone": 8333988978,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "D VENKATESH NAIK"
+    },
+    {
+      "sno": 649,
+      "dist": "Kurnool",
+      "mandal": "Bandi Atmakur",
+      "mroPhone": 8333988965,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "R.GOVIND SINGH"
+    },
+    {
+      "sno": 650,
+      "dist": "Kurnool",
+      "mandal": "Nandyal",
+      "mroPhone": 9849904176,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "T. Jaya Rami Reddy"
+    },
+    {
+      "sno": 651,
+      "dist": "Kurnool",
+      "mandal": "Mahanandi",
+      "mroPhone": 9849152599,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "A.C.Subbarayudu"
+    },
+    {
+      "sno": 652,
+      "dist": "Kurnool",
+      "mandal": "Sirvel",
+      "mroPhone": 8333988980,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 653,
+      "dist": "Kurnool",
+      "mandal": "Rudravaram",
+      "mroPhone": 8333988981,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "V Chandra sekhar Naik"
+    },
+    {
+      "sno": 654,
+      "dist": "Kurnool",
+      "mandal": "Allagadda",
+      "mroPhone": 8333988979,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P.Satyasreenivasulu"
+    },
+    {
+      "sno": 655,
+      "dist": "Kurnool",
+      "mandal": "Chagalamarri",
+      "mroPhone": 8333988983,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Ch.MALAKONDAIAH"
+    },
+    {
+      "sno": 656,
+      "dist": "Kurnool",
+      "mandal": "Uyyalawada",
+      "mroPhone": 8333988983,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P Rajeswari"
+    },
+    {
+      "sno": 657,
+      "dist": "Kurnool",
+      "mandal": "Dornipadu",
+      "mroPhone": 8333988979,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "P Tirupathi Sai"
+    },
+    {
+      "sno": 658,
+      "dist": "Kurnool",
+      "mandal": "Gospadu",
+      "mroPhone": 8333988982,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Gonuguntla Anantha Padmanabha Rao"
+    },
+    {
+      "sno": 659,
+      "dist": "Kurnool",
+      "mandal": "Koilkuntla",
+      "mroPhone": 8333988992,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "D M PREM SAGAR"
+    },
+    {
+      "sno": 660,
+      "dist": "Kurnool",
+      "mandal": "Banaganapalle",
+      "mroPhone": 8333988991,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B SIVA RAMI REDDY"
+    },
+    {
+      "sno": 661,
+      "dist": "Kurnool",
+      "mandal": "Sanjamala",
+      "mroPhone": 8333988986,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "A.B.Elizabeth"
+    },
+    {
+      "sno": 662,
+      "dist": "Kurnool",
+      "mandal": "Kolimigundla",
+      "mroPhone": 8333988990,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B RAMANJULA NAIK"
+    },
+    {
+      "sno": 663,
+      "dist": "Kurnool",
+      "mandal": "Owk",
+      "mroPhone": 9855874447,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "Y NARENDRANATH REDDY"
+    },
+    {
+      "sno": 664,
+      "dist": "Kurnool",
+      "mandal": "Peapally",
+      "mroPhone": 8333988965,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "R.GOVIND SINGH"
+    },
+    {
+      "sno": 665,
+      "dist": "Kurnool",
+      "mandal": "Dhone",
+      "mroPhone": 9849904174,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "A THIRUMALA VANI"
+    },
+    {
+      "sno": 666,
+      "dist": "Kurnool",
+      "mandal": "Tuggali",
+      "mroPhone": 8333989018,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "B RAMAKRISHNA"
+    },
+    {
+      "sno": 667,
+      "dist": "Kurnool",
+      "mandal": "Pattikanda",
+      "mroPhone": 8333989017,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 668,
+      "dist": "Kurnool",
+      "mandal": "Maddikera East",
+      "mroPhone": 8333989019,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "#N/A"
+    },
+    {
+      "sno": 669,
+      "dist": "Kurnool",
+      "mandal": "Chippagiri",
+      "mroPhone": 8333989014,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "V SURYANARAYANA PRASAD"
+    },
+    {
+      "sno": 670,
+      "dist": "Kurnool",
+      "mandal": "Halaharvi",
+      "mroPhone": 8333989015,
+      "hasTelegram": "no",
+      "hasWhatsApp": "yes",
+      "mroName": "D.Hussain Saheb"
+    }
+  ]
+}
