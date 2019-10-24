@@ -1,77 +1,252 @@
-
-
 const net = require('net');
-
+const fs = require('fs');
 const client = new net.Socket();
-const NodeGeocoder = require('node-geocoder');
+const globalAlerts = require('./models/globalAlerts');
+const opencage = require('opencage-api-client');
+const path = require('path');
+const mongoose = require('mongoose');
+const cron = require('node-cron');
+const request = require('request');
+let activeAlerts = [];
+let locationSet = new Set([]);
 
-let options = {
-    provider: 'google',
 
-    // Optional depending on the providers
-    httpAdapter: 'https', // Default
-    apiKey: 'AIzaSyDrH3kc94krpR6FSori7uRI774jMNn79RE', // for Mapquest, OpenCage, Google Premier
-    formatter: null         // 'gpx', 'string', ...
-};
-let geocoder = NodeGeocoder(options);
-
+const OCD_API_KEY = "943b5710b24b40a69e77d54f33bb7550";
 //  PARTNER ID (PROVIDED BY EARTH NETWORKS)
 const a_partner_id = '5B62696F-0DBD-4DEC-9128-A0AFD05F164D';
-
 // # VERSION
 const a_version = '3';
-
 // # FORMAT
 // # 1 - ASCII format (UTF-8 format)
 // # 2 - Binary format
 const a_format = '1';
-
+let f = [];
 // # TYPE
 // # 1 - Flash
 // # 2 - Pulse
 // # 3 - Combination Flash and Pulse
 const a_type = '2';
-
 // AUTHENTICATION PAYLOAD
 const msg_authenticate = {
     "p": a_partner_id,
     "v": a_version,
     "f": a_format,
-    "t": a_type
-};
-
-client.connect(2324, '107.23.152.248', function() {
+    "t": a_type };
+// lat lng bounds
+let p1 = [84.86216, 19.25476];
+let p2 = [83.58775, 19.22364];
+let p3 = [80.90456, 17.66606];
+let p4 = [80.19869, 17.03951];
+let p5 = [76.93263, 15.9246];
+let p6 = [76.93263, 13.65157];
+let p7 = [80.27247, 13.299];
+// mongodb uri
+const MONGODB_URI =
+    'mongodb://localhost:27017/ThunderStorm';
+// opencage.geocode({q: '16.9037611,82.0019743',language: 'en',key:OCD_API_KEY}).then(data => {
+//
+//     if (data.status.code == 200) {
+//         if (data.results.length > 0) {
+//             var place = data.results[0];
+//             console.log(place);
+//             fs.writeFile(path.join(__dirname,"temp.json"),JSON.parse(place),(res)=>{
+//                 if(res)
+//                     console.log("sucess");
+//
+//             })
+//         }
+//     } else if (data.status.code == 402) {
+//         console.log('hit free-trial daily limit');
+//         console.log('become a customer: https://opencagedata.com/pricing');
+//     } else {
+//         // other possible response codes:
+//         // https://opencagedata.com/api#codes
+//         console.log('error', data.status.message);
+//     }
+// }).catch(error => {
+//     console.log('error', error.message);
+// });
+client.connect(2324, '107.23.152.248', function () {
     console.log('Connected');
     client.write(JSON.stringify(msg_authenticate));
-
 });
-
-client.on('error',(error)=>{
+client.on('error', (error) => {
+    console.log("Error");
     console.log(error);
 
 });
 
-client.on('data', function(data) {
+client.on('data', function (data) {
 
     const str = (data.toString('utf-8').trim());
 
-   let f = JSON.parse(str.slice(4,str.length));
-    console.log(f);
 
-    geocoder.reverse({lat:f.latitude,lon:f.longitude})
-        .then(function(res) {
-            console.log(res);
-        })
-        .catch(function(err) {
-            console.log(err);
-        });
+    // converting all the data to json data
+    const jsonList = toJson(str);
 
-    client.destroy(); // kill client after server's response
+    // inserting all the fetched results into global Alerts collection
+    globalAlerts.insertMany(jsonList).then(res => {
+
+    }).catch(err => {
+        console.log(err);
+        console.log("error");
+    });
+
+    //client.destroy(); // kill client after server's response
 });
 
-client.on('close', function() {
+client.on('close', function () {
     console.log('Connection closed');
 });
 
+
+/**
+ *this function converts str to json and returns it,
+ *
+ * */
+function toJson(str) {
+
+    f = [];
+    try {
+        const list = str.split('\u0000\u0000\u0000�');
+        //console.log(list);
+        if (list.length > 2) {
+
+
+            for (let i = 1; i < list.length; i++) {
+                f.push(JSON.parse(list[i].trim()));
+
+                f[i - 1].location = {};
+                f[i - 1].location.type = 'Point';
+                f[i - 1].location.coordinates = [f[i - 1].longitude, f[i - 1].latitude];
+                f[i - 1].createdAt = new Date().toISOString();
+            }
+
+        } else {
+            // console.log(list);
+            f.push(JSON.parse(list[1]));
+            f[0].location = {};
+            f[0].location.type = 'Point';
+            f[0].location.coordinates = [f[0].longitude, f[0].latitude];
+            f[0].createdAt = new Date().toISOString();
+        }
+        return f;
+    } catch (e) {
+        console.log("Exception occured");
+        console.log(f);
+    }
+
+
+}
+
 //api
 //AIzaSyCnUYgxzVG_Yb9ZjVAuYBj1iLcE8Fp-QmQ
+
+
+
+
+
+mongoose.connect(MONGODB_URI)
+    .then(result => {
+        console.log(" dbconnected");
+
+    })
+    .catch(err => {
+        console.log(err);
+    });
+
+
+
+
+cron.schedule('0 */1 * * * *', () => {
+    globalAlerts.find({
+        location: {
+            $geoWithin: {
+                $geometry: {
+                    type: 'Polygon',
+                    coordinates: [[p1, p2, p3, p4, p5, p6, p7, p1]]
+                }
+            }
+        }
+    })
+        .then(res => {
+            if (res.length > 0) {
+                activeAlerts = (extractData(res));
+                console.log("hello");
+                console.log(activeAlerts);
+
+                // adding to active alerts
+            }
+        }).catch(err => {
+        console.log(err);
+    });
+});
+cron.schedule('0 */45 * * * *', () => {
+    locationSet = null;
+});
+
+function extractData(res) {
+
+    let data = [];
+
+    console.log(res);
+
+    for (let i = 0; i < res.length; i++) {
+
+        //const rp = waitRetryPromise();
+        // console.log(rp);
+
+        // list is an array, i is current index
+
+        request(`http://dev.virtualearth.net/REST/v1/Locations/${res[i].location.coordinates[1]},${res[i].location.coordinates[0]}?o=&key=As_wLgBGd9x-kbekvkeOHKxqnSfp9CiNcPHP2uR3Mkviy306NMQsDE94mVNOsg3D`, (err, res, body) => {
+            let b;
+            try {
+                b = JSON.parse(body);
+
+                if (err) {
+                    return console.log(err);
+                }
+                if (b.resourceSets[0].resources.length > 0) {
+
+                    if (b.resourceSets[0].resources[0].address.adminDistrict === 'Ap' && !locationSet.has(b.resourceSets[0].resources[0].address.locality)) {
+                        data.push(b.resourceSets[0].resources[0].address);
+                        locationSet.add(b.resourceSets[0].resources[0].address.locality);
+                    }
+                }
+            } catch (e) {
+                console.log("json conversion error");
+                console.log(b);
+            }
+
+
+            // console.log("printing location set");
+            // console.log(locationSet);
+            // console.log(locationSet.size);
+
+        })
+
+    }
+    //console.log(`http://dev.virtualearth.net/REST/v1/Locations/${res[i].location.coordinates[1]},${res[i].location.coordinates[0]}?o=&key=As_wLgBGd9x-kbekvkeOHKxqnSfp9CiNcPHP2uR3Mkviy306NMQsDE94mVNOsg3D`);
+    return data;
+}
+
+
+// function waitRetryPromise() {
+//     let promise = Promise.resolve();
+//     return function rp(options) {
+//         return promise = promise
+//             .then(() => new Promise(resolve => setTimeout(resolve, 200)))
+//             .then(() => request_promise(options));
+//     }
+// }
+
+
+/**
+ *{ location: { type: 'Point', coordinates: [ 83.10508, 17.54384 ] },
+  _id: 5db1c8dc2822c02a008bd131,
+  createdAt: 2019-10-24T15:53:00.126Z,
+  __v: 0 }
+ */
+
+//extractData([{ location: { type: 'Point', coordinates: [ 83.10508, 17.54384 ] }}]);
+
