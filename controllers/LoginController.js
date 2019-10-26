@@ -1,7 +1,7 @@
 const User = require('../models/user');
 const mandal = require('../models/mandal');
 const activeAlerts = require('../models/activeAlerts');
-const tempAlerts = require('../models/tempAlerts');
+
 const flash = require('connect-flash');
 exports.Login = (req, res, next) => {
 

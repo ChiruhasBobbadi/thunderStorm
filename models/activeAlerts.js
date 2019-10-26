@@ -6,10 +6,10 @@ const activeAlertSchema = new Schema({
     mandal: {
         type: Schema.Types.ObjectId,
         ref: 'Mandal',
-        required: true
+
     },
     address:{
-        type: String,
+        type: Object,
         required: true
     },
     time: {

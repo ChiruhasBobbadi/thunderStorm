@@ -4,8 +4,12 @@ const client = new net.Socket();
 const globalAlerts = require('./models/globalAlerts');
 const opencage = require('opencage-api-client');
 const path = require('path');
+const rp = require('request-promise');
+const mandal = require('./models/mandal');
+const activeAlert = require('./models/activeAlerts');
 const mongoose = require('mongoose');
 const cron = require('node-cron');
+
 const request = require('request');
 let activeAlerts = [];
 let locationSet = new Set([]);
@@ -21,6 +25,8 @@ const a_version = '3';
 // # 2 - Binary format
 const a_format = '1';
 let f = [];
+let data = [];
+
 // # TYPE
 // # 1 - Flash
 // # 2 - Pulse
@@ -31,7 +37,8 @@ const msg_authenticate = {
     "p": a_partner_id,
     "v": a_version,
     "f": a_format,
-    "t": a_type };
+    "t": a_type
+};
 // lat lng bounds
 let p1 = [84.86216, 19.25476];
 let p2 = [83.58775, 19.22364];
@@ -143,9 +150,6 @@ function toJson(str) {
 //AIzaSyCnUYgxzVG_Yb9ZjVAuYBj1iLcE8Fp-QmQ
 
 
-
-
-
 mongoose.connect(MONGODB_URI)
     .then(result => {
         console.log(" dbconnected");
@@ -156,9 +160,8 @@ mongoose.connect(MONGODB_URI)
     });
 
 
-
-
 cron.schedule('0 */1 * * * *', () => {
+    console.log("called at " + new Date());
     globalAlerts.find({
         location: {
             $geoWithin: {
@@ -171,82 +174,74 @@ cron.schedule('0 */1 * * * *', () => {
     })
         .then(res => {
             if (res.length > 0) {
-                activeAlerts = (extractData(res));
-                console.log("hello");
-                console.log(activeAlerts);
-
-                // adding to active alerts
+                console.log("calling api");
+                return doTask(res);
             }
-        }).catch(err => {
+        }).then(locations => {
+
+        console.log(locations);
+        for (let i = 0; i < locations.length; i++) {
+
+            mandal.findOne({mandal: locations[i].locality})
+                .then(result => {
+
+                        const alerts = new activeAlert({mandal: result, address: locations[i], time: new Date().toISOString()});
+                        return alerts.save()
+
+
+
+                }).then(res => {
+                if (res)
+                    console.log("written to active alerts");
+            }).catch(error => {
+                console.log("error while writing active alerts");
+                console.log(error);
+            })
+
+        }
+
+    }).catch(err => {
         console.log(err);
     });
 });
 cron.schedule('0 */45 * * * *', () => {
+    console.log("set cleared at " + new Date());
     locationSet = null;
 });
 
-function extractData(res) {
 
-    let data = [];
+function make_api_call(lat, lng) {
+    return rp({
+        url: `http://dev.virtualearth.net/REST/v1/Locations/${lat},${lng}?o=&key=As_wLgBGd9x-kbekvkeOHKxqnSfp9CiNcPHP2uR3Mkviy306NMQsDE94mVNOsg3D`,
+        method: 'GET',
+        json: true
+    })
+}
 
-    console.log(res);
-
+async function processUsers(res) {
+    let result;
+    data = [];
     for (let i = 0; i < res.length; i++) {
 
-        //const rp = waitRetryPromise();
-        // console.log(rp);
+        result = (await make_api_call(res[i].location.coordinates[1], res[i].location.coordinates[0]));
 
-        // list is an array, i is current index
+        if (result.resourceSets[0].resources.length > 0) {
 
-        request(`http://dev.virtualearth.net/REST/v1/Locations/${res[i].location.coordinates[1]},${res[i].location.coordinates[0]}?o=&key=As_wLgBGd9x-kbekvkeOHKxqnSfp9CiNcPHP2uR3Mkviy306NMQsDE94mVNOsg3D`, (err, res, body) => {
-            let b;
-            try {
-                b = JSON.parse(body);
+            if (result.resourceSets[0].resources[0].address.adminDistrict === 'Ap' && !locationSet.has(result.resourceSets[0].resources[0].address.locality)) {
+                data.push(result.resourceSets[0].resources[0].address);
 
-                if (err) {
-                    return console.log(err);
-                }
-                if (b.resourceSets[0].resources.length > 0) {
-
-                    if (b.resourceSets[0].resources[0].address.adminDistrict === 'Ap' && !locationSet.has(b.resourceSets[0].resources[0].address.locality)) {
-                        data.push(b.resourceSets[0].resources[0].address);
-                        locationSet.add(b.resourceSets[0].resources[0].address.locality);
-                    }
-                }
-            } catch (e) {
-                console.log("json conversion error");
-                console.log(b);
+                locationSet.add(result.resourceSets[0].resources[0].address.locality);
             }
-
-
-            // console.log("printing location set");
-            // console.log(locationSet);
-            // console.log(locationSet.size);
-
-        })
+        }
 
     }
-    //console.log(`http://dev.virtualearth.net/REST/v1/Locations/${res[i].location.coordinates[1]},${res[i].location.coordinates[0]}?o=&key=As_wLgBGd9x-kbekvkeOHKxqnSfp9CiNcPHP2uR3Mkviy306NMQsDE94mVNOsg3D`);
+
+    console.log(locationSet);
+    console.log(locationSet.size);
     return data;
 }
 
-
-// function waitRetryPromise() {
-//     let promise = Promise.resolve();
-//     return function rp(options) {
-//         return promise = promise
-//             .then(() => new Promise(resolve => setTimeout(resolve, 200)))
-//             .then(() => request_promise(options));
-//     }
-// }
-
-
-/**
- *{ location: { type: 'Point', coordinates: [ 83.10508, 17.54384 ] },
-  _id: 5db1c8dc2822c02a008bd131,
-  createdAt: 2019-10-24T15:53:00.126Z,
-  __v: 0 }
- */
-
-//extractData([{ location: { type: 'Point', coordinates: [ 83.10508, 17.54384 ] }}]);
+async function doTask(res) {
+    return await processUsers(res);
+}
 
