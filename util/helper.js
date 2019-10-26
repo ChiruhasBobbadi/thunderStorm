@@ -1,4 +1,4 @@
-const values = require('../values');
+const values = require('./values');
 const globalAlerts = require('../models/globalAlerts');
 const rp = require('request-promise');
 const mandal = require('../models/mandal');
@@ -154,5 +154,16 @@ async function processUsers(res) {
  async function doTask(res) {
     return await processUsers(res);
 }
+
+module.exports.nullify = (db,collection)=>{
+    db.dropCollection(collection).then(res=>{
+        console.log(collection + " dropped");
+    }).catch(err=>{
+        console.log("exception in deleting collection");
+    })
+};
+
+
+
 
 

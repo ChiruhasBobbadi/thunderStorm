@@ -9,7 +9,7 @@ const cookieParser = require('cookie-parser');
 const MongoDBStore = require('connect-mongodb-session')(session);
 const logger = require('morgan');
 const helper = require('./util/helper');
-const values = require('./values');
+const values = require('./util/values');
 const mongoose = require('mongoose');
 const globalAlerts = require('./models/globalAlerts');
 const indexRouter = require('./routes/index');
@@ -32,6 +32,20 @@ const store = new MongoDBStore({
     uri: values.mongoDbUri,
     collection: 'sessions'
 });
+
+mongoose.connect(values.mongoDbUri)
+    .then(result => {
+        let db = mongoose.connection;
+        helper.nullify(db, "activealerts");
+        helper.nullify(db, "globalalerts");
+        console.log("Database connected");
+        console.log("server started ");
+        app.listen(3000);
+    })
+    .catch(err => {
+        console.log(err);
+    });
+
 
 // sessions
 app.use(
@@ -100,9 +114,6 @@ client.on('close', function () {
 });
 
 
-
-
-
 // error handler
 app.use(function (err, req, res, next) {
     // set locals, only providing error in development
@@ -114,17 +125,5 @@ app.use(function (err, req, res, next) {
     res.render('error');
 });
 
-
-mongoose
-    .connect(
-        values.mongoDbUri
-    )
-    .then(result => {
-        console.log("connected");
-        app.listen(3000);
-    })
-    .catch(err => {
-        console.log(err);
-    });
 
 module.exports = app;

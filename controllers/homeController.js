@@ -34,7 +34,7 @@ exports.postHome = (req, res, next) => {
 
     console.log(_id);
     activeAlerts.findOne({mandal: _id}).populate('mandal').then(activeAlerts => {
-        console.log("logging active alerts " + activeAlerts);
+
         if (activeAlerts) {
             req.session.active = activeAlerts.mandal;
             const saved = new savedAlerts({
