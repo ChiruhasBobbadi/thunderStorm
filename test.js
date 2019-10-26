@@ -1,21 +1,13 @@
 const net = require('net');
-const fs = require('fs');
 const client = new net.Socket();
 const globalAlerts = require('./models/globalAlerts');
-const opencage = require('opencage-api-client');
-const path = require('path');
 const rp = require('request-promise');
 const mandal = require('./models/mandal');
 const activeAlert = require('./models/activeAlerts');
 const mongoose = require('mongoose');
 const cron = require('node-cron');
-
-const request = require('request');
-let activeAlerts = [];
 let locationSet = new Set([]);
 
-
-const OCD_API_KEY = "943b5710b24b40a69e77d54f33bb7550";
 //  PARTNER ID (PROVIDED BY EARTH NETWORKS)
 const a_partner_id = '5B62696F-0DBD-4DEC-9128-A0AFD05F164D';
 // # VERSION
@@ -26,6 +18,7 @@ const a_version = '3';
 const a_format = '1';
 let f = [];
 let data = [];
+let tempmandalName;
 
 // # TYPE
 // # 1 - Flash
@@ -118,8 +111,6 @@ function toJson(str) {
         const list = str.split('\u0000\u0000\u0000�');
         //console.log(list);
         if (list.length > 2) {
-
-
             for (let i = 1; i < list.length; i++) {
                 f.push(JSON.parse(list[i].trim()));
 
@@ -127,6 +118,8 @@ function toJson(str) {
                 f[i - 1].location.type = 'Point';
                 f[i - 1].location.coordinates = [f[i - 1].longitude, f[i - 1].latitude];
                 f[i - 1].createdAt = new Date().toISOString();
+
+
             }
 
         } else {
@@ -140,7 +133,7 @@ function toJson(str) {
         return f;
     } catch (e) {
         console.log("Exception occured");
-        console.log(f);
+        console.log(str);
     }
 
 
@@ -182,12 +175,18 @@ cron.schedule('0 */1 * * * *', () => {
         console.log(locations);
         for (let i = 0; i < locations.length; i++) {
 
-            mandal.findOne({mandal: locations[i].locality})
+            tempmandalName = locations[i].locality;
+            mandal.findOne({mandal: locations[i].locality.trim()})
                 .then(result => {
 
-                        const alerts = new activeAlert({mandal: result, address: locations[i], time: new Date().toISOString()});
+                    if (result) {
+                        const alerts = new activeAlert({
+                            mandal: result,
+                            address: locations[i],
+                            time: new Date().toISOString()
+                        });
                         return alerts.save()
-
+                    }
 
 
                 }).then(res => {
@@ -223,16 +222,22 @@ async function processUsers(res) {
     data = [];
     for (let i = 0; i < res.length; i++) {
 
-        result = (await make_api_call(res[i].location.coordinates[1], res[i].location.coordinates[0]));
+        try {
+            result = (await make_api_call(res[i].location.coordinates[1], res[i].location.coordinates[0]));
+            if (result.resourceSets[0].resources.length > 0) {
 
-        if (result.resourceSets[0].resources.length > 0) {
+                if (result.resourceSets[0].resources[0].address.adminDistrict === 'Ap' && !locationSet.has(result.resourceSets[0].resources[0].address.locality)) {
+                    data.push(result.resourceSets[0].resources[0].address);
 
-            if (result.resourceSets[0].resources[0].address.adminDistrict === 'Ap' && !locationSet.has(result.resourceSets[0].resources[0].address.locality)) {
-                data.push(result.resourceSets[0].resources[0].address);
-
-                locationSet.add(result.resourceSets[0].resources[0].address.locality);
+                    locationSet.add(result.resourceSets[0].resources[0].address.locality);
+                }
             }
+        } catch (e) {
+            console.log("Lat Lng to point conversion timed out");
+            console.log("retrying..");
+            i--;
         }
+
 
     }
 
@@ -244,4 +249,5 @@ async function processUsers(res) {
 async function doTask(res) {
     return await processUsers(res);
 }
+
 
