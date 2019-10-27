@@ -9,4 +9,6 @@ router.get('/service',route,alertController.serviceAlert);
 
 
 
+
+
 module.exports = router;

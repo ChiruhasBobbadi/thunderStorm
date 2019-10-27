@@ -1,5 +1,5 @@
 const servicedAlerts = require('../models/servicedAlerts');
-
+const path = require('path');
 const json2xls = require('json2xls');
 const fs = require('fs');
 
@@ -25,41 +25,15 @@ exports.postReports = (req, res, next) => {
     // const toDate = req.body.to;
     //
 
-    var from = new Date(req.body.date1).toISOString();
-    var to = new Date(req.body.date2).toISOString();
+    let from = new Date(req.body.date1).toISOString();
+    let to = new Date(req.body.date2).toISOString();
 
-
-    // console.log(iso1);
-    // servicedAlerts.find({date:{$gte:from,$lte:to}}).then(servicedAlerts=>{
-    //    req.report = servicedAlerts;
-    //     console.log(servicedAlerts);
-    // }).catch(err=>{
-    //     console.log(err);
-    // })
-
-    // const serviced = new servicedAlerts({
-    //     time: new Date(),
-    //     date: new Date().toISOString(),
-    //     mandal: {
-    //         "dist": "Krishna",
-    //         "mandal": "vij",
-    //         "mroName": "Chiruhas",
-    //         "mroPhone": "7386732234",
-    //         "hasWhatsApp": "false",
-    //         "hasTelegram": "true"
-    //     },
-    //     messaged: true,
-    //     messagedTime: new Date(),
-    //     called: true,
-    //     calledTime: new Date()
-    // });
-    // serviced.save().then(res => {
-    //     if (res) {
-    //         return
-    //     }
-    // })
+    req.session.fromDate = from;
+    req.session.toDate = to;
 
     servicedAlerts.find({date : {$lte: to, $gte: from}}).then(servicedAlerts => {
+
+           req.session.report = servicedAlerts;
             req.report = servicedAlerts;
             servicedAlerts.from = req.body.date1;
             servicedAlerts.to = req.body.date2;
@@ -67,9 +41,12 @@ exports.postReports = (req, res, next) => {
                 reports:servicedAlerts
             });
 
+
     }).catch(err => {
         console.log(err);
     })
+
+
 
 
     // console.log(d1);
@@ -77,37 +54,27 @@ exports.postReports = (req, res, next) => {
 };
 
 exports.download = (req, res, next) => {
-    // const data = [
-    //     {
-    //         "userId": 1,
-    //         "userPhoneNumber": 1888888888,
-    //         "userAddress": 'xxxx',
-    //         "date": '2013/09/10 09:10'  // string
-    //     },
-    //     {
-    //         "userId": 2,
-    //         "userPhoneNumber": 1888888888,
-    //         "userAddress": 'xxxx',
-    //         "date": new Date()
-    //     },
-    //     {
-    //         "userId": 3,
-    //         "userPhoneNumber": 1888888888,
-    //         "userAddress": 'xxxx',
-    //         "date": new Date()
-    //     }
-    // ];
 
-    const json = {
-        foo: 'bar',
-        qux: 'moo',
-        poo: 123,
-        stux: new Date()
-    };
 
-    var xls = json2xls(json);
-    fs.writeFileSync('data.xlsx', xls, 'binary');
+    // let from = new Date(req.session.fromDate).toISOString();
+    // let to = new Date(req.session.toDate).toISOString();
 
+    const reports = req.session.report;
+    //
+    let xls = json2xls(reports);
+    let p = path.join('files','report.xlsx');
+    fs.writeFileSync(p, xls, 'binary');
+
+
+    fs.readFile(p,(err,data)=>{
+        if(err)
+            return next(err);
+
+        res.setHeader('Content-type','application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+        res.setHeader('Content-Disposition','inline; filename="report.xlsx"');
+        res.send(data);
+
+    })
 };
 
 

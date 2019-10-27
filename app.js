@@ -19,7 +19,7 @@ const homeRoute = require('./routes/home');
 const reportRoute = require('./routes/reports');
 const adminRoute = require('./routes/admin');
 const flash = require('connect-flash');
-
+const multer = require('multer');
 
 const app = express();
 
@@ -35,12 +35,19 @@ const store = new MongoDBStore({
 
 mongoose.connect(values.mongoDbUri)
     .then(result => {
-        let db = mongoose.connection;
-        helper.nullify(db, "activealerts");
-        helper.nullify(db, "globalalerts");
-        console.log("Database connected");
-        console.log("server started ");
-        app.listen(3000);
+        if(result){
+            let db = mongoose.connection;
+            helper.nullify(db, "activealerts");
+            helper.nullify(db, "globalalerts");
+            console.log("Database connected");
+            console.log("server started ");
+            app.listen(3000);
+        }
+        else {
+            console.log("failed to connect db ");
+            console.log(result);
+        }
+
     })
     .catch(err => {
         console.log(err);
@@ -57,8 +64,9 @@ app.use(
     })
 );
 
-app.use(flash());
 
+app.use(flash());
+app.use(multer({storage:values.uploadConfig,fileFilter:values.fileFilter}).single('file'));
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
@@ -70,12 +78,12 @@ app.use('/', indexRouter);
 app.use(loginRoute);
 app.use(alertRoute);
 app.use(homeRoute);
-app.use('/admin', adminRoute);
 app.use(reportRoute);
+app.use('/admin', adminRoute);
+
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
     next(createError(404));
-
 });
 
 
@@ -90,14 +98,12 @@ client.on('error', (error) => {
     console.log(error);
 
 });
+
 client.on('data', function (data) {
 
     const str = (data.toString('utf-8').trim());
-
-
     // converting all the data to json data
     const jsonList = helper.toJson(str);
-
     // inserting all the fetched results into global Alerts collection
     globalAlerts.insertMany(jsonList).then(res => {
 

@@ -128,29 +128,49 @@
             <!-- Text input-->
 
             <center>
-                <div class="form-group" align-middle>
+                <div align-middle class="form-group">
                     <div class="row">
-                        <label class="col-md-4 control-label lead">has-Whatsapp</label>
-                        <div class="col-md-4 inputGroupContainer">
-                            <div class="input-group">
+                        <label class="col-md-4 control-label">has-Whatsapp</label>
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <%if(mro.hasWhatsApp){%>
+                        <label class="radio-inline">
+                            <input class="with-gap" name="group1" type="radio" id="yes" value="yes" checked="true"/>Yes</label>
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <label class="radio-inline">
+                            <input class="with-gap" name="group1" type="radio" id="no" value="no"/>No</label>
+                        <%} else{%>
 
-                                <input name="wha" placeholder="Whatsapp" class="form-control" type="text">
-                            </div>
-                        </div>
+                        <label class="radio-inline">
+                            <input class="with-gap" name="group1" type="radio" id="yes" value="yes" />Yes</label>
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <label class="radio-inline">
+                            <input class="with-gap" name="group1" type="radio" id="no" value="no" checked="true"/>No</label>
+
+                        <%}%>
+
                     </div>
                 </div>
             </center>
 
             <center>
-                <div class="form-group" align-middle>
+                <div align-middle class="form-group">
                     <div class="row">
-                        <label class="col-md-4 control-label lead">has-Telegram</label>
-                        <div class="col-md-4 inputGroupContainer">
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                                <input name="Telegram" placeholder="Telegram" class="form-control" type="text">
-                            </div>
-                        </div>
+                        <label class="col-md-4 control-label">has-Telegram</label>
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <%if(mro.hasTelegram){%>
+                            <label class="radio-inline">
+                                <input class="with-gap" name="group2" type="radio" id="yes" value="yes" checked='true'/>Yes</label>
+                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                            <label class="radio-inline">
+                                <input class="with-gap" name="group2" type="radio" id="no" value="no"/>No</label>
+                        <%} else{%>
+                            <label class="radio-inline">
+                                <input class="with-gap" name="group2" type="radio" id="yes" value="yes" />Yes</label>
+                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                            <label class="radio-inline">
+                                <input class="with-gap" name="group2" type="radio" id="no" value="no" checked="true"/>No</label>
+
+                        <%}%>
                     </div>
                 </div>
             </center>

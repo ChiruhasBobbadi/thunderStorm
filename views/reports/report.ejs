@@ -37,7 +37,7 @@
                 <a class="nav-link" href="/home">Alerts</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="/report">Reports<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/reports">Reports<span class="sr-only">(current)</span></a>
 
             </li>
             <li class="nav-item">
@@ -52,54 +52,7 @@
 <div class="container jumbotron vertical-center align-middle">
 
     <form action="/reports" method="post" id="frm">
-        <!--        <div class=" container row">-->
-        <!--&lt;!&ndash;            <div class='col-sm-4'>&ndash;&gt;-->
-        <!--&lt;!&ndash;                <div class="form-group">&ndash;&gt;-->
-        <!--&lt;!&ndash;                    <div class='input-group date ' id='datetimepicker1 date1' name="date1">&ndash;&gt;-->
-        <!--&lt;!&ndash;                        <input type='text' class="form-control" />&ndash;&gt;-->
-        <!--&lt;!&ndash;                        <span class="input-group-addon">&ndash;&gt;-->
-        <!--&lt;!&ndash;                                  <span class="glyphicon glyphicon-calendar"></span>&ndash;&gt;-->
-        <!--&lt;!&ndash;                              </span>&ndash;&gt;-->
-        <!--&lt;!&ndash;                    </div>&ndash;&gt;-->
-        <!--&lt;!&ndash;                </div>&ndash;&gt;-->
-        <!--&lt;!&ndash;            </div>&ndash;&gt;-->
-        <!--&lt;!&ndash;            <div class="col-sm-4">&ndash;&gt;-->
-        <!--            -->
-        <!--            </div>-->
 
-        <!--            <div class='col-sm-4'>-->
-        <!--                <div class="form-group">-->
-        <!--                    <div class='input-group date date2' id='datetimepicker2 date2' name="date2">-->
-        <!--                        <input type='text' class="form-control" />-->
-        <!--                        <span class="input-group-addon">-->
-        <!--                              <span class="glyphicon glyphicon-calendar"></span>-->
-        <!--                          </span>-->
-        <!--                    </div>-->
-        <!--                </div>-->
-        <!--            </div>-->
-        <!--        </div>-->
-
-
-        <!--        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>-->
-        <!--        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/locales/bootstrap-datepicker.es.min.js"></script>-->
-        <!--        <script >-->
-        <!--            $(function () {-->
-        <!--                $('#datetimepicker1').datepicker({-->
-        <!--                    format: "dd/mm/yyyy",-->
-        <!--                    language: "en",-->
-        <!--                    autoclose: true,-->
-        <!--                    todayHighlight: true-->
-        <!--                });-->
-        <!--            });-->
-        <!--            $(function () {-->
-        <!--                $('#datetimepicker2').datepicker({-->
-        <!--                    format: "dd/mm/yyyy",-->
-        <!--                    language: "en",-->
-        <!--                    autoclose: true,-->
-        <!--                    todayHighlight: true-->
-        <!--                });-->
-        <!--            });-->
-        <!--        </script>-->
 
         <%if(reports.length>0){%>
         <input type="date" name="date1" required="true" value=<%=reports.from%> >
@@ -146,13 +99,16 @@
                         <td><%=alert.calledTime %></td>
                         <td><%=alert.date%></td>
                     </tr>
-
-
-
-
                     </tbody>
-                <% } }%>
+
+
+        <% }%>
             </table>
+            <br>
+
+           <center> <a href="/downloadReports"><input type="submit" class="btn-primary btn" value="Download"></a></center>
+            <br>
+            <%}%>
 
     </div>
 

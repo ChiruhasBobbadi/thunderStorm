@@ -1,3 +1,5 @@
+const multer = require('multer');
+
 module.exports.bingKey = 'As_wLgBGd9x-kbekvkeOHKxqnSfp9CiNcPHP2uR3Mkviy306NMQsDE94mVNOsg3D';
 module.exports.mongoDbUri = 'mongodb://localhost:27017/ThunderStorm';
 
@@ -21,3 +23,23 @@ module.exports.msg_auth = {
     "f": module.exports.a_format,
     "t": module.exports.a_type
 };
+
+
+module.exports.uploadConfig=multer.diskStorage({
+    destination:(req,file,cb)=>{
+        cb(null,'uploads')
+    },
+    filename:(req,file,cb)=>{
+
+        cb(null,"modifiedMro.xlsx");
+
+    }
+});
+
+module.exports.fileFilter=(req,file,cb)=>{
+
+    if(file.mimetype==='application/vnd.ms-excel' || file.mimetype==='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
+        cb(null,true);
+    else
+        cb(null,false);
+}

@@ -45,43 +45,75 @@
 
         </ul>
     </div>
-    <
+
 </nav>
+
 <div class="jumbotron vertical-center align-middle">
-    <center>
-        <button type="file" class="btn btn-primary">Upload File</button>
-    </center>
+   <!-- error handling code-->
+    <% if(error.length > 0){ %>
+    <div class="alert alert-danger" role="alert">
+        <%= error %>
+    </div>
+    <% } %>
+    <form method="post" action="/admin/upload" enctype="multipart/form-data">
+        <center>
+            <input type="file" name='file'>
+            <input type="submit" class="btn btn-primary" value="Upload">
+        </center>
+    </form>
+
     <br>
     <center>
         <h5>please upload the document in the correct format</h5>
     </center>
     <br>
     <center>
-        <button class="btn btn-primary"><i class="fa fa-download"></i> Download Format Document</button>
+       <a href="/admin/downloadRef"> <button class="btn btn-primary"><i class="fa fa-download"></i> Download Format Document</button></a>
     </center>
 </div>
 <br>
 
-<% if(mro.length > 0){ %>
-    <div class="container text-center">
-        <p class="h5">The following MRO Details will be updated.</p>
-    </div>
-    <br>
-    <div class="container">
-        <table class="table table-striped">
-            <thead class="table-primary">
-            <tr>
-                <th scope="col" align="center">Mro-name</th>
-                <th scope="col" align="center">phone-no</th>
-                <th scope="col" align="center">Mandal</th>
-                <th scope="col" align="center">has-Whatsapp</th>
-                <th scope="col" align="center">has-Telegram</th>
-            </tr>
-            </thead>
-        </table>
+<form method="post" action="/admin/update">
+    <% if(mros.length > 0){ %>
 
-    </div>
+    <%for (let mro of mros){ %>
+        <div class="container text-center">
+            <p class="h5">The following MRO Details will be updated.</p>
+        </div>
+        <br>
+        <div class="container">
+            <table class="table table-striped">
+                <thead class="table-primary">
+                <tr>
+                    <th scope="col" align="center">Mro-Name</th>
+                    <th scope="col" align="center">phone-no</th>
+                    <th scope="col" align="center">Mandal</th>
+                    <th scope="col" align="center">has-Whatsapp</th>
+                    <th scope="col" align="center">has-Telegram</th>
+                </tr>
+                </thead>
+                <tbody>
+                <td scope="col" align="center"><%= mro.mroName %></td>
+                <td scope="col" align="center"><%= mro.mroPhone %></td>
+                <td scope="col" align="center"><%= mro.mandal %></td>
+                <td scope="col" align="center"><%= mro.hasWhatsApp %></td>
+                <td scope="col" align="center"><%= mro.hasTelegram %></td>
 
-<% } %>
+                </tbody>
+
+
+            </table>
+
+            <center>
+                <input type="submit" class="btn btn-primary" value="Update">
+            </center>
+
+
+        </div>
+
+    <% } }%>
+</form>
+
+
 </body>
 </html>

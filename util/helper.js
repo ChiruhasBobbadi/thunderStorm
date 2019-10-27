@@ -140,7 +140,7 @@ async function processUsers(res) {
             console.log("Lat Lng to point conversion timed out");
             console.log("retrying..");
             console.log(e);
-            //i--;
+            i--;
         }
 
 

@@ -7,6 +7,6 @@ router.get('/reports', route, reportController.getReports);
 
 router.post('/reports', route, reportController.postReports);
 
-router.get('/downloadReport',route,reportController.download);
+router.get('/downloadReports',route,reportController.download);
 
 module.exports = router;
