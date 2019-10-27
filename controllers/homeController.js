@@ -34,7 +34,7 @@ exports.postHome = (req, res, next) => {
 
     console.log(_id);
     activeAlerts.findOne({mandal: _id}).populate('mandal').then(activeAlerts => {
-
+        console.log(activeAlerts);
         if (activeAlerts) {
             req.session.active = activeAlerts.mandal;
             const saved = new savedAlerts({
@@ -42,6 +42,9 @@ exports.postHome = (req, res, next) => {
                 mandal: activeAlerts.mandal
             });
             return saved.save()
+        }
+        else{
+            return res.redirect('/error');
         }
     }).then(res => {
         if (res)
@@ -58,6 +61,10 @@ exports.postHome = (req, res, next) => {
 
 };
 
+exports.error=(req,res,next)=>{
+
+    res.render('alerts/error');
+};
 
 /**
  * for deleting active alert and writing alert to savedAlerts.
