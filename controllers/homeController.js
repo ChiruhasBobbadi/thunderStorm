@@ -2,6 +2,7 @@ const activeAlerts = require('../models/activeAlerts');
 
 const savedAlerts = require('../models/savedAlerts');
 
+
 exports.getHome = (req, res, next) => {
     /**
      * fetching active alerts and displaying the view..
@@ -65,6 +66,15 @@ exports.error=(req,res,next)=>{
 
     res.render('alerts/error');
 };
+
+
+exports.logout = (req, res, next) => {
+
+    req.session.destroy();
+    res.redirect('/login');
+
+};
+
 
 /**
  * for deleting active alert and writing alert to savedAlerts.

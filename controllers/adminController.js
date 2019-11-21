@@ -107,9 +107,13 @@ exports.downloadRef = (req, res, next) => {
 exports.getUpdateMro = (req, res, next) => {
 
 
-    res.render('admin/updateMro', {
-        mro: req.session.active
-    });
+    if(req.session.isAdmin){
+        res.render('admin/updateMro', {
+            mro: req.session.active
+        });
+    }
+    res.redirect('/admin/login?mro=true');
+
 };
 
 exports.postUpdateMro = (req, res, next) => {
@@ -146,13 +150,25 @@ exports.postUpdateMro = (req, res, next) => {
 };
 
 exports.adminLogin = (req, res, next) => {
-    res.render('admin/login', {
-        errorMessage: req.flash('admin_login')
-    });
+   if( console.log()){
+       res.render('admin/login', {
+           errorMessage: req.flash('admin_login'),
+           method:'/admin/login?mro=true'
+       });
+   }else{
+       res.render('admin/login', {
+           errorMessage: req.flash('admin_login'),
+           method:'/admin/login'
+       });
+   }
+
 };
 
 exports.postLogin = (req, res, next) => {
 
+    const mro= req.query.mro;
+
+    //TODO
     const email = "admin@gmail.com";
 
     if (req.body.email === email) {
@@ -160,7 +176,10 @@ exports.postLogin = (req, res, next) => {
             if (result) {
                 if (result.password === req.body.password) {
                     req.session.isAdmin = true;
+                    if(mro)
                     res.redirect('/admin/update-mro');
+                    else
+                        res.redirect('/admin/update');
                 } else {
                     req.flash('admin_login', "Invalid emailID or password");
                     res.redirect('/admin/login');

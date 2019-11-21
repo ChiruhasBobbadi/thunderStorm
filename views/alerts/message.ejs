@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Message Generation</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+
+    <!-- Bootstrap CSS -->
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script crossorigin="anonymous"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="/home">Thunder-Alert System</a>
+    <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+            data-target="#navbarNav" data-toggle="collapse" type="button">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+
+            <li class="nav-item active">
+                <a class="nav-link" href="/home">Alerts</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="/reports">Reports<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/admin/update">admin</a>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+<script>
+    function copy() {
+        let textarea = document.getElementById("textarea");
+        textarea.select();
+        document.execCommand("copy");
+    }
+
+    function timeNow(i) {
+        var d = new Date(),
+            h = (d.getHours() < 10 ? '0' : '') + d.getHours(),
+            m = (d.getMinutes() < 10 ? '0' : '') + d.getMinutes();
+        i.value = h + ':' + m;
+    }
+</script>
+<div class="container">
+    <br>
+    <%if(errorMessage.length>0){%>
+    <div class="alert alert-danger" role="alert">
+        <%=errorMessage%>
+    </div>
+    <%}%>
+
+    <br>
+    <div class="well form-horizontal jumbotron vertical-center align-middle container">
+        <center>
+        <textarea cols="50" id="textarea" name="message" rows="10">
+            <%=obj.message%>
+            </textarea>
+        </center>
+        <br>
+            <center>
+            <button class="btn btn-primary" onclick="copy()">Copy</button>
+        </center>
+    </div>
+
+    <form action="/message" method="post">
+
+        <table class="table table-striped">
+            <thead class="table-primary">
+            <tr>
+                <th align="center" scope="col">Messaged</th>
+                <th align="center" scope="col">Called</th>
+                <th align="center" scope="col">Messaged time</th>
+                <th align="center" scope="col">Called time</th>
+                <th align="center" scope="col">District</th>
+                <th align="center" scope="col">Mandal</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <input class="with-gap" name="messaged" type="radio" id="yes" value="yes" checked='true'/>Yes
+                    <input class="with-gap" name="messaged" type="radio" id="no" value="no"/>No
+                </td>
+                <td>
+                    <input class="with-gap" name="called" type="radio" id="yes" value="yes" checked='true'/>Yes
+                    <input class="with-gap" name="called" type="radio" id="no" value="no"/>No
+                </td>
+                <td>
+                    <input id="messageTime" name="messageTime" onclick="timeNow(messageTime)" type="text"/>
+                </td>
+                <td>
+                    <input id="callTime" name="callTime" onclick="timeNow(callTime)" type="text"/>
+                </td>
+                <td>
+                    <%=obj.dist%>
+                </td>
+                <td>
+                    <%=obj.mandal%>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <center>
+            <input class="btn btn-primary" type="submit">
+
+        </center>
+
+
+    </form>
+
+
+</div>
+
+
+</body>
+</html>

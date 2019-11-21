@@ -58,6 +58,7 @@ let p7 = [80.27247, 13.299];
 
 
 // node-cron call calls every 1 min for now
+let len=0;
 cron.schedule('0 */1 * * * *', () => {
     console.log("called at " + new Date());
     globalAlerts.find({
@@ -71,37 +72,44 @@ cron.schedule('0 */1 * * * *', () => {
         }
     })
         .then(res => {
-            if (res.length > 0) {
+            if (res.length>0) {
                 console.log("calling api");
+               //len+=res.length;
+                //console.log(res);
+                console.log("number of record: " + res.length);
                 return doTask(res);
             }
+
+            console.log("no andhra alerts");
+
         }).then(locations => {
 
-        console.log(locations);
-        for (let i = 0; i < locations.length; i++) {
+            if(locations){
+                console.log(locations);
+                for (let i = 0; i < locations.length; i++) {
 
 
-            mandal.findOne({mandal: locations[i].locality.trim()})
-                .then(result => {
+                    mandal.findOne({mandal: locations[i].locality.trim()})
+                        .then(result => {
 
-                    if (result) {
-                        const alerts = new activeAlert({
-                            mandal: result,
-                            address: locations[i],
-                            time: new Date().toTimeString().split(" ")[0]
-                        });
-                        return alerts.save()
-                    }
+                            if (result) {
+                                const alerts = new activeAlert({
+                                    mandal: result,
+                                    address: locations[i],
+                                    time: new Date().toTimeString().split(" ")[0]
+                                });
+                                return alerts.save()
+                            }
 
 
-                }).then(res => {
-                if (res)
-                    console.log("written to active alerts");
-            }).catch(error => {
-                console.log("error while writing active alerts");
-                console.log(error);
-            })
-
+                        }).then(res => {
+                        if (res)
+                            console.log("written to active alerts");
+                    }).catch(error => {
+                        console.log("error while writing active alerts");
+                        console.log(error);
+                    })
+            }
         }
 
     }).catch(err => {

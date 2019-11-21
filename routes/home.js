@@ -8,4 +8,7 @@ router.get('/home',route,homeController.getHome);
 router.post('/home',route,homeController.postHome);
 
 router.get('/error',route,homeController.error);
+
+router.get('/logout',homeController.logout);
+
 module.exports = router;

@@ -19,8 +19,8 @@ router.post('/login',adminController.postLogin);
 
 router.get('/downloadRef',adminController.downloadRef);
 
-router.get('/update-mro',route,adminController.getUpdateMro);
+router.get('/update-mro',adminController.getUpdateMro);
 
-router.post('/update-mro',route,adminController.postUpdateMro);
+router.post('/update-mro',adminController.postUpdateMro);
 
 module.exports = router;

@@ -31,22 +31,22 @@ exports.postReports = (req, res, next) => {
     req.session.fromDate = from;
     req.session.toDate = to;
 
-    servicedAlerts.find({date : {$lte: to, $gte: from}}).then(servicedAlerts => {
+    servicedAlerts.find({date: {$lte: to, $gte: from}}).then(servicedAlerts => {
 
-           req.session.report = servicedAlerts;
-            req.report = servicedAlerts;
-            servicedAlerts.from = req.body.date1;
-            servicedAlerts.to = req.body.date2;
-            res.render('reports/report', {
-                reports:servicedAlerts
-            });
+        req.session.report = servicedAlerts;
+        req.report = servicedAlerts;
+
+
+        servicedAlerts.from = req.body.date1;
+        servicedAlerts.to = req.body.date2;
+        res.render('reports/report', {
+            reports: servicedAlerts
+        });
 
 
     }).catch(err => {
         console.log(err);
     })
-
-
 
 
     // console.log(d1);
@@ -62,16 +62,16 @@ exports.download = (req, res, next) => {
     const reports = req.session.report;
     //
     let xls = json2xls(reports);
-    let p = path.join('files','report.xlsx');
+    let p = path.join('files', 'report.xlsx');
     fs.writeFileSync(p, xls, 'binary');
 
 
-    fs.readFile(p,(err,data)=>{
-        if(err)
+    fs.readFile(p, (err, data) => {
+        if (err)
             return next(err);
 
-        res.setHeader('Content-type','application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
-        res.setHeader('Content-Disposition','inline; filename="report.xlsx"');
+        res.setHeader('Content-type', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+        res.setHeader('Content-Disposition', 'inline; filename="report.xlsx"');
         res.send(data);
 
     })
