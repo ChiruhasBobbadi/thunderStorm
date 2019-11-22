@@ -1,0 +1,3352 @@
+[
+  {
+    "sno": 1,
+    "old": "Laxminarasampet",
+    "new": "null"
+  },
+  {
+    "sno": 2,
+    "old": "Ganguvari Singadam",
+    "new": "null"
+  },
+  {
+    "sno": 3,
+    "old": "Veeraghattam",
+    "new": "no change"
+  },
+  {
+    "sno": 4,
+    "old": "Palakonda",
+    "new": "no change"
+  },
+  {
+    "sno": 5,
+    "old": "Polaki",
+    "new": "null"
+  },
+  {
+    "sno": 6,
+    "old": "Etcherla",
+    "new": "no change"
+  },
+  {
+    "sno": 8,
+    "old": "Ponduru",
+    "new": "no change"
+  },
+  {
+    "sno": 7,
+    "old": "Santhakaviti",
+    "new": "no change"
+  },
+  {
+    "sno": 9,
+    "old": "Pachipenta",
+    "new": "no change"
+  },
+  {
+    "sno": 10,
+    "old": "Bhamini",
+    "new": "no change"
+  },
+  {
+    "sno": 11,
+    "old": "Pathapatnam",
+    "new": "no change"
+  },
+  {
+    "sno": 12,
+    "old": "Hiramandalam",
+    "new": "no change"
+  },
+  {
+    "sno": 13,
+    "old": "Rajam",
+    "new": "Razam"
+  },
+  {
+    "sno": 14,
+    "old": "Santhabommali",
+    "new": "no change"
+  },
+  {
+    "sno": 15,
+    "old": "Jalumuru",
+    "new": "no change"
+  },
+  {
+    "sno": 16,
+    "old": "Gara",
+    "new": "no change"
+  },
+  {
+    "sno": 17,
+    "old": "Vajrapukothuru",
+    "new": "no change"
+  },
+  {
+    "sno": 19,
+    "old": "Vangara",
+    "new": "no change"
+  },
+  {
+    "sno": 18,
+    "old": "Dumbriguda",
+    "new": "no change"
+  },
+  {
+    "sno": 21,
+    "old": "Srikakulam",
+    "new": "no change"
+  },
+  {
+    "sno": 22,
+    "old": "Komarada",
+    "new": "no change"
+  },
+  {
+    "sno": 20,
+    "old": "Saravakota",
+    "new": "no change"
+  },
+  {
+    "sno": 24,
+    "old": "Pusapatirega",
+    "new": "no change"
+  },
+  {
+    "sno": 23,
+    "old": "Kotabommal",
+    "new": "Kotabommali"
+  },
+  {
+    "sno": 26,
+    "old": "Seethanagaram",
+    "new": "no change"
+  },
+  {
+    "sno": 25,
+    "old": "Sarubujjili",
+    "new": "no change"
+  },
+  {
+    "sno": 29,
+    "old": "Araku Valley",
+    "new": "no change"
+  },
+  {
+    "sno": 28,
+    "old": "Therlam",
+    "new": "no change"
+  },
+  {
+    "sno": 27,
+    "old": "Palasa",
+    "new": "no change"
+  },
+  {
+    "sno": 30,
+    "old": "Burja",
+    "new": "no change"
+  },
+  {
+    "sno": 31,
+    "old": "Dattirajeru",
+    "new": "no change"
+  },
+  {
+    "sno": 32,
+    "old": "Kanchili",
+    "new": "no change"
+  },
+  {
+    "sno": 33,
+    "old": "Hukumpeta",
+    "new": "no change"
+  },
+  {
+    "sno": 34,
+    "old": "Parvathipuram",
+    "new": "no change"
+  },
+  {
+    "sno": 35,
+    "old": "K Kotapadu",
+    "new": "K.Kotapadu"
+  },
+  {
+    "sno": 36,
+    "old": "Narasannapeta",
+    "new": "no change"
+  },
+  {
+    "sno": 37,
+    "old": "Kaviti",
+    "new": "no change"
+  },
+  {
+    "sno": 38,
+    "old": "Ravikamatham",
+    "new": "no change"
+  },
+  {
+    "sno": 39,
+    "old": "Kurupam",
+    "new": "no change"
+  },
+  {
+    "sno": 40,
+    "old": "Sabbavaram",
+    "new": "no change"
+  },
+  {
+    "sno": 41,
+    "old": "Kothuru",
+    "new": "no change"
+  },
+  {
+    "sno": 43,
+    "old": "Denkada",
+    "new": "no change"
+  },
+  {
+    "sno": 42,
+    "old": "Gummalakshmipuram",
+    "new": "no change"
+  },
+  {
+    "sno": 44,
+    "old": "Salur",
+    "new": "no change"
+  },
+  {
+    "sno": 45,
+    "old": "Meliaputti",
+    "new": "no change"
+  },
+  {
+    "sno": 46,
+    "old": "Bhoghapuram",
+    "new": "Bhogapuram"
+  },
+  {
+    "sno": 47,
+    "old": "Koyyuru",
+    "new": "no change"
+  },
+  {
+    "sno": 48,
+    "old": "Vepada",
+    "new": "no change"
+  },
+  {
+    "sno": 49,
+    "old": "Merakamudidam",
+    "new": "no change"
+  },
+  {
+    "sno": 50,
+    "old": "Devarapalle",
+    "new": "no change"
+  },
+  {
+    "sno": 51,
+    "old": "Ichchapuram",
+    "new": "no change"
+  },
+  {
+    "sno": 52,
+    "old": "Narsipatnam",
+    "new": "no change"
+  },
+  {
+    "sno": 53,
+    "old": "Chintapalle",
+    "new": "no change"
+  },
+  {
+    "sno": 54,
+    "old": "Pedabayalu",
+    "new": "null"
+  },
+  {
+    "sno": 55,
+    "old": "Kothavalasa",
+    "new": "Kottavalasa"
+  },
+  {
+    "sno": 56,
+    "old": "Gajapathinagaram",
+    "new": "no change"
+  },
+  {
+    "sno": 57,
+    "old": "Balajipeta",
+    "new": "Chintapalle"
+  },
+  {
+    "sno": 58,
+    "old": "Gantyada",
+    "new": "no change"
+  },
+  {
+    "sno": 60,
+    "old": "Badangi",
+    "new": "no change"
+  },
+  {
+    "sno": 59,
+    "old": "Bondapalle",
+    "new": "no change"
+  },
+  {
+    "sno": 61,
+    "old": "Nandigam",
+    "new": "no change"
+  },
+  {
+    "sno": 62,
+    "old": "Jami",
+    "new": "no change"
+  },
+  {
+    "sno": 63,
+    "old": "Gangaraju Madugula",
+    "new": "G. Madugula"
+  },
+  {
+    "sno": 64,
+    "old": "Bobbili",
+    "new": "no change"
+  },
+  {
+    "sno": 65,
+    "old": "Paderu",
+    "new": "no change"
+  },
+  {
+    "sno": 66,
+    "old": "Madugula",
+    "new": "no change"
+  },
+  {
+    "sno": 67,
+    "old": "Tekkali",
+    "new": "no change"
+  },
+  {
+    "sno": 68,
+    "old": "Chodavaram",
+    "new": "no change"
+  },
+  {
+    "sno": 69,
+    "old": "Ananthagiri",
+    "new": "no change"
+  },
+  {
+    "sno": 70,
+    "old": "Ramabhadrapuram",
+    "new": "no change"
+  },
+  {
+    "sno": 71,
+    "old": "Jiyyamma Valasa",
+    "new": "Amarapuram"
+  },
+  {
+    "sno": 72,
+    "old": "Anandapuram",
+    "new": "no change"
+  },
+  {
+    "sno": 73,
+    "old": "Sompeta",
+    "new": "no change"
+  },
+  {
+    "sno": 74,
+    "old": "Pendurthi",
+    "new": "no change"
+  },
+  {
+    "sno": 75,
+    "old": "Munchingiputtu",
+    "new": "null"
+  },
+  {
+    "sno": 76,
+    "old": "Garividi",
+    "new": "no change"
+  },
+  {
+    "sno": 77,
+    "old": "Lakkavarapukota",
+    "new": "no change"
+  },
+  {
+    "sno": 79,
+    "old": "Nathavaram",
+    "new": "no change"
+  },
+  {
+    "sno": 78,
+    "old": "Visakhapatnam(U)",
+    "new": "Vishakhapatnam"
+  },
+  {
+    "sno": 81,
+    "old": "Nellimarla",
+    "new": "no change"
+  },
+  {
+    "sno": 80,
+    "old": "Bheemunipatnam",
+    "new": "Bhimunipatnam"
+  },
+  {
+    "sno": 83,
+    "old": "Butchayyapeta",
+    "new": "no change"
+  },
+  {
+    "sno": 84,
+    "old": "Garugubilli",
+    "new": "no change"
+  },
+  {
+    "sno": 82,
+    "old": "Gudem Kothaveedhi",
+    "new": "Gudem Kotha Veedhi"
+  },
+  {
+    "sno": 85,
+    "old": "Rolugunta",
+    "new": "no change"
+  },
+  {
+    "sno": 86,
+    "old": "Golugonda",
+    "new": "no change"
+  },
+  {
+    "sno": 87,
+    "old": "Regidiamadalavalas",
+    "new": "null"
+  },
+  {
+    "sno": 88,
+    "old": "Padmanabham",
+    "new": "no change"
+  },
+  {
+    "sno": 89,
+    "old": "Mentada",
+    "new": "no change"
+  },
+  {
+    "sno": 90,
+    "old": "Makkuva",
+    "new": "no change"
+  },
+  {
+    "sno": 91,
+    "old": "Srungavarapukota",
+    "new": "no change"
+  },
+  {
+    "sno": 92,
+    "old": "Laveru",
+    "new": "no change"
+  },
+  {
+    "sno": 93,
+    "old": "Vizianagaram",
+    "new": "no change"
+  },
+  {
+    "sno": 94,
+    "old": "Ranastalam",
+    "new": "no change"
+  },
+  {
+    "sno": 95,
+    "old": "Mandasa",
+    "new": "no change"
+  },
+  {
+    "sno": 96,
+    "old": "Cheepurupalle",
+    "new": "no change"
+  },
+  {
+    "sno": 97,
+    "old": "Amadalavalasa",
+    "new": "Amudalavalasa"
+  },
+  {
+    "sno": 98,
+    "old": "Seethampeta",
+    "new": "no change"
+  },
+  {
+    "sno": 99,
+    "old": "Cheedikada",
+    "new": "no change"
+  },
+  {
+    "sno": 100,
+    "old": "Gurla",
+    "new": "no change"
+  },
+  {
+    "sno": 1,
+    "old": "Payakaraopeta",
+    "new": "no change"
+  },
+  {
+    "sno": 3,
+    "old": "Sankhavaram",
+    "new": "no change"
+  },
+  {
+    "sno": 2,
+    "old": "Thondangi",
+    "new": "Tondangi"
+  },
+  {
+    "sno": 4,
+    "old": "Kakinada(Urban)",
+    "new": "Kakinada mandal"
+  },
+  {
+    "sno": 5,
+    "old": "Maredumilli",
+    "new": "no change"
+  },
+  {
+    "sno": 7,
+    "old": "Anakapalle",
+    "new": "no change"
+  },
+  {
+    "sno": 8,
+    "old": "Rajavommangi",
+    "new": "no change"
+  },
+  {
+    "sno": 10,
+    "old": "Visakhapatnam(R)",
+    "new": "Vishakhapatnam"
+  },
+  {
+    "sno": 6,
+    "old": "Devipatnam",
+    "new": "no change"
+  },
+  {
+    "sno": 9,
+    "old": "Yelamanchili",
+    "new": "Elamanchili"
+  },
+  {
+    "sno": 12,
+    "old": "Anaparthi",
+    "new": "Anaparthy"
+  },
+  {
+    "sno": 11,
+    "old": "Gollaprolu",
+    "new": "no change"
+  },
+  {
+    "sno": 13,
+    "old": "Kadiam",
+    "new": "no change"
+  },
+  {
+    "sno": 14,
+    "old": "Atchutapuram",
+    "new": "no change"
+  },
+  {
+    "sno": 15,
+    "old": "Jeelugumilli",
+    "new": "Jeelugu Milli"
+  },
+  {
+    "sno": 16,
+    "old": "Pithapuram",
+    "new": "no change"
+  },
+  {
+    "sno": 17,
+    "old": "Tuni",
+    "new": "no change"
+  },
+  {
+    "sno": 18,
+    "old": "Nakkapalle",
+    "new": "no change"
+  },
+  {
+    "sno": 19,
+    "old": "Mandapeta",
+    "new": "no change"
+  },
+  {
+    "sno": 21,
+    "old": "Makavarapalem",
+    "new": "no change"
+  },
+  {
+    "sno": 20,
+    "old": "Mamidikuduru",
+    "new": "no change"
+  },
+  {
+    "sno": 22,
+    "old": "Gajuwaka",
+    "new": "Gajuwaka"
+  },
+  {
+    "sno": 24,
+    "old": "Jangareddigudem",
+    "new": "no change"
+  },
+  {
+    "sno": 25,
+    "old": "Rangampeta",
+    "new": "no change"
+  },
+  {
+    "sno": 23,
+    "old": "Kakinada (Rural)",
+    "new": "Kakinada mandal"
+  },
+  {
+    "sno": 26,
+    "old": "Rajamundry (Urban)",
+    "new": "Rajahmundry Urban mandal"
+  },
+  {
+    "sno": 27,
+    "old": "Addateegala",
+    "new": "no change"
+  },
+  {
+    "sno": 28,
+    "old": "Katrenikona",
+    "new": "no change"
+  },
+  {
+    "sno": 29,
+    "old": "Kothapalle",
+    "new": "no change"
+  },
+  {
+    "sno": 30,
+    "old": "Atreyapuram",
+    "new": "no change"
+  },
+  {
+    "sno": 31,
+    "old": "Jaggampeta",
+    "new": "no change"
+  },
+  {
+    "sno": 32,
+    "old": "S Rayavaram",
+    "new": "no change"
+  },
+  {
+    "sno": 33,
+    "old": "Korukonda",
+    "new": "no change"
+  },
+  {
+    "sno": 34,
+    "old": "Mummidivaram",
+    "new": "no change"
+  },
+  {
+    "sno": 35,
+    "old": "Thallapudi",
+    "new": "Tallapudi"
+  },
+  {
+    "sno": 37,
+    "old": "Rambilli",
+    "new": "no change"
+  },
+  {
+    "sno": 36,
+    "old": "Chintalapudi",
+    "new": "no change"
+  },
+  {
+    "sno": 38,
+    "old": "Rampachodavaram",
+    "new": "no change"
+  },
+  {
+    "sno": 39,
+    "old": "Pedapudi",
+    "new": "no change"
+  },
+  {
+    "sno": 40,
+    "old": "Lingapalem",
+    "new": "no change"
+  },
+  {
+    "sno": 42,
+    "old": "Kothapeta",
+    "new": "no change"
+  },
+  {
+    "sno": 41,
+    "old": "Gopalapuram",
+    "new": "no change"
+  },
+  {
+    "sno": 43,
+    "old": "Thallarevu",
+    "new": "Tallarevu"
+  },
+  {
+    "sno": 44,
+    "old": "Rajanagaram",
+    "new": "no change"
+  },
+  {
+    "sno": 46,
+    "old": "Pedagantyada",
+    "new": "no change"
+  },
+  {
+    "sno": 45,
+    "old": "Yeleswaram",
+    "new": "no change"
+  },
+  {
+    "sno": 47,
+    "old": "Gangavaram",
+    "new": "no change"
+  },
+  {
+    "sno": 48,
+    "old": "Ainavilli",
+    "new": "no change"
+  },
+  {
+    "sno": 49,
+    "old": "Allavaram",
+    "new": "no change"
+  },
+  {
+    "sno": 50,
+    "old": "Padavegi",
+    "new": "Pedavegi"
+  },
+  {
+    "sno": 51,
+    "old": "Pamarru",
+    "new": "no change"
+  },
+  {
+    "sno": 52,
+    "old": "Kamavarapukota",
+    "new": "no change"
+  },
+  {
+    "sno": 53,
+    "old": "Rajahmundry (Rural)",
+    "new": "Rajahmundry Rural mandal"
+  },
+  {
+    "sno": 54,
+    "old": "Polavaram",
+    "new": "no change"
+  },
+  {
+    "sno": 55,
+    "old": "Alamuru",
+    "new": "no change"
+  },
+  {
+    "sno": 56,
+    "old": "Buttayagudem",
+    "new": "no change"
+  },
+  {
+    "sno": 57,
+    "old": "Kirlampudi",
+    "new": "no change"
+  },
+  {
+    "sno": 59,
+    "old": "Munagapaka",
+    "new": "no change"
+  },
+  {
+    "sno": 58,
+    "old": "Y Ramavaram",
+    "new": "Y. Ramavaram"
+  },
+  {
+    "sno": 60,
+    "old": "Seethanagaram",
+    "new": "no change"
+  },
+  {
+    "sno": 61,
+    "old": "Vararamachandrapur",
+    "new": "null"
+  },
+  {
+    "sno": 62,
+    "old": "Gokavaram",
+    "new": "no change"
+  },
+  {
+    "sno": 63,
+    "old": "Prathipadu",
+    "new": "no change"
+  },
+  {
+    "sno": 64,
+    "old": "Kotananduru",
+    "new": "no change"
+  },
+  {
+    "sno": 65,
+    "old": "Samalkota",
+    "new": "Samalkot"
+  },
+  {
+    "sno": 66,
+    "old": "Sakhinetipalle",
+    "new": "no change"
+  },
+  {
+    "sno": 67,
+    "old": "Unguturu",
+    "new": "no change"
+  },
+  {
+    "sno": 68,
+    "old": "Kasimkota",
+    "new": "no change"
+  },
+  {
+    "sno": 69,
+    "old": "Peddapuram",
+    "new": "no change"
+  },
+  {
+    "sno": 70,
+    "old": "Ravulapalem",
+    "new": "no change"
+  },
+  {
+    "sno": 71,
+    "old": "T Narasapuram",
+    "new": "T.Narasapuram"
+  },
+  {
+    "sno": 72,
+    "old": "Paravada",
+    "new": "no change"
+  },
+  {
+    "sno": 73,
+    "old": "(Yatapaka) Nellipaka",
+    "new": "null"
+  },
+  {
+    "sno": 74,
+    "old": "Nallajerla",
+    "new": "no change"
+  },
+  {
+    "sno": 75,
+    "old": "Biccavolu",
+    "new": "no change"
+  },
+  {
+    "sno": 76,
+    "old": "Gandepalle",
+    "new": "no change"
+  },
+  {
+    "sno": 77,
+    "old": "Rayavaram",
+    "new": "no change"
+  },
+  {
+    "sno": 78,
+    "old": "I Polavaram",
+    "new": "I. Polavaram"
+  },
+  {
+    "sno": 80,
+    "old": "Amalapuram",
+    "new": "Amalāpuram"
+  },
+  {
+    "sno": 79,
+    "old": "Koyyalagudem",
+    "new": "no change"
+  },
+  {
+    "sno": 81,
+    "old": "Devarapalle",
+    "new": "no change"
+  },
+  {
+    "sno": 82,
+    "old": "Ambajipeta",
+    "new": "no change"
+  },
+  {
+    "sno": 83,
+    "old": "Razole",
+    "new": "no change"
+  },
+  {
+    "sno": 85,
+    "old": "Kotauratla",
+    "new": "no change"
+  },
+  {
+    "sno": 84,
+    "old": "Nidadavole",
+    "new": "no change"
+  },
+  {
+    "sno": 86,
+    "old": "Chintur",
+    "new": "null"
+  },
+  {
+    "sno": 87,
+    "old": "Routhulapudi",
+    "new": "Ravutulapudi"
+  },
+  {
+    "sno": 88,
+    "old": "Karapa",
+    "new": "no change"
+  },
+  {
+    "sno": 89,
+    "old": "Dwaraka Tirumala",
+    "new": "no change"
+  },
+  {
+    "sno": 91,
+    "old": "Uppalaguptam",
+    "new": "no change"
+  },
+  {
+    "sno": 90,
+    "old": "Tadepalligudem",
+    "new": "Tadepallegudem"
+  },
+  {
+    "sno": 93,
+    "old": "P Gannavaram",
+    "new": "P. Gannavaram"
+  },
+  {
+    "sno": 92,
+    "old": "Ramachandrapuram",
+    "new": "no change"
+  },
+  {
+    "sno": 94,
+    "old": "Kajuluru",
+    "new": "no change"
+  },
+  {
+    "sno": 96,
+    "old": "Kunavaram",
+    "new": "no change"
+  },
+  {
+    "sno": 95,
+    "old": "Kapileswarapuram",
+    "new": "no change"
+  },
+  {
+    "sno": 97,
+    "old": "Chagallu",
+    "new": "no change"
+  },
+  {
+    "sno": 98,
+    "old": "Kovvur",
+    "new": "no change"
+  },
+  {
+    "sno": 99,
+    "old": "Bhimadole",
+    "new": "no change"
+  },
+  {
+    "sno": 100,
+    "old": "Malikipuram",
+    "new": "no change"
+  },
+  {
+    "sno": 1,
+    "old": "Eluru",
+    "new": "no change"
+  },
+  {
+    "sno": 2,
+    "old": "Peravali",
+    "new": "no change"
+  },
+  {
+    "sno": 3,
+    "old": "Veerulapadu",
+    "new": "Veerullapadu"
+  },
+  {
+    "sno": 4,
+    "old": "Penuganchiprolu",
+    "new": "no change"
+  },
+  {
+    "sno": 5,
+    "old": "G Konduru",
+    "new": "G.Konduru"
+  },
+  {
+    "sno": 6,
+    "old": "Jaggayyapeta",
+    "new": "no change"
+  },
+  {
+    "sno": 7,
+    "old": "Palacole",
+    "new": "Palakollu"
+  },
+  {
+    "sno": 8,
+    "old": "Kalla",
+    "new": "no change"
+  },
+  {
+    "sno": 9,
+    "old": "Kanchika Cherla",
+    "new": "Kanchikacherla"
+  },
+  {
+    "sno": 10,
+    "old": "Nidamarru",
+    "new": "no change"
+  },
+  {
+    "sno": 12,
+    "old": "Veeravasaram",
+    "new": "no change"
+  },
+  {
+    "sno": 11,
+    "old": "Tiruvuru",
+    "new": "no change"
+  },
+  {
+    "sno": 13,
+    "old": "Penugonda",
+    "new": "no change"
+  },
+  {
+    "sno": 14,
+    "old": "Penamaluru",
+    "new": "no change"
+  },
+  {
+    "sno": 16,
+    "old": "Denduluru",
+    "new": "no change"
+  },
+  {
+    "sno": 15,
+    "old": "Attili",
+    "new": "no change"
+  },
+  {
+    "sno": 17,
+    "old": "Nandigama",
+    "new": "no change"
+  },
+  {
+    "sno": 18,
+    "old": "Pentapadu",
+    "new": "no change"
+  },
+  {
+    "sno": 21,
+    "old": "Ganapavaram",
+    "new": "no change"
+  },
+  {
+    "sno": 19,
+    "old": "Undi",
+    "new": "no change"
+  },
+  {
+    "sno": 20,
+    "old": "Tanuku",
+    "new": "no change"
+  },
+  {
+    "sno": 22,
+    "old": "Mopidevi",
+    "new": "no change"
+  },
+  {
+    "sno": 23,
+    "old": "Movva",
+    "new": "no change"
+  },
+  {
+    "sno": 24,
+    "old": "Pamidimukkala",
+    "new": "no change"
+  },
+  {
+    "sno": 25,
+    "old": "Nagayalanka",
+    "new": "no change"
+  },
+  {
+    "sno": 26,
+    "old": "Pedana",
+    "new": "no change"
+  },
+  {
+    "sno": 27,
+    "old": "Muppalla",
+    "new": "no change"
+  },
+  {
+    "sno": 28,
+    "old": "Koduru",
+    "new": "no change"
+  },
+  {
+    "sno": 29,
+    "old": "Thadepalle",
+    "new": "Tadepalle"
+  },
+  {
+    "sno": 30,
+    "old": "Chandarlapadu",
+    "new": "no change"
+  },
+  {
+    "sno": 31,
+    "old": "Reddigudem",
+    "new": "no change"
+  },
+  {
+    "sno": 33,
+    "old": "Guntur",
+    "new": "no change"
+  },
+  {
+    "sno": 32,
+    "old": "Nandivada",
+    "new": "no change"
+  },
+  {
+    "sno": 34,
+    "old": "Bhattiprolu",
+    "new": "no change"
+  },
+  {
+    "sno": 35,
+    "old": "Narasapuram",
+    "new": "Narasapur"
+  },
+  {
+    "sno": 36,
+    "old": "Akiveedu",
+    "new": "Akividu"
+  },
+  {
+    "sno": 37,
+    "old": "Velairpad",
+    "new": "null"
+  },
+  {
+    "sno": 38,
+    "old": "Gampalagudem",
+    "new": "no change"
+  },
+  {
+    "sno": 39,
+    "old": "Iragavaram",
+    "new": "no change"
+  },
+  {
+    "sno": 40,
+    "old": "Ponnur",
+    "new": "no change"
+  },
+  {
+    "sno": 41,
+    "old": "Veldurthi",
+    "new": "no change"
+  },
+  {
+    "sno": 42,
+    "old": "Unguturu",
+    "new": "no change"
+  },
+  {
+    "sno": 43,
+    "old": "Phirangipuram",
+    "new": "no change"
+  },
+  {
+    "sno": 45,
+    "old": "Karempudi",
+    "new": "no change"
+  },
+  {
+    "sno": 44,
+    "old": "Narasaraopeta",
+    "new": "Narasaraopet"
+  },
+  {
+    "sno": 46,
+    "old": "Piduguralla",
+    "new": "no change"
+  },
+  {
+    "sno": 47,
+    "old": "Vatsavai",
+    "new": "no change"
+  },
+  {
+    "sno": 49,
+    "old": "Gudivada",
+    "new": "No change"
+  },
+  {
+    "sno": 48,
+    "old": "Musunuru",
+    "new": "no change"
+  },
+  {
+    "sno": 50,
+    "old": "Ghantasala",
+    "new": "no change"
+  },
+  {
+    "sno": 51,
+    "old": "Thotlavalluru",
+    "new": "No change"
+  },
+  {
+    "sno": 52,
+    "old": "Dachepalle",
+    "new": "no change"
+  },
+  {
+    "sno": 53,
+    "old": "Bheemavaram",
+    "new": "Bhimavaram"
+  },
+  {
+    "sno": 54,
+    "old": "Nadendla",
+    "new": "no change"
+  },
+  {
+    "sno": 55,
+    "old": "Pedaparupudi",
+    "new": "no change"
+  },
+  {
+    "sno": 57,
+    "old": "Kankipadu",
+    "new": "no change"
+  },
+  {
+    "sno": 56,
+    "old": "Pullalacheruvu",
+    "new": "no change"
+  },
+  {
+    "sno": 58,
+    "old": "Nuzvid",
+    "new": "no change"
+  },
+  {
+    "sno": 60,
+    "old": "Pedaaraveedu",
+    "new": "null"
+  },
+  {
+    "sno": 59,
+    "old": "Gudur",
+    "new": "no change"
+  },
+  {
+    "sno": 61,
+    "old": "Pedapadu",
+    "new": "no change"
+  },
+  {
+    "sno": 62,
+    "old": "Krosuru",
+    "new": "no change"
+  },
+  {
+    "sno": 63,
+    "old": "Vijayawada Urban",
+    "new": "null"
+  },
+  {
+    "sno": 64,
+    "old": "Yelamanchili",
+    "new": "Elamanchili"
+  },
+  {
+    "sno": 65,
+    "old": "Bellamkonda",
+    "new": "no change"
+  },
+  {
+    "sno": 66,
+    "old": "Achanta",
+    "new": "no change"
+  },
+  {
+    "sno": 67,
+    "old": "Pittalavanipalem",
+    "new": "no change"
+  },
+  {
+    "sno": 68,
+    "old": "Poduru",
+    "new": "no change"
+  },
+  {
+    "sno": 69,
+    "old": "Tarlapadu",
+    "new": "Tarlupadu"
+  },
+  {
+    "sno": 70,
+    "old": "Repalle",
+    "new": "no change"
+  },
+  {
+    "sno": 71,
+    "old": "Penumantra",
+    "new": "no change"
+  },
+  {
+    "sno": 72,
+    "old": "Konakanamitla",
+    "new": "no change"
+  },
+  {
+    "sno": 73,
+    "old": "Tsundur",
+    "new": "no change"
+  },
+  {
+    "sno": 74,
+    "old": "Chebrole",
+    "new": "null"
+  },
+  {
+    "sno": 77,
+    "old": "Rentachintala",
+    "new": "no change"
+  },
+  {
+    "sno": 79,
+    "old": "Ardhaveedu",
+    "new": "no change"
+  },
+  {
+    "sno": 78,
+    "old": "Undrajavaram",
+    "new": "no change"
+  },
+  {
+    "sno": 75,
+    "old": "Machilipatnam",
+    "new": "no change"
+  },
+  {
+    "sno": 76,
+    "old": "Mogalthur",
+    "new": "no change"
+  },
+  {
+    "sno": 81,
+    "old": "Avanigada",
+    "new": "Avanigadda"
+  },
+  {
+    "sno": 80,
+    "old": "Gudlavalleru",
+    "new": "no change"
+  },
+  {
+    "sno": 82,
+    "old": "Kukunoor",
+    "new": "null"
+  },
+  {
+    "sno": 83,
+    "old": "Chatrai",
+    "new": "no change"
+  },
+  {
+    "sno": 84,
+    "old": "Vatticherukuru",
+    "new": "no change"
+  },
+  {
+    "sno": 86,
+    "old": "Vissannapet",
+    "new": "no change"
+  },
+  {
+    "sno": 89,
+    "old": "Vuyyuru",
+    "new": "no change"
+  },
+  {
+    "sno": 88,
+    "old": "Nizampatnam",
+    "new": "Nizampatam"
+  },
+  {
+    "sno": 90,
+    "old": "Gurazala",
+    "new": "no change"
+  },
+  {
+    "sno": 87,
+    "old": "Kaikalur",
+    "new": "no change"
+  },
+  {
+    "sno": 85,
+    "old": "Pamarru",
+    "new": "no change"
+  },
+  {
+    "sno": 91,
+    "old": "Kruthivennu",
+    "new": "no change"
+  },
+  {
+    "sno": 92,
+    "old": "Nagaram",
+    "new": "no change"
+  },
+  {
+    "sno": 93,
+    "old": "Rajupalem",
+    "new": "no change"
+  },
+  {
+    "sno": 94,
+    "old": "A Konduru",
+    "new": "A. Konduru"
+  },
+  {
+    "sno": 96,
+    "old": "Durgi",
+    "new": "no change"
+  },
+  {
+    "sno": 95,
+    "old": "Thullur",
+    "new": "no change"
+  },
+  {
+    "sno": 98,
+    "old": "Agiripalle",
+    "new": "no change"
+  },
+  {
+    "sno": 99,
+    "old": "Pedakakani",
+    "new": "no change"
+  },
+  {
+    "sno": 97,
+    "old": "Pedanandipadu",
+    "new": "no change"
+  },
+  {
+    "sno": 100,
+    "old": "Duggirala",
+    "new": "no change"
+  },
+  {
+    "sno": 101,
+    "old": "Chilakaluripet",
+    "new": "no change"
+  },
+  {
+    "sno": 102,
+    "old": "Tripuranthakam",
+    "new": "no change"
+  },
+  {
+    "sno": 103,
+    "old": "Sattenapalle",
+    "new": "no change"
+  },
+  {
+    "sno": 105,
+    "old": "Challapalle",
+    "new": "no change"
+  },
+  {
+    "sno": 106,
+    "old": "Gannavaram",
+    "new": "no change"
+  },
+  {
+    "sno": 104,
+    "old": "Mudinapalle",
+    "new": "null"
+  },
+  {
+    "sno": 107,
+    "old": "Bapatla",
+    "new": "no change"
+  },
+  {
+    "sno": 110,
+    "old": "Palakoderu",
+    "new": "Palacoderu"
+  },
+  {
+    "sno": 111,
+    "old": "Vijayawada Rural",
+    "new": "Vijayawada"
+  },
+  {
+    "sno": 112,
+    "old": "Bapulapad",
+    "new": "Bapulapadu"
+  },
+  {
+    "sno": 113,
+    "old": "Bantumilli",
+    "new": "no change"
+  },
+  {
+    "sno": 108,
+    "old": "Nekarikallu",
+    "new": "no change"
+  },
+  {
+    "sno": 109,
+    "old": "Markapur",
+    "new": "no change"
+  },
+  {
+    "sno": 115,
+    "old": "Nuzendla",
+    "new": "no change"
+  },
+  {
+    "sno": 114,
+    "old": "Medikonduru",
+    "new": "no change"
+  },
+  {
+    "sno": 116,
+    "old": "Rompicherla",
+    "new": "no change"
+  },
+  {
+    "sno": 119,
+    "old": "Darsi",
+    "new": "no change"
+  },
+  {
+    "sno": 122,
+    "old": "Amruthalur",
+    "new": "no change"
+  },
+  {
+    "sno": 120,
+    "old": "Dornala",
+    "new": "no change"
+  },
+  {
+    "sno": 123,
+    "old": "Donakonda",
+    "new": "no change"
+  },
+  {
+    "sno": 125,
+    "old": "Karlapalem",
+    "new": "no change"
+  },
+  {
+    "sno": 124,
+    "old": "Vinukonda",
+    "new": "no change"
+  },
+  {
+    "sno": 126,
+    "old": "Thallur",
+    "new": "no change"
+  },
+  {
+    "sno": 127,
+    "old": "Addanki",
+    "new": "no change"
+  },
+  {
+    "sno": 129,
+    "old": "Amaravathi",
+    "new": "null"
+  },
+  {
+    "sno": 117,
+    "old": "Edlapadu",
+    "new": "no change"
+  },
+  {
+    "sno": 128,
+    "old": "Cherukupalle",
+    "new": "Cherukupalle Ho Arumbaka"
+  },
+  {
+    "sno": 121,
+    "old": "Bollapalle",
+    "new": "no change"
+  },
+  {
+    "sno": 118,
+    "old": "Pedakurapadu",
+    "new": "Peddakurapadu"
+  },
+  {
+    "sno": 130,
+    "old": "Tadikonda",
+    "new": "no change"
+  },
+  {
+    "sno": 131,
+    "old": "Mundlamuru",
+    "new": "no change"
+  },
+  {
+    "sno": 132,
+    "old": "Macherla",
+    "new": "no change"
+  },
+  {
+    "sno": 133,
+    "old": "Machavaram",
+    "new": "no change"
+  },
+  {
+    "sno": 138,
+    "old": "Yerragondapalem",
+    "new": "no change"
+  },
+  {
+    "sno": 137,
+    "old": "Vemuru",
+    "new": "no change"
+  },
+  {
+    "sno": 139,
+    "old": "Ipur",
+    "new": "null"
+  },
+  {
+    "sno": 135,
+    "old": "Mandavalli",
+    "new": "no change"
+  },
+  {
+    "sno": 134,
+    "old": "Mangalagiri",
+    "new": "no change"
+  },
+  {
+    "sno": 143,
+    "old": "Savalyapuram",
+    "new": "Savalyapuram Ho Kanamarlapudi"
+  },
+  {
+    "sno": 142,
+    "old": "Kollipara",
+    "new": "no change"
+  },
+  {
+    "sno": 140,
+    "old": "Tenali",
+    "new": "no change"
+  },
+  {
+    "sno": 144,
+    "old": "Ibrahimpatnam",
+    "new": "no change"
+  },
+  {
+    "sno": 136,
+    "old": "Kurichedu",
+    "new": "no change"
+  },
+  {
+    "sno": 141,
+    "old": "Atchampet",
+    "new": "null"
+  },
+  {
+    "sno": 147,
+    "old": "Prathipadu",
+    "new": "no change"
+  },
+  {
+    "sno": 146,
+    "old": "Kakumanu",
+    "new": "no change"
+  },
+  {
+    "sno": 145,
+    "old": "Kollur",
+    "new": "no change"
+  },
+  {
+    "sno": 148,
+    "old": "Podili",
+    "new": "no change"
+  },
+  {
+    "sno": 149,
+    "old": "Mylaram",
+    "new": "null"
+  },
+  {
+    "sno": 150,
+    "old": "Kalidindi",
+    "new": "no change"
+  },
+  {
+    "sno": 1,
+    "old": "Bogole",
+    "new": "null"
+  },
+  {
+    "sno": 2,
+    "old": "Allur",
+    "new": "null"
+  },
+  {
+    "sno": 3,
+    "old": "Karamchedu",
+    "new": "no change"
+  },
+  {
+    "sno": 4,
+    "old": "Zarugumilli",
+    "new": "null"
+  },
+  {
+    "sno": 5,
+    "old": "Vetapalem",
+    "new": "no change"
+  },
+  {
+    "sno": 6,
+    "old": "Parchur",
+    "new": "no change"
+  },
+  {
+    "sno": 7,
+    "old": "Kothapatnam",
+    "new": "Kotha Patnam"
+  },
+  {
+    "sno": 8,
+    "old": "Pedacherlopalle",
+    "new": "no change"
+  },
+  {
+    "sno": 10,
+    "old": "Pamur",
+    "new": "no change"
+  },
+  {
+    "sno": 9,
+    "old": "Voletivaripalem",
+    "new": "no change"
+  },
+  {
+    "sno": 11,
+    "old": "Veligandla",
+    "new": "no change"
+  },
+  {
+    "sno": 12,
+    "old": "Naguluppalapadu",
+    "new": "Naguluppala Padu"
+  },
+  {
+    "sno": 13,
+    "old": "Racherla",
+    "new": "no change"
+  },
+  {
+    "sno": 14,
+    "old": "Kandukur",
+    "new": "no change"
+  },
+  {
+    "sno": 16,
+    "old": "Dagadarthi",
+    "new": "no change"
+  },
+  {
+    "sno": 15,
+    "old": "Giddaluru",
+    "new": "Racherla"
+  },
+  {
+    "sno": 17,
+    "old": "Ballikuruva",
+    "new": "null"
+  },
+  {
+    "sno": 18,
+    "old": "Jaladanki",
+    "new": "no change"
+  },
+  {
+    "sno": 19,
+    "old": "Komarolu",
+    "new": "no change"
+  },
+  {
+    "sno": 20,
+    "old": "Udayagiri",
+    "new": "no change"
+  },
+  {
+    "sno": 21,
+    "old": "Vidavalur",
+    "new": "no change"
+  },
+  {
+    "sno": 22,
+    "old": "Pellakur",
+    "new": "Pellakuru"
+  },
+  {
+    "sno": 23,
+    "old": "Yeddanapudi",
+    "new": "no change"
+  },
+  {
+    "sno": 24,
+    "old": "Santhanuthlapadu",
+    "new": "Santhanuthala Padu"
+  },
+  {
+    "sno": 25,
+    "old": "Kaligiri",
+    "new": "no change"
+  },
+  {
+    "sno": 27,
+    "old": "Manubolu",
+    "new": "no change"
+  },
+  {
+    "sno": 26,
+    "old": "Bestavaripeta",
+    "new": "no change"
+  },
+  {
+    "sno": 28,
+    "old": "Chadrasekarapuram",
+    "new": "null"
+  },
+  {
+    "sno": 29,
+    "old": "Balayapalle",
+    "new": "no change"
+  },
+  {
+    "sno": 30,
+    "old": "Martur",
+    "new": "no change"
+  },
+  {
+    "sno": 31,
+    "old": "Inkollu",
+    "new": "no change"
+  },
+  {
+    "sno": 32,
+    "old": "Atmakur",
+    "new": "no change"
+  },
+  {
+    "sno": 36,
+    "old": "Lingasamudram",
+    "new": "no change"
+  },
+  {
+    "sno": 33,
+    "old": "Peddathippasamudra",
+    "new": "null"
+  },
+  {
+    "sno": 34,
+    "old": "Karvetinagar",
+    "new": "no change"
+  },
+  {
+    "sno": 35,
+    "old": "Kondapi",
+    "new": "no change"
+  },
+  {
+    "sno": 37,
+    "old": "Gudur",
+    "new": "no change"
+  },
+  {
+    "sno": 38,
+    "old": "Janakavarampangulu",
+    "new": "null"
+  },
+  {
+    "sno": 39,
+    "old": "Valmikipuram",
+    "new": "no change"
+  },
+  {
+    "sno": 40,
+    "old": "Kovur",
+    "new": "no change"
+  },
+  {
+    "sno": 41,
+    "old": "Ponnaluru",
+    "new": "no change"
+  },
+  {
+    "sno": 42,
+    "old": "Singarayakonda",
+    "new": "no change"
+  },
+  {
+    "sno": 46,
+    "old": "Korisapadu",
+    "new": "no change"
+  },
+  {
+    "sno": 47,
+    "old": "Anumasamudrampeta",
+    "new": "no change"
+  },
+  {
+    "sno": 48,
+    "old": "Bucchireddipalem",
+    "new": "Buchireddypalem"
+  },
+  {
+    "sno": 43,
+    "old": "Sodam",
+    "new": "null"
+  },
+  {
+    "sno": 49,
+    "old": "Vinjamur",
+    "new": "null"
+  },
+  {
+    "sno": 44,
+    "old": "Kaluvoya",
+    "new": "Kaluvaya"
+  },
+  {
+    "sno": 51,
+    "old": "Hanumanthunipadu",
+    "new": "Hanumanthuni Padu"
+  },
+  {
+    "sno": 52,
+    "old": "Chillakur",
+    "new": "no change"
+  },
+  {
+    "sno": 45,
+    "old": "Marripudi",
+    "new": "no change"
+  },
+  {
+    "sno": 50,
+    "old": "Ulavapadu",
+    "new": "no change"
+  },
+  {
+    "sno": 53,
+    "old": "Gudluru",
+    "new": "no change"
+  },
+  {
+    "sno": 54,
+    "old": "Santhamaguluru",
+    "new": "no change"
+  },
+  {
+    "sno": 56,
+    "old": "Kanigiri",
+    "new": "no change"
+  },
+  {
+    "sno": 57,
+    "old": "Chowdepalle",
+    "new": "no change"
+  },
+  {
+    "sno": 55,
+    "old": "Kavali",
+    "new": "no change"
+  },
+  {
+    "sno": 58,
+    "old": "Mulakalacheruvu",
+    "new": "no change"
+  },
+  {
+    "sno": 59,
+    "old": "Doravarisatram",
+    "new": "no change"
+  },
+  {
+    "sno": 61,
+    "old": "Sangam",
+    "new": "no change"
+  },
+  {
+    "sno": 60,
+    "old": "Bangarupalem",
+    "new": "no change"
+  },
+  {
+    "sno": 62,
+    "old": "Kalakada",
+    "new": "no change"
+  },
+  {
+    "sno": 63,
+    "old": "Muthukur",
+    "new": "Gudibanda"
+  },
+  {
+    "sno": 65,
+    "old": "Chirala",
+    "new": "no change"
+  },
+  {
+    "sno": 64,
+    "old": "Kodavalur",
+    "new": "no change"
+  },
+  {
+    "sno": 66,
+    "old": "Buchinaidu Khandri",
+    "new": "null"
+  },
+  {
+    "sno": 67,
+    "old": "Pichatur",
+    "new": "no change"
+  },
+  {
+    "sno": 69,
+    "old": "Ananthasagaram",
+    "new": "no change"
+  },
+  {
+    "sno": 68,
+    "old": "Renigunta",
+    "new": "no change"
+  },
+  {
+    "sno": 70,
+    "old": "Santhi Puram",
+    "new": "null"
+  },
+  {
+    "sno": 71,
+    "old": "Indukurpet",
+    "new": "Thotapalligudur"
+  },
+  {
+    "sno": 73,
+    "old": "Yerpedu",
+    "new": "no change"
+  },
+  {
+    "sno": 75,
+    "old": "Nindra",
+    "new": "no change"
+  },
+  {
+    "sno": 76,
+    "old": "Baireddi Palle",
+    "new": "Baireddipalle"
+  },
+  {
+    "sno": 77,
+    "old": "Narayanavanam",
+    "new": "no change"
+  },
+  {
+    "sno": 78,
+    "old": "Sullurpeta",
+    "new": "no change"
+  },
+  {
+    "sno": 74,
+    "old": "Venkatagiri",
+    "new": "no change"
+  },
+  {
+    "sno": 79,
+    "old": "Seetharamapuram",
+    "new": "no change"
+  },
+  {
+    "sno": 72,
+    "old": "Marripadu",
+    "new": "no change"
+  },
+  {
+    "sno": 80,
+    "old": "Gurramkonda",
+    "new": "no change"
+  },
+  {
+    "sno": 81,
+    "old": "Srirangarajapuram",
+    "new": "no change"
+  },
+  {
+    "sno": 82,
+    "old": "Sydapuram",
+    "new": "no change"
+  },
+  {
+    "sno": 83,
+    "old": "Dakkili",
+    "new": "no change"
+  },
+  {
+    "sno": 84,
+    "old": "Irala",
+    "new": "no change"
+  },
+  {
+    "sno": 85,
+    "old": "Chittamur",
+    "new": "no change"
+  },
+  {
+    "sno": 86,
+    "old": "Duttalur",
+    "new": "no change"
+  },
+  {
+    "sno": 87,
+    "old": "Venkatachalam",
+    "new": "no change"
+  },
+  {
+    "sno": 88,
+    "old": "Rompicherla",
+    "new": "no change"
+  },
+  {
+    "sno": 89,
+    "old": "Yarravaripalem",
+    "new": "null"
+  },
+  {
+    "sno": 91,
+    "old": "Pulicherla",
+    "new": "no change"
+  },
+  {
+    "sno": 90,
+    "old": "Kambhamvaripalle",
+    "new": "no change"
+  },
+  {
+    "sno": 92,
+    "old": "Vijaya Puram",
+    "new": "Vijayapuram"
+  },
+  {
+    "sno": 93,
+    "old": "Maddipadu",
+    "new": "no change"
+  },
+  {
+    "sno": 94,
+    "old": "Puttur",
+    "new": "no change"
+  },
+  {
+    "sno": 95,
+    "old": "Gangadhara Nellore",
+    "new": "no change"
+  },
+  {
+    "sno": 97,
+    "old": "Chinnagottigallu",
+    "new": "no change"
+  },
+  {
+    "sno": 96,
+    "old": "Kalikiri",
+    "new": "no change"
+  },
+  {
+    "sno": 98,
+    "old": "Peddamandyam",
+    "new": "no change"
+  },
+  {
+    "sno": 99,
+    "old": "B Kothakota",
+    "new": "B.Kothakota"
+  },
+  {
+    "sno": 100,
+    "old": "Thotapalligudur",
+    "new": "no change"
+  },
+  {
+    "sno": 101,
+    "old": "Rapur",
+    "new": "no change"
+  },
+  {
+    "sno": 102,
+    "old": "Varadaiahpalem",
+    "new": "no change"
+  },
+  {
+    "sno": 103,
+    "old": "Kota",
+    "new": "null"
+  },
+  {
+    "sno": 106,
+    "old": "Tangutur",
+    "new": "no change"
+  },
+  {
+    "sno": 107,
+    "old": "Nimmanapalle",
+    "new": "no change"
+  },
+  {
+    "sno": 104,
+    "old": "Tirupati",
+    "new": "no change"
+  },
+  {
+    "sno": 110,
+    "old": "Palasamudram",
+    "new": "no change"
+  },
+  {
+    "sno": 108,
+    "old": "Vadamalapeta",
+    "new": "no change"
+  },
+  {
+    "sno": 109,
+    "old": "Nagari",
+    "new": "no change"
+  },
+  {
+    "sno": 111,
+    "old": "Mandapalle",
+    "new": "Siddhavattam"
+  },
+  {
+    "sno": 112,
+    "old": "Chittoor",
+    "new": "no change"
+  },
+  {
+    "sno": 115,
+    "old": "Venkatagiri Kota",
+    "new": "Venkatagiri"
+  },
+  {
+    "sno": 113,
+    "old": "Gudipala",
+    "new": "no change"
+  },
+  {
+    "sno": 116,
+    "old": "Ongole",
+    "new": "no change"
+  },
+  {
+    "sno": 114,
+    "old": "Veduru Kuppam",
+    "new": "Vedurukuppam"
+  },
+  {
+    "sno": 105,
+    "old": "Vakadu",
+    "new": "no change"
+  },
+  {
+    "sno": 119,
+    "old": "Palamaner",
+    "new": "no change"
+  },
+  {
+    "sno": 120,
+    "old": "Penumuru",
+    "new": "no change"
+  },
+  {
+    "sno": 117,
+    "old": "Ramasamudram",
+    "new": "no change"
+  },
+  {
+    "sno": 118,
+    "old": "Kurabalakota",
+    "new": "no change"
+  },
+  {
+    "sno": 121,
+    "old": "Chandragiri",
+    "new": "no change"
+  },
+  {
+    "sno": 123,
+    "old": "Kondapuram",
+    "new": "no change"
+  },
+  {
+    "sno": 122,
+    "old": "Rama Kuppam",
+    "new": "Kuppam"
+  },
+  {
+    "sno": 126,
+    "old": "Pedda Panjani",
+    "new": "null"
+  },
+  {
+    "sno": 125,
+    "old": "Gangavaram",
+    "new": "no change"
+  },
+  {
+    "sno": 124,
+    "old": "Cumbum",
+    "new": "no change"
+  },
+  {
+    "sno": 127,
+    "old": "K V B Puram",
+    "new": "K.V.B.Puram"
+  },
+  {
+    "sno": 128,
+    "old": "Srikalahasti",
+    "new": "Sri Kalahasti"
+  },
+  {
+    "sno": 130,
+    "old": "Tada",
+    "new": "no change"
+  },
+  {
+    "sno": 129,
+    "old": "Ramachndrapuram",
+    "new": "Ramachandrapuram"
+  },
+  {
+    "sno": 132,
+    "old": "Thamballapalle",
+    "new": "no change"
+  },
+  {
+    "sno": 131,
+    "old": "Punganur",
+    "new": "Punganur Sub-District"
+  },
+  {
+    "sno": 134,
+    "old": "Satyavedu",
+    "new": "no change"
+  },
+  {
+    "sno": 133,
+    "old": "Naidupeta",
+    "new": "no change"
+  },
+  {
+    "sno": 135,
+    "old": "Nagalapuram",
+    "new": "no change"
+  },
+  {
+    "sno": 136,
+    "old": "Thavanampalle",
+    "new": "no change"
+  },
+  {
+    "sno": 137,
+    "old": "Puthalapattu",
+    "new": "no change"
+  },
+  {
+    "sno": 138,
+    "old": "Varikuntapadu",
+    "new": "no change"
+  },
+  {
+    "sno": 139,
+    "old": "Yadamari",
+    "new": "Yadamarri"
+  },
+  {
+    "sno": 140,
+    "old": "Podlakur",
+    "new": "null"
+  },
+  {
+    "sno": 141,
+    "old": "Ojili",
+    "new": "no change"
+  },
+  {
+    "sno": 142,
+    "old": "Thottambedu",
+    "new": "no change"
+  },
+  {
+    "sno": 143,
+    "old": "Tirupati Urban",
+    "new": "Tirupati"
+  },
+  {
+    "sno": 144,
+    "old": "Nellore",
+    "new": "no change"
+  },
+  {
+    "sno": 145,
+    "old": "Chinaganjam",
+    "new": "Chinna Ganjam"
+  },
+  {
+    "sno": 146,
+    "old": "Somala",
+    "new": "null"
+  },
+  {
+    "sno": 147,
+    "old": "Pileru",
+    "new": "no change"
+  },
+  {
+    "sno": 148,
+    "old": "Chimakurthi",
+    "new": "Chimakurthy"
+  },
+  {
+    "sno": 149,
+    "old": "Pakala",
+    "new": "no change"
+  },
+  {
+    "sno": 150,
+    "old": "Chejerla",
+    "new": "no change"
+  },
+  {
+    "sno": 1,
+    "old": "Thandur",
+    "new": "null"
+  },
+  {
+    "sno": 3,
+    "old": "Duvvur",
+    "new": "no change"
+  },
+  {
+    "sno": 2,
+    "old": "Mylavaram",
+    "new": "no change"
+  },
+  {
+    "sno": 4,
+    "old": "Brahmamgarimattam",
+    "new": "no change"
+  },
+  {
+    "sno": 5,
+    "old": "Chapad",
+    "new": "null"
+  },
+  {
+    "sno": 6,
+    "old": "Kuppam",
+    "new": "no change"
+  },
+  {
+    "sno": 7,
+    "old": "Porumamilla",
+    "new": "no change"
+  },
+  {
+    "sno": 8,
+    "old": "Kondapuram",
+    "new": "no change"
+  },
+  {
+    "sno": 9,
+    "old": "Pulivendla",
+    "new": "no change"
+  },
+  {
+    "sno": 10,
+    "old": "Chaknayapet",
+    "new": "null"
+  },
+  {
+    "sno": 11,
+    "old": "Lingala",
+    "new": "no change"
+  },
+  {
+    "sno": 14,
+    "old": "Vallur",
+    "new": "no change"
+  },
+  {
+    "sno": 15,
+    "old": "Vajrakarur",
+    "new": "no change"
+  },
+  {
+    "sno": 13,
+    "old": "Muddanur",
+    "new": "Muddanuru"
+  },
+  {
+    "sno": 16,
+    "old": "Sidhout",
+    "new": "Siddhavattam"
+  },
+  {
+    "sno": 12,
+    "old": "Atlur",
+    "new": "no change"
+  },
+  {
+    "sno": 19,
+    "old": "Gopavaram",
+    "new": "Musunuru"
+  },
+  {
+    "sno": 20,
+    "old": "Jammalamadugu",
+    "new": "no change"
+  },
+  {
+    "sno": 21,
+    "old": "D Hirchal",
+    "new": "null"
+  },
+  {
+    "sno": 18,
+    "old": "Royachoti",
+    "new": "Rayachoti"
+  },
+  {
+    "sno": 17,
+    "old": "Kadapa",
+    "new": "Cuddapah"
+  },
+  {
+    "sno": 22,
+    "old": "Yerraguntla",
+    "new": "no change"
+  },
+  {
+    "sno": 23,
+    "old": "Nandalur",
+    "new": "no change"
+  },
+  {
+    "sno": 24,
+    "old": "Rolla",
+    "new": "null"
+  },
+  {
+    "sno": 25,
+    "old": "Gooty",
+    "new": "null"
+  },
+  {
+    "sno": 26,
+    "old": "Vemula",
+    "new": "no change"
+  },
+  {
+    "sno": 27,
+    "old": "Vontimitta",
+    "new": "no change"
+  },
+  {
+    "sno": 28,
+    "old": "S Mydukur",
+    "new": "S. Mydukur"
+  },
+  {
+    "sno": 30,
+    "old": "Obulavaripalle",
+    "new": "Obulavaripalle mandal"
+  },
+  {
+    "sno": 31,
+    "old": "Lakkireddipalle",
+    "new": "no change"
+  },
+  {
+    "sno": 32,
+    "old": "Kudair",
+    "new": "Kuderu"
+  },
+  {
+    "sno": 29,
+    "old": "Tadpatri",
+    "new": "no change"
+  },
+  {
+    "sno": 33,
+    "old": "Guntakal",
+    "new": "no change"
+  },
+  {
+    "sno": 34,
+    "old": "Kodur",
+    "new": "no change"
+  },
+  {
+    "sno": 35,
+    "old": "Settur",
+    "new": "no change"
+  },
+  {
+    "sno": 36,
+    "old": "Rajampet",
+    "new": "no change"
+  },
+  {
+    "sno": 37,
+    "old": "Simhadripuram",
+    "new": "no change"
+  },
+  {
+    "sno": 38,
+    "old": "Sirvel",
+    "new": "null"
+  },
+  {
+    "sno": 39,
+    "old": "Bukkarayasamudram",
+    "new": "Bukkaraya Samudram"
+  },
+  {
+    "sno": 41,
+    "old": "Mudigubba",
+    "new": "no change"
+  },
+  {
+    "sno": 40,
+    "old": "Peddapappur",
+    "new": "no change"
+  },
+  {
+    "sno": 42,
+    "old": "Hindupur",
+    "new": "no change"
+  },
+  {
+    "sno": 44,
+    "old": "Bukkapatnam",
+    "new": "no change"
+  },
+  {
+    "sno": 43,
+    "old": "Brahmasamudram",
+    "new": "no change"
+  },
+  {
+    "sno": 45,
+    "old": "Beluguppa",
+    "new": "no change"
+  },
+  {
+    "sno": 46,
+    "old": "Ramapuram",
+    "new": "no change"
+  },
+  {
+    "sno": 47,
+    "old": "Sambepalle",
+    "new": "no change"
+  },
+  {
+    "sno": 48,
+    "old": "Alur",
+    "new": "no change"
+  },
+  {
+    "sno": 49,
+    "old": "Anantapur",
+    "new": "no change"
+  },
+  {
+    "sno": 50,
+    "old": "Pamulapadu",
+    "new": "no change"
+  },
+  {
+    "sno": 51,
+    "old": "Penu Konda",
+    "new": "Penukonda"
+  },
+  {
+    "sno": 53,
+    "old": "Chippagiri",
+    "new": "no change"
+  },
+  {
+    "sno": 52,
+    "old": "Kurnool",
+    "new": "no change"
+  },
+  {
+    "sno": 54,
+    "old": "Kallur",
+    "new": "no change"
+  },
+  {
+    "sno": 56,
+    "old": "Obuladevaracheruvu",
+    "new": "no change"
+  },
+  {
+    "sno": 55,
+    "old": "Badvel",
+    "new": "no change"
+  },
+  {
+    "sno": 57,
+    "old": "Mahanandi",
+    "new": "no change"
+  },
+  {
+    "sno": 58,
+    "old": "Singanamala",
+    "new": "no change"
+  },
+  {
+    "sno": 59,
+    "old": "Vempalle",
+    "new": "no change"
+  },
+  {
+    "sno": 60,
+    "old": "Kalyandrug",
+    "new": "no change"
+  },
+  {
+    "sno": 61,
+    "old": "Uyyalawada",
+    "new": "no change"
+  },
+  {
+    "sno": 63,
+    "old": "Atmakur",
+    "new": "no change"
+  },
+  {
+    "sno": 62,
+    "old": "Tadimarri",
+    "new": "no change"
+  },
+  {
+    "sno": 64,
+    "old": "Kanaganapalle",
+    "new": "no change"
+  },
+  {
+    "sno": 66,
+    "old": "Nambulipulikunta",
+    "new": "null"
+  },
+  {
+    "sno": 65,
+    "old": "Proddutur",
+    "new": "Proddatur"
+  },
+  {
+    "sno": 68,
+    "old": "Yemmiganur",
+    "new": "no change"
+  },
+  {
+    "sno": 67,
+    "old": "Yellanur",
+    "new": "no change"
+  },
+  {
+    "sno": 69,
+    "old": "Gudi Palle",
+    "new": "null"
+  },
+  {
+    "sno": 70,
+    "old": "Halaharvi",
+    "new": "no change"
+  },
+  {
+    "sno": 71,
+    "old": "Gummagatta",
+    "new": "no change"
+  },
+  {
+    "sno": 73,
+    "old": "Narsapur",
+    "new": "Narasapur"
+  },
+  {
+    "sno": 72,
+    "old": "Garladinne",
+    "new": "no change"
+  },
+  {
+    "sno": 75,
+    "old": "Kadiri",
+    "new": "no change"
+  },
+  {
+    "sno": 76,
+    "old": "Chintha Kommadinne",
+    "new": "null"
+  },
+  {
+    "sno": 74,
+    "old": "Sanjamala",
+    "new": "no change"
+  },
+  {
+    "sno": 77,
+    "old": "Vidapanakal",
+    "new": "no change"
+  },
+  {
+    "sno": 79,
+    "old": "Penagaluru",
+    "new": "null"
+  },
+  {
+    "sno": 78,
+    "old": "Putlur",
+    "new": "no change"
+  },
+  {
+    "sno": 81,
+    "old": "Pendlimarri",
+    "new": "no change"
+  },
+  {
+    "sno": 83,
+    "old": "Kothacheruvu",
+    "new": "no change"
+  },
+  {
+    "sno": 82,
+    "old": "Peddavadugur",
+    "new": "no change"
+  },
+  {
+    "sno": 87,
+    "old": "Atmakur",
+    "new": "no change"
+  },
+  {
+    "sno": 80,
+    "old": "Yadiki",
+    "new": "no change"
+  },
+  {
+    "sno": 84,
+    "old": "Khajipet",
+    "new": "no change"
+  },
+  {
+    "sno": 85,
+    "old": "B Kodur",
+    "new": "B.Kodur"
+  },
+  {
+    "sno": 88,
+    "old": "Kanekal",
+    "new": "no change"
+  },
+  {
+    "sno": 89,
+    "old": "Chennur",
+    "new": "no change"
+  },
+  {
+    "sno": 90,
+    "old": "Ramagiri",
+    "new": "no change"
+  },
+  {
+    "sno": 91,
+    "old": "Kamalapuram",
+    "new": "no change"
+  },
+  {
+    "sno": 92,
+    "old": "Somandepalle",
+    "new": "no change"
+  },
+  {
+    "sno": 94,
+    "old": "Lepakshi",
+    "new": "no change"
+  },
+  {
+    "sno": 86,
+    "old": "Dhone",
+    "new": "no change"
+  },
+  {
+    "sno": 93,
+    "old": "Veerapunayunipalle",
+    "new": "no change"
+  },
+  {
+    "sno": 95,
+    "old": "Madakasira",
+    "new": "no change"
+  },
+  {
+    "sno": 96,
+    "old": "Parigi",
+    "new": "null"
+  },
+  {
+    "sno": 97,
+    "old": "Kowthalam",
+    "new": "no change"
+  },
+  {
+    "sno": 98,
+    "old": "Bommanahal",
+    "new": "null"
+  },
+  {
+    "sno": 99,
+    "old": "Chilamathur",
+    "new": "no change"
+  },
+  {
+    "sno": 100,
+    "old": "Pamidi",
+    "new": "no change"
+  },
+  {
+    "sno": 101,
+    "old": "Kosigi",
+    "new": "no change"
+  },
+  {
+    "sno": 102,
+    "old": "Rayadurg",
+    "new": "no change"
+  },
+  {
+    "sno": 103,
+    "old": "Panyam",
+    "new": "no change"
+  },
+  {
+    "sno": 104,
+    "old": "Velgode",
+    "new": "no change"
+  },
+  {
+    "sno": 105,
+    "old": "Devanakonda",
+    "new": "no change"
+  },
+  {
+    "sno": 106,
+    "old": "Bathalapalle",
+    "new": "no change"
+  },
+  {
+    "sno": 107,
+    "old": "Gudur",
+    "new": "no change"
+  },
+  {
+    "sno": 108,
+    "old": "Tanakal",
+    "new": "Tanakallu"
+  },
+  {
+    "sno": 109,
+    "old": "Midthur",
+    "new": "no change"
+  },
+  {
+    "sno": 110,
+    "old": "Chenne Kothapalle",
+    "new": "Kothapalle"
+  },
+  {
+    "sno": 111,
+    "old": "Nallamada",
+    "new": "no change"
+  },
+  {
+    "sno": 112,
+    "old": "Galiveedu",
+    "new": "no change"
+  },
+  {
+    "sno": 113,
+    "old": "Pullampeta",
+    "new": "no change"
+  },
+  {
+    "sno": 114,
+    "old": "Narpala",
+    "new": "no change"
+  },
+  {
+    "sno": 115,
+    "old": "Veeraballe",
+    "new": "no change"
+  },
+  {
+    "sno": 116,
+    "old": "Chinnamandem",
+    "new": "no change"
+  },
+  {
+    "sno": 117,
+    "old": "Uravakonda",
+    "new": "no change"
+  },
+  {
+    "sno": 118,
+    "old": "Gonegandla",
+    "new": "no change"
+  },
+  {
+    "sno": 119,
+    "old": "Raju Palem",
+    "new": "Tripuranthakam"
+  },
+  {
+    "sno": 120,
+    "old": "Raptadu",
+    "new": "no change"
+  },
+  {
+    "sno": 121,
+    "old": "Orvakal",
+    "new": "no change"
+  },
+  {
+    "sno": 122,
+    "old": "Bandi Atmakur",
+    "new": "no change"
+  },
+  {
+    "sno": 123,
+    "old": "Agali",
+    "new": "no change"
+  },
+  {
+    "sno": 124,
+    "old": "Gadivemula",
+    "new": "no change"
+  },
+  {
+    "sno": 125,
+    "old": "Amadagur",
+    "new": "no change"
+  },
+  {
+    "sno": 126,
+    "old": "Nallacheruvu",
+    "new": "no change"
+  },
+  {
+    "sno": 127,
+    "old": "Kothapalle",
+    "new": "no change"
+  },
+  {
+    "sno": 128,
+    "old": "Pedda Kadalur",
+    "new": "null"
+  },
+  {
+    "sno": 130,
+    "old": "Roddam",
+    "new": "no change"
+  },
+  {
+    "sno": 129,
+    "old": "Talupula",
+    "new": "no change"
+  },
+  {
+    "sno": 131,
+    "old": "Rudravaram",
+    "new": "no change"
+  },
+  {
+    "sno": 133,
+    "old": "Koilkuntla",
+    "new": "no change"
+  },
+  {
+    "sno": 134,
+    "old": "Owk",
+    "new": "no change"
+  },
+  {
+    "sno": 136,
+    "old": "C Belagal",
+    "new": "C.Belagal"
+  },
+  {
+    "sno": 137,
+    "old": "Amarapuram",
+    "new": "no change"
+  },
+  {
+    "sno": 135,
+    "old": "Gudibanda",
+    "new": "no change"
+  },
+  {
+    "sno": 138,
+    "old": "Bethamcherla",
+    "new": "no change"
+  },
+  {
+    "sno": 132,
+    "old": "Holagunda",
+    "new": "no change"
+  },
+  {
+    "sno": 140,
+    "old": "Nandavaram",
+    "new": "Banaganapalle"
+  },
+  {
+    "sno": 141,
+    "old": "Maddikera East",
+    "new": "Maddikera (East)"
+  },
+  {
+    "sno": 142,
+    "old": "Kodumur",
+    "new": "Kodumuru"
+  },
+  {
+    "sno": 143,
+    "old": "Pattikanda",
+    "new": "Pattikonda"
+  },
+  {
+    "sno": 145,
+    "old": "Mantralayam",
+    "new": "no change"
+  },
+  {
+    "sno": 144,
+    "old": "Kambadur",
+    "new": "no change"
+  },
+  {
+    "sno": 147,
+    "old": "Puttaparthi",
+    "new": "no change"
+  },
+  {
+    "sno": 148,
+    "old": "Allagadda",
+    "new": "no change"
+  },
+  {
+    "sno": 146,
+    "old": "Krishnagiri",
+    "new": "no change"
+  },
+  {
+    "sno": 149,
+    "old": "Nandyal",
+    "new": "no change"
+  },
+  {
+    "sno": 139,
+    "old": "Aspari",
+    "new": "no change"
+  },
+  {
+    "sno": 151,
+    "old": "Kolimigundla",
+    "new": "no change"
+  },
+  {
+    "sno": 150,
+    "old": "Kundurpi",
+    "new": "no change"
+  },
+  {
+    "sno": 152,
+    "old": "Tuggali",
+    "new": "no change"
+  },
+  {
+    "sno": 153,
+    "old": "Gorantla",
+    "new": "no change"
+  },
+  {
+    "sno": 154,
+    "old": "Gandlapenta",
+    "new": "no change"
+  },
+  {
+    "sno": 155,
+    "old": "Adoni",
+    "new": "no change"
+  },
+  {
+    "sno": 157,
+    "old": "Gospadu",
+    "new": "no change"
+  },
+  {
+    "sno": 156,
+    "old": "Pagidyala",
+    "new": "no change"
+  },
+  {
+    "sno": 161,
+    "old": "Chagalamarri",
+    "new": "no change"
+  },
+  {
+    "sno": 160,
+    "old": "Dornipadu",
+    "new": "no change"
+  },
+  {
+    "sno": 158,
+    "old": "Jupadu Bungalow",
+    "new": "no change"
+  },
+  {
+    "sno": 159,
+    "old": "Veldurthi",
+    "new": "no change"
+  },
+  {
+    "sno": 163,
+    "old": "Dharmavaram",
+    "new": "no change"
+  },
+  {
+    "sno": 164,
+    "old": "Nandi Kotkur",
+    "new": "null"
+  },
+  {
+    "sno": 162,
+    "old": "Banaganapalle",
+    "new": "Banganapalle"
+  },
+  {
+    "sno": 165,
+    "old": "Chitvel",
+    "new": "no change"
+  },
+  {
+    "sno": 166,
+    "old": "Srisailam",
+    "new": "no change"
+  },
+  {
+    "sno": 167,
+    "old": "Peapally",
+    "new": "no change"
+  },
+  {
+    "sno": 168,
+    "old": "T Sundupalle",
+    "new": "Tsundupalle"
+  },
+  {
+    "sno": 169,
+    "old": "Kalasapadu",
+    "new": "no change"
+  },
+  {
+    "sno": 170,
+    "old": "Peddamudium",
+    "new": "no change"
+  }
+]
