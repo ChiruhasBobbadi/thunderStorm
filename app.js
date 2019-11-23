@@ -41,7 +41,7 @@ mongoose.connect(values.mongoDbUri)
             // helper.nullify(db, "globalalerts");
             console.log("Database connected");
             console.log("server started ");
-            app.listen(3000);
+            app.listen(5000);
         }
         else {
             console.log("failed to connect db ");

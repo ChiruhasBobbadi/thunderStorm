@@ -51,7 +51,13 @@
 
 
 <div class="container">
+    <% if(error.length > 0){ %>
+    <div class="alert alert-danger" role="alert">
+        <%=error%>
+    </div>
+    <% } %>
 <main>
+
     <form class="well form-horizontal jumbotron vertical-center align-middle" action="/admin/update-mro" method="post"
           id="contact_form">
         <fieldset>

@@ -48,12 +48,12 @@
 
 </nav>
 
-<div class="jumbotron vertical-center align-middle">
-   <!-- error handling code-->
+<div class="jumbotron vertical-center align-middle text-center">
+    <!-- error handling code-->
     <% if(error.length > 0){ %>
-    <div class="alert alert-danger" role="alert">
-        <%= error %>
-    </div>
+        <div class="alert alert-danger" role="alert">
+            <%= error %>
+        </div>
     <% } %>
     <form method="post" action="/admin/upload" enctype="multipart/form-data">
         <center>
@@ -63,23 +63,34 @@
     </form>
 
     <br>
-    <center>
-        <h5>please upload the document in the correct format</h5>
-    </center>
+
+    <h5>please upload the document in the correct format</h5>
+
     <br>
-    <center>
-       <a href="/admin/downloadRef"> <button class="btn btn-primary"><i class="fa fa-download"></i> Download Format Document</button></a>
-    </center>
+
+    <a href="/admin/downloadRef">
+        <button class="btn btn-primary"><i class="fa fa-download"></i> Download Format Document</button>
+    </a>
+
 </div>
 <br>
 
-<form method="post" action="/admin/update">
-    <% if(mros.length > 0){ %>
+<div class="container text-center">
 
-    <%for (let mro of mros){ %>
-        <div class="container text-center">
-            <p class="h5">The following MRO Details will be updated.</p>
+    <% if(success.length > 0){ %>
+        <div class="alert alert-success" role="alert">
+            <%= success %>
         </div>
+    <% } %>
+    <% if(failure.length > 0){ %>
+        <div class="alert alert-danger" role="alert">
+            <%= failure %>
+        </div>
+    <% } %>
+    <form method="post" action="/admin/update">
+        <% if(mros.length > 0){ %>
+
+        <p class="h5">The following MRO Details will be updated.</p>
         <br>
         <div class="container">
             <table class="table table-striped">
@@ -92,27 +103,28 @@
                     <th scope="col" align="center">has-Telegram</th>
                 </tr>
                 </thead>
-                <tbody>
-                <td scope="col" align="center"><%= mro.mroName %></td>
-                <td scope="col" align="center"><%= mro.mroPhone %></td>
-                <td scope="col" align="center"><%= mro.mandal %></td>
-                <td scope="col" align="center"><%= mro.hasWhatsApp %></td>
-                <td scope="col" align="center"><%= mro.hasTelegram %></td>
+                <% for (let mro of mros){ %>
 
-                </tbody>
+                    <tbody>
+                    <tr>
+                        <td scope="col" align="center"><%= mro.mroName %></td>
+                        <td scope="col" align="center"><%= mro.mroPhone %></td>
+                        <td scope="col" align="center"><%= mro.mandal %></td>
+                        <td scope="col" align="center"><%= mro.hasWhatsApp %></td>
+                        <td scope="col" align="center"><%= mro.hasTelegram %></td>
 
+                    </tr>
+
+                    </tbody>
+
+                <% } %>
 
             </table>
-
-            <center>
-                <input type="submit" class="btn btn-primary" value="Update">
-            </center>
-
-
         </div>
-
-    <% } }%>
-</form>
+        <input type="submit" class="btn btn-primary text-center" value="Update">
+        <% } %>
+    </form>
+</div>
 
 
 </body>

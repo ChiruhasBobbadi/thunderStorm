@@ -33,9 +33,9 @@ exports.postHome = (req, res, next) => {
 
     const _id = req.query.id;
 
-    console.log(_id);
+
     activeAlerts.findOne({mandal: _id}).populate('mandal').then(activeAlerts => {
-        console.log(activeAlerts);
+
         if (activeAlerts) {
             req.session.active = activeAlerts.mandal;
             const saved = new savedAlerts({
@@ -75,25 +75,3 @@ exports.logout = (req, res, next) => {
 
 };
 
-
-/**
- * for deleting active alert and writing alert to savedAlerts.
- */
-
-// const _id = req.query.id;
-// activeAlerts.findOne({mandal:_id}).then(activeAlerts=>{
-//     const saved = new savedAlerts({
-//         time:activeAlerts.time,
-//         mandal:activeAlerts.mandal
-//     });
-//     return saved.save()
-// }).then(res=>{
-//     return activeAlerts.deleteOne({mandal:_id})
-// }).then(res=>{
-//     if(res)
-//         console.log("sucess");
-//     // redirect to the data verification page..
-//
-// }).catch(err=>{
-//     console.log(err);
-// })

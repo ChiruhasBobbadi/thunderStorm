@@ -1,3 +1,4 @@
+/*
 const phantom = require('phantom');
 
 const fs = require('fs');
@@ -44,7 +45,7 @@ function make_api_call(mandal) {
 
 }
 
-/*function waitRetryPromise() {
+/!*function waitRetryPromise() {
     let promise = Promise.resolve();
     return function rp(options) {
         return promise = promise
@@ -52,7 +53,7 @@ function make_api_call(mandal) {
             .then(() => request_promise(options));
     }
 }
-const rp = waitRetryPromise();*/
+const rp = waitRetryPromise();*!/
 
 var cnt = 0;
 
@@ -113,3 +114,23 @@ async function doTask(res) {
 
 
 
+*/
+
+
+
+var output = '';
+var array = ['h','e','l','l','o'];
+// This is an example of an async function, like an AJAX call
+var fetchData = function () {
+    return new Promise( (resolve, reject)=>{
+        resolve();
+    });
+};
+
+for (var i = 0; i < array.length; i++) {
+    fetchData(array[i]).then( ()=> {
+        output += array[i];
+    });
+}
+
+console.log(output);

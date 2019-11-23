@@ -10,27 +10,45 @@ exports.upload = (req, res, next) => {
         req.flash('upload_err', "Invalid file type");
         res.redirect('/admin/update');
     } else {
-        console.log("file uploaded");
-        const result = excelToJson({
-            sourceFile: './uploads/modifiedMro.xlsx',
-            header: {
-                rows: 1 // 2, 3, 4, etc.
-            },
-            columnToKey: {
-                A: 'mroName',
-                B: 'mroPhone',
-                C: 'mandal',
-                D: 'hasWhatsApp',
-                E: 'hasTelegram',
 
-            }, sheets: ['Sheet1']
-        });
+        try {
+            const result = excelToJson({
+                sourceFile: './uploads/modifiedMro.xlsx',
+                header: {
+                    rows: 1 // 2, 3, 4, etc.
+                },
+                columnToKey: {
+                    A: 'mroName',
+                    B: 'mroPhone',
+                    C: 'mandal',
+                    D: 'hasWhatsApp',
+                    E: 'hasTelegram',
+
+                }, sheets: ['mroSheet']
+            });
+
+            if (result.mroSheet.length === 0) {
+                throw "error";
+                console.log("error throwed");
+
+            }
+
+            req.session.mroUpdate = result.mroSheet;
+            console.log("file uploaded");
+            res.render('admin/update', {
+
+                mros: result.mroSheet,
+                error: req.flash('upload_err'),
+                success: req.flash('success'),
+                failure: req.flash('failure'),
+            })
+        } catch (e) {
+            console.log("upload error");
+            req.flash('upload_err', "Invalid file type");
+            res.redirect('/admin/update')
+        }
 
 
-        res.render('admin/update', {
-            mros: result.Sheet1,
-            error: req.flash('upload_err')
-        });
     }
 
 
@@ -42,89 +60,112 @@ exports.update = (req, res, next) => {
     res.render('admin/update', {
 
         mros: [],
-        error: req.flash('upload_err')
+        error: req.flash('upload_err'),
+        success: req.flash('success'),
+        failure: req.flash('failure'),
     })
 
 
 };
-
 exports.postUpdate = (req, res, next) => {
 
 
-    const result = excelToJson({
-        sourceFile: './uploads/modifiedMro.xlsx',
-        header: {
-            rows: 1 // 2, 3, 4, etc.
-        },
-        columnToKey: {
-            A: 'mroName',
-            B: 'mroPhone',
-            C: 'mandal',
-            D: 'hasWhatsApp',
-            E: 'hasTelegram',
+    updateHelper(req,res).then(data=>{
 
-        }, sheets: ['Sheet1']
+        console.log(data);
+        let arr=[];
+        if(data.length>0){
+
+            arr=data;
+            req.flash('failure', 'Updating details for following mandals failed please check and try again..')
+        }
+        else{
+            req.flash('success', 'Updating details is Successful..')
+        }
+
+        res.render('admin/update', {
+            mros:arr,
+            error: req.flash('upload_err'),
+            success:req.flash('success'),
+            failure:req.flash('failure'),
+        })
+
+    }).catch(err=>{
+        console.log(err);
     });
 
-    for (let i = 0; i < result.Sheet1.length; i++) {
-
-        let telegram = (result.Sheet1[i].hasTelegram === 'True' || result.Sheet1[i].hasTelegram === 'true');
-        let whatsapp = (result.Sheet1[i].hasWhatsApp === 'True' || result.Sheet1[i].hasWhatsApp === 'true');
-        mandal.findOneAndUpdate({mandal: result.Sheet1[i].mandal}, {
-            $set: {
-                mroName: result.Sheet1[i].mroName,
-                mroPhone: result.Sheet1[i].mroPhone,
-                mandal: result.Sheet1[i].mandal,
-                hasTelegram: telegram,
-                hasWhatsApp: whatsapp
-            }
-        })
-            .then(res => {
-                // flashing message
-            }).catch(error => {
-            console.log(error);
-        })
-
-    }
-    res.redirect('/admin/update');
 
 };
 
-exports.downloadRef = (req, res, next) => {
-    let p = path.join('files','reference_for_updating.xlsx');
+async function updateHelper(req,res){
 
-    fs.readFile(p,(err,data)=>{
-        if(err)
+    const result = req.session.mroUpdate;
+    req.session.errorMro = [];
+    let data = [];
+
+    for (let i = 0; i < result.length; i++) {
+
+        let telegram = (result[i].hasTelegram.toLowerCase() === 'true');
+        let whatsapp = (result[i].hasWhatsApp.toLowerCase() === 'true');
+
+        await mandal.findOneAndUpdate({mandal: result[i].mandal}, {
+            $set: {
+                mroName: result[i].mroName,
+                mroPhone: result[i].mroPhone,
+                mandal: result[i].mandal,
+                hasTelegram: telegram,
+                hasWhatsApp: whatsapp
+            }
+        }).then(res => {
+            if (!res) {
+                throw "error"
+            }
+        }).catch(error => {
+            console.log(error);
+            data.push(result[i]);
+
+        });
+
+    }
+
+    return  data;
+
+}
+
+exports.downloadRef = (req, res, next) => {
+    let p = path.join('files', 'reference_for_updating.xlsx');
+
+    fs.readFile(p, (err, data) => {
+        if (err)
             return next(err);
 
-        res.setHeader('Content-type','application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
-        res.setHeader('Content-Disposition','inline; filename="reference_for_updating.xlsx"');
+        res.setHeader('Content-type', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+        res.setHeader('Content-Disposition', 'inline; filename="reference_for_updating.xlsx"');
         res.send(data);
 
     })
 };
 
+
 exports.getUpdateMro = (req, res, next) => {
 
 
-    if(req.session.isAdmin){
-        res.render('admin/updateMro', {
-            mro: req.session.active
+    if (req.session.isAdmin) {
+        console.log(req.flash('error'));
+        return res.render('admin/updateMro', {
+            mro: req.session.active,
+            error: req.flash('update_error')
         });
     }
-    res.redirect('/admin/login?mro=true');
+    return res.redirect('/admin/login?mro=true');
 
 };
 
 exports.postUpdateMro = (req, res, next) => {
 
     const mandalId = req.session.active._id;
-
-
-    const telegram = (req.body.group2==='yes');
-    const whatsapp = (req.body.group1==='yes');
-    console.log("Whatsapp "+whatsapp);
-    console.log("Telegram "+telegram);
+    const telegram = (req.body.group2 === 'yes');
+    const whatsapp = (req.body.group1 === 'yes');
     let m;
     if (mandalId) {
         mandal.findById(mandalId).then(mandal => {
@@ -143,32 +184,36 @@ exports.postUpdateMro = (req, res, next) => {
 
         }).catch(err => {
             console.log(err);
+            req.flash('update_error', `Fields can't be empty try again with initial values..`);
+            res.redirect('/admin/update-mro')
         })
     }
 
 
 };
 
+
 exports.adminLogin = (req, res, next) => {
-   if( console.log()){
-       res.render('admin/login', {
-           errorMessage: req.flash('admin_login'),
-           method:'/admin/login?mro=true'
-       });
-   }else{
-       res.render('admin/login', {
-           errorMessage: req.flash('admin_login'),
-           method:'/admin/login'
-       });
-   }
+    console.log(req.query.mro);
+    if (req.query.mro) {
+        console.log("mro set");
+        res.render('admin/login', {
+            errorMessage: req.flash('admin_login'),
+            method: '/admin/login?mro=true'
+        });
+    } else {
+        res.render('admin/login', {
+            errorMessage: req.flash('admin_login'),
+            method: '/admin/login'
+        });
+    }
 
 };
 
 exports.postLogin = (req, res, next) => {
 
-    const mro= req.query.mro;
+    const mro = req.query.mro;
 
-    //TODO
     const email = "admin@gmail.com";
 
     if (req.body.email === email) {
@@ -176,8 +221,8 @@ exports.postLogin = (req, res, next) => {
             if (result) {
                 if (result.password === req.body.password) {
                     req.session.isAdmin = true;
-                    if(mro)
-                    res.redirect('/admin/update-mro');
+                    if (mro)
+                        res.redirect('/admin/update-mro');
                     else
                         res.redirect('/admin/update');
                 } else {
