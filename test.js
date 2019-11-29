@@ -117,20 +117,3 @@ async function doTask(res) {
 */
 
 
-
-var output = '';
-var array = ['h','e','l','l','o'];
-// This is an example of an async function, like an AJAX call
-var fetchData = function () {
-    return new Promise( (resolve, reject)=>{
-        resolve();
-    });
-};
-
-for (var i = 0; i < array.length; i++) {
-    fetchData(array[i]).then( ()=> {
-        output += array[i];
-    });
-}
-
-console.log(output);

@@ -37,8 +37,8 @@ mongoose.connect(values.mongoDbUri)
     .then(result => {
         if(result){
             let db = mongoose.connection;
-            // helper.nullify(db, "activealerts");
-            // helper.nullify(db, "globalalerts");
+            helper.nullify(db, "activealerts");
+            helper.nullify(db, "globalalerts");
             console.log("Database connected");
             console.log("server started ");
             app.listen(5000);
@@ -90,7 +90,7 @@ app.use(function (req, res, next) {
 // TCP socket connection
 //184.72.125.75
 //
-/*client.connect(2324, '107.23.152.248', function () {
+client.connect(2324, '107.23.152.248', function () {
 
     client.write(JSON.stringify(values.msg_auth));
     console.log('Connected to Earth Networks Socket');
@@ -124,7 +124,7 @@ client.on('data', function (data) {
 
 client.on('close', function () {
     console.log('Connection closed');
-});*/
+});
 
 
 // error handler

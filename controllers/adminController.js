@@ -57,6 +57,8 @@ exports.upload = (req, res, next) => {
 exports.update = (req, res, next) => {
 
 
+
+
     res.render('admin/update', {
 
         mros: [],
