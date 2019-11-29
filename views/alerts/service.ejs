@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Service</title>
+    <title>Initiation</title>
 
     <script type="text/javascript">
         function display_c() {
@@ -11,50 +11,17 @@
 
         function display_ct() {
             var x = new Date();
-
             var x1 = String(x);
             // console.log(x1);
             var temp = x1.split(" ");
             x = temp[4];
-            // console.log(x);
-
-            var date = temp[0] + " " + temp[1] + " " + temp[2] + " " + temp[3];
-            document.getElementById('date').innerHTML = date;
-            // changing the display to UTC string
             document.getElementById('ct').value = x;
+
+
+
             tt = display_c();
         }
-
-
     </script>
-    <script>
-        window.onbeforeunload = function (e) {
-            var message = "Are you sure ?";
-            var firefox = /Firefox[\/\s](\d+)/.test(navigator.userAgent);
-            if (firefox) {
-                //Add custom dialog
-                //Firefox does not accept window.showModalDialog(), window.alert(), window.confirm(), and window.prompt() furthermore
-                var dialog = document.createElement("div");
-                document.body.appendChild(dialog);
-                dialog.id = "dialog";
-                dialog.style.visibility = "hidden";
-                dialog.innerHTML = message;
-                var left = document.body.clientWidth / 2 - dialog.clientWidth / 2;
-                dialog.style.left = left + "px";
-                dialog.style.visibility = "visible";
-                var shadow = document.createElement("div");
-                document.body.appendChild(shadow);
-                shadow.id = "shadow";
-                //tip with setTimeout
-                setTimeout(function () {
-                    document.body.removeChild(document.getElementById("dialog"));
-                    document.body.removeChild(document.getElementById("shadow"));
-                }, 0);
-            }
-            return message;
-        };
-    </script>
-
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
@@ -62,20 +29,16 @@
     <!-- Bootstrap CSS -->
     <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+    <style>
+        table {
+            width: 50%;
+            border: 1px solid black;
+        }
 
 
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
-    <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-          integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-
-    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
-
+    </style>
 </head>
 <body onload="display_ct()">
-
-
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -88,6 +51,8 @@
 <script crossorigin="anonymous"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <a class="navbar-brand" href="/home">Thunder-Alert System</a>
     <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
@@ -97,11 +62,12 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="nav-link" href="/home">Alerts<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/home">Alerts</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item ">
                 <a class="nav-link" href="/reports">Reports</a>
             </li>
+
             <li class="nav-item">
                 <a class="nav-link" href="/admin/update">admin</a>
             </li>
@@ -110,94 +76,129 @@
     </div>
 </nav>
 <br>
-
-<main>
-    <%if(errorMessage.length>0){%>
-    <div class="alert alert-danger" role="alert">
-        <%=errorMessage%>
-    </div>
-    <%}%>
-
-
-    <form class="container jumbotron vertical-center align-middle" method="post" action="/service">
+<% if(errorMessage.length > 0){ %>
+<div class="alert alert-danger" role="alert">
+    <%= errorMessage %>
+</div>
+<% } %>
+<br>
+<div class="text-center h3 text-info container ">Lightning Alert Details</div>
+<br>
 
 
-        <div class="form-row">
-            <div class="form-group col-md-4">
-                <label for="district">District</label>
-                <p class="lead" id="district"><%= alert.dist %></p>
-            </div>
-            <div class="form-group col-md-4">
-                <label for="mandal">Mandal</label>
-                <p class="lead" id="mandal"><%= alert.mandal %></p>
-            </div>
-        </div>
-        <div class="form-row">
-            <div class="form-group col-md-4">
-                <label for="date">Date</label>
-                <p class="lead" id="date"></p>
-            </div>
-            <div class="form-group col-md-4">
-                <label for="ct">Time</label>
-                <br>
-<!--                <p class="lead" id="ct" name="time"></p>-->
-                <input type="text" id="ct" name="time">
-            </div>
-        </div>
-        <div class="form-row">
-            <div class="form-group col-md-4">
-                <label for="mroname">MRO Name</label>
-                <p class="lead" id="mroname"><%= alert.mroName %></p>
-            </div>
-            <div class="form-group col-md-4">
-                <label for="mrophn">MRO Phone Number</label>
-                <p class="lead" id="mrophn"><%= alert.mroPhone %></p>
-            </div>
-        </div>
-        <div class="form-row">
-            <div class="form-group col-md-4">
-        <span style="font-size: 48px; ">
- <i class="fab fa-whatsapp"> </i>
-</span>
-                <p id="whatsapp" class="lead">
+<form class="container jumbotron vertical-center align-middle" method="post" action="/service">
+<div class="container  vertical-center align-middle">
+    <table class="table  table-striped table-bordered">
+        <tbody>
+        <center>
+            <tr>
+                <td>
+                    <div class="text-left text-primary">Alert Id:</div>
+                </td>
+                <td>
+                    <div class="text-left font-weight-bold"><%= alert._id %></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="text-left text-primary">Alert Date:</div>
+                </td>
 
-                    <%= alert.hasWhatsApp===true ? 'Available' : 'Un Available' %>
-                </p>
-            </div>
+                <td>
+                    <div class="text-left font-weight-bold" id="date">
+                    <%=alert.date%>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="text-left text-primary">Alert Time:</div>
+                </td>
 
-            <div class="form-group col-md-4">
-        <span style="font-size: 48px; ">
- <i class="fab fa-telegram"> </i>
-             <p id="telegram" class="lead">
-                  <%= alert.hasTelegram===true ? 'Available' : 'Un Available' %>
-             </p>
-</span>
-            </div>
-        </div>
+                <td>
+                    <div class="text-left font-weight-bold"><input type="text" class="font-weight-bold" id="ct" name="time"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="text-left text-primary">District:</div>
+                </td>
+                <td>
+                    <div class="text-left font-weight-bold"><%= alert.dist %></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="text-left text-primary">Mandal:</div>
+                </td>
+                <td>
+                    <div class="text-left font-weight-bold"><%= alert.mandal %></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="text-left text-primary">Village:</div>
+                </td>
+                <!--// TODO -->
+                <td>
+                    <div class="text-left font-weight-bold">All Villages</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="text-left text-primary">MRO Name & MRO phno:</div>
+                </td>
 
-        <br>
-        <br>
-        <div class="form-row">
-            <div class="form-group col-md-4">
+                <td>
+                    <div class="text-left font-weight-bold"><%= alert.mroName %>, <%= alert.mroPhone %></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="text-left text-primary">Superendent Name & phno:</div>
+                </td>
 
-            </div>
-            <div class="form-group col-md-4">
+                <td>
+                    <div class="text-left font-weight-bold"><%= alert.superName %>, <%= alert.superPhone %></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="text-left text-primary">Dro Name & phn:</div>
+                </td>
 
-                    <button class="btn btn-primary" type="submit">Next</button>
+                <td>
+                    <div class="text-left font-weight-bold"><%= alert.droName %>, <%= alert.droPhone %></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="text-left text-primary">Whatsapp alerts:</div>
+                </td>
+
+                <td>
+                    <div class="text-left font-weight-bold"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="text-left text-primary">Telegram alerts:</div>
+                </td>
+
+                <td>
+                    <div class="text-left font-weight-bold"></div>
+                </td>
+            </tr>
 
 
-            </div>
-            <div class="form-group col-md-4">
-                <a href="/admin/update-mro" class="myLink"   rel="noopener noreferrer">edit</a>
-
-
-            </div>
-        </div>
-
-
-    </form>
-</main>
-
-
+        </center>
+        </tbody>
+    </table>
+    <center><a href="/home">
+            <button class="btn-warning text-center btn">New Alert Initiation</button>
+        </a></center>
+</div>
+<br>
+</form>
 </body>
 </html>

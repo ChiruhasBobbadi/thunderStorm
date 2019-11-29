@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
 
-const savedAlertSchema = new Schema({
+const telephase = new Schema({
     mandal: {
         type: Schema.Types.ObjectId,
         ref: 'Mandal',
@@ -17,4 +17,4 @@ const savedAlertSchema = new Schema({
 });
 
 
-module.exports = mongoose.model('messagephase', savedAlertSchema);
+module.exports = mongoose.model('telephase', telephase);

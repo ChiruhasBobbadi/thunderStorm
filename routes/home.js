@@ -11,4 +11,6 @@ router.get('/error',route,homeController.error);
 
 router.get('/logout',homeController.logout);
 
+router.get('/manual',route,homeController.manual);
+
 module.exports = router;

@@ -1,7 +1,5 @@
 const activeAlerts = require('../models/activeAlerts');
 
-const savedAlerts = require('../models/savedAlerts');
-
 
 exports.getHome = (req, res, next) => {
     /**
@@ -37,19 +35,17 @@ exports.postHome = (req, res, next) => {
     activeAlerts.findOne({mandal: _id}).populate('mandal').then(activeAlerts => {
 
         if (activeAlerts) {
-            req.session.active = activeAlerts.mandal;
-            const saved = new savedAlerts({
-                time: activeAlerts.time,
-                mandal: activeAlerts.mandal
-            });
-            return saved.save()
-        }
-        else{
+
+            temp = activeAlerts.mandal;
+
+
+            req.session.active = temp;
+
+            console.log(temp);
+            return activeAlerts.deleteOne({mandal: _id})
+        } else {
             return res.redirect('/error');
         }
-    }).then(res => {
-        if (res)
-            return activeAlerts.deleteOne({mandal: _id})
     }).then(result => {
         if (result) {
             res.redirect('/service')
@@ -59,10 +55,9 @@ exports.postHome = (req, res, next) => {
         console.log(err);
     })
 
-
 };
 
-exports.error=(req,res,next)=>{
+exports.error = (req, res, next) => {
 
     res.render('alerts/error');
 };
@@ -75,3 +70,7 @@ exports.logout = (req, res, next) => {
 
 };
 
+exports.manual = (req, res, next) => {
+
+
+};

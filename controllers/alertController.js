@@ -1,15 +1,21 @@
-const activeAlerts = require('../models/activeAlerts');
-const mandals = require('../models/mandal');
+
 const servicedAlerts = require('../models/servicedAlerts');
 
+const messagePhase = require('../models/savedAlerts');
+const tele = require('../models/telePhase');
 
 
 exports.serviceAlert = (req, res, next) => {
 
     // console.log(req.session.active);
 
+    let temp = req.session.active;
+
+   let d = new Date();
+
+
     res.render('alerts/service', {
-        alert: req.session.active,
+        alert: {...req.session.active,'date': d.getDate()+'-'+(d.getMonth()+1)+'-'+d.getFullYear()},
         errorMessage: req.flash('InvalidTime')
     });
 
@@ -17,17 +23,40 @@ exports.serviceAlert = (req, res, next) => {
 };
 
 exports.postService = (req, res, next) => {
-
+    console.log(req.body.time);
     if (req.body.time) {
-        req.session.initTime = req.body.time;
+        let time = req.body.time;
 
-        res.redirect('/message');
+        if (req.session.active) {
+            const saved = new tele({
+                time: time,
+                mandal: req.session.active.mandal
+            });
+            saved.save().then(result => {
+                if (result) {
+                    const saved = new messagePhase({
+                        time: time,
+                        mandal: req.session.active.mandal
+                    });
+                    saved.save().then(result => {
+                        if(result)
+                             res.redirect('/home')
+                    }).catch(err => {
+
+                        console.log(err);
+                    })
+
+                } else {
+                    return res.redirect('/error');
+                }
+            });
+        }
+
+
     } else {
         req.flash('InvalidTime', "Invalid Time");
         res.redirect('/service');
     }
-
-
 };
 
 exports.getMessage = (req, res, next) => {

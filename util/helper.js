@@ -26,7 +26,10 @@ module.exports.toJson = function toJson(str) {
                 f[i - 1].location = {};
                 f[i - 1].location.type = 'Point';
                 f[i - 1].location.coordinates = [f[i - 1].longitude, f[i - 1].latitude];
-                f[i - 1].createdAt = new Date().toISOString();
+
+
+                let d = new Date();
+                f[i - 1].createdAt = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
 
 
             }
@@ -58,7 +61,7 @@ let p7 = [80.27247, 13.299];
 
 
 // node-cron call calls every 1 min for now
-let len=0;
+let len = 0;
 cron.schedule('0 */1 * * * *', () => {
     console.log("called at " + new Date());
     globalAlerts.find({
@@ -72,9 +75,9 @@ cron.schedule('0 */1 * * * *', () => {
         }
     })
         .then(res => {
-            if (res.length>0) {
+            if (res.length > 0) {
                 console.log("calling api");
-               //len+=res.length;
+                //len+=res.length;
                 //console.log(res);
                 console.log("number of record: " + res.length);
                 return doTask(res);
@@ -84,31 +87,31 @@ cron.schedule('0 */1 * * * *', () => {
 
         }).then(locations => {
 
-            if(locations){
-                console.log(locations);
-                for (let i = 0; i < locations.length; i++) {
+        if (locations) {
+            console.log(locations);
+            for (let i = 0; i < locations.length; i++) {
 
 
-                    mandal.findOne({mandal: locations[i].locality.trim()})
-                        .then(result => {
+                mandal.findOne({mandal: locations[i].locality.trim()})
+                    .then(result => {
 
-                            if (result) {
-                                const alerts = new activeAlert({
-                                    mandal: result,
-                                    address: locations[i],
-                                    time: new Date().toTimeString().split(" ")[0]
-                                });
-                                return alerts.save()
-                            }
+                        if (result) {
+                            const alerts = new activeAlert({
+                                mandal: result,
+                                address: locations[i],
+                                time: new Date().toTimeString().split(" ")[0]
+                            });
+                            return alerts.save()
+                        }
 
 
-                        }).then(res => {
-                        if (res)
-                            console.log("written to active alerts");
-                    }).catch(error => {
-                        console.log("error while writing active alerts");
-                        console.log(error);
-                    })
+                    }).then(res => {
+                    if (res)
+                        console.log("written to active alerts");
+                }).catch(error => {
+                    console.log("error while writing active alerts");
+                    console.log(error);
+                })
             }
         }
 
@@ -159,14 +162,14 @@ async function processUsers(res) {
     return data;
 }
 
- async function doTask(res) {
+async function doTask(res) {
     return await processUsers(res);
 }
 
-module.exports.nullify = (db,collection)=>{
-    db.dropCollection(collection).then(res=>{
+module.exports.nullify = (db, collection) => {
+    db.dropCollection(collection).then(res => {
         console.log(collection + " dropped");
-    }).catch(err=>{
+    }).catch(err => {
         console.log("exception in deleting collection");
     })
 };

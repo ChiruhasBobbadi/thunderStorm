@@ -37,8 +37,8 @@ mongoose.connect(values.mongoDbUri)
     .then(result => {
         if(result){
             let db = mongoose.connection;
-            helper.nullify(db, "activealerts");
-            helper.nullify(db, "globalalerts");
+            /*helper.nullify(db, "activealerts");
+            helper.nullify(db, "globalalerts");*/
             console.log("Database connected");
             console.log("server started ");
             app.listen(5000);
