@@ -1,6 +1,6 @@
 const multer = require('multer');
 
-module.exports.bingKey = 'As_wLgBGd9x-kbekvkeOHKxqnSfp9CiNcPHP2uR3Mkviy306NMQsDE94mVNOsg3D';
+// module.exports.bingKey = 'As_wLgBGd9x-kbekvkeOHKxqnSfp9CiNcPHP2uR3Mkviy306NMQsDE94mVNOsg3D';
 module.exports.mongoDbUri = 'mongodb://localhost:27017/ThunderStorm';
 
 //  PARTNER ID (PROVIDED BY EARTH NETWORKS)

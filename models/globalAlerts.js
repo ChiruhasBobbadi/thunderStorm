@@ -13,7 +13,7 @@ const globalAlertSchema = new Schema({
         coordinates: []
     },
     createdAt:{
-        type:Date,
+        type:String,
         required:true
     }
 

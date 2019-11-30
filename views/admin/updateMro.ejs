@@ -2,6 +2,28 @@
 <html lang="en">
 <head>
     <title>Update Mro Details</title>
+    <script type="text/javascript">
+        function display_c() {
+            var refresh = 1000; // Refresh rate in milli seconds
+            mytime = setTimeout('display_ct()', refresh)
+        }
+
+        function display_ct() {
+            var x = new Date();
+            var x1 = String(x);
+            // console.log(x1);
+            var temp = x1.split(" ");
+            let date = x.getDate() + '-' + (x.getMonth() + 1) + '-' + x.getFullYear();
+            x = temp[4];
+            // console.log(x);
+
+
+            document.getElementById('date').innerHTML = date;
+            // changing the display to UTC string
+            document.getElementById('ct').value = x;
+            tt = display_c();
+        }
+    </script>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,7 +32,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-<body>
+<body onload="display_ct()">
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -49,158 +71,186 @@
 <br>
 
 
-
 <div class="container">
     <% if(error.length > 0){ %>
-    <div class="alert alert-danger" role="alert">
-        <%=error%>
-    </div>
+        <div class="alert alert-danger" role="alert">
+            <%= error %>
+        </div>
     <% } %>
-<main>
+    <main>
 
-    <form class="well form-horizontal jumbotron vertical-center align-middle" action="/admin/update-mro" method="post"
-          id="contact_form">
-        <fieldset>
+        <form class="container  align-middle" method="post" action="/admin/update-mro">
+            <div class="container  vertical-center align-middle">
+                <table class="table  table-striped table-bordered">
+                    <tbody>
+                    <center>
+                        <tr>
+                            <td>
+                                <div class="text-left text-primary">Alert Id:</div>
+                            </td>
+                            <td>
+                                <div class="text-left font-weight-bold"><%= alert._id %></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="text-left text-primary">Alert Date:</div>
+                            </td>
 
-            <!-- Form Name -->
-            <center><p class="display-4">Edit Details</p></center>
+                            <td>
+                                <div class="text-left font-weight-bold" id="date">
+
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="text-left text-primary">Alert Time:</div>
+                            </td>
+
+                            <td>
+                                <div class="text-left font-weight-bold"><input type="text" required
+                                                                               class="font-weight-bold"
+                                                                               id="ct" name="time"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="text-left text-primary">District:</div>
+                            </td>
+                            <td>
+                                <div class="text-left font-weight-bold"><%= alert.dist %></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="text-left text-primary">Mandal:</div>
+                            </td>
+                            <td>
+                                <div class="text-left font-weight-bold"><%= alert.mandal %></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="text-left text-primary">Village:</div>
+                            </td>
+                            <!--// TODO -->
+                            <td>
+                                <div class="text-left font-weight-bold">All Villages</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="text-left text-primary">MRO Name :</div>
+                            </td>
+
+                            <td>
+                                <div class="text-left font-weight-bold">
+                                    <input required type="text" name="mroName" value=" <%= alert.mroName %>">
+
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="text-left text-primary">MRO Phone :</div>
+                            </td>
+
+                            <td>
+                                <div class="text-left font-weight-bold">
+                                    <input type="text" required name="mroPhone" value=" <%= alert.mroPhone %>"></div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="text-left text-primary">Superendent Name :</div>
+                            </td>
+
+                            <td>
+                                <div class="text-left font-weight-bold">
+                                    <input required type="text" name="superName" value=" <%= alert.superName %>">
+
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="text-left text-primary"> Superendent Phno:</div>
+                            </td>
+
+                            <td>
+                                <div class="text-left font-weight-bold">
+                                    <input required type="text" name="superPhone" value=" <%= alert.superPhone %>">
+                                </div>
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td>
+                                <div class="text-left text-primary">DRO Name :</div>
+                            </td>
+
+                            <td>
+                                <div class="text-left font-weight-bold">
+                                    <input required type="text" name="droName" value=" <%= alert.droName %>">
+
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="text-left text-primary"> DRO Phno:</div>
+                            </td>
+
+                            <td>
+                                <div class="text-left font-weight-bold">
+                                    <input required type="text" name="droPhone" value=" <%= alert.droPhone %>"></div>
+                            </td>
+                        </tr>
+
+                        <tr aria-rowspan="5">
+                            <td>
+                                <div class="text-left text-primary">Whatsapp alerts:</div>
+                            </td>
+
+                            <td>
+
+
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="text-left text-primary">Telegram alerts:
+
+                                </div>
+                            </td>
+
+                            <td>
+                                <div class="text-left font-weight-bold">MRO
+                                    <span class="container">
+
+
+                                    </span>
+                                </div>
+                            </td>
+                        </tr>
+
+
+                    </center>
+                    </tbody>
+                </table>
+                <center>
+                    <button class="btn-warning text-center btn">Update</button>
+                </center>
+
+
+            </div>
             <br>
-
-            <!-- Text input-->
-            <center>
-                <div class="form-group" align-middle>
-                    <div class="row">
-                        <label class="col-md-4 control-label lead">MRO-Name</label>
-                        <div class="col-md-4 inputGroupContainer">
-                            <div class="input-group">
-
-                                <input name="mroName" id="mroName" placeholder="Name" class="form-control" type="text"
-                                       value="<%=mro.mroName %>">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </center>
-            <!-- Text input-->
-
-            <center>
-                <div class="form-group" align-middle>
-                    <div class="row">
-                        <label class="col-md-4 control-label lead">MRO-Phone</label>
-                        <div class="col-md-4 inputGroupContainer">
-                            <div class="input-group">
-
-                                <input  placeholder="phn-no" name="mroPhn" id="mroPhn" class="form-control" type="tel"
-                                       value="<%=mro.mroPhone %>">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </center>
-
-
-            <!-- Text input-->
-
-            <center>
-                <div class="form-group" align-middle>
-                    <div class="row">
-                        <label class="col-md-4 control-label lead">District</label>
-                        <div class="col-md-4 inputGroupContainer">
-                            <div class="input-group">
-
-                                <p class="lead"><%=mro.dist%></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </center>
-
-            <!-- Text input-->
-
-            <center>
-                <div class="form-group" align-middle>
-                    <div class="row">
-                        <label class="col-md-4 control-label lead">Mandal</label>
-                        <div class="col-md-4 inputGroupContainer">
-                            <div class="input-group">
-
-                                <p class="lead"><%=mro.mandal%></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </center>
-
-            <!-- Text input-->
-
-            <center>
-                <div align-middle class="form-group">
-                    <div class="row">
-                        <label class="col-md-4 control-label">has-Whatsapp</label>
-                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                        <%if(mro.hasWhatsApp){%>
-                        <label class="radio-inline">
-                            <input class="with-gap" name="group1" type="radio" id="yes" value="yes" checked="true"/>Yes</label>
-                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                        <label class="radio-inline">
-                            <input class="with-gap" name="group1" type="radio" id="no" value="no"/>No</label>
-                        <%} else{%>
-
-                        <label class="radio-inline">
-                            <input class="with-gap" name="group1" type="radio" id="yes" value="yes" />Yes</label>
-                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                        <label class="radio-inline">
-                            <input class="with-gap" name="group1" type="radio" id="no" value="no" checked="true"/>No</label>
-
-                        <%}%>
-
-                    </div>
-                </div>
-            </center>
-
-            <center>
-                <div align-middle class="form-group">
-                    <div class="row">
-                        <label class="col-md-4 control-label">has-Telegram</label>
-                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                        <%if(mro.hasTelegram){%>
-                            <label class="radio-inline">
-                                <input class="with-gap" name="group2" type="radio" id="yes" value="yes" checked='true'/>Yes</label>
-                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                            <label class="radio-inline">
-                                <input class="with-gap" name="group2" type="radio" id="no" value="no"/>No</label>
-                        <%} else{%>
-                            <label class="radio-inline">
-                                <input class="with-gap" name="group2" type="radio" id="yes" value="yes" />Yes</label>
-                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                            <label class="radio-inline">
-                                <input class="with-gap" name="group2" type="radio" id="no" value="no" checked="true"/>No</label>
-
-                        <%}%>
-                    </div>
-                </div>
-            </center>
-
-
-            <!-- Select Basic -->
-
-            <!-- Success message -->
-
-            <!-- Button -->
-            <center>
-                <div class="form-group">
-                    <label class="col-md-4 control-label"></label>
-                    <div class="col-md-4"><br>
-                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="submit"
-                                                                                                     class="btn btn-primary Update"
-                                                                                                     value="Update">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                        <span class="glyphicon glyphicon-send"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</input>
-                    </div>
-                </div>
-            </center>
-        </fieldset>
-    </form>
-</main>
+        </form>
+    </main>
 
 </div>
 </div><!-- /.container -->

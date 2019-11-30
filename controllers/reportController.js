@@ -15,7 +15,8 @@ exports.getReports = (req, res, next) => {
     //     console.log(err);
     // })
     res.render('reports/report', {
-        reports: {}
+        reports: [],
+        error:req.flash('date_error')
     })
 
 };
@@ -28,25 +29,28 @@ exports.postReports = (req, res, next) => {
     let from = new Date(req.body.date1).toISOString();
     let to = new Date(req.body.date2).toISOString();
 
-    req.session.fromDate = from;
-    req.session.toDate = to;
-
-    servicedAlerts.find({date: {$lte: to, $gte: from}}).then(servicedAlerts => {
-
-        req.session.report = servicedAlerts;
-        req.report = servicedAlerts;
+    if(from && to){
+        servicedAlerts.find({isoDate: {$lte: to, $gte: from}}).then(servicedAlerts => {
 
 
-        servicedAlerts.from = req.body.date1;
-        servicedAlerts.to = req.body.date2;
-        res.render('reports/report', {
-            reports: servicedAlerts
-        });
 
 
-    }).catch(err => {
-        console.log(err);
-    })
+            servicedAlerts.from = req.body.date1;
+            servicedAlerts.to = req.body.date2;
+            res.render('reports/report', {
+                reports: servicedAlerts,
+                error:req.flash('date_error')
+            });
+
+
+        }).catch(err => {
+            console.log(err);
+        })
+    }
+
+   else{
+       req.flash('date_error','Both to and from dates are required');
+    }
 
 
     // console.log(d1);

@@ -9,7 +9,7 @@ exports.serviceAlert = (req, res, next) => {
 
     // console.log(req.session.active);
 
-    let temp = req.session.active;
+
 
    let d = new Date();
 
@@ -23,20 +23,26 @@ exports.serviceAlert = (req, res, next) => {
 };
 
 exports.postService = (req, res, next) => {
+    let d = new Date();
+    let date = d.getDate()+'-'+(d.getMonth()+1)+'-'+d.getFullYear();
     console.log(req.body.time);
     if (req.body.time) {
         let time = req.body.time;
-
+        console.log(req.session.active);
         if (req.session.active) {
             const saved = new tele({
+
                 time: time,
-                mandal: req.session.active.mandal
+                mandal: req.session.active._id,
+                date:date
             });
             saved.save().then(result => {
                 if (result) {
                     const saved = new messagePhase({
+                        _id:result._id,
                         time: time,
-                        mandal: req.session.active.mandal
+                        mandal: req.session.active._id,
+                        date:date
                     });
                     saved.save().then(result => {
                         if(result)

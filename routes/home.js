@@ -13,4 +13,5 @@ router.get('/logout',homeController.logout);
 
 router.get('/manual',route,homeController.manual);
 
+router.post('/manual',route,homeController.postmanual);
 module.exports = router;

@@ -9,9 +9,9 @@ router.get('/service',route,alertController.serviceAlert);
 
 router.post('/service',route,alertController.postService);
 
-router.get('/message',route,alertController.getMessage);
+/*router.get('/message',route,alertController.getMessage);
 
-router.post('/message',route,alertController.postMessage);
+router.post('/message',route,alertController.postMessage);*/
 
 
 

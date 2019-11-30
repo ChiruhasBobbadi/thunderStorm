@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Message Alert</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+
+    <!-- Bootstrap CSS -->
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+</head>
+<body>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script crossorigin="anonymous"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="/home">Thunder-Alert System</a>
+    <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+            data-target="#navbarNav" data-toggle="collapse" type="button">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item ">
+                <a class="nav-link" href="/home">Alerts</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/reports">Reports<span class="sr-only">(current)</span></a>
+
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/admin/update">admin</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="/tele">Tele phase</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="/message">Message Phase</a>
+            </li>
+
+            <li class="nav navbar-nav pull-right">
+                <a class="nav-link" href="/logout">Log out</a>
+            </li>
+
+
+        </ul>
+    </div>
+</nav>
+<br>
+<br>
+
+<div class=" container text-primary h3 text-center">Lightning Whatsapp/Telegram Alert Details
+    <br>
+    <br>
+    <button class="btn btn-primary" onclick="document.location.reload(true)">refresh</button>
+</div>
+<div class="container jumbotron bg-white vertical-center align-middle ">
+    <%if(error.length>0){%>
+    <div class="alert alert-danger" role="alert">
+        <%=error%>
+    </div>
+    <%}%>
+
+    <center>
+        <table border="1" class="table-bordered text-center">
+
+            <thead class="table table-warning table-black table-bordered">
+            <tr>
+                <th colspan="14">
+                    <center>SEOC-Lightning Message Communication Details</center>
+                </th>
+            </tr>
+            <tr>
+                <th rowspan="2"><br>Alert Id</th>
+                <th rowspan="2"><br>Date & ID</th>
+                <th colspan="5">
+                    <center>Whatsapp</center>
+                </th>
+                <th>telegram</th>
+                <th rowspan="2">
+                    <center>message format</center>
+                </th>
+                <th rowspan="2">Comments</th>
+                <th rowspan="2">Close Ticket</th>
+            </tr>
+            <tr>
+                <th>Dro</th>
+                <th>D.Section</th>
+                <th>RDO</th>
+                <th>Alerts</th>
+                <th>MRO</th>
+                <th>MRO</th>
+            </tr>
+            </thead>
+            <% for (let msg of messages){ %>
+            <tbody>
+            <form method="post" action="/message/<%=msg.id%>">
+            <tr>
+                <td rowspan="3">
+                    <div class="form-group">
+                    <%=msg.id%>
+                    </div>
+                </td>
+                <td rowspan="3">
+                    <%=msg.date%><br>
+                    <center>&</center>
+                   <%=msg.time%>
+                </td>
+                <td rowspan="3">yes
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input  class="form-check-input"  name="check" type="checkbox" value="checkedValue">
+                            verify
+                        </label>
+                    </div>
+                </td>
+                <td rowspan="3">yes
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input  class="form-check-input" name="check" type="checkbox" value="checkedValue">
+                            verify
+                        </label>
+                    </div>
+                </td>
+
+                <td rowspan="3">yes
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input  class="form-check-input"  name="check" type="checkbox" value="checkedValue">
+                            verify
+                        </label>
+                    </div>
+                </td>
+                <td rowspan="3">yes
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input  class="form-check-input"  name="check" type="checkbox" value="checkedValue">
+                            verify
+                        </label>
+                    </div>
+                </td>
+                <td rowspan="3">yes
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input  class="form-check-input"  name="check" type="checkbox" value="checkedValue">
+                            verify
+                        </label>
+                    </div>
+                </td>
+                <td rowspan="3">yes
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input  class="form-check-input"  name="check" type="checkbox" value="checkedValue">
+                            verify
+                        </label>
+                    </div>
+                </td>
+                <td ,colspan="3" rowspan="3"></td>
+                <td rowspan="3">
+                    <div class="form-group">
+                        <label for=""></label>
+                        <textarea class="form-control" name="" rows="3"></textarea>
+                    </div>
+                </td>
+                <td rowspan="3">
+                    <input type="submit" class="btn btn-primary" value="close">
+                </td>
+            </tr>
+            </tbody>
+            <%}%>
+        </table>
+    </center>
+</div>
+
+
+</body>
+</html>

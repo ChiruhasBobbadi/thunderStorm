@@ -155,7 +155,7 @@ exports.getUpdateMro = (req, res, next) => {
     if (req.session.isAdmin) {
         console.log(req.flash('error'));
         return res.render('admin/updateMro', {
-            mro: req.session.active,
+            alert: req.session.active,
             error: req.flash('update_error')
         });
     }
@@ -166,15 +166,20 @@ exports.getUpdateMro = (req, res, next) => {
 exports.postUpdateMro = (req, res, next) => {
 
     const mandalId = req.session.active._id;
-    const telegram = (req.body.group2 === 'yes');
-    const whatsapp = (req.body.group1 === 'yes');
+
+
+
     let m;
     if (mandalId) {
         mandal.findById(mandalId).then(mandal => {
-            mandal.mroName = req.body.mroName;
-            mandal.mroPhone = req.body.mroPhn;
-            mandal.hasWhatsApp = whatsapp;
-            mandal.hasTelegram = telegram;
+            mandal.mro.mroName = req.body.mroName;
+            mandal.mro.mroPhone = req.body.mroPhone;
+            mandal.super.superName = req.body.superName;
+            mandal.super.superPhone = req.body.superPhone;
+            mandal.dro.droName = req.body.droName;
+            mandal.dro.droPhone = req.body.droPhone;
+
+
             m = mandal;
             return mandal.save();
         }).then(result => {

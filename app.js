@@ -14,6 +14,7 @@ const mongoose = require('mongoose');
 const globalAlerts = require('./models/globalAlerts');
 const indexRouter = require('./routes/index');
 const alertRoute = require('./routes/alert');
+const phases = require('./routes/phases');
 const loginRoute = require('./routes/login');
 const homeRoute = require('./routes/home');
 const reportRoute = require('./routes/reports');
@@ -41,7 +42,7 @@ mongoose.connect(values.mongoDbUri)
             helper.nullify(db, "globalalerts");*/
             console.log("Database connected");
             console.log("server started ");
-            app.listen(5000);
+            app.listen(3000);
         }
         else {
             console.log("failed to connect db ");
@@ -79,6 +80,7 @@ app.use(loginRoute);
 app.use(alertRoute);
 app.use(homeRoute);
 app.use(reportRoute);
+app.use(phases);
 app.use('/admin', adminRoute);
 
 // catch 404 and forward to error handler
@@ -90,7 +92,7 @@ app.use(function (req, res, next) {
 // TCP socket connection
 //184.72.125.75
 //
-client.connect(2324, '107.23.152.248', function () {
+/*client.connect(2324, '107.23.152.248', function () {
 
     client.write(JSON.stringify(values.msg_auth));
     console.log('Connected to Earth Networks Socket');
@@ -124,7 +126,7 @@ client.on('data', function (data) {
 
 client.on('close', function () {
     console.log('Connection closed');
-});
+});*/
 
 
 // error handler

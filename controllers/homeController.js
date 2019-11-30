@@ -1,5 +1,5 @@
 const activeAlerts = require('../models/activeAlerts');
-
+const mandals = require('../models/mandal');
 
 exports.getHome = (req, res, next) => {
     /**
@@ -71,6 +71,51 @@ exports.logout = (req, res, next) => {
 };
 
 exports.manual = (req, res, next) => {
+
+
+    res.render('alerts/manual', {
+        error: req.flash('mandal_error')
+    });
+};
+
+exports.postmanual = (req, res, next) => {
+
+    const mandal = req.body.mandal;
+
+
+    mandals.findOne({mandal: mandal}).then(result => {
+
+        if (result) {
+            const ac = new activeAlerts({
+                mandal: result,
+                time: new Date().toTimeString()
+            });
+            return ac.save();
+        } else {
+            req.flash('mandal_error', 'No mandal found try again or contact administrator.')
+        }
+
+    }).then(result => {
+        if (result) {
+            console.log("active alert saved");
+
+             return result.populate('mandal').execPopulate()
+
+        } else {
+            console.log("alert save failed");
+           return res.redirect('/manual')
+        }
+
+    }).then(result=>{
+        if(result){
+            console.log(result);
+            req.session.active = result.mandal;
+            res.redirect('/service')
+        }
+
+    }).catch(err => {
+        console.log(err);
+    })
 
 
 };

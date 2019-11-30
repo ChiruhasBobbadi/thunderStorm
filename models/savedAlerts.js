@@ -11,6 +11,10 @@ const savedAlertSchema = new Schema({
     time: {
         type: String,
         required: true
+    },
+    date: {
+        type: String,
+        required: true
     }
 
 

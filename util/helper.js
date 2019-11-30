@@ -61,8 +61,10 @@ let p7 = [80.27247, 13.299];
 
 
 // node-cron call calls every 1 min for now
+//todo
+/*
 let len = 0;
-cron.schedule('0 */1 * * * *', () => {
+cron.schedule('0 *!/1 * * * *', () => {
     console.log("called at " + new Date());
     globalAlerts.find({
         location: {
@@ -120,10 +122,11 @@ cron.schedule('0 */1 * * * *', () => {
     });
 });
 // node-cron call which clears the set every 45 min.
-cron.schedule('0 */45 * * * *', () => {
+cron.schedule('0 *!/45 * * * *', () => {
     console.log("set cleared at " + new Date());
     locationSet.clear();
 });
+*/
 
 
 function make_api_call(lat, lng) {
