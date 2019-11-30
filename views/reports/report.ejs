@@ -102,12 +102,12 @@
         <table border="1" class="table-bordered">
             <thead class="table-success">
             <tr>
-                <th colspan="17">
+                <th colspan="16">
                     <center>SEOC-Lightning Tele-Communication Details</center>
                 </th>
             </tr>
             <tr class="text-center">
-                <th rowspan="2"><br>S.No</th>
+
                 <th rowspan="2"><br>Alert Id</th>
                 <th rowspan="2"><br>Date</th>
                 <th rowspan="2"><br>Time</th>
@@ -134,24 +134,24 @@
             <% for (let report of reports){ %>
                 <tbody>
 
-                <tr>
-                    <td>1</td>
-                    <td><%= report.id %></td>
-                    <td><%= report.date %>></td>
-                    <td><%= report.time %></td>
-                    <td><%= report.dist %>></td>
-                    <td><%= report.mandal %></td>
-                    <td><%= report.tele.mro %></td>
-                    <td><%= report.tele.super %></td>
-                    <td><%= report.tele.dro %></td>
-                    <td><%= report.call.comments %></td>
-                    <td><%= report.message.dro %></td>
-                    <td><%= report.message.super %></td>
-                    <td><%= report.message.rdo %></td>
-                    <td></td>
-                    <td><%= report.message.mro %></td>
-                    <td><%= report.message2.mro %></td>
-                    <td><%= report.message.comments %></td>
+                <tr class="text-center">
+
+                    <td rowspan="2"><%= report.id %></td>
+                    <td rowspan="2"><%= report.date %></td>
+                    <td rowspan="2"><%= report.time %></td>
+                    <td rowspan="2"><%= report.mandal.dist %></td>
+                    <td rowspan="2"><%= report.mandal.mandal %></td>
+                    <td rowspan="2"><%= report.tele.mro %></td>
+                    <td rowspan="2"><%= report.tele.super %></td>
+                    <td rowspan="2"><%= report.tele.dro %></td>
+                    <td rowspan="2"><%= report.tele.comments %></td>
+                    <td rowspan="2"><%= report.message.dro %></td>
+                    <td rowspan="2"><%= report.message.super %></td>
+                    <td rowspan="2"><%= report.message.rdo %></td>
+                    <td rowspan="2"><%= report.message.alerts %></td>
+                    <td rowspan="2"><%= report.message.mro %></td>
+                    <td rowspan="2"><%= report.message2.mro %></td>
+                    <td rowspan="2"><%= report.message.comments %></td>
                 </tr>
                 </tbody>
             <% } %>

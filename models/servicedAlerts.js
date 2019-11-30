@@ -13,7 +13,7 @@ const servicedAlertSchema = new Schema({
         required: true
     },
     mandal: {
-        type: Object,
+       type:Object,
         required: true
     },
     isoDate:{

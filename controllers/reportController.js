@@ -32,11 +32,9 @@ exports.postReports = (req, res, next) => {
     if(from && to){
         servicedAlerts.find({isoDate: {$lte: to, $gte: from}}).then(servicedAlerts => {
 
-
-
-
             servicedAlerts.from = req.body.date1;
             servicedAlerts.to = req.body.date2;
+            console.log(servicedAlerts);
             res.render('reports/report', {
                 reports: servicedAlerts,
                 error:req.flash('date_error')
