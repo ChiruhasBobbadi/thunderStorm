@@ -102,6 +102,11 @@ client.on('error', (error) => {
     console.log("Error");
     console.log(error);
 
+     client.setTimeout(10000, function() {
+     console.log('establishing reconnection');
+        client.connect(2324, '107.23.152.248');
+    })
+
 });
 
 client.on('data', function (data) {
@@ -127,6 +132,8 @@ client.on('data', function (data) {
 client.on('close', function () {
     console.log('Connection closed');
 });*/
+
+
 
 
 // error handler

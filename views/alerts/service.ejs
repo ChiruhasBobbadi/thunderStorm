@@ -171,22 +171,23 @@
                     <div class="text-left font-weight-bold"><%= alert.droName %>, <%= alert.droPhone %></div>
                 </td>
             </tr>
-            <tr>
+            <tr rowspan="5">
                 <td>
                     <div class="text-left text-primary">Whatsapp alerts:</div>
+
                 </td>
 
-                <td>
-                    <div class="text-left font-weight-bold"></div>
+                <td >
+                    <div class="text-left font-weight-bold">DRO: <%=alert.dro_hasWhatsApp%><br>D.Section: <%=alert.super_hasWhatsApp%> <br>RDO: <%=alert.rdo_hasWhatsApp%><br>Alerts: <%=alert.alerts_hasWhatsApp%><br>MRO: <%=alert.hasWhatsApp%></div>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <div class="text-left text-primary">Telegram alerts:</div>
+                    <div class="text-left text-primary">Telegram alerts: </div>
                 </td>
 
                 <td>
-                    <div class="text-left font-weight-bold"></div>
+                    <div class="text-left font-weight-bold">MRO: <%=alert.hasTelegram%></div>
                 </td>
             </tr>
 
