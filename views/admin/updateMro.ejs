@@ -73,10 +73,11 @@
 
 <div class="container">
     <% if(error.length > 0){ %>
-        <div class="alert alert-danger" role="alert">
-            <%= error %>
-        </div>
-    <% } %>
+            <div class="alert alert-danger" role="alert">
+                <%= error %>
+            </div>
+        <% } %>
+
     <main>
 
         <form class="container  align-middle" method="post" action="/admin/update-mro">

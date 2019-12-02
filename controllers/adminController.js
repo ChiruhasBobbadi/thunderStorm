@@ -3,6 +3,9 @@ const mandal = require('../models/mandal');
 const excelToJson = require('convert-excel-to-json');
 const path = require('path');
 const fs = require('fs');
+const express = require('express');
+
+const app = express();
 
 exports.upload = (req, res, next) => {
 
@@ -155,6 +158,7 @@ exports.getUpdateMro = (req, res, next) => {
     if (req.session.isAdmin) {
         console.log(req.flash('error'));
         return res.render('admin/updateMro', {
+
             alert: req.session.active,
             error: req.flash('update_error')
         });
@@ -167,17 +171,16 @@ exports.postUpdateMro = (req, res, next) => {
 
     const mandalId = req.session.active._id;
 
-
-
     let m;
     if (mandalId) {
         mandal.findById(mandalId).then(mandal => {
-            mandal.mro.mroName = req.body.mroName;
-            mandal.mro.mroPhone = req.body.mroPhone;
-            mandal.super.superName = req.body.superName;
-            mandal.super.superPhone = req.body.superPhone;
-            mandal.dro.droName = req.body.droName;
-            mandal.dro.droPhone = req.body.droPhone;
+
+            mandal.mroName = req.body.mroName;
+            mandal.mroPhone = req.body.mroPhone;
+            mandal.superName = req.body.superName;
+            mandal.superPhone = req.body.superPhone;
+            mandal.droName = req.body.droName;
+            mandal.droPhone = req.body.droPhone;
 
 
             m = mandal;
@@ -186,6 +189,7 @@ exports.postUpdateMro = (req, res, next) => {
             if (result) {
 
                 req.session.active = m;
+                req.flash('edit_success','Details successfully modified');
                 res.redirect('/service');
             }
 
@@ -202,6 +206,7 @@ exports.postUpdateMro = (req, res, next) => {
 
 exports.adminLogin = (req, res, next) => {
     console.log(req.query.mro);
+
     if (req.query.mro) {
         console.log("mro set");
         res.render('admin/login', {
@@ -224,9 +229,10 @@ exports.postLogin = (req, res, next) => {
     const email = "admin@gmail.com";
 
     if (req.body.email === email) {
-        user.findOne({email: email}).then(result => {
+        user.findOne({email: email,password:req.body.password}).then(result => {
+            console.log(result);
             if (result) {
-                if (result.password === req.body.password) {
+
                     req.session.isAdmin = true;
                     if (mro)
                         res.redirect('/admin/update-mro');
@@ -236,7 +242,7 @@ exports.postLogin = (req, res, next) => {
                     req.flash('admin_login', "Invalid emailID or password");
                     res.redirect('/admin/login');
                 }
-            }
+
         }).catch(err => {
             console.log(err);
         })

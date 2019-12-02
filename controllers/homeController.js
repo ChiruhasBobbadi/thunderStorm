@@ -31,16 +31,12 @@ exports.postHome = (req, res, next) => {
 
     const _id = req.query.id;
 
-
+    console.log(_id);
     activeAlerts.findOne({mandal: _id}).populate('mandal').then(activeAlerts => {
 
         if (activeAlerts) {
-
             temp = activeAlerts.mandal;
-
-
             req.session.active = temp;
-
             console.log(temp);
             return activeAlerts.deleteOne({mandal: _id})
         } else {

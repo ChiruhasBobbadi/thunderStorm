@@ -16,7 +16,8 @@ exports.serviceAlert = (req, res, next) => {
 
     res.render('alerts/service', {
         alert: {...req.session.active,'date': d.getDate()+'-'+(d.getMonth()+1)+'-'+d.getFullYear()},
-        errorMessage: req.flash('InvalidTime')
+        errorMessage: req.flash('InvalidTime'),
+        success:req.flash('edit_success')
     });
 
 

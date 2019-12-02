@@ -76,11 +76,18 @@
     </div>
 </nav>
 <br>
-<% if(errorMessage.length > 0){ %>
-<div class="alert alert-danger" role="alert">
-    <%= errorMessage %>
+<div class="container">
+    <% if(errorMessage.length > 0){ %>
+        <div class="alert alert-danger" role="alert">
+            <%= errorMessage %>
+        </div>
+    <% } %>
+    <% if(success.length > 0){ %>
+        <div class="alert alert-success" role="alert">
+            <%= success %>
+        </div>
+    <% } %>
 </div>
-<% } %>
 <br>
 <div class="text-center h3 text-info container ">Lightning Alert Details</div>
 <br>
