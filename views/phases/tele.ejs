@@ -106,9 +106,9 @@
             </thead>
 
             <% for (let tele of teles){ %>
-
+            <form method="post" action="/tele/<%=tele.id%>">
                 <tbody>
-                <form method="post" action="/tele/<%=tele.id%>">
+
                     <td>
                         <div class="text-center"><%= tele.id %></div>
                     </td>
@@ -120,7 +120,7 @@
                         <td rowspan="5" class="text-center">
                             <%= tele.mandal.mroName %>,<br><%= tele.mandal.mroPhone %><br>
 
-                            <input type="checkbox" class="form-check-input" name="check" id="mroCheck"
+                            <input type="checkbox" class="form-check-input" name="checkMro"  id="mroCheck"
                             >
                             <label class="form-check-label" for="mroCheck">
                                 verify
@@ -130,7 +130,7 @@
                         <td rowspan="5" class="text-center"><%= tele.mandal.superName %>
                             ,<br><%= tele.mandal.superPhone %><br>
 
-                            <input type="checkbox" class="form-check-input" name="check" id="superCheck">
+                            <input type="checkbox" class="form-check-input" name="checkSuper"  id="superCheck">
                             <label class="form-check-label">
 
                                 verify
@@ -140,7 +140,7 @@
                         <td rowspan="5" class="text-center"><%= tele.mandal.droName %>,<br><%= tele.mandal.droPhone %>
                             <br>
 
-                            <input type="checkbox" class="form-check-input" name="check" id="">
+                            <input type="checkbox" class="form-check-input" name="checkDro" id="">
                             <label class="form-check-label">
 
                                 verify
@@ -157,9 +157,9 @@
                     <td><input type="submit" class="btn btn-primary" value="close"></td>
 
                     </tr>
-                </form>
-                </tbody>
 
+                </tbody>
+            </form>
             <% } %>
 
         </table>

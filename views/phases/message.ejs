@@ -118,8 +118,8 @@
             </tr>
             </thead>
             <% for (let msg of messages){ %>
-            <tbody>
             <form method="post" action="/message/<%=msg.id%>">
+            <tbody>
             <tr>
                 <td rowspan="3">
                     <div class="form-group">
@@ -131,69 +131,83 @@
                     <center>&</center>
                    <%=msg.time%>
                 </td>
-                <td rowspan="3">yes
-                    <div class="form-check">
-                        <label class="form-check-label">
-                            <input  class="form-check-input"  name="check" type="checkbox" value="checkedValue">
-                            verify
-                        </label>
-                    </div>
+                <td rowspan="3"><%=msg.mandal.dro_hasWhatsApp%>
+                    <%if (msg.mandal.dro_hasWhatsApp==='yes') { %>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input required class="form-check-input"  name="checkDro" type="checkbox" value="checkedValue">
+                                verify
+                            </label>
+                        </div>
+                    <% } %>
+
                 </td>
-                <td rowspan="3">yes
-                    <div class="form-check">
-                        <label class="form-check-label">
-                            <input  class="form-check-input" name="check" type="checkbox" value="checkedValue">
-                            verify
-                        </label>
-                    </div>
+                <td rowspan="3"><%=msg.mandal.super_hasWhatsApp%>
+                    <%if (msg.mandal.super_hasWhatsApp==='yes') { %>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input required class="form-check-input"  name="checkSuper" type="checkbox" value="checkedValue">
+                                verify
+                            </label>
+                        </div>
+                    <% } %>
                 </td>
 
-                <td rowspan="3">yes
-                    <div class="form-check">
-                        <label class="form-check-label">
-                            <input  class="form-check-input"  name="check" type="checkbox" value="checkedValue">
-                            verify
-                        </label>
-                    </div>
+                <td rowspan="3"><%=msg.mandal.rdo_hasWhatsApp%>
+                    <%if (msg.mandal.rdo_hasWhatsApp==='yes') { %>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input required  class="form-check-input"  name="checkRdo" type="checkbox" value="checkedValue">
+                                verify
+                            </label>
+                        </div>
+                    <% } %>
                 </td>
-                <td rowspan="3">yes
-                    <div class="form-check">
-                        <label class="form-check-label">
-                            <input  class="form-check-input"  name="check" type="checkbox" value="checkedValue">
-                            verify
-                        </label>
-                    </div>
+                <td rowspan="3"><%=msg.mandal.alerts_hasWhatsApp%>
+                    <%if (msg.mandal.alerts_hasWhatsApp==='yes') { %>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input  class="form-check-input"  name="checkAlert" type="checkbox" value="checkedValue">
+                                verify
+                            </label>
+                        </div>
+                    <% } %>
                 </td>
-                <td rowspan="3">yes
-                    <div class="form-check">
-                        <label class="form-check-label">
-                            <input  class="form-check-input"  name="check" type="checkbox" value="checkedValue">
-                            verify
-                        </label>
-                    </div>
+                <td rowspan="3"><%=msg.mandal.hasWhatsApp%>
+                    <%if (msg.mandal.hasWhatsApp==='yes') { %>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input  required class="form-check-input"  name="checkMro" type="checkbox" value="checkedValue">
+                                verify
+                            </label>
+                        </div>
+                    <% } %>
                 </td>
-                <td rowspan="3">yes
-                    <div class="form-check">
-                        <label class="form-check-label">
-                            <input  class="form-check-input"  name="check" type="checkbox" value="checkedValue">
-                            verify
-                        </label>
-                    </div>
+                <td rowspan="3"><%=msg.mandal.hasTelegram%>
+                    <%if (msg.mandal.hasTelegram==='yes') { %>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input required class="form-check-input"  name="checkMroTel" type="checkbox" value="checkedValue">
+                                verify
+                            </label>
+                        </div>
+                    <% } %>
                 </td>
-                 <td colspan="3" rowspan="3" class="text-left"><div id="div1">Date: <span class="text-info">*<%=msg.date%>*</span> &nbsp;&nbsp; Time: <span class="text-info">*<%=msg.time%>*
+                 <td colspan="3" rowspan="3" class="text-left">
+                     <div id="div1">Date: <span class="text-info">*<%=msg.date%>*</span> &nbsp;&nbsp; Time: <span class="text-info">*<%=msg.time%>*
                          <br>
                          </span><span class="text-info">*SEOC-APSDMA*</span>
                          <br>Dear Sir/Madam,
                          There is a possibility of <span class="text-info">*Lightning Strikes*</span> in <br>
                          <span class="text-info">District: *<%=msg.mandal.dist %>*</span><br>
-                         <span class="text-info">Mandal: *<%=msg.mandal.mandal%>*va
+                         <span class="text-info">Mandal: *<%=msg.mandal.mandal%>*</span>
                              <br>
                              Village:<span class="text-info">*ALL Villages*</span>
                              In Other <span class="text-info">*30-40*</span> Minutes <br>
                              Please notify all concren and take necessary action <br>
                              <span class="text-info">*VRO are requested to be on Alert.* <br>*Regards*<br>*SEOC*</span>
                          <br>
-                         <div class="text-center">  <button class="text-center btn btn-sm btn-primary " onclick="CopyToClipboard('div1')">Copy</button></div>
+                         <div class="text-center">  <button class="text-center btn btn-sm btn-primary " onclick="CopyToClipboard(div1)">Copy</button></div>
 
                      </div>
 
@@ -208,8 +222,9 @@
                     <input type="submit" class="btn btn-primary" value="close">
                 </td>
             </tr>
-            </form>
+
             </tbody>
+            </form>
             <%}%>
         </table>
     </center>

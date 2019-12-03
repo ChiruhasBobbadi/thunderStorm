@@ -1,5 +1,5 @@
 const excelToJson = require('convert-excel-to-json');
-const mandal  = require('./models/mandal')
+const mandal  = require('./models/mandal');
 const fs = require('fs');
 const res= excelToJson({
     sourceFile: './files/madals.xlsx',
@@ -25,7 +25,7 @@ const res= excelToJson({
 });
 
 
-let tst=[]
+let tst=[];
 for (let i = 0; i < 670; i++) {
     tst.push(res.mandals[i]);
 }
@@ -41,4 +41,4 @@ mandal.insertMany(tst).then(result=>{
     console.log("success");
 }).catch(err=>{
     console.log(err);
-})
+});

@@ -22,9 +22,18 @@ exports.tele = (req, res, next) => {
 exports.postTele = (req, res, next) => {
 
     const check = req.body.check;
+    let c=0;
+    if(req.body.checkMro|| req.body.checkDro||req.body.checkSuper)
+        c=1;
 
-    if (check && check.length === 3) {
 
+    if (c===1) {
+const teles={
+    'mro': req.body.checkMro?'verified':' ',
+    'dro': req.body.checkDro?'verified':' ',
+    'super': req.body.checkSuper?'verified':' ',
+    'comments': req.body.comments
+}
 
         id = req.params.id;
 
@@ -32,12 +41,7 @@ exports.postTele = (req, res, next) => {
 
             if (result) {
 
-                result.tele = {
-                    'mro': 'verified',
-                    'dro': 'verified',
-                    'super': 'verified',
-                    'comments': req.body.comments
-                };
+                result.tele = teles
                 console.log(result);
 
                 return result.save()
@@ -53,12 +57,7 @@ exports.postTele = (req, res, next) => {
                         time: result.time,
                         isoDate: new Date().toISOString(),
                         mandal: {...result.mandal},
-                        tele: {
-                            'mro': 'verified',
-                            'dro': 'verified',
-                            'super': 'verified',
-                            'comments': req.body.comments
-                        },
+                        tele: teles,
                         message: {},
                         message2: {},
 
@@ -85,7 +84,7 @@ exports.postTele = (req, res, next) => {
 
 
     } else {
-        req.flash('error', 'Please check all check boxes');
+        req.flash('error', 'Please check atleast one check box');
         res.redirect('/tele');
     }
 
@@ -108,77 +107,67 @@ exports.message = (req, res, next) => {
 };
 
 exports.postMessage = (req, res, next) => {
-    const check = req.body.check;
-
-    if (check && check.length === 6) {
-
-        id = req.params.id;
-
-        serviced.findById(id).then(result => {
-                if (result) {
-                    result.message = {
-                        'mro': 'verified',
-                        'super': 'verified',
-                        'rdo': 'verified',
-                        'alerts': 'verified',
-                        'mro': 'verified',
-                        'dro': 'verified',
-                        'comments': req.body.comments
-                    };
-                    result.message2 = {
-                        'mro': 'verified'
-                    };
 
 
-                    return result.save()
 
-                } else {
+    id = req.params.id;
 
-                    return message.findById(id).populate('mandal').then(result => {
+    const messages = {
+        'mro': req.body.checkMro ? 'veriried' : ' ',
+        'super': req.body.checkSuper ? 'verified' : ' ',
+        'rdo': req.body.checkRdo ? 'verified' : ' ',
+        'alerts': req.body.checkAlert ? 'verified' : ' ',
+        'dro': req.body.checkDro ? 'verified' : ' ',
+        'comments': req.body.comments
+    };
+   const message2 = {
+        'mro':req.body.checkMroTel?'verified':' '
+    };
 
 
-                        const t = new serviced({
-                            _id: result._id,
-                            date: result.date,
-                            time: result.time,
-                            isoDate: new Date().toISOString(),
-                            mandal: {...result.mandal},
-                            tele: {},
-                            message: {
-                                'mro': 'verified',
-                                'super': 'verified',
-                                'rdo': 'verified',
-                                'alerts': 'verified',
-                                'mro': 'verified',
-                                'comments': req.body.comments
-                            },
-                            message2: {
-                                'mro': 'verified'
-                            },
 
-                        });
+    serviced.findById(id).then(result => {
+            if (result) {
+                result.message = messages;
+                result.message2 =message2;
 
-                        return t.save()
 
-                    }).catch(err => {
-                        console.log(err);
+
+                return result.save()
+
+            } else {
+
+                return message.findById(id).populate('mandal').then(result => {
+
+
+                    const t = new serviced({
+                        _id: result._id,
+                        date: result.date,
+                        time: result.time,
+                        isoDate: new Date().toISOString(),
+                        mandal: {...result.mandal},
+                        tele: {},
+                        message: messages,
+                        message2: message2,
+
                     });
 
-                }
-            }
-        ).then(result => {
-            console.log("inserted");
-            return message.findByIdAndDelete(id)
-        }).then(result => {
-            res.redirect('/message')
-        }).catch(err => {
-            console.log(err);
-        });
+                    return t.save()
 
-    } else {
-        req.flash('message_error', 'Please check all check boxes');
-        res.redirect('/message');
-    }
+                }).catch(err => {
+                    console.log(err);
+                });
+
+            }
+        }
+    ).then(result => {
+        console.log("inserted");
+        return message.findByIdAndDelete(id)
+    }).then(result => {
+        res.redirect('/message')
+    }).catch(err => {
+        console.log(err);
+    });
 
 
     /*

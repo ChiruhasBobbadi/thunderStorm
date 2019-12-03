@@ -13,15 +13,17 @@ exports.getHome = (req, res, next) => {
 
         req.session.active = activeAlerts;
 
-        const mandals = activeAlerts.map(a => {
-                a.mandal.time = a.time;
-                return a.mandal;
-            }
-        );
 
+        // const mandals = activeAlerts.map(a => {
+        //         a.mandal.time = a.time;
+        //         return a.mandal;
+        //     }
+        // );
+
+        console.log(activeAlerts);
         //todo
         res.render('alerts/home', {
-            alerts: mandals
+            alerts: activeAlerts
         });
     }).catch(err => {
         console.log(err);
@@ -33,13 +35,13 @@ exports.postHome = (req, res, next) => {
 
     const _id = req.query.id;
 
-    console.log(_id);
+
     activeAlerts.findOne({mandal: _id}).populate('mandal').then(activeAlerts => {
 
         if (activeAlerts) {
             temp = activeAlerts.mandal;
             req.session.active = temp;
-            console.log(temp);
+
             return activeAlerts.deleteOne({mandal: _id})
         } else {
             return res.redirect('/error');
@@ -58,7 +60,8 @@ exports.postHome = (req, res, next) => {
 exports.delete = (req,res,next)=>{
     const params = req.query.id;
 
-    var objectId = mongoose.Types.ObjectId(params);
+   // var objectId = mongoose.Types.ObjectId(params);
+
 
    /*activeAlerts.deleteOne({_id:objectId}).then(result=>{
        console.log(result);
@@ -68,7 +71,16 @@ exports.delete = (req,res,next)=>{
        console.log(err);
    })
 */
-}
+
+   activeAlerts.findByIdAndDelete(params).then(result=>{
+       console.log(result);
+       if(result)
+           res.redirect('/home')
+   }).catch(err=>{
+       res.redirect('/error')
+   })
+
+};
 
 exports.error = (req, res, next) => {
 

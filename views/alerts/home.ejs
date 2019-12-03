@@ -92,16 +92,16 @@
                     <tbody>
                     <tr class="hidden" data-id="0" id='addr0'>
                         <td data-name="District">
-                            <h3 class="text-center lead"><%= alert.dist %></h3>
+                            <h3 class="text-center lead"><%= alert.mandal.dist %></h3>
                         </td>
                         <td data-name="Mandal">
-                            <h3 class="text-center lead"><%= alert.mandal %></h3>
+                            <h3 class="text-center lead"><%= alert.mandal.mandal %></h3>
                         </td>
                         <td data-name="sel">
                             <h3 class="text-center lead"><%= alert.time %></h3>
                         </td>
                         <td data-name="Alert">
-                            <form action="/home/?id=<%= alert._id %>" method="POST">
+                            <form action="/home/?id=<%= alert.mandal._id %>" method="POST">
                                 <button class="btn btn-block btn-login btn-danger" type="submit">alert</button>
                             </form>
 
