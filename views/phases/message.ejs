@@ -180,9 +180,18 @@
                         </label>
                     </div>
                 </td>
-                 <td colspan="3" rowspan="3" class="text-left"><div id="div1">Date: <span class="text-info"><%=msg.date%></span> &nbsp;&nbsp; Time: <span class="text-info"><%=msg.time%> </span>SEOC-APSDMA<br>Dear Sir/Madam There is
-                         a possibility of Lightning Strikes in  <span class="text-info">District: <%=msg.mandal.dist%></span> <span class="text-info">Mandal: <%=msg.mandal.mandal%> Village:ALL Villages</span>
-                         In Other 30-40 Minutes Please notify all concren and take necessary action <span class="text-info">VRO are requested to be on Alert <br>Regards<br>SEOC</span>
+                 <td colspan="3" rowspan="3" class="text-left"><div id="div1">Date: <span class="text-info">*<%=msg.date%>*</span> &nbsp;&nbsp; Time: <span class="text-info">*<%=msg.time%>*
+                         <br>
+                         </span><span class="text-info">*SEOC-APSDMA*</span>
+                         <br>Dear Sir/Madam,
+                         There is a possibility of <span class="text-info">*Lightning Strikes*</span> in <br>
+                         <span class="text-info">District: *<%=msg.mandal.dist %>*</span><br>
+                         <span class="text-info">Mandal: *<%=msg.mandal.mandal%>*va
+                             <br>
+                             Village:<span class="text-info">*ALL Villages*</span>
+                             In Other <span class="text-info">*30-40*</span> Minutes <br>
+                             Please notify all concren and take necessary action <br>
+                             <span class="text-info">*VRO are requested to be on Alert.* <br>*Regards*<br>*SEOC*</span>
                          <br>
                          <div class="text-center">  <button class="text-center btn btn-sm btn-primary " onclick="CopyToClipboard('div1')">Copy</button></div>
 
@@ -199,6 +208,7 @@
                     <input type="submit" class="btn btn-primary" value="close">
                 </td>
             </tr>
+            </form>
             </tbody>
             <%}%>
         </table>

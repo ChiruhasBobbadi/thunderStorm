@@ -86,25 +86,14 @@ exports.postmanual = (req, res, next) => {
                 mandal: result,
                 time: new Date().toTimeString()
             });
-            return ac.save();
+            return  ac.populate('mandal').execPopulate()
         } else {
             req.flash('mandal_error', 'No mandal found try again or contact administrator.')
         }
 
-    }).then(result => {
-        if (result) {
-            console.log("active alert saved");
-
-             return result.populate('mandal').execPopulate()
-
-        } else {
-            console.log("alert save failed");
-           return res.redirect('/manual')
-        }
-
     }).then(result=>{
         if(result){
-            console.log(result);
+
             req.session.active = result.mandal;
             res.redirect('/service')
         }
