@@ -7,6 +7,8 @@ router.get('/home',route,homeController.getHome);
 
 router.post('/home',route,homeController.postHome);
 
+router.post('/delete',route,homeController.delete);
+
 router.get('/error',route,homeController.error);
 
 router.get('/logout',homeController.logout);

@@ -1,5 +1,7 @@
 const activeAlerts = require('../models/activeAlerts');
 const mandals = require('../models/mandal');
+var mongoose = require('mongoose');
+
 
 exports.getHome = (req, res, next) => {
     /**
@@ -52,6 +54,21 @@ exports.postHome = (req, res, next) => {
     })
 
 };
+
+exports.delete = (req,res,next)=>{
+    const params = req.query.id;
+
+    var objectId = mongoose.Types.ObjectId(params);
+
+   /*activeAlerts.deleteOne({_id:objectId}).then(result=>{
+       console.log(result);
+       if(result)
+           res.redirect('/home')
+   }).catch(err=>{
+       console.log(err);
+   })
+*/
+}
 
 exports.error = (req, res, next) => {
 
