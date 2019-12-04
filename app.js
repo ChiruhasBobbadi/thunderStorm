@@ -89,10 +89,10 @@ app.use(function (req, res, next) {
 });
 
 
-// TCP socket connection
+/*// TCP socket connection
 //184.72.125.75
 //
-/*client.connect(2324, '107.23.152.248', function () {
+client.connect(2324, '107.23.152.248', function () {
 
     client.write(JSON.stringify(values.msg_auth));
     console.log('Connected to Earth Networks Socket');

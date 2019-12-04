@@ -1,6 +1,5 @@
 const activeAlerts = require('../models/activeAlerts');
 const mandals = require('../models/mandal');
-var mongoose = require('mongoose');
 
 
 exports.getHome = (req, res, next) => {
@@ -20,7 +19,7 @@ exports.getHome = (req, res, next) => {
         //     }
         // );
 
-        console.log(activeAlerts);
+
         //todo
         res.render('alerts/home', {
             alerts: activeAlerts
@@ -84,7 +83,22 @@ exports.delete = (req,res,next)=>{
 
 exports.error = (req, res, next) => {
 
-    res.render('alerts/error');
+    let type=req.params.type;
+    console.log(type);
+    let t={};
+    if(type===':message')
+    {
+        t.text='Go back to message phase',
+            t.url ='/message'
+    }
+    else if(type===':tele')
+    {
+t.text='Go back to Tele phase',
+    t.url = '/tele'
+    }
+    res.render('alerts/error',{
+info:t
+    });
 };
 
 
@@ -106,9 +120,9 @@ exports.manual = (req, res, next) => {
 exports.postmanual = (req, res, next) => {
 
     const mandal = req.body.mandal;
+    const district = req.body.district;
 
-
-    mandals.findOne({mandal: mandal}).then(result => {
+    mandals.findOne({mandal: mandal,dist:district}).then(result => {
 
         if (result) {
             const ac = new activeAlerts({
@@ -117,7 +131,8 @@ exports.postmanual = (req, res, next) => {
             });
             return  ac.populate('mandal').execPopulate()
         } else {
-            req.flash('mandal_error', 'No mandal found try again or contact administrator.')
+            req.flash('mandal_error', 'No mandal found try again or contact administrator.');
+            res.redirect('/manual');
         }
 
     }).then(result=>{

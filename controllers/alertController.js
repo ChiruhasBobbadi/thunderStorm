@@ -8,12 +8,7 @@ const tele = require('../models/telePhase');
 exports.serviceAlert = (req, res, next) => {
 
     // console.log(req.session.active);
-
-
-
    let d = new Date();
-
-
     res.render('alerts/service', {
         alert: {...req.session.active,'date': d.getDate()+'-'+(d.getMonth()+1)+'-'+d.getFullYear()},
         errorMessage: req.flash('InvalidTime'),

@@ -37,11 +37,19 @@ const teles={
 
         id = req.params.id;
 
-        serviced.findById(id).then(result => {
+        tele.findById(id).then(result=>{
+
+
+            if(result){
+               return serviced.findById(id)
+            }
+            else
+                res.redirect('/error:tele');
+        }).then(result => {
 
             if (result) {
 
-                result.tele = teles
+                result.tele = teles;
                 console.log(result);
 
                 return result.save()
@@ -125,8 +133,13 @@ exports.postMessage = (req, res, next) => {
     };
 
 
-
-    serviced.findById(id).then(result => {
+   message.findById(id).then(result=>{
+       if(result)
+           return serviced.findById(id);
+       else
+           res.redirect('/error/:message')
+   })
+    .then(result => {
             if (result) {
                 result.message = messages;
                 result.message2 =message2;

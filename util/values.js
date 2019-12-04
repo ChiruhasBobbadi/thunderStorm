@@ -1,7 +1,7 @@
 const multer = require('multer');
 
 // chiruhas's key
- module.exports.bingKey = 'As_wLgBGd9x-kbekvkeOHKxqnSfp9CiNcPHP2uR3Mkviy306NMQsDE94mVNOsg3D';
+ //module.exports.bingKey = 'As_wLgBGd9x-kbekvkeOHKxqnSfp9CiNcPHP2uR3Mkviy306NMQsDE94mVNOsg3D';
 // seoc key
 module.exports.bingKey = 'Aj1ghqtKK8JY-j5E7l6lC2yM0MHcM_NXkTtgrxKkH9ye4rzCVl_lZdLxI7VMQkEY';
 
