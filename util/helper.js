@@ -63,7 +63,6 @@ let p7 = [80.27247, 13.299];
 
 // node-cron call calls every 1 min for now
 
-let len = 0;
 cron.schedule('0 *!/1 * * * *', () => {
     console.log("called at " + new Date());
     globalAlerts.find({
@@ -93,16 +92,18 @@ cron.schedule('0 *!/1 * * * *', () => {
             console.log(locations);
             for (let i = 0; i < locations.length; i++) {
 
-                mandal.find({mandal:locations[i].locality.trim()}).count().then(count=>{
+                mandal.find({mandal:locations.mandal,dist:locations.dist}).count().then(count=>{
                     if(count===1)
                         return mandal.findOne({mandal: locations[i].locality.trim()})
+                    else{
+                        throw  new Error('many mandals exist')
+                    }
                 })
                     .then(result => {
 
                         if (result) {
                             const alerts = new activeAlert({
                                 mandal: result,
-                                address: locations[i],
                                 time: new Date().toTimeString().split(" ")[0]
                             });
                             return alerts.save()
@@ -146,9 +147,10 @@ async function processUsers(res) {
         try {
             result = (await make_api_call(res[i].location.coordinates[1], res[i].location.coordinates[0]));
             if (result.resourceSets[0].resources.length > 0) {
-                if (result.resourceSets[0].resources[0].address.adminDistrict === 'Ap' && !locationSet.has(result.resourceSets[0].resources[0].address.locality)) {
-                    data.push(result.resourceSets[0].resources[0].address);
-                    locationSet.add(result.resourceSets[0].resources[0].address.locality);
+                const m ={mandal:result.resourceSets[0].resources[0].address.locality.trim(),dist:result.resourceSets[0].resources[0].address.adminDistrict2.trim()};
+                if (result.resourceSets[0].resources[0].address.adminDistrict === 'Ap' && !locationSet.has(m)){
+                    data.push(m);
+                    locationSet.add(m);
                 }
             }
         } catch (e) {

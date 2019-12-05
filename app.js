@@ -89,7 +89,7 @@ app.use(function (req, res, next) {
 });
 
 
-/*// TCP socket connection
+// TCP socket connection
 //184.72.125.75
 //
 client.connect(2324, '107.23.152.248', function () {
@@ -131,7 +131,7 @@ client.on('data', function (data) {
 
 client.on('close', function () {
     console.log('Connection closed');
-});*/
+});
 
 
 

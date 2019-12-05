@@ -20,6 +20,10 @@ const servicedAlertSchema = new Schema({
         type:Date,
         required:true
     },
+    temp:{
+        type:String,
+        required:true
+    },
     tele:{
         type: Object,
         required: true

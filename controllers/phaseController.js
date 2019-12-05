@@ -50,7 +50,7 @@ const teles={
             if (result) {
 
                 result.tele = teles;
-                console.log(result);
+                result.temp='no';
 
                 return result.save()
 
@@ -66,6 +66,7 @@ const teles={
                         isoDate: new Date().toISOString(),
                         mandal: {...result.mandal},
                         tele: teles,
+                        temp:'yes',
                         message: {},
                         message2: {},
 
@@ -143,7 +144,7 @@ exports.postMessage = (req, res, next) => {
             if (result) {
                 result.message = messages;
                 result.message2 =message2;
-
+                result.temp='no';
 
 
                 return result.save()
@@ -160,6 +161,7 @@ exports.postMessage = (req, res, next) => {
                         isoDate: new Date().toISOString(),
                         mandal: {...result.mandal},
                         tele: {},
+                        temp:'yes',
                         message: messages,
                         message2: message2,
 

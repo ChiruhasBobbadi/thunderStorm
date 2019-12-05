@@ -57,9 +57,9 @@
                 <a class="nav-link" href="/reports">Reports<span class="sr-only">(current)</span></a>
 
             </li>
-            <li class="nav-item">
+          <!--  <li class="nav-item">
                 <a class="nav-link" href="/admin/update">admin</a>
-            </li>
+            </li>-->
             <li class="nav-item">
                 <a class="nav-link " href="/tele">Tele phase</a>
             </li>
@@ -122,7 +122,7 @@
             </tr>
             </thead>
             <% for (let msg of messages){ %>
-            <%cnt++%>
+
             <form method="post" action="/message/<%= msg.id %>">
                 <tbody>
                 <tr>
@@ -241,6 +241,7 @@
 
                 </tbody>
             </form>
+                <%cnt++%>
             <% } %>
         </table>
     </center>
