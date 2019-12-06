@@ -1,6 +1,7 @@
 const activeAlerts = require('../models/activeAlerts');
 const mandals = require('../models/mandal');
-
+const fs = require('fs')
+const path = require('path')
 
 exports.getHome = (req, res, next) => {
     /**
@@ -59,17 +60,7 @@ exports.postHome = (req, res, next) => {
 exports.delete = (req,res,next)=>{
     const params = req.query.id;
 
-   // var objectId = mongoose.Types.ObjectId(params);
 
-
-   /*activeAlerts.deleteOne({_id:objectId}).then(result=>{
-       console.log(result);
-       if(result)
-           res.redirect('/home')
-   }).catch(err=>{
-       console.log(err);
-   })
-*/
 
    activeAlerts.findByIdAndDelete(params).then(result=>{
        console.log(result);
@@ -111,10 +102,22 @@ exports.logout = (req, res, next) => {
 
 exports.manual = (req, res, next) => {
 
+    const filePath = path.join(__dirname,'../','json', 'mro.json');
 
-    res.render('alerts/manual', {
-        error: req.flash('mandal_error')
-    });
+   //const data=fs.readFileSync(filePath,{encoding: 'utf-8'});
+
+
+
+
+
+            res.render('alerts/manual', {
+                error: req.flash('mandal_error'),
+
+            });
+
+
+
+
 };
 
 exports.postmanual = (req, res, next) => {

@@ -1,3 +1,4 @@
+/*
 const excelToJson = require('convert-excel-to-json');
 const mandal  = require('./models/mandal');
 const fs = require('fs');
@@ -25,20 +26,55 @@ const res= excelToJson({
 });
 
 
-let tst=[];
-for (let i = 0; i < 670; i++) {
-    tst.push(res.mandals[i]);
-}
 
-/*mandal.insertMany(JSON.stringify(tst)).then(res=>{
+/!*mandal.insertMany(JSON.stringify(tst)).then(res=>{
     console.log("success");
 }).catch(err=>{
     console.log("error");
     console.log(err);
-});*/
+});*!/
 
+/!*
 mandal.insertMany(tst).then(result=>{
     console.log("success");
 }).catch(err=>{
     console.log(err);
 });
+*!/
+
+*/
+
+
+
+const excelToJson = require('convert-excel-to-json');
+const mandal  = require('./models/mandal');
+const fs = require('fs');
+const path = require('path');
+const res= excelToJson({
+    sourceFile: './files/madals.xlsx',
+    header: {
+        rows: 2 // 2, 3, 4, etc.
+    },
+    columnToKey: {
+
+        B: 'dist',
+        C: 'mandal',
+
+
+
+    }, sheets: ['mandals']
+});
+fs.writeFile("/tmp/mro.json", JSON.stringify(res), function(err) {
+
+    if(err) {
+        return console.log(err);
+    }
+
+    console.log("The file was saved!");
+});
+
+
+
+
+
+

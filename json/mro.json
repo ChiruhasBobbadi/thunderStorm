@@ -1,1534 +1,2684 @@
 {
-  "Sheet1": [
+  "mandals": [
     {
-      "sno": 501,
+      "dist": "Srikakulam",
+      "mandal": "Veeraghattam"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Vangara"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Regidi Amadalavalasa"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Razam"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Ganguvari Singadam"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Laveru"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Ranastalam"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Etcherla"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Ponduru"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Santhakaviti"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Burja"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Palakonda"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Seethampeta"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Bhamini"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Kothuru"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Hiramandalam"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Sarubujjili"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Amudalavalasa"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Srikakulam"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Gara"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Polaki"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Narasannapeta"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Jalumuru"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Saravakota"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Pathapatnam"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Meliaputti"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Tekkali"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Kotabommali"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Santhabommali"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Nandigam"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Vajrapukothuru"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Palasa"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Mandasa"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Sompeta"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Kanchili"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Kaviti"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Ichchapuram"
+    },
+    {
+      "dist": "Srikakulam",
+      "mandal": "Laxminarasampet"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Komarada"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Gummalakshmipuram"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Kurupam"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Jiyyammavalasa"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Garugubilli"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Parvathipuram"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Makkuva"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Seethanagaram"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Balijipeta"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Bobbili"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Salur"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Pachipenta"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Ramabhadrapuram"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Badangi"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Therlam"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Merakamudidam"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Dattirajeru"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Mentada"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Gajapathinagaram"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Bondapalle"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Gurla"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Garividi"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Cheepurupalle"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Nellimarla"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Pusapatirega"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Bhogapuram"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Denkada"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Vizianagaram"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Gantyada"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Srungavarapukota"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Vepada"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Lakkavarapukota"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Jami"
+    },
+    {
+      "dist": "Vizianagaram",
+      "mandal": "Kottavalasa"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Munchingiputtu"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Pedabayalu"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Hukumpeta"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Dumbriguda"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Araku Valley"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Ananthagiri"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Devarapalle"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Cheedikada"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Madugula"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Paderu"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "G. Madugula"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Chintapalle"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Gudem Kotha Veedhi"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Koyyuru"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Golugonda"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Nathavaram"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Narsipatnam"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Rolugunta"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Ravikamatham"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Butchayyapeta"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Chodavaram"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "K.Kotapadu"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Sabbavaram"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Pendurthi"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Anandapuram"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Padmanabham"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Bhimunipatnam"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Visakhapatnam(U)"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Visakhapatnam(R)"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Gajuwaka"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Pedagantyada"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Paravada"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Anakapalle"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Munagapaka"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Kasimkota"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Makavarapalem"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Kotauratla"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Payakaraopeta"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Nakkapalle"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "S Rayavaram"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Yelamanchili"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Rambilli"
+    },
+    {
+      "dist": "Visakapatnam",
+      "mandal": "Atchutapuram"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Maredumilli"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Y. Ramavaram"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Addateegala"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Rajavommangi"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Kotananduru"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Tuni"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Tondangi"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Gollaprolu"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Sankhavaram"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Prathipadu"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Yeleswaram"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Gangavaram"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Rampachodavaram"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Devipatnam"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Seethanagaram"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Korukonda"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Gokavaram"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Jaggampeta"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Kirlampudi"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Peddapuram"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Pithapuram"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Kothapalle"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Kakinada (Rural)"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Kakinada(Urban)"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Samalkot"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Rangampeta"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Gandepalle"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Rajanagaram"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Rajahmundry (Rural)"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Rajamundry (Urban)"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Kadiam"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Mandapeta"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Anaparthy"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Biccavolu"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Pedapudi"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Karapa"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Tallarevu"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Kajuluru"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Ramachandrapuram"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Rayavaram"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Kapileswarapuram"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Alamuru"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Atreyapuram"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Ravulapalem"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Pamarru"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Kothapeta"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "P. Gannavaram"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Ambajipeta"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Ainavilli"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Mummidivaram"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "I. Polavaram"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Katrenikona"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Uppalaguptam"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Amalāpuram"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Allavaram"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Mamidikuduru"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Razole"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Malikipuram"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Sakhinetipalle"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Ravutulapudi"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Nellipaka"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Kunavaram"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Chintur"
+    },
+    {
+      "dist": "Eastgodavari",
+      "mandal": "Vararamachandrapuram"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Jeelugu Milli"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Buttayagudem"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Polavaram"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Tallapudi"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Gopalapuram"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Koyyalagudem"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Jangareddigudem"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "T.Narasapuram"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Chintalapudi"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Lingapalem"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Kamavarapukota"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Dwaraka Tirumala"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Nallajerla"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Devarapalle"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Chagallu"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Kovvur"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Nidadavole"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Tadepallegudem"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Unguturu"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Bhimadole"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Pedavegi"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Pedapadu"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Eluru"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Denduluru"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Nidamarru"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Ganapavaram"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Pentapadu"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Tanuku"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Undrajavaram"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Peravali"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Iragavaram"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Attili"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Undi"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Akividu"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Kalla"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Bhimavaram"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Palakoderu"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Veeravasaram"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Penumantra"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Penugonda"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Achanta"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Poduru"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Palakollu"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Elamanchili"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Narasapur"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Mogalthur"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Velairpadu"
+    },
+    {
+      "dist": "Westgodavari",
+      "mandal": "Kukunoor"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Jaggayyapeta"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Vatsavai"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Penuganchiprolu"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Nandigama"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Chandarlapadu"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Kanchikacherla"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Veerullapadu"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Ibrahimpatnam"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "G.Konduru"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Mylaram"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "A Konduru"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Gampalagudem"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Tiruvuru"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Vissannapet"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Reddigudem"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Vijayawada Rural"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Vijayawada Urban"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Penamaluru"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Thotlavalluru"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Kankipadu"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Gannavaram"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Agiripalle"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Nuzvid"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Chatrai"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Musunuru"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Bapulapad"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Unguturu"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Vuyyuru"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Pamidimukkala"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Movva"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Ghantasala"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Challapalle"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Mopidevi"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Avanigada"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Nagayalanka"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Koduru"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Machilipatnam"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Gudur"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Pamarru"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Pedaparupudi"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Nandivada"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Gudivada"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Gudlavalleru"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Pedana"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Bantumilli"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Mudinapalle"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Mandavalli"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Kaikalur"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Kalidindi"
+    },
+    {
+      "dist": "Krishna",
+      "mandal": "Kruthivennu"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Macherla"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Rentachintala"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Gurazala"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Dachepalle"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Machavaram"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Bellamkonda"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Atchampet"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Krosuru"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Amaravati"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Thullur"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Tadepalle"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Mangalagiri"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Tadikonda"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Pedakurapadu"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Sattenapalle"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Rajupalem"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Piduguralla"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Karempudi"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Durgi"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Veldurthi"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Bollapalle"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Nekarikallu"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Muppalla"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Phirangipuram"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Medikonduru"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Guntur"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Pedakakani"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Duggirala"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Kollipara"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Kollur"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Vemuru"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Tenali"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Tsundur"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Chebrole"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Vatticherukuru"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Prathipadu"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Edlapadu"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Nadendla"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Narasaraopet"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Rompicherla"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Ipur"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Savalyapuram"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Vinukonda"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Nuzendla"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Chilakaluripet"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Pedanandipadu"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Kakumanu"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Ponnur"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Amruthalur"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Cherukupalle"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Bhattiprolu"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Repalle"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Nagaram"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Nizampatnam"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Pittalavanipalem"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Karlapalem"
+    },
+    {
+      "dist": "Guntur",
+      "mandal": "Bapatla"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Yerragondapalem"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Pullalacheruvu"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Tripuranthakam"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Kurichedu"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Donakonda"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Pedaaraveedu"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Dornala"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Ardhaveedu"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Markapur"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Tarlapadu"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Konakanamitla"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Podili"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Darsi"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Mundlamuru"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Thallur"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Addanki"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Ballikuruva"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Santhamaguluru"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Yeddanapudi"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Martur"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Parchur"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Karamchedu"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Chirala"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Vetapalem"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Inkollu"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Janakavarampangulu"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Korisapadu"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Maddipadu"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Chimakurthi"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Marripudi"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Kanigiri"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Hanumanthunipadu"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Bestavaripeta"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Cumbum"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Racherla"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Giddaluru"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Komarolu"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Chadrasekarapuram"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Veligandla"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Pedacherlopalle"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Ponnaluru"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Kondapi"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Santhanuthlapadu"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Ongole"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Naguluppalapadu"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Chinaganjam"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Kothapatnam"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Tangutur"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Zarugumilli"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Kandukur"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Voletivaripalem"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Pamur"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Lingasamudram"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Gudluru"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Ulavapadu"
+    },
+    {
+      "dist": "Prakasam",
+      "mandal": "Singarayakonda"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Seetharamapuram"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Varikuntapadu"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Kondapuram"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Jaladanki"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Kavali"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Bogole"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Kaligiri"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Vinjamur"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Duttalur"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Udayagiri"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Marripadu"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Atmakur"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Anumasamudrampeta"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Dagadarthi"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Allur"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Vidavalur"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Kodavalur"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Bucchireddipalem"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Sangam"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Chejerla"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Ananthasagaram"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Kaluvoya"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Rapur"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Podlakur"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Nellore"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Kovur"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Indukurpet"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Thotapalligudur"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Muthukur"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Venkatachalam"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Manubolu"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Gudur"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Sydapuram"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Dakkili"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Venkatagiri"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Balayapalle"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Ojili"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Chillakur"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Kota"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Vakadu"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Chittamur"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Naidupeta"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Pellakur"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Doravarisatram"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Sullurpeta"
+    },
+    {
+      "dist": "Nellore",
+      "mandal": "Tada"
+    },
+    {
       "dist": "Chittoor",
-      "mandal": "Gudi Palle",
-      "mroPhone": 9491077082,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "Peddamandyam"
     },
     {
-      "sno": 502,
       "dist": "Chittoor",
-      "mandal": "Kuppam",
-      "mroPhone": 9491077081,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "A S Nazeer Ahmad"
+      "mandal": "Thamballapalle"
     },
     {
-      "sno": 503,
+      "dist": "Chittoor",
+      "mandal": "Mulakalacheruvu"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Peddathippasamudra"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "B Kothakota"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Kurabalakota"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Gurramkonda"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Kalakada"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Kambhamvaripalle"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Yerravaripalem"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Tirupati Urban"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Renigunta"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Yerpedu"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Srikalahasti"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Thottambedu"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Buchinaidu Khandri"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Varadaiahpalem"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Satyavedu"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Nagalapuram"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Pichatur"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Vijaya Puram"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Nindra"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "K V B Puram"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Narayanavanam"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Vadamalapeta"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Tirupati"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Ramachndrapuram"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Chandragiri"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Chinnagottigallu"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Rompicherla"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Pileru"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Kalikiri"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Valmikipuram"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Nimmanapalle"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Mandapalle"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Ramasamudram"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Punganur"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Chowdepalle"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Somala"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Sodam"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Pulicherla"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Pakala"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Veduru Kuppam"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Puttur"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Nagari"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Karvetinagar"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Srirangarajapuram"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Palasamudram"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Gangadhara Nellore"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Penumuru"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Puthalapattu"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Irala"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Thavanampalle"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Chittoor"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Gudipala"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Yadamari"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Bangarupalem"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Palamaner"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Gangavaram"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Pedda Panjani"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Baireddi Palle"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Venkatagiri Kota"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Rama Kuppam"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Santhi Puram"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Gudi Palle"
+    },
+    {
+      "dist": "Chittoor",
+      "mandal": "Kuppam"
+    },
+    {
       "dist": "Kadapa",
-      "mandal": "Kondapuram",
-      "mroPhone": 7674950733,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "B.Rama Mohan"
+      "mandal": "Kondapuram"
     },
     {
-      "sno": 504,
       "dist": "Kadapa",
-      "mandal": "Mylavaram",
-      "mroPhone": 7674950737,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "Parthapa Pullaiah"
+      "mandal": "Mylavaram"
     },
     {
-      "sno": 505,
       "dist": "Kadapa",
-      "mandal": "Peddamudium",
-      "mroPhone": 7674950738,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "V Venkata Subbaiah"
+      "mandal": "Peddamudium"
     },
     {
-      "sno": 506,
       "dist": "Kadapa",
-      "mandal": "Raju Palem",
-      "mroPhone": 7396825004,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "Raju Palem"
     },
     {
-      "sno": 507,
       "dist": "Kadapa",
-      "mandal": "Duvvur",
-      "mroPhone": 7674950731,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "R.Sesharam Singh"
+      "mandal": "Duvvur"
     },
     {
-      "sno": 508,
       "dist": "Kadapa",
-      "mandal": "S Mydukur",
-      "mroPhone": 7674950736,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "S Mydukur"
     },
     {
-      "sno": 509,
       "dist": "Kadapa",
-      "mandal": "Brahmamgarimattam",
-      "mroPhone": 7674950719,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "Brahmamgarimattam"
     },
     {
-      "sno": 510,
       "dist": "Kadapa",
-      "mandal": "B Kodur",
-      "mroPhone": 7674950718,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "B Kodur"
     },
     {
-      "sno": 511,
       "dist": "Kadapa",
-      "mandal": "Kalasapadu",
-      "mroPhone": 7674950723,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "N. Nagavahini"
+      "mandal": "Kalasapadu"
     },
     {
-      "sno": 512,
       "dist": "Kadapa",
-      "mandal": "Porumamilla",
-      "mroPhone": 7674950726,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "C. Chandra Sekhar Varma"
+      "mandal": "Porumamilla"
     },
     {
-      "sno": 513,
       "dist": "Kadapa",
-      "mandal": "Badvel",
-      "mroPhone": 7674950720,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "G. Chinnaiah"
+      "mandal": "Badvel"
     },
     {
-      "sno": 514,
       "dist": "Kadapa",
-      "mandal": "Gopavaram",
-      "mroPhone": 7674950707,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "B. Parvathi"
+      "mandal": "Gopavaram"
     },
     {
-      "sno": 515,
       "dist": "Kadapa",
-      "mandal": "Khajipet",
-      "mroPhone": 7674950707,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "B. Parvathi"
+      "mandal": "Khajipet"
     },
     {
-      "sno": 516,
       "dist": "Kadapa",
-      "mandal": "Chapad",
-      "mroPhone": 7674950730,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "Chapad"
     },
     {
-      "sno": 517,
       "dist": "Kadapa",
-      "mandal": "Proddutur",
-      "mroPhone": 9959667574,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "Z.Kiran Gnanamurthy"
+      "mandal": "Proddutur"
     },
     {
-      "sno": 518,
       "dist": "Kadapa",
-      "mandal": "Jammalamadugu",
-      "mroPhone": 7674950732,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "V. Pulla Reddy"
+      "mandal": "Jammalamadugu"
     },
     {
-      "sno": 519,
       "dist": "Kadapa",
-      "mandal": "Muddanur",
-      "mroPhone": 7674950735,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "V.R. Uday Santhosh"
+      "mandal": "Muddanur"
     },
     {
-      "sno": 520,
       "dist": "Kadapa",
-      "mandal": "Simhadripuram",
-      "mroPhone": 7674950740,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "N. Anjaneyulu"
+      "mandal": "Simhadripuram"
     },
     {
-      "sno": 521,
       "dist": "Kadapa",
-      "mandal": "Lingala",
-      "mroPhone": 7674950734,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "L.V. Prasad"
+      "mandal": "Lingala"
     },
     {
-      "sno": 522,
       "dist": "Kadapa",
-      "mandal": "Pulivendla",
-      "mroPhone": 9849466001,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "S.Md. Khasim"
+      "mandal": "Pulivendla"
     },
     {
-      "sno": 523,
       "dist": "Kadapa",
-      "mandal": "Vemula",
-      "mroPhone": 7674950743,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "C.Narasimhulu"
+      "mandal": "Vemula"
     },
     {
-      "sno": 524,
       "dist": "Kadapa",
-      "mandal": "Thandur",
-      "mroPhone": 7674950741,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "Thandur"
     },
     {
-      "sno": 525,
       "dist": "Kadapa",
-      "mandal": "Veerapunayunipalle",
-      "mroPhone": 9441429888,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "B Subbaramaiah"
+      "mandal": "Veerapunayunipalle"
     },
     {
-      "sno": 526,
       "dist": "Kadapa",
-      "mandal": "Yerraguntla",
-      "mroPhone": 7674950716,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "B Maheswara Reddy"
+      "mandal": "Yerraguntla"
     },
     {
-      "sno": 527,
       "dist": "Kadapa",
-      "mandal": "Kamalapuram",
-      "mroPhone": 7674950706,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "N Ravi Sankar Reddy"
+      "mandal": "Kamalapuram"
     },
     {
-      "sno": 528,
       "dist": "Kadapa",
-      "mandal": "Vallur",
-      "mroPhone": 7674950714,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "S Mahaboob Chand"
+      "mandal": "Vallur"
     },
     {
-      "sno": 529,
       "dist": "Kadapa",
-      "mandal": "Chennur",
-      "mroPhone": 7674950703,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "B Santhamma"
+      "mandal": "Chennur"
     },
     {
-      "sno": 530,
       "dist": "Kadapa",
-      "mandal": "Atlur",
-      "mroPhone": 7674950717,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "Atlur"
     },
     {
-      "sno": 531,
       "dist": "Kadapa",
-      "mandal": "Vontimitta",
-      "mroPhone": 9959667596,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "J. Sireesha"
+      "mandal": "Vontimitta"
     },
     {
-      "sno": 532,
       "dist": "Kadapa",
-      "mandal": "Sidhout",
-      "mroPhone": 7674950729,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "N. Chandra Sekhar Reddy"
+      "mandal": "Sidhout"
     },
     {
-      "sno": 533,
       "dist": "Kadapa",
-      "mandal": "Kadapa",
-      "mroPhone": 9849904126,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "G Sreenivasulu"
+      "mandal": "Kadapa"
     },
     {
-      "sno": 534,
       "dist": "Kadapa",
-      "mandal": "Chintha Kommadinne",
-      "mroPhone": 7674950701,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "S RAMA"
+      "mandal": "Chintha Kommadinne"
     },
     {
-      "sno": 535,
       "dist": "Kadapa",
-      "mandal": "Pendlimarri",
-      "mroPhone": 7674950709,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "D. Damodar Reddy"
+      "mandal": "Pendlimarri"
     },
     {
-      "sno": 536,
       "dist": "Kadapa",
-      "mandal": "Vempalle",
-      "mroPhone": 7674950742,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "Vempalle"
     },
     {
-      "sno": 537,
       "dist": "Kadapa",
-      "mandal": "Chaknayapet",
-      "mroPhone": 7674950702,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "Chaknayapet"
     },
     {
-      "sno": 538,
       "dist": "Kadapa",
-      "mandal": "Lakkireddipalle",
-      "mroPhone": 7674950708,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "Lakkireddipalle"
     },
     {
-      "sno": 539,
       "dist": "Kadapa",
-      "mandal": "Ramapuram",
-      "mroPhone": 7674950710,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "B Anuradha"
+      "mandal": "Ramapuram"
     },
     {
-      "sno": 540,
       "dist": "Kadapa",
-      "mandal": "Veeraballe",
-      "mroPhone": 7674950715,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "Veeraballe"
     },
     {
-      "sno": 541,
       "dist": "Kadapa",
-      "mandal": "Rajampet",
-      "mroPhone": 9959667588,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "K.P.Narsimhulu"
+      "mandal": "Rajampet"
     },
     {
-      "sno": 542,
       "dist": "Kadapa",
-      "mandal": "Nandalur",
-      "mroPhone": 7386539535,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "D. Chandra Sekhar"
+      "mandal": "Nandalur"
     },
     {
-      "sno": 543,
       "dist": "Kadapa",
-      "mandal": "Penagaluru",
-      "mroPhone": 7674950725,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "penagalur"
     },
     {
-      "sno": 544,
       "dist": "Kadapa",
-      "mandal": "Chitvel",
-      "mroPhone": 7674950721,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "V Narasimhulu"
+      "mandal": "Chitvel"
     },
     {
-      "sno": 545,
       "dist": "Kadapa",
-      "mandal": "Kodur",
-      "mroPhone": 9959667606,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "Kodur"
     },
     {
-      "sno": 546,
       "dist": "Kadapa",
-      "mandal": "Obulavaripalle",
-      "mroPhone": 7674950724,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "Obulavaripalle"
     },
     {
-      "sno": 547,
       "dist": "Kadapa",
-      "mandal": "Pullampeta",
-      "mroPhone": 7674950727,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "Pullampeta"
     },
     {
-      "sno": 548,
       "dist": "Kadapa",
-      "mandal": "T Sundupalle",
-      "mroPhone": 7674950712,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "T Sundupalle"
     },
     {
-      "sno": 549,
       "dist": "Kadapa",
-      "mandal": "Sambepalle",
-      "mroPhone": 9959667561,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "Sambepalle"
     },
     {
-      "sno": 550,
       "dist": "Kadapa",
-      "mandal": "Chinnamandem",
-      "mroPhone": 7674950704,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "S. Premantha Kumar"
+      "mandal": "Chinnamandem"
     },
     {
-      "sno": 551,
       "dist": "Kadapa",
-      "mandal": "Royachoti",
-      "mroPhone": 7674950711,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "Royachoti"
     },
     {
-      "sno": 552,
       "dist": "Kadapa",
-      "mandal": "Galiveedu",
-      "mroPhone": 7674950705,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "P BHAVANI"
+      "mandal": "Galiveedu"
     },
     {
-      "sno": 553,
       "dist": "Kadapa",
-      "mandal": "Narsapur",
-      "mroPhone": "#N/A",
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "Narsapur"
     },
     {
-      "sno": 554,
       "dist": "Anantapur",
-      "mandal": "D Hirchal",
-      "mroPhone": 9160134765,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "D Hirchal"
     },
     {
-      "sno": 555,
       "dist": "Anantapur",
-      "mandal": "Bommanahal",
-      "mroPhone": 9493188856,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "P.Balakrishnamurthy"
+      "mandal": "Bommanahal"
     },
     {
-      "sno": 556,
       "dist": "Anantapur",
-      "mandal": "Vidapanakal",
-      "mroPhone": 9493188838,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "G.Shankaraiah"
+      "mandal": "Vidapanakal"
     },
     {
-      "sno": 557,
       "dist": "Anantapur",
-      "mandal": "Vajrakarur",
-      "mroPhone": 9493188837,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "B.Anil Kumar"
+      "mandal": "Vajrakarur"
     },
     {
-      "sno": 558,
       "dist": "Anantapur",
-      "mandal": "Guntakal",
-      "mroPhone": 9493188833,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "C.Hari Prasad"
+      "mandal": "Guntakal"
     },
     {
-      "sno": 559,
       "dist": "Anantapur",
-      "mandal": "Gooty",
-      "mroPhone": 9493188832,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "P.Vijayakumari"
+      "mandal": "Gooty"
     },
     {
-      "sno": 560,
       "dist": "Anantapur",
-      "mandal": "Peddavadugur",
-      "mroPhone": 9493188835,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "P.Nagabhushanam"
+      "mandal": "Peddavadugur"
     },
     {
-      "sno": 561,
       "dist": "Anantapur",
-      "mandal": "Yadiki",
-      "mroPhone": 9493188828,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "Sake Brahmaiah"
+      "mandal": "Yadiki"
     },
     {
-      "sno": 562,
       "dist": "Anantapur",
-      "mandal": "Tadpatri",
-      "mroPhone": 9493188827,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "Tadpatri"
     },
     {
-      "sno": 563,
       "dist": "Anantapur",
-      "mandal": "Peddapappur",
-      "mroPhone": 9493188829,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "Peddapappur"
     },
     {
-      "sno": 564,
       "dist": "Anantapur",
-      "mandal": "Singanamala",
-      "mroPhone": 9493188823,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "G.Nagendra"
+      "mandal": "Singanamala"
     },
     {
-      "sno": 565,
       "dist": "Anantapur",
-      "mandal": "Pamidi",
-      "mroPhone": 9493188834,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "K.Anwar Hussain"
+      "mandal": "Pamidi"
     },
     {
-      "sno": 566,
       "dist": "Anantapur",
-      "mandal": "Garladinne",
-      "mroPhone": 9493188825,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "P.Gopal Reddy"
+      "mandal": "Garladinne"
     },
     {
-      "sno": 567,
       "dist": "Anantapur",
-      "mandal": "Kudair",
-      "mroPhone": 9493188822,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "K.S. Viswanathan I.A.S (P)"
+      "mandal": "Kudair"
     },
     {
-      "sno": 568,
       "dist": "Anantapur",
-      "mandal": "Uravakonda",
-      "mroPhone": 9493188836,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "T.Sreenivasulu"
+      "mandal": "Uravakonda"
     },
     {
-      "sno": 569,
       "dist": "Anantapur",
-      "mandal": "Beluguppa",
-      "mroPhone": 9493188847,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "M.Balakishan"
+      "mandal": "Beluguppa"
     },
     {
-      "sno": 570,
       "dist": "Anantapur",
-      "mandal": "Kanekal",
-      "mroPhone": 9493188855,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "B.Vanisree"
+      "mandal": "Kanekal"
     },
     {
-      "sno": 571,
       "dist": "Anantapur",
-      "mandal": "Rayadurg",
-      "mroPhone": 9493188852,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "Rayadurg"
     },
     {
-      "sno": 572,
       "dist": "Anantapur",
-      "mandal": "Gummagatta",
-      "mroPhone": 9493188854,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "D.A.Afzal Khan"
+      "mandal": "Gummagatta"
     },
     {
-      "sno": 573,
       "dist": "Anantapur",
-      "mandal": "Brahmasamudram",
-      "mroPhone": 9493188850,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "K.Narasimha Rao"
+      "mandal": "Brahmasamudram"
     },
     {
-      "sno": 574,
       "dist": "Anantapur",
-      "mandal": "Settur",
-      "mroPhone": 9493188851,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "D.V.Subramanyam"
+      "mandal": "Settur"
     },
     {
-      "sno": 575,
       "dist": "Anantapur",
-      "mandal": "Kundurpi",
-      "mroPhone": 9493188849,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "M.K.Rameshan"
+      "mandal": "Kundurpi"
     },
     {
-      "sno": 576,
       "dist": "Anantapur",
-      "mandal": "Kalyandrug",
-      "mroPhone": 9493188846,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "Kalyandrug"
     },
     {
-      "sno": 577,
       "dist": "Anantapur",
-      "mandal": "Atmakur",
-      "mroPhone": 9849904076,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "S Venkata Ramana"
+      "mandal": "Atmakur"
     },
     {
-      "sno": 578,
       "dist": "Anantapur",
-      "mandal": "Anantapur",
-      "mroPhone": 9493188819,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "A.Hari Kumar"
+      "mandal": "Anantapur"
     },
     {
-      "sno": 579,
       "dist": "Anantapur",
-      "mandal": "Bukkarayasamudram",
-      "mroPhone": 9493188824,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "V.Ramanjaneya Reddy"
+      "mandal": "Bukkarayasamudram"
     },
     {
-      "sno": 580,
       "dist": "Anantapur",
-      "mandal": "Narpala",
-      "mroPhone": 9493188826,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "K.Sreedhar Babu"
+      "mandal": "Narpala"
     },
     {
-      "sno": 581,
       "dist": "Anantapur",
-      "mandal": "Putlur",
-      "mroPhone": 9493188830,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "Putlur"
     },
     {
-      "sno": 582,
       "dist": "Anantapur",
-      "mandal": "Yellanur",
-      "mroPhone": 9493188831,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "M.Suresh Babu (FAC)"
+      "mandal": "Yellanur"
     },
     {
-      "sno": 583,
       "dist": "Anantapur",
-      "mandal": "Tadimarri",
-      "mroPhone": 9493188841,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "N.Eswaramma"
+      "mandal": "Tadimarri"
     },
     {
-      "sno": 584,
       "dist": "Anantapur",
-      "mandal": "Bathalapalle",
-      "mroPhone": 9493188842,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "Bathalapalle"
     },
     {
-      "sno": 585,
       "dist": "Anantapur",
-      "mandal": "Raptadu",
-      "mroPhone": 9493188820,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "J Varaprasada Rao"
+      "mandal": "Raptadu"
     },
     {
-      "sno": 586,
       "dist": "Anantapur",
-      "mandal": "Kanaganapalle",
-      "mroPhone": 9493188844,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "Kanaganapalle"
     },
     {
-      "sno": 587,
       "dist": "Anantapur",
-      "mandal": "Kambadur",
-      "mroPhone": 9493188848,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "G.Masood Vali"
+      "mandal": "Kambadur"
     },
     {
-      "sno": 588,
       "dist": "Anantapur",
-      "mandal": "Ramagiri",
-      "mroPhone": 9493188845,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "S.Adinarayana"
+      "mandal": "Ramagiri"
     },
     {
-      "sno": 589,
       "dist": "Anantapur",
-      "mandal": "Chenne Kothapalle",
-      "mroPhone": 9493188843,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "Chenne Kothapalle"
     },
     {
-      "sno": 590,
       "dist": "Anantapur",
-      "mandal": "Dharmavaram",
-      "mroPhone": 9493188840,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "S Mahaboob Basha"
+      "mandal": "Dharmavaram"
     },
     {
-      "sno": 591,
       "dist": "Anantapur",
-      "mandal": "Mudigubba",
-      "mroPhone": 9493188875,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "R.Madhava Reddy"
+      "mandal": "Mudigubba"
     },
     {
-      "sno": 592,
       "dist": "Anantapur",
-      "mandal": "Talupula",
-      "mroPhone": 9493188878,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "B.Sivaiah"
+      "mandal": "Talupula"
     },
     {
-      "sno": 593,
       "dist": "Anantapur",
-      "mandal": "Nambulipulikunta",
-      "mroPhone": 9493188877,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "Nambulipulikunta"
     },
     {
-      "sno": 594,
       "dist": "Anantapur",
-      "mandal": "Tanakal",
-      "mroPhone": 9493188881,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "B.Lakshmi Naik"
+      "mandal": "Tanakal"
     },
     {
-      "sno": 595,
       "dist": "Anantapur",
-      "mandal": "Nallacheruvu",
-      "mroPhone": 9493188879,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "K.M.Ranganna"
+      "mandal": "Nallacheruvu"
     },
     {
-      "sno": 596,
       "dist": "Anantapur",
-      "mandal": "Gandlapenta",
-      "mroPhone": 9493188883,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "A.S.A.Hameed Basha"
+      "mandal": "Gandlapenta"
     },
     {
-      "sno": 597,
       "dist": "Anantapur",
-      "mandal": "Kadiri",
-      "mroPhone": 9493188874,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "B.Venkataramana"
+      "mandal": "Kadiri"
     },
     {
-      "sno": 598,
       "dist": "Anantapur",
-      "mandal": "Amadagur",
-      "mroPhone": 9493188882,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "P.Subbalakashumma"
+      "mandal": "Amadagur"
     },
     {
-      "sno": 599,
       "dist": "Anantapur",
-      "mandal": "Obuladevaracheruvu",
-      "mroPhone": 9493188880,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "L.Reddy"
+      "mandal": "Obuladevaracheruvu"
     },
     {
-      "sno": 600,
       "dist": "Anantapur",
-      "mandal": "Nallamada",
-      "mroPhone": 9493188876,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "S.Sreenivasulu"
+      "mandal": "Nallamada"
     },
     {
-      "sno": 601,
       "dist": "Anantapur",
-      "mandal": "Gorantla",
-      "mroPhone": 9493188873,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "T.Lakshman Das"
+      "mandal": "Gorantla"
     },
     {
-      "sno": 602,
       "dist": "Anantapur",
-      "mandal": "Puttaparthi",
-      "mroPhone": 9493188861,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "C.Sathyanarayana"
+      "mandal": "Puttaparthi"
     },
     {
-      "sno": 603,
       "dist": "Anantapur",
-      "mandal": "Bukkapatnam",
-      "mroPhone": 9493188863,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "P.Usha Rani"
+      "mandal": "Bukkapatnam"
     },
     {
-      "sno": 604,
       "dist": "Anantapur",
-      "mandal": "Kothacheruvu",
-      "mroPhone": 9493188862,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "M.G.Saraswathi"
+      "mandal": "Kothacheruvu"
     },
     {
-      "sno": 605,
       "dist": "Anantapur",
-      "mandal": "Penu Konda",
-      "mroPhone": 9493188858,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "R.N.Haseena Sulthana"
+      "mandal": "Penu Konda"
     },
     {
-      "sno": 606,
       "dist": "Anantapur",
-      "mandal": "Roddam",
-      "mroPhone": 9493188860,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "G.Ramasekhar"
+      "mandal": "Roddam"
     },
     {
-      "sno": 607,
       "dist": "Anantapur",
-      "mandal": "Somandepalle",
-      "mroPhone": 9493188859,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "Somandepalle"
     },
     {
-      "sno": 608,
       "dist": "Anantapur",
-      "mandal": "Chilamathur",
-      "mroPhone": 9493188872,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "G.Maruthi"
+      "mandal": "Chilamathur"
     },
     {
-      "sno": 609,
       "dist": "Anantapur",
-      "mandal": "Lepakshi",
-      "mroPhone": 9493188871,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "T.Ananda Kumar"
+      "mandal": "Lepakshi"
     },
     {
-      "sno": 610,
       "dist": "Anantapur",
-      "mandal": "Hindupur",
-      "mroPhone": 9493188869,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "C.Viswanath"
+      "mandal": "Hindupur"
     },
     {
-      "sno": 611,
       "dist": "Anantapur",
-      "mandal": "Parigi",
-      "mroPhone": 9493188870,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "M.Bharath Kumar"
+      "mandal": "Parigi"
     },
     {
-      "sno": 612,
       "dist": "Anantapur",
-      "mandal": "Madakasira",
-      "mroPhone": 9493188864,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "H.Harinath Rao"
+      "mandal": "Madakasira"
     },
     {
-      "sno": 613,
       "dist": "Anantapur",
-      "mandal": "Gudibanda",
-      "mroPhone": 9493188866,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "M.Mohan Das"
+      "mandal": "Gudibanda"
     },
     {
-      "sno": 614,
       "dist": "Anantapur",
-      "mandal": "Amarapuram",
-      "mroPhone": 9493188865,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "N.Narayana"
+      "mandal": "Amarapuram"
     },
     {
-      "sno": 615,
       "dist": "Anantapur",
-      "mandal": "Agali",
-      "mroPhone": 9493188868,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "G.Ravikumar Gowd (FAC)9493188868"
+      "mandal": "Agali"
     },
     {
-      "sno": 616,
       "dist": "Anantapur",
-      "mandal": "Rolla",
-      "mroPhone": 9493188867,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "M.Mohandas (FAC)"
+      "mandal": "Rolla"
     },
     {
-      "sno": 617,
       "dist": "Kurnool",
-      "mandal": "Kowthalam",
-      "mroPhone": 8333988995,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "Kowthalam"
     },
     {
-      "sno": 618,
       "dist": "Kurnool",
-      "mandal": "Kosigi",
-      "mroPhone": 8333988996,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "K Rajanikanth Reddy"
+      "mandal": "Kosigi"
     },
     {
-      "sno": 619,
       "dist": "Kurnool",
-      "mandal": "Mantralayam",
-      "mroPhone": 8333988993,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "J Rudhra Goud FAC"
+      "mandal": "Mantralayam"
     },
     {
-      "sno": 620,
       "dist": "Kurnool",
-      "mandal": "Nandavaram",
-      "mroPhone": 8333988997,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "B Adinarayana"
+      "mandal": "Nandavaram"
     },
     {
-      "sno": 621,
       "dist": "Kurnool",
-      "mandal": "C Belagal",
-      "mroPhone": 9885422733,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "ANWAR HUSSAIN"
+      "mandal": "C Belagal"
     },
     {
-      "sno": 622,
       "dist": "Kurnool",
-      "mandal": "Gudur",
-      "mroPhone": 9849904073,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "S VARAKUMAR"
+      "mandal": "Guduru"
     },
     {
-      "sno": 623,
       "dist": "Kurnool",
-      "mandal": "Kurnool",
-      "mroPhone": 9849904173,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "G Venkatesu"
+      "mandal": "Kurnool"
     },
     {
-      "sno": 624,
       "dist": "Kurnool",
-      "mandal": "Nandi Kotkur",
-      "mroPhone": 8333988968,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "P.MuniKrishnaiah"
+      "mandal": "Nandi Kotkur"
     },
     {
-      "sno": 625,
       "dist": "Kurnool",
-      "mandal": "Pagidyala",
-      "mroPhone": 8333988969,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "SYED ZAKIR HUSSAIN"
+      "mandal": "Pagidyala"
     },
     {
-      "sno": 626,
       "dist": "Kurnool",
-      "mandal": "Kothapalle",
-      "mroPhone": 8008803206,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "B.Suguna"
+      "mandal": "Kothapalle"
     },
     {
-      "sno": 627,
       "dist": "Kurnool",
-      "mandal": "Atmakur",
-      "mroPhone": 9849904076,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "S Venkata Ramana"
+      "mandal": "Atmakur"
     },
     {
-      "sno": 628,
       "dist": "Kurnool",
-      "mandal": "Srisailam",
-      "mroPhone": 9849904175,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": 0
+      "mandal": "Srisailam"
     },
     {
-      "sno": 629,
       "dist": "Kurnool",
-      "mandal": "Velgode",
-      "mroPhone": 8333988975,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "K.V.SRINIVASULU"
+      "mandal": "Velgode"
     },
     {
-      "sno": 630,
       "dist": "Kurnool",
-      "mandal": "Pamulapadu",
-      "mroPhone": 8333988974,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "T Venkata Ramesh Babu"
+      "mandal": "Pamulapadu"
     },
     {
-      "sno": 631,
       "dist": "Kurnool",
-      "mandal": "Jupadu Bungalow",
-      "mroPhone": 8333988970,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "R SIVA RAMUDU"
+      "mandal": "Jupadu Bungalow"
     },
     {
-      "sno": 632,
       "dist": "Kurnool",
-      "mandal": "Midthur",
-      "mroPhone": 8333988971,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "C.BHULAKSHMI"
+      "mandal": "Midthur"
     },
     {
-      "sno": 633,
       "dist": "Kurnool",
-      "mandal": "Orvakal",
-      "mroPhone": 9855874447,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "Y NARENDRANATH REDDY"
+      "mandal": "Orvakal"
     },
     {
-      "sno": 634,
       "dist": "Kurnool",
-      "mandal": "Kallur",
-      "mroPhone": 8333988961,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "D Ravi Kumar"
+      "mandal": "Kallur"
     },
     {
-      "sno": 635,
       "dist": "Kurnool",
-      "mandal": "Kodumur",
-      "mroPhone": 8333988963,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "A VENU GOPAL"
+      "mandal": "Kodumur"
     },
     {
-      "sno": 636,
       "dist": "Kurnool",
-      "mandal": "Gonegandla",
-      "mroPhone": 8333988959,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "P.V.RAMANA RAO"
+      "mandal": "Gonegandla"
     },
     {
-      "sno": 637,
       "dist": "Kurnool",
-      "mandal": "Yemmiganur",
-      "mroPhone": 9849904177,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "A BALAGANESHAIAH"
+      "mandal": "Yemmiganur"
     },
     {
-      "sno": 638,
       "dist": "Kurnool",
-      "mandal": "Pedda Kadalur",
-      "mroPhone": 8333988994,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "K Sateesh"
+      "mandal": "Pedda Kadalur"
     },
     {
-      "sno": 639,
       "dist": "Kurnool",
-      "mandal": "Adoni",
-      "mroPhone": 9849904161,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "G Sreenath"
+      "mandal": "Adoni"
     },
     {
-      "sno": 640,
       "dist": "Kurnool",
-      "mandal": "Holagunda",
-      "mroPhone": 8333989016,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "E N ANJANEYULU"
+      "mandal": "Holagunda"
     },
     {
-      "sno": 641,
       "dist": "Kurnool",
-      "mandal": "Alur",
-      "mroPhone": 9849904167,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "S HASEENA BEE"
+      "mandal": "Alur"
     },
     {
-      "sno": 642,
       "dist": "Kurnool",
-      "mandal": "Aspari",
-      "mroPhone": 8333988998,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "R.S.SUBRAHMANYAM"
+      "mandal": "Aspari"
     },
     {
-      "sno": 643,
       "dist": "Kurnool",
-      "mandal": "Devanakonda",
-      "mroPhone": 0,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": 0
+      "mandal": "Devanakonda"
     },
     {
-      "sno": 644,
       "dist": "Kurnool",
-      "mandal": "Krishnagiri",
-      "mroPhone": 8333988966,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "M Rama Subbaiah"
+      "mandal": "Krishnagiri"
     },
     {
-      "sno": 645,
       "dist": "Kurnool",
-      "mandal": "Veldurthi",
-      "mroPhone": 9949096527,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "P.Rajani Kumari"
+      "mandal": "Veldurthi"
     },
     {
-      "sno": 646,
       "dist": "Kurnool",
-      "mandal": "Bethamcherla",
-      "mroPhone": 8333988956,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "S.TULASI NAIK"
+      "mandal": "Bethamcherla"
     },
     {
-      "sno": 647,
       "dist": "Kurnool",
-      "mandal": "Panyam",
-      "mroPhone": 8333988957,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "B Nagaraju"
+      "mandal": "Panyam"
     },
     {
-      "sno": 648,
       "dist": "Kurnool",
-      "mandal": "Gadivemula",
-      "mroPhone": 8333988978,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "D VENKATESH NAIK"
+      "mandal": "Gadivemula"
     },
     {
-      "sno": 649,
       "dist": "Kurnool",
-      "mandal": "Bandi Atmakur",
-      "mroPhone": 8333988965,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "R.GOVIND SINGH"
+      "mandal": "Bandi Atmakur"
     },
     {
-      "sno": 650,
       "dist": "Kurnool",
-      "mandal": "Nandyal",
-      "mroPhone": 9849904176,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "T. Jaya Rami Reddy"
+      "mandal": "Nandyal"
     },
     {
-      "sno": 651,
       "dist": "Kurnool",
-      "mandal": "Mahanandi",
-      "mroPhone": 9849152599,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "A.C.Subbarayudu"
+      "mandal": "Mahanandi"
     },
     {
-      "sno": 652,
       "dist": "Kurnool",
-      "mandal": "Sirvel",
-      "mroPhone": 8333988980,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "Sirvel"
     },
     {
-      "sno": 653,
       "dist": "Kurnool",
-      "mandal": "Rudravaram",
-      "mroPhone": 8333988981,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "V Chandra sekhar Naik"
+      "mandal": "Rudravaram"
     },
     {
-      "sno": 654,
       "dist": "Kurnool",
-      "mandal": "Allagadda",
-      "mroPhone": 8333988979,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "P.Satyasreenivasulu"
+      "mandal": "Allagadda"
     },
     {
-      "sno": 655,
       "dist": "Kurnool",
-      "mandal": "Chagalamarri",
-      "mroPhone": 8333988983,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "Ch.MALAKONDAIAH"
+      "mandal": "Chagalamarri"
     },
     {
-      "sno": 656,
       "dist": "Kurnool",
-      "mandal": "Uyyalawada",
-      "mroPhone": 8333988983,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "P Rajeswari"
+      "mandal": "Uyyalawada"
     },
     {
-      "sno": 657,
       "dist": "Kurnool",
-      "mandal": "Dornipadu",
-      "mroPhone": 8333988979,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "P Tirupathi Sai"
+      "mandal": "Dornipadu"
     },
     {
-      "sno": 658,
       "dist": "Kurnool",
-      "mandal": "Gospadu",
-      "mroPhone": 8333988982,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "Gonuguntla Anantha Padmanabha Rao"
+      "mandal": "Gospadu"
     },
     {
-      "sno": 659,
       "dist": "Kurnool",
-      "mandal": "Koilkuntla",
-      "mroPhone": 8333988992,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "D M PREM SAGAR"
+      "mandal": "Koilkuntla"
     },
     {
-      "sno": 660,
       "dist": "Kurnool",
-      "mandal": "Banaganapalle",
-      "mroPhone": 8333988991,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "B SIVA RAMI REDDY"
+      "mandal": "Banaganapalle"
     },
     {
-      "sno": 661,
       "dist": "Kurnool",
-      "mandal": "Sanjamala",
-      "mroPhone": 8333988986,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "A.B.Elizabeth"
+      "mandal": "Sanjamala"
     },
     {
-      "sno": 662,
       "dist": "Kurnool",
-      "mandal": "Kolimigundla",
-      "mroPhone": 8333988990,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "B RAMANJULA NAIK"
+      "mandal": "Kolimigundla"
     },
     {
-      "sno": 663,
       "dist": "Kurnool",
-      "mandal": "Owk",
-      "mroPhone": 9855874447,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "Y NARENDRANATH REDDY"
+      "mandal": "Owk"
     },
     {
-      "sno": 664,
       "dist": "Kurnool",
-      "mandal": "Peapally",
-      "mroPhone": 8333988965,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "R.GOVIND SINGH"
+      "mandal": "Peapally"
     },
     {
-      "sno": 665,
       "dist": "Kurnool",
-      "mandal": "Dhone",
-      "mroPhone": 9849904174,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "A THIRUMALA VANI"
+      "mandal": "Dhone"
     },
     {
-      "sno": 666,
       "dist": "Kurnool",
-      "mandal": "Tuggali",
-      "mroPhone": 8333989018,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "B RAMAKRISHNA"
+      "mandal": "Tuggali"
     },
     {
-      "sno": 667,
       "dist": "Kurnool",
-      "mandal": "Pattikanda",
-      "mroPhone": 8333989017,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "Pattikanda"
     },
     {
-      "sno": 668,
       "dist": "Kurnool",
-      "mandal": "Maddikera East",
-      "mroPhone": 8333989019,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "#N/A"
+      "mandal": "Maddikera East"
     },
     {
-      "sno": 669,
       "dist": "Kurnool",
-      "mandal": "Chippagiri",
-      "mroPhone": 8333989014,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "V SURYANARAYANA PRASAD"
+      "mandal": "Chippagiri"
     },
     {
-      "sno": 670,
       "dist": "Kurnool",
-      "mandal": "Halaharvi",
-      "mroPhone": 8333989015,
-      "hasTelegram": "no",
-      "hasWhatsApp": "yes",
-      "mroName": "D.Hussain Saheb"
+      "mandal": "Halaharvi"
     }
   ]
 }

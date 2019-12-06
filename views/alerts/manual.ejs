@@ -65,7 +65,2690 @@
             color: #ffffff;
         }
     </style>
-
+    <script>
+        let districts=[
+            {
+                "dist": "Srikakulam",
+                "mandal": "Veeraghattam"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Vangara"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Regidi Amadalavalasa"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Razam"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Ganguvari Singadam"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Laveru"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Ranastalam"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Etcherla"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Ponduru"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Santhakaviti"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Burja"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Palakonda"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Seethampeta"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Bhamini"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Kothuru"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Hiramandalam"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Sarubujjili"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Amudalavalasa"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Srikakulam"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Gara"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Polaki"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Narasannapeta"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Jalumuru"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Saravakota"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Pathapatnam"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Meliaputti"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Tekkali"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Kotabommali"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Santhabommali"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Nandigam"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Vajrapukothuru"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Palasa"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Mandasa"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Sompeta"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Kanchili"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Kaviti"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Ichchapuram"
+            },
+            {
+                "dist": "Srikakulam",
+                "mandal": "Laxminarasampet"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Komarada"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Gummalakshmipuram"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Kurupam"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Jiyyammavalasa"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Garugubilli"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Parvathipuram"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Makkuva"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Seethanagaram"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Balijipeta"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Bobbili"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Salur"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Pachipenta"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Ramabhadrapuram"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Badangi"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Therlam"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Merakamudidam"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Dattirajeru"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Mentada"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Gajapathinagaram"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Bondapalle"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Gurla"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Garividi"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Cheepurupalle"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Nellimarla"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Pusapatirega"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Bhogapuram"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Denkada"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Vizianagaram"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Gantyada"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Srungavarapukota"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Vepada"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Lakkavarapukota"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Jami"
+            },
+            {
+                "dist": "Vizianagaram",
+                "mandal": "Kottavalasa"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Munchingiputtu"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Pedabayalu"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Hukumpeta"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Dumbriguda"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Araku Valley"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Ananthagiri"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Devarapalle"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Cheedikada"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Madugula"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Paderu"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "G. Madugula"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Chintapalle"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Gudem Kotha Veedhi"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Koyyuru"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Golugonda"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Nathavaram"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Narsipatnam"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Rolugunta"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Ravikamatham"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Butchayyapeta"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Chodavaram"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "K.Kotapadu"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Sabbavaram"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Pendurthi"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Anandapuram"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Padmanabham"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Bhimunipatnam"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Visakhapatnam(U)"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Visakhapatnam(R)"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Gajuwaka"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Pedagantyada"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Paravada"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Anakapalle"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Munagapaka"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Kasimkota"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Makavarapalem"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Kotauratla"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Payakaraopeta"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Nakkapalle"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "S Rayavaram"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Yelamanchili"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Rambilli"
+            },
+            {
+                "dist": "Visakapatnam",
+                "mandal": "Atchutapuram"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Maredumilli"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Y. Ramavaram"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Addateegala"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Rajavommangi"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Kotananduru"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Tuni"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Tondangi"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Gollaprolu"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Sankhavaram"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Prathipadu"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Yeleswaram"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Gangavaram"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Rampachodavaram"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Devipatnam"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Seethanagaram"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Korukonda"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Gokavaram"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Jaggampeta"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Kirlampudi"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Peddapuram"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Pithapuram"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Kothapalle"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Kakinada (Rural)"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Kakinada(Urban)"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Samalkot"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Rangampeta"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Gandepalle"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Rajanagaram"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Rajahmundry (Rural)"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Rajamundry (Urban)"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Kadiam"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Mandapeta"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Anaparthy"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Biccavolu"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Pedapudi"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Karapa"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Tallarevu"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Kajuluru"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Ramachandrapuram"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Rayavaram"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Kapileswarapuram"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Alamuru"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Atreyapuram"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Ravulapalem"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Pamarru"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Kothapeta"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "P. Gannavaram"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Ambajipeta"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Ainavilli"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Mummidivaram"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "I. Polavaram"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Katrenikona"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Uppalaguptam"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Amalāpuram"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Allavaram"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Mamidikuduru"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Razole"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Malikipuram"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Sakhinetipalle"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Ravutulapudi"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Nellipaka"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Kunavaram"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Chintur"
+            },
+            {
+                "dist": "Eastgodavari",
+                "mandal": "Vararamachandrapuram"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Jeelugu Milli"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Buttayagudem"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Polavaram"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Tallapudi"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Gopalapuram"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Koyyalagudem"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Jangareddigudem"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "T.Narasapuram"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Chintalapudi"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Lingapalem"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Kamavarapukota"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Dwaraka Tirumala"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Nallajerla"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Devarapalle"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Chagallu"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Kovvur"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Nidadavole"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Tadepallegudem"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Unguturu"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Bhimadole"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Pedavegi"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Pedapadu"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Eluru"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Denduluru"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Nidamarru"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Ganapavaram"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Pentapadu"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Tanuku"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Undrajavaram"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Peravali"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Iragavaram"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Attili"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Undi"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Akividu"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Kalla"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Bhimavaram"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Palakoderu"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Veeravasaram"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Penumantra"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Penugonda"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Achanta"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Poduru"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Palakollu"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Elamanchili"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Narasapur"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Mogalthur"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Velairpadu"
+            },
+            {
+                "dist": "Westgodavari",
+                "mandal": "Kukunoor"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Jaggayyapeta"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Vatsavai"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Penuganchiprolu"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Nandigama"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Chandarlapadu"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Kanchikacherla"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Veerullapadu"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Ibrahimpatnam"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "G.Konduru"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Mylaram"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "A Konduru"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Gampalagudem"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Tiruvuru"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Vissannapet"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Reddigudem"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Vijayawada Rural"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Vijayawada Urban"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Penamaluru"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Thotlavalluru"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Kankipadu"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Gannavaram"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Agiripalle"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Nuzvid"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Chatrai"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Musunuru"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Bapulapad"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Unguturu"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Vuyyuru"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Pamidimukkala"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Movva"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Ghantasala"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Challapalle"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Mopidevi"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Avanigada"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Nagayalanka"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Koduru"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Machilipatnam"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Gudur"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Pamarru"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Pedaparupudi"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Nandivada"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Gudivada"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Gudlavalleru"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Pedana"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Bantumilli"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Mudinapalle"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Mandavalli"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Kaikalur"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Kalidindi"
+            },
+            {
+                "dist": "Krishna",
+                "mandal": "Kruthivennu"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Macherla"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Rentachintala"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Gurazala"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Dachepalle"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Machavaram"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Bellamkonda"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Atchampet"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Krosuru"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Amaravati"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Thullur"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Tadepalle"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Mangalagiri"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Tadikonda"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Pedakurapadu"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Sattenapalle"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Rajupalem"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Piduguralla"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Karempudi"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Durgi"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Veldurthi"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Bollapalle"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Nekarikallu"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Muppalla"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Phirangipuram"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Medikonduru"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Guntur"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Pedakakani"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Duggirala"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Kollipara"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Kollur"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Vemuru"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Tenali"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Tsundur"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Chebrole"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Vatticherukuru"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Prathipadu"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Edlapadu"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Nadendla"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Narasaraopet"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Rompicherla"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Ipur"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Savalyapuram"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Vinukonda"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Nuzendla"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Chilakaluripet"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Pedanandipadu"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Kakumanu"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Ponnur"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Amruthalur"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Cherukupalle"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Bhattiprolu"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Repalle"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Nagaram"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Nizampatnam"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Pittalavanipalem"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Karlapalem"
+            },
+            {
+                "dist": "Guntur",
+                "mandal": "Bapatla"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Yerragondapalem"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Pullalacheruvu"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Tripuranthakam"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Kurichedu"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Donakonda"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Pedaaraveedu"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Dornala"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Ardhaveedu"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Markapur"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Tarlapadu"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Konakanamitla"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Podili"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Darsi"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Mundlamuru"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Thallur"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Addanki"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Ballikuruva"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Santhamaguluru"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Yeddanapudi"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Martur"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Parchur"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Karamchedu"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Chirala"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Vetapalem"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Inkollu"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Janakavarampangulu"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Korisapadu"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Maddipadu"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Chimakurthi"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Marripudi"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Kanigiri"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Hanumanthunipadu"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Bestavaripeta"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Cumbum"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Racherla"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Giddaluru"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Komarolu"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Chadrasekarapuram"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Veligandla"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Pedacherlopalle"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Ponnaluru"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Kondapi"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Santhanuthlapadu"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Ongole"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Naguluppalapadu"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Chinaganjam"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Kothapatnam"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Tangutur"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Zarugumilli"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Kandukur"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Voletivaripalem"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Pamur"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Lingasamudram"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Gudluru"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Ulavapadu"
+            },
+            {
+                "dist": "Prakasam",
+                "mandal": "Singarayakonda"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Seetharamapuram"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Varikuntapadu"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Kondapuram"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Jaladanki"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Kavali"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Bogole"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Kaligiri"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Vinjamur"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Duttalur"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Udayagiri"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Marripadu"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Atmakur"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Anumasamudrampeta"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Dagadarthi"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Allur"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Vidavalur"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Kodavalur"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Bucchireddipalem"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Sangam"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Chejerla"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Ananthasagaram"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Kaluvoya"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Rapur"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Podlakur"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Nellore"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Kovur"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Indukurpet"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Thotapalligudur"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Muthukur"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Venkatachalam"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Manubolu"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Gudur"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Sydapuram"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Dakkili"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Venkatagiri"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Balayapalle"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Ojili"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Chillakur"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Kota"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Vakadu"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Chittamur"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Naidupeta"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Pellakur"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Doravarisatram"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Sullurpeta"
+            },
+            {
+                "dist": "Nellore",
+                "mandal": "Tada"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Peddamandyam"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Thamballapalle"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Mulakalacheruvu"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Peddathippasamudra"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "B Kothakota"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Kurabalakota"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Gurramkonda"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Kalakada"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Kambhamvaripalle"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Yerravaripalem"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Tirupati Urban"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Renigunta"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Yerpedu"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Srikalahasti"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Thottambedu"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Buchinaidu Khandri"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Varadaiahpalem"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Satyavedu"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Nagalapuram"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Pichatur"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Vijaya Puram"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Nindra"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "K V B Puram"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Narayanavanam"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Vadamalapeta"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Tirupati"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Ramachndrapuram"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Chandragiri"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Chinnagottigallu"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Rompicherla"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Pileru"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Kalikiri"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Valmikipuram"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Nimmanapalle"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Mandapalle"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Ramasamudram"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Punganur"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Chowdepalle"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Somala"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Sodam"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Pulicherla"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Pakala"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Veduru Kuppam"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Puttur"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Nagari"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Karvetinagar"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Srirangarajapuram"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Palasamudram"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Gangadhara Nellore"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Penumuru"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Puthalapattu"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Irala"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Thavanampalle"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Chittoor"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Gudipala"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Yadamari"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Bangarupalem"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Palamaner"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Gangavaram"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Pedda Panjani"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Baireddi Palle"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Venkatagiri Kota"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Rama Kuppam"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Santhi Puram"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Gudi Palle"
+            },
+            {
+                "dist": "Chittoor",
+                "mandal": "Kuppam"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Kondapuram"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Mylavaram"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Peddamudium"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Raju Palem"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Duvvur"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "S Mydukur"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Brahmamgarimattam"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "B Kodur"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Kalasapadu"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Porumamilla"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Badvel"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Gopavaram"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Khajipet"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Chapad"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Proddutur"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Jammalamadugu"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Muddanur"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Simhadripuram"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Lingala"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Pulivendla"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Vemula"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Thandur"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Veerapunayunipalle"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Yerraguntla"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Kamalapuram"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Vallur"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Chennur"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Atlur"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Vontimitta"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Sidhout"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Kadapa"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Chintha Kommadinne"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Pendlimarri"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Vempalle"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Chaknayapet"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Lakkireddipalle"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Ramapuram"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Veeraballe"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Rajampet"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Nandalur"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "penagalur"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Chitvel"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Kodur"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Obulavaripalle"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Pullampeta"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "T Sundupalle"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Sambepalle"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Chinnamandem"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Royachoti"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Galiveedu"
+            },
+            {
+                "dist": "Kadapa",
+                "mandal": "Narsapur"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "D Hirchal"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Bommanahal"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Vidapanakal"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Vajrakarur"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Guntakal"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Gooty"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Peddavadugur"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Yadiki"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Tadpatri"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Peddapappur"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Singanamala"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Pamidi"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Garladinne"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Kudair"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Uravakonda"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Beluguppa"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Kanekal"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Rayadurg"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Gummagatta"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Brahmasamudram"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Settur"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Kundurpi"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Kalyandrug"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Atmakur"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Anantapur"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Bukkarayasamudram"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Narpala"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Putlur"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Yellanur"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Tadimarri"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Bathalapalle"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Raptadu"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Kanaganapalle"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Kambadur"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Ramagiri"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Chenne Kothapalle"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Dharmavaram"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Mudigubba"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Talupula"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Nambulipulikunta"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Tanakal"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Nallacheruvu"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Gandlapenta"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Kadiri"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Amadagur"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Obuladevaracheruvu"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Nallamada"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Gorantla"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Puttaparthi"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Bukkapatnam"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Kothacheruvu"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Penu Konda"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Roddam"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Somandepalle"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Chilamathur"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Lepakshi"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Hindupur"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Parigi"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Madakasira"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Gudibanda"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Amarapuram"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Agali"
+            },
+            {
+                "dist": "Anantapur",
+                "mandal": "Rolla"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Kowthalam"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Kosigi"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Mantralayam"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Nandavaram"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "C Belagal"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Guduru"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Kurnool"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Nandi Kotkur"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Pagidyala"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Kothapalle"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Atmakur"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Srisailam"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Velgode"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Pamulapadu"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Jupadu Bungalow"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Midthur"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Orvakal"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Kallur"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Kodumur"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Gonegandla"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Yemmiganur"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Pedda Kadalur"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Adoni"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Holagunda"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Alur"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Aspari"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Devanakonda"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Krishnagiri"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Veldurthi"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Bethamcherla"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Panyam"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Gadivemula"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Bandi Atmakur"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Nandyal"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Mahanandi"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Sirvel"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Rudravaram"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Allagadda"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Chagalamarri"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Uyyalawada"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Dornipadu"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Gospadu"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Koilkuntla"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Banaganapalle"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Sanjamala"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Kolimigundla"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Owk"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Peapally"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Dhone"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Tuggali"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Pattikanda"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Maddikera East"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Chippagiri"
+            },
+            {
+                "dist": "Kurnool",
+                "mandal": "Halaharvi"
+            }
+        ]
+    </script>
 
 
     <script>
@@ -76,7 +2759,7 @@
             let currentFocus;
             /*execute a function when someone writes in the text field:*/
 
-            let arr=['Anantapur',
+            let arr = ['Anantapur',
                 'Chittoor',
                 'Eastgodavari',
                 'Guntur',
@@ -198,120 +2881,129 @@
             let currentFocus;
             /*execute a function when someone writes in the text field:*/
 
-            let arr=['Anantapur',
-                'Chittoor',
-                'Eastgodavari',
-                'Guntur',
-                'Kadapa',
-                'Krishna',
-                'Kurnool',
-                'Nellore',
-                'Prakasam',
-                'Srikakulam',
-                'Visakapatnam',
-                'Vizianagaram',
-                'Westgodavari']
+            // arr = JSON.parse(arr.mandals);
 
-            let el = document.getElementById(inp);
-            console.log(document.getElementById('myInput').value);
-            el.addEventListener("input", function (e) {
-                let a, b, i;
-                const val = this.value;
-                /*close any already open lists of autocompleted values*/
-                closeAllLists();
-                if (!val) {
-                    return false;
+            let text = document.getElementById('myInput').value;
+
+            if(text){
+
+                const filter = districts.filter(dist=>{
+                    if(dist.dist === text.trim())
+                        return dist.mandal
+
+                })
+
+                console.log(filter);
+
+                arr = (filter.map(dist=>{
+                    return dist.mandal
+                }));
+
+                let el = document.getElementById(inp);
+
+                el.addEventListener("input", function (e) {
+                    let a, b, i;
+                    const val = this.value;
+                    /*close any already open lists of autocompleted values*/
+                    closeAllLists();
+                    if (!val) {
+                        return false;
+                    }
+                    currentFocus = -1;
+                    /*create a DIV element that will contain the items (values):*/
+                    a = document.createElement("DIV");
+                    a.setAttribute("id", this.id + "autocomplete-list");
+                    a.setAttribute("class", "autocomplete-items");
+                    /*append the DIV element as a child of the autocomplete container:*/
+                    this.parentNode.appendChild(a);
+                    /*for each item in the array...*/
+                    for (i = 0; i < arr.length; i++) {
+                        /*check if the item starts with the same letters as the text field value:*/
+                        if (arr[i].substr(0, val.length).toUpperCase() === val.toUpperCase()) {
+                            /*create a DIV element for each matching element:*/
+                            b = document.createElement("DIV");
+                            /*make the matching letters bold:*/
+                            b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
+                            b.innerHTML += arr[i].substr(val.length);
+                            /*insert a input field that will hold the current array item's value:*/
+                            b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+                            /*execute a function when someone clicks on the item value (DIV element):*/
+                            b.addEventListener("click", function (e) {
+                                /*insert the value for the autocomplete text field:*/
+                                el.value = this.getElementsByTagName("input")[0].value;
+                                /*close the list of autocompleted values,
+                                (or any other open lists of autocompleted values:*/
+                                closeAllLists();
+                            });
+                            a.appendChild(b);
+                        }
+                    }
+                });
+                /*execute a function presses a key on the keyboard:*/
+                el.addEventListener("keydown", function (e) {
+                    let x = document.getElementById(this.id + "autocomplete-list");
+                    if (x) x = x.getElementsByTagName("div");
+                    if (e.keyCode == 40) {
+                        /*If the arrow DOWN key is pressed,
+                        increase the currentFocus variable:*/
+                        currentFocus++;
+                        /*and and make the current item more visible:*/
+                        addActive(x);
+                    } else if (e.keyCode == 38) { //up
+                        /*If the arrow UP key is pressed,
+                        decrease the currentFocus variable:*/
+                        currentFocus--;
+                        /*and and make the current item more visible:*/
+                        addActive(x);
+                    } else if (e.keyCode == 13) {
+                        /*If the ENTER key is pressed, prevent the form from being submitted,*/
+                        e.preventDefault();
+                        if (currentFocus > -1) {
+                            /*and simulate a click on the "active" item:*/
+                            if (x) x[currentFocus].click();
+                        }
+                    }
+                });
+
+                function addActive(x) {
+                    /*a function to classify an item as "active":*/
+                    if (!x) return false;
+                    /*start by removing the "active" class on all items:*/
+                    removeActive(x);
+                    if (currentFocus >= x.length) currentFocus = 0;
+                    if (currentFocus < 0) currentFocus = (x.length - 1);
+                    /*add class "autocomplete-active":*/
+                    x[currentFocus].classList.add("autocomplete-active");
                 }
-                currentFocus = -1;
-                /*create a DIV element that will contain the items (values):*/
-                a = document.createElement("DIV");
-                a.setAttribute("id", this.id + "autocomplete-list");
-                a.setAttribute("class", "autocomplete-items");
-                /*append the DIV element as a child of the autocomplete container:*/
-                this.parentNode.appendChild(a);
-                /*for each item in the array...*/
-                for (i = 0; i < arr.length; i++) {
-                    /*check if the item starts with the same letters as the text field value:*/
-                    if (arr[i].substr(0, val.length).toUpperCase() === val.toUpperCase()) {
-                        /*create a DIV element for each matching element:*/
-                        b = document.createElement("DIV");
-                        /*make the matching letters bold:*/
-                        b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
-                        b.innerHTML += arr[i].substr(val.length);
-                        /*insert a input field that will hold the current array item's value:*/
-                        b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
-                        /*execute a function when someone clicks on the item value (DIV element):*/
-                        b.addEventListener("click", function (e) {
-                            /*insert the value for the autocomplete text field:*/
-                            el.value = this.getElementsByTagName("input")[0].value;
-                            /*close the list of autocompleted values,
-                            (or any other open lists of autocompleted values:*/
-                            closeAllLists();
-                        });
-                        a.appendChild(b);
+
+                function removeActive(x) {
+                    /*a function to remove the "active" class from all autocomplete items:*/
+                    for (let i = 0; i < x.length; i++) {
+                        x[i].classList.remove("autocomplete-active");
                     }
                 }
-            });
-            /*execute a function presses a key on the keyboard:*/
-            el.addEventListener("keydown", function (e) {
-                let x = document.getElementById(this.id + "autocomplete-list");
-                if (x) x = x.getElementsByTagName("div");
-                if (e.keyCode == 40) {
-                    /*If the arrow DOWN key is pressed,
-                    increase the currentFocus variable:*/
-                    currentFocus++;
-                    /*and and make the current item more visible:*/
-                    addActive(x);
-                } else if (e.keyCode == 38) { //up
-                    /*If the arrow UP key is pressed,
-                    decrease the currentFocus variable:*/
-                    currentFocus--;
-                    /*and and make the current item more visible:*/
-                    addActive(x);
-                } else if (e.keyCode == 13) {
-                    /*If the ENTER key is pressed, prevent the form from being submitted,*/
-                    e.preventDefault();
-                    if (currentFocus > -1) {
-                        /*and simulate a click on the "active" item:*/
-                        if (x) x[currentFocus].click();
+
+                function closeAllLists(elmnt) {
+                    /*close all autocomplete lists in the document,
+                    except the one passed as an argument:*/
+                    const x = document.getElementsByClassName("autocomplete-items");
+                    for (let i = 0; i < x.length; i++) {
+                        if (elmnt != x[i] && elmnt != el) {
+                            x[i].parentNode.removeChild(x[i]);
+                        }
                     }
                 }
-            });
 
-            function addActive(x) {
-                /*a function to classify an item as "active":*/
-                if (!x) return false;
-                /*start by removing the "active" class on all items:*/
-                removeActive(x);
-                if (currentFocus >= x.length) currentFocus = 0;
-                if (currentFocus < 0) currentFocus = (x.length - 1);
-                /*add class "autocomplete-active":*/
-                x[currentFocus].classList.add("autocomplete-active");
+                /*execute a function when someone clicks in the document:*/
+                document.addEventListener('click', function (e) {
+                    closeAllLists(e.target);
+                });
+
             }
 
-            function removeActive(x) {
-                /*a function to remove the "active" class from all autocomplete items:*/
-                for (let i = 0; i < x.length; i++) {
-                    x[i].classList.remove("autocomplete-active");
-                }
-            }
 
-            function closeAllLists(elmnt) {
-                /*close all autocomplete lists in the document,
-                except the one passed as an argument:*/
-                const x = document.getElementsByClassName("autocomplete-items");
-                for (let i = 0; i < x.length; i++) {
-                    if (elmnt != x[i] && elmnt != el) {
-                        x[i].parentNode.removeChild(x[i]);
-                    }
-                }
-            }
-
-            /*execute a function when someone clicks in the document:*/
-            document.addEventListener('click', function (e) {
-                closeAllLists(e.target);
-            });
         }
+
         /*An array containing all the country names in the world:*/
 
 
@@ -382,9 +3074,9 @@
 <br>
 <div class="text-center  container">
     <% if(error.length > 0){ %>
-    <div class="alert alert-danger" role="alert">
-        <%= error %>
-    </div>
+        <div class="alert alert-danger" role="alert">
+            <%= error %>
+        </div>
     <% } %>
 </div>
 
@@ -411,8 +3103,11 @@
                 <td style="height:50px;width:500px">Mandal:</td>
                 <td style="height:50px;width:500px">
                     <div class="autocomplete" style="width:300px;">
-                        <input id="myInput2" type="text" name="mandal" placeholder="Mandal" onclick="autocompleteMandal('myInput2')">
-                    </div></td>
+                        <input id="myInput2" type="text" name="mandal" placeholder="Mandal"
+                               onclick="autocompleteMandal('myInput2')">
+                    </div>
+                </td>
+
             </tr>
             <tr>
                 <td style="height:50px;width:500px">Village:</td>
