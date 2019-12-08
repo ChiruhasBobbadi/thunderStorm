@@ -31,7 +31,7 @@ const mandalSchema = new Schema({
 
     superName: {
         type: String,
-        required: true
+        required:true
     },
     superPhone: {
         type: String,

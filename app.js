@@ -95,6 +95,7 @@ app.use(function (req, res, next) {
 client.connect(2324, '107.23.152.248', function () {
 
     client.write(JSON.stringify(values.msg_auth));
+
     console.log('Connected to Earth Networks Socket');
 });
 
@@ -136,6 +137,8 @@ client.on('close', function () {
 
 
 
+
+
 // error handler
 app.use(function (err, req, res, next) {
     // set locals, only providing error in development
@@ -146,6 +149,9 @@ app.use(function (err, req, res, next) {
     res.status(err.status || 500);
     res.render('error');
 });
+
+
+
 
 
 module.exports = app;
