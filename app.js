@@ -36,15 +36,14 @@ const store = new MongoDBStore({
 
 mongoose.connect(values.mongoDbUri)
     .then(result => {
-        if(result){
+        if (result) {
             let db = mongoose.connection;
             /*helper.nullify(db, "activealerts");
             helper.nullify(db, "globalalerts");*/
             console.log("Database connected");
             console.log("server started ");
             app.listen(3000);
-        }
-        else {
+        } else {
             console.log("failed to connect db ");
             console.log(result);
         }
@@ -67,7 +66,7 @@ app.use(
 
 
 app.use(flash());
-app.use(multer({storage:values.uploadConfig,fileFilter:values.fileFilter}).single('file'));
+app.use(multer({storage: values.uploadConfig, fileFilter: values.fileFilter}).single('file'));
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
@@ -93,7 +92,7 @@ app.use(function (req, res, next) {
 //184.72.125.75
 //
 client.connect(2324, '107.23.152.248', function () {
-
+    console.log("initiating tcp connection");
     client.write(JSON.stringify(values.msg_auth));
 
     console.log('Connected to Earth Networks Socket');
@@ -103,10 +102,15 @@ client.on('error', (error) => {
     console.log("Error");
     console.log(error);
 
-     client.setTimeout(10000, function() {
-     console.log('establishing reconnection');
-        client.connect(2324, '107.23.152.248');
-    })
+    setTimeout( function () {
+        console.log('establishing reconnection');
+        client.connect(2324, '107.23.152.248', function () {
+            console.log("initiating tcp connection");
+            client.write(JSON.stringify(values.msg_auth));
+
+            console.log('Connected to Earth Networks Socket');
+        });
+    },10000);
 
 });
 
@@ -132,11 +136,16 @@ client.on('data', function (data) {
 
 client.on('close', function () {
     console.log('Connection closed');
+setTimeout( function () {
+        console.log('establishing reconnection');
+        client.connect(2324, '107.23.152.248', function () {
+            console.log("initiating tcp connection");
+            client.write(JSON.stringify(values.msg_auth));
+
+            console.log('Connected to Earth Networks Socket');
+        });
+    },10000);
 });
-
-
-
-
 
 
 // error handler
@@ -149,9 +158,6 @@ app.use(function (err, req, res, next) {
     res.status(err.status || 500);
     res.render('error');
 });
-
-
-
 
 
 module.exports = app;

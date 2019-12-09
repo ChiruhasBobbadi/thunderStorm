@@ -94,7 +94,7 @@ cron.schedule('0 *!/1 * * * *', () => {
 
                 mandal.find({mandal:locations.mandal,dist:locations.dist}).count().then(count=>{
                     if(count===1)
-                        return mandal.findOne({mandal: locations[i].locality.trim()})
+                        return mandal.findOne({mandal: locations[i].locality.trim()});
                     else{
                         throw  new Error('many mandals exist')
                     }

@@ -15,19 +15,26 @@
     </style>
     <script>
         function CopyToClipboard(containerid) {
-            console.log("hello");
+            if (window.getSelection) {
+                if (window.getSelection().empty) { // Chrome
+                    window.getSelection().empty();
+                } else if (window.getSelection().removeAllRanges) { // Firefox
+                    window.getSelection().removeAllRanges();
+                }
+            } else if (document.selection) { // IE?
+                document.selection.empty();
+            }
+
             if (document.selection) {
                 var range = document.body.createTextRange();
                 range.moveToElementText(document.getElementById(containerid));
                 range.select().createTextRange();
                 document.execCommand("copy");
-
             } else if (window.getSelection) {
                 var range = document.createRange();
                 range.selectNode(document.getElementById(containerid));
                 window.getSelection().addRange(range);
                 document.execCommand("copy");
-                alert("text copied")
             }
         }
 
@@ -101,7 +108,7 @@
             <%= error %>
         </div>
     <% } %>
-    <% let cnt = 1 %>
+    <% let cnt = 0 %>
     <center>
         <table border="1" class="table-bordered text-center">
 
@@ -229,7 +236,7 @@
                                 <br>
                                 Village:<span class="text-info">*ALL Villages*</span>
                                 In Other <span class="text-info">*30-40*</span> Minutes <br>
-                                Please notify all concren and take necessary action <br>
+                                Please notify all concern and take necessary action <br>
                                 <span class="text-info">*VRO are requested to be on Alert.* <br>*Regards*<br>*SEOC*</span>
                                 <br>
                                 <div class="text-center">
