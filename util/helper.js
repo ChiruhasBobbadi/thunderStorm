@@ -1,3 +1,4 @@
+
 const values = require('./values');
 const globalAlerts = require('../models/globalAlerts');
 const rp = require('request-promise');
@@ -10,10 +11,8 @@ let locationSet = new Set([]);
 // data array handles the response data from REST api
 let data = [];
 let f = [];
-/**
- *this function converts str to json and returns it,
- *
- * */
+
+
 module.exports.toJson = function toJson(str) {
 
     f = [];
@@ -26,9 +25,10 @@ module.exports.toJson = function toJson(str) {
                 f[i - 1].location = {};
                 f[i - 1].location.type = 'Point';
                 f[i - 1].location.coordinates = [f[i - 1].longitude, f[i - 1].latitude];
-                f[i - 1].createdAt = new Date().toISOString();
-
-
+                let d = new Date();
+                f[i - 1].createdAt = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
+                f[i-1].date = new Date().toISOString();
+                console.log(f[i - 1]);
             }
 
         } else {
@@ -37,17 +37,21 @@ module.exports.toJson = function toJson(str) {
             f[0].location = {};
             f[0].location.type = 'Point';
             f[0].location.coordinates = [f[0].longitude, f[0].latitude];
-            f[0].createdAt = new Date().toISOString();
+            let d = new Date();
+            f[0].createdAt = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
+            f[0].date = new Date().toISOString()
+            console.log(f[0]);
         }
         return f;
     } catch (e) {
+        console.log(e);
         console.log("Exception occured");
         console.log(str);
     }
 };
 
 
-// lat lng bounds
+// lat lng bounds of andhra pradesh
 let p1 = [84.86216, 19.25476];
 let p2 = [83.58775, 19.22364];
 let p3 = [80.90456, 17.66606];
@@ -58,11 +62,12 @@ let p7 = [80.27247, 13.299];
 
 
 // node-cron call calls every 1 min for now
-let len=0;
-cron.schedule('0 */1 * * * *', () => {
+
+cron.schedule('0 *!/1 * * * *', () => {
     console.log("called at " + new Date());
     globalAlerts.find({
-        location: {
+        location:
+            {
             $geoWithin: {
                 $geometry: {
                     type: 'Polygon',
@@ -72,10 +77,9 @@ cron.schedule('0 */1 * * * *', () => {
         }
     })
         .then(res => {
-            if (res.length>0) {
+            if (res.length > 0) {
                 console.log("calling api");
-               //len+=res.length;
-                //console.log(res);
+
                 console.log("number of record: " + res.length);
                 return doTask(res);
             }
@@ -84,31 +88,35 @@ cron.schedule('0 */1 * * * *', () => {
 
         }).then(locations => {
 
-            if(locations){
-                console.log(locations);
-                for (let i = 0; i < locations.length; i++) {
+        if (locations) {
+            console.log(locations);
+            for (let i = 0; i < locations.length; i++) {
+
+                mandal.find({mandal:locations.mandal,dist:locations.dist}).count().then(count=>{
+                    if(count===1)
+                        return mandal.findOne({mandal: locations[i].locality.trim()});
+                    else{
+                        throw  new Error('many mandals exist')
+                    }
+                })
+                    .then(result => {
+
+                        if (result) {
+                            const alerts = new activeAlert({
+                                mandal: result,
+                                time: new Date().toTimeString().split(" ")[0]
+                            });
+                            return alerts.save()
+                        }
 
 
-                    mandal.findOne({mandal: locations[i].locality.trim()})
-                        .then(result => {
-
-                            if (result) {
-                                const alerts = new activeAlert({
-                                    mandal: result,
-                                    address: locations[i],
-                                    time: new Date().toTimeString().split(" ")[0]
-                                });
-                                return alerts.save()
-                            }
-
-
-                        }).then(res => {
-                        if (res)
-                            console.log("written to active alerts");
-                    }).catch(error => {
-                        console.log("error while writing active alerts");
-                        console.log(error);
-                    })
+                    }).then(res => {
+                    if (res)
+                        console.log("written to active alerts");
+                }).catch(error => {
+                    console.log("error while writing active alerts");
+                    console.log(error);
+                })
             }
         }
 
@@ -117,7 +125,7 @@ cron.schedule('0 */1 * * * *', () => {
     });
 });
 // node-cron call which clears the set every 45 min.
-cron.schedule('0 */45 * * * *', () => {
+cron.schedule('0 *!/45 * * * *', () => {
     console.log("set cleared at " + new Date());
     locationSet.clear();
 });
@@ -139,9 +147,10 @@ async function processUsers(res) {
         try {
             result = (await make_api_call(res[i].location.coordinates[1], res[i].location.coordinates[0]));
             if (result.resourceSets[0].resources.length > 0) {
-                if (result.resourceSets[0].resources[0].address.adminDistrict === 'Ap' && !locationSet.has(result.resourceSets[0].resources[0].address.locality)) {
-                    data.push(result.resourceSets[0].resources[0].address);
-                    locationSet.add(result.resourceSets[0].resources[0].address.locality);
+                const m ={mandal:result.resourceSets[0].resources[0].address.locality.trim(),dist:result.resourceSets[0].resources[0].address.adminDistrict2.trim()};
+                if (result.resourceSets[0].resources[0].address.adminDistrict === 'Ap' && !locationSet.has(m)){
+                    data.push(m);
+                    locationSet.add(m);
                 }
             }
         } catch (e) {
@@ -159,14 +168,15 @@ async function processUsers(res) {
     return data;
 }
 
- async function doTask(res) {
+async function doTask(res) {
     return await processUsers(res);
 }
 
-module.exports.nullify = (db,collection)=>{
-    db.dropCollection(collection).then(res=>{
+module.exports.nullify = (db, collection) => {
+    db.dropCollection(collection).then(res => {
         console.log(collection + " dropped");
-    }).catch(err=>{
+    }).catch(err =>
+    {
         console.log("exception in deleting collection");
     })
 };

@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Tele Phase</title>
+    <style>
+        footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+
+            color: white;
+            text-align: center;
+        }
+    </style>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        table {
+            width: 105%;
+            border: 1px solid black;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="/home">Thunder-Alert System</a>
+    <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+            data-target="#navbarNav" data-toggle="collapse" type="button">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item ">
+                <a class="nav-link" href="/home">Alerts</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/reports">Reports<span class="sr-only">(current)</span></a>
+
+            </li>
+            <!--<li class="nav-item">
+                <a class="nav-link" href="/admin/update">admin</a>
+            </li>-->
+            <li class="nav-item">
+                <a class="nav-link active" href="/tele">Tele phase</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/message">Message Phase</a>
+            </li>
+
+            <li class="nav navbar-nav pull-right">
+                <a class="nav-link" href="/logout">Log out</a>
+            </li>
+
+
+        </ul>
+    </div>
+</nav>
+
+<br>
+<div class=" text-primary h3 text-center">Tele Communication Alert Details
+    <br>
+    <br>
+    <button class="btn btn-primary" onclick="document.location.reload(true)">refresh</button>
+</div>
+
+<div class="container jumbotron bg-white vertical-center align-middle text-center">
+
+    <%if(error.length>0){%>
+    <div class="alert alert-danger" role="alert">
+        <%=error%>
+    </div>
+    <%}%>
+    <center>
+        <table class="table-bordered table-striped" border="1">
+
+
+            <thead class="table-success">
+            <tr>
+                <th colspan="9">
+                    <center>SEOC-Lightning Tele-Communication Details</center>
+                </th>
+            </tr>
+            <tr>
+                <th>AlertID</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>District & Mandal</th>
+                <th rowspan="2">MRO Name & <br>mobile</th>
+                <th rowspan="2">D Section Name &<br> mobile</th>
+                <th rowspan="2">DRO Name & <br>mobile</th>
+                <th>Comments</th>
+                <th rowspan="2">Close<br>Ticket</th>
+            </tr>
+            </thead>
+
+            <% for (let tele of teles){ %>
+            <form method="post" action="/tele/<%=tele.id%>">
+                <tbody>
+
+                    <td>
+                        <div class="text-center"><%= tele.id %></div>
+                    </td>
+                    <td rowspan="2"><%= tele.date %></td>
+                    <td><%= tele.time %></td>
+                    <td rowspan="3" class="text-center"> <%= tele.mandal.dist %> &<br><%= tele.mandal.mandal %></td>
+
+                    <div class="form-check">
+                        <td rowspan="5" class="text-center">
+                            <%= tele.mandal.mroName %>,<br><%= tele.mandal.mroPhone %><br>
+
+                            <input type="checkbox" class="form-check-input" name="checkMro"  id="mroCheck"
+                            >
+                            <label class="form-check-label" for="mroCheck">
+                                verify
+                            </label>
+
+                        </td>
+                        <td rowspan="5" class="text-center"><%= tele.mandal.superName %>
+                            ,<br><%= tele.mandal.superPhone %><br>
+
+                            <input type="checkbox" class="form-check-input" name="checkSuper"  id="superCheck">
+                            <label class="form-check-label">
+
+                                verify
+                            </label>
+
+                        </td>
+                        <td rowspan="5" class="text-center"><%= tele.mandal.droName %>,<br><%= tele.mandal.droPhone %>
+                            <br>
+
+                            <input type="checkbox" class="form-check-input" name="checkDro" id="">
+                            <label class="form-check-label">
+
+                                verify
+                            </label>
+
+                        </td>
+                        <td rowspan="5" class="text-center">
+                            <div class="form-group">
+
+                                <textarea required class="form-control" name="comments" id="" rows="3"></textarea>
+                            </div>
+                        </td>
+                    </div>
+                    <td><input type="submit" class="btn btn-primary" value="close"></td>
+
+                    </tr>
+
+                </tbody>
+            </form>
+            <% } %>
+
+        </table>
+    </center>
+</div>
+
+
+<footer class="page-footer font-small blue" style="background: #2d3246;">
+    <div class="footer-copyright text-center py-3" style="color: white;" >© 2020 Copyright: APSDMA
+
+    </div>
+</footer>
+
+
+</body>
+</html>

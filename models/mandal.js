@@ -11,6 +11,7 @@ const mandalSchema = new Schema({
         type: String,
         required: true
     },
+
     mroName: {
         type: String,
         required: true
@@ -20,14 +21,54 @@ const mandalSchema = new Schema({
         required: true
     },
     hasWhatsApp: {
-        type: Boolean,
+        type: String,
         required: true
     },
     hasTelegram: {
-        type: Boolean,
+        type: String,
         required: true
     },
 
+    superName: {
+        type: String,
+        required:true
+    },
+    superPhone: {
+        type: String,
+        required: true
+    },
+    super_hasWhatsApp: {
+        type: String,
+        required: true
+    },
+
+
+    droName: {
+        type: String,
+        required: true
+    },
+    droPhone: {
+        type: String,
+        required: true
+    },
+    dro_hasWhatsApp: {
+        type: String,
+        required: true
+    },
+
+
+    rdo_hasWhatsApp: {
+        type: String,
+        required: true
+    },
+
+
+    alerts_hasWhatsApp:{
+        type: String,
+        required: true
+    }
+
+
 });
-mandalSchema.index({mandal:1});
+
 module.exports = mongoose.model('Mandal', mandalSchema);

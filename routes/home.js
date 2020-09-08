@@ -7,8 +7,13 @@ router.get('/home',route,homeController.getHome);
 
 router.post('/home',route,homeController.postHome);
 
-router.get('/error',route,homeController.error);
+router.post('/delete',route,homeController.delete);
+
+router.get('/error:type',route,homeController.error);
 
 router.get('/logout',homeController.logout);
 
+router.get('/manual',route,homeController.manual);
+
+router.post('/manual',route,homeController.postmanual);
 module.exports = router;

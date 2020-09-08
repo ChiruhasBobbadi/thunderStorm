@@ -13,6 +13,10 @@ const globalAlertSchema = new Schema({
         coordinates: []
     },
     createdAt:{
+        type:String,
+        required:true
+    },
+    date:{
         type:Date,
         required:true
     }
@@ -21,7 +25,7 @@ const globalAlertSchema = new Schema({
 });
 
 
-globalAlertSchema.index({createdAt:1},{expireAfterSeconds:70});
+globalAlertSchema.index({date:1},{expireAfterSeconds:70});
 globalAlertSchema.index({"location":"2dsphere"});
 
 module.exports = mongoose.model('GlobalAlert',globalAlertSchema);

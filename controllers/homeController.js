@@ -1,7 +1,7 @@
 const activeAlerts = require('../models/activeAlerts');
-
-const savedAlerts = require('../models/savedAlerts');
-
+const mandals = require('../models/mandal');
+const fs = require('fs')
+const path = require('path')
 
 exports.getHome = (req, res, next) => {
     /**
@@ -13,15 +13,17 @@ exports.getHome = (req, res, next) => {
 
         req.session.active = activeAlerts;
 
-        const mandals = activeAlerts.map(a => {
-                a.mandal.time = a.time;
-                return a.mandal;
-            }
-        );
+
+        // const mandals = activeAlerts.map(a => {
+        //         a.mandal.time = a.time;
+        //         return a.mandal;
+        //     }
+        // );
+
 
         //todo
         res.render('alerts/home', {
-            alerts: mandals
+            alerts: activeAlerts
         });
     }).catch(err => {
         console.log(err);
@@ -37,19 +39,13 @@ exports.postHome = (req, res, next) => {
     activeAlerts.findOne({mandal: _id}).populate('mandal').then(activeAlerts => {
 
         if (activeAlerts) {
-            req.session.active = activeAlerts.mandal;
-            const saved = new savedAlerts({
-                time: activeAlerts.time,
-                mandal: activeAlerts.mandal
-            });
-            return saved.save()
-        }
-        else{
+            temp = activeAlerts.mandal;
+            req.session.active = temp;
+
+            return activeAlerts.deleteOne({mandal: _id})
+        } else {
             return res.redirect('/error');
         }
-    }).then(res => {
-        if (res)
-            return activeAlerts.deleteOne({mandal: _id})
     }).then(result => {
         if (result) {
             res.redirect('/service')
@@ -59,12 +55,41 @@ exports.postHome = (req, res, next) => {
         console.log(err);
     })
 
+};
+
+exports.delete = (req,res,next)=>{
+    const params = req.query.id;
+
+
+
+   activeAlerts.findByIdAndDelete(params).then(result=>{
+       console.log(result);
+       if(result)
+           res.redirect('/home')
+   }).catch(err=>{
+       res.redirect('/error')
+   })
 
 };
 
-exports.error=(req,res,next)=>{
+exports.error = (req, res, next) => {
 
-    res.render('alerts/error');
+    let type=req.params.type;
+    console.log(type);
+    let t={};
+    if(type===':message')
+    {
+        t.text='Go back to message phase',
+            t.url ='/message'
+    }
+    else if(type===':tele')
+    {
+t.text='Go back to Tele phase',
+    t.url = '/tele'
+    }
+    res.render('alerts/error',{
+info:t
+    });
 };
 
 
@@ -75,3 +100,54 @@ exports.logout = (req, res, next) => {
 
 };
 
+exports.manual = (req, res, next) => {
+
+    const filePath = path.join(__dirname,'../','json', 'mro.json');
+
+   //const data=fs.readFileSync(filePath,{encoding: 'utf-8'});
+
+
+
+
+
+            res.render('alerts/manual', {
+                error: req.flash('mandal_error'),
+
+            });
+
+
+
+
+};
+
+exports.postmanual = (req, res, next) => {
+
+    const mandal = req.body.mandal;
+    const district = req.body.district;
+
+    mandals.findOne({mandal: mandal,dist:district}).then(result => {
+
+        if (result) {
+            const ac = new activeAlerts({
+                mandal: result,
+                time: new Date().toTimeString()
+            });
+            return  ac.populate('mandal').execPopulate()
+        } else {
+            req.flash('mandal_error', 'No mandal found try again or contact administrator.');
+            res.redirect('/manual');
+        }
+
+    }).then(result=>{
+        if(result){
+
+            req.session.active = result.mandal;
+            res.redirect('/service')
+        }
+
+    }).catch(err => {
+        console.log(err);
+    })
+
+
+};

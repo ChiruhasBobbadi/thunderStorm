@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Home</title>
+    <title>Oops..</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
@@ -35,9 +35,9 @@
                 <a class="nav-link" href="/reports">Reports<span class="sr-only">(current)</span></a>
 
             </li>
-            <li class="nav-item">
+            <!--<li class="nav-item">
                 <a class="nav-link" href="/admin/update">admin</a>
-            </li>
+            </li>-->
 
         </ul>
     </div>
@@ -45,9 +45,9 @@
 <br>
 <br>
 <div class="container">
-    <form method="get" action="/home">
+    <form method="get" action="<%=info.url%>">
         <p class="lead"> Sorry, the alert you are looking for is already being served</p>
-        <input type="submit" class="btn btn-primary" value="Go to Home">
+        <input type="submit" class="btn btn-primary" value="<%=info.text%>">
     </form>
 
 

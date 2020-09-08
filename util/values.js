@@ -1,6 +1,11 @@
 const multer = require('multer');
 
-module.exports.bingKey = 'As_wLgBGd9x-kbekvkeOHKxqnSfp9CiNcPHP2uR3Mkviy306NMQsDE94mVNOsg3D';
+// chiruhas's key
+ //module.exports.bingKey = 'As_wLgBGd9x-kbekvkeOHKxqnSfp9CiNcPHP2uR3Mkviy306NMQsDE94mVNOsg3D';
+// seoc key
+module.exports.bingKey = 'Aj1ghqtKK8JY-j5E7l6lC2yM0MHcM_NXkTtgrxKkH9ye4rzCVl_lZdLxI7VMQkEY';
+
+
 module.exports.mongoDbUri = 'mongodb://localhost:27017/ThunderStorm';
 
 //  PARTNER ID (PROVIDED BY EARTH NETWORKS)
@@ -42,4 +47,4 @@ module.exports.fileFilter=(req,file,cb)=>{
         cb(null,true);
     else
         cb(null,false);
-}
+};

@@ -1,33 +1,71 @@
-const activeAlerts = require('../models/activeAlerts');
-const mandals = require('../models/mandal');
+
 const servicedAlerts = require('../models/servicedAlerts');
 
+const messagePhase = require('../models/savedAlerts');
+const tele = require('../models/telePhase');
 
 
-exports.serviceAlert = (req, res, next) => {
+
+    exports.serviceAlert = (req, res, next) => {
+
+
+
+
+            let d = new Date();
+            res.render('alerts/service', {
+                alert: {...req.session.active,'date': d.getDate()+'-'+(d.getMonth()+1)+'-'+d.getFullYear()},
+                errorMessage: req.flash('InvalidTime'),
+                success:req.flash('edit_success')
+            });
+
 
     // console.log(req.session.active);
 
-    res.render('alerts/service', {
-        alert: req.session.active,
-        errorMessage: req.flash('InvalidTime')
-    });
 
 
 };
 
 exports.postService = (req, res, next) => {
-
+    let d = new Date();
+    let date = d.getDate()+'-'+(d.getMonth()+1)+'-'+d.getFullYear();
+    console.log(req.body.time);
     if (req.body.time) {
-        req.session.initTime = req.body.time;
+        let time = req.body.time;
+        console.log(req.session.active);
+        if (req.session.active) {
+            const saved = new tele({
 
-        res.redirect('/message');
+                time: time,
+                mandal: req.session.active._id,
+                date:date
+            });
+            saved.save().then(result => {
+                if (result) {
+                    const saved = new messagePhase({
+                        _id:result._id,
+                        time: time,
+                        mandal: req.session.active._id,
+                        date:date
+                    });
+                    saved.save().then(result => {
+                        if(result)
+                             res.redirect('/home')
+                    }).catch(err => {
+
+                        console.log(err);
+                    })
+
+                } else {
+                    return res.redirect('/error');
+                }
+            });
+        }
+
+
     } else {
         req.flash('InvalidTime', "Invalid Time");
         res.redirect('/service');
     }
-
-
 };
 
 exports.getMessage = (req, res, next) => {
@@ -82,7 +120,6 @@ exports.postMessage = (req, res, next) => {
     })
 
 };
-
 
 
 

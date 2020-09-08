@@ -1,6 +1,17 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <style>
+        footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+
+            color: white;
+            text-align: center;
+        }
+    </style>
     <title>Home</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -30,13 +41,19 @@
         <ul class="navbar-nav">
             <li class="nav-item active">
                 <a class="nav-link" href="/home">Alerts</a>
-                 </li>
+            </li>
             <li class="nav-item">
                 <a class="nav-link" href="/reports">Reports<span class="sr-only">(current)</span></a>
 
             </li>
-            <li class="nav-item">
+            <!--<li class="nav-item">
                 <a class="nav-link" href="/admin/update">admin</a>
+            </li>-->
+            <li class="nav-item">
+                <a class="nav-link" href="/tele">Tele phase</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/message">Message Phase</a>
             </li>
 
             <li class="nav navbar-nav pull-right">
@@ -49,62 +66,82 @@
 </nav>
 <br>
 <br>
+<div class="container text-center">
+    <p>Click here to enter manually.</p>
+    <a href="/manual"><input type="submit" class="btn btn-primary"></a>
+
+</div>
+<br>
 <div class="container">
     <div class="row ">
 
 
-            <div class="col-md-12 table-responsive">
-                <table class="table table-bordered  table-sortable" id="tab_logic">
-                    <thead>
-                    <tr>
-                        <th class="text-center">
-                            District
-                        </th>
-                        <th class="text-center">
-                            Mandal
-                        </th>
-                        <th class="text-center">
-                            Time
-                        </th>
-                        <th class="text-center">
+        <div class="col-md-12 table-responsive">
+            <table class="table table-bordered  table-sortable" id="tab_logic">
+                <thead>
+                <tr>
+                    <th class="text-center">
+                        District
+                    </th>
+                    <th class="text-center">
+                        Mandal
+                    </th>
+                    <th class="text-center">
+                        Time
+                    </th>
+                    <th class="text-center">
+                        Alert
+                    </th>
+                    <th class="text-center">
+                        Cancel
+                    </th>
+                </tr>
+                </thead>
+                <main>
+                    <% if(alerts.length > 0){ %>
+                    <% for (let alert of alerts){ %>
+                    <tbody>
+                    <tr class="hidden" data-id="0" id='addr0'>
+                        <td data-name="District">
+                            <h3 class="text-center lead"><%= alert.mandal.dist %></h3>
+                        </td>
+                        <td data-name="Mandal">
+                            <h3 class="text-center lead"><%= alert.mandal.mandal %></h3>
+                        </td>
+                        <td data-name="sel">
+                            <h3 class="text-center lead"><%= alert.time %></h3>
+                        </td>
+                        <td data-name="Alert">
+                            <form action="/home/?id=<%= alert.mandal._id %>" method="POST">
+                                <button class="btn btn-block btn-login btn-danger" type="submit">alert</button>
+                            </form>
 
-                        </th>
+                        </td>
+                        <td data-name="Delete">
+                            <form action="/delete?id=<%= alert._id %>" method="POST">
+                                <button class="btn btn-block btn-login btn-danger" type="submit">Delete</button>
+                            </form>
 
+                        </td>
                     </tr>
-                    </thead>
-                    <main>
-                        <% if(alerts.length>0){%>
-                        <%for (let alert of alerts){ %>
-                        <tbody>
-                        <tr class="hidden" data-id="0" id='addr0'>
-                            <td data-name="District">
-                                <h3 class="text-center lead"><%=alert.dist%></h3>
-                            </td>
-                            <td data-name="Mandal">
-                                <h3 class="text-center lead"><%=alert.mandal%></h3>
-                            </td>
-                            <td data-name="sel">
-                                <h3 class="text-center lead"><%=alert.time%></h3>
-                            </td>
-                            <td data-name="Alert">
-                                <form action="/home/?id=<%=alert._id%>" method="POST">
-                                    <button class="btn btn-block btn-login btn-danger" type="submit" >alert</button>
-                                </form>
+                    </tbody>
+                    <% } %>
+                    <% } %>
 
-                            </td>
-                        </tr>
-                        </tbody>
-                        <% } %>
-                        <% }  %>
+                </main>
 
-                    </main>
-
-                </table>
-            </div>
+            </table>
+        </div>
 
 
     </div>
 </div>
+
+<footer class="page-footer font-small blue" style="background: #2d3246;">
+    <div class="footer-copyright text-center py-3">© 2020 Copyright: APSDMA
+
+    </div>
+</footer>
 
 
 </body>

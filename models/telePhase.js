@@ -2,17 +2,17 @@ const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
 
-const activeAlertSchema = new Schema({
+const telephase = new Schema({
     mandal: {
         type: Schema.Types.ObjectId,
         ref: 'Mandal',
-        required:true
-    },
-    address:{
-        type: Object,
-
+        required: true
     },
     time: {
+        type: String,
+        required: true
+    },
+    date:{
         type: String,
         required: true
     }
@@ -21,4 +21,4 @@ const activeAlertSchema = new Schema({
 });
 
 
-module.exports = mongoose.model('ActiveAlert', activeAlertSchema);
+module.exports = mongoose.model('telephase', telephase);

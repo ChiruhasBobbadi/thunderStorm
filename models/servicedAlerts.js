@@ -9,29 +9,33 @@ const servicedAlertSchema = new Schema({
         required: true
     },
     date: {
-        type: Date,
+        type: String,
         required: true
     },
     mandal: {
+       type:Object,
+        required: true
+    },
+    isoDate:{
+        type:Date,
+        required:true
+    },
+    temp:{
+        type:String,
+        required:true
+    },
+    tele:{
         type: Object,
         required: true
     },
-    messaged: {
-        type: Boolean,
+    message:{
+        type: Object,
         required: true
     },
-    messagedTime: {
-        type: String,
+    message2:{
+        type: Object,
         required: true
-    },
-    called: {
-        type: Boolean,
-        required: true
-    },
-    calledTime: {
-        type: String,
-        required: true
-    },
+    }
 
 });
 

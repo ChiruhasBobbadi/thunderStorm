@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Message Alert</title>
+    <style>
+        footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+
+            color: white;
+            text-align: center;
+        }
+    </style>
+    <script>
+        function CopyToClipboard(containerid) {
+            if (window.getSelection) {
+                if (window.getSelection().empty) { // Chrome
+                    window.getSelection().empty();
+                } else if (window.getSelection().removeAllRanges) { // Firefox
+                    window.getSelection().removeAllRanges();
+                }
+            } else if (document.selection) { // IE?
+                document.selection.empty();
+            }
+
+            if (document.selection) {
+                var range = document.body.createTextRange();
+                range.moveToElementText(document.getElementById(containerid));
+                range.select().createTextRange();
+                document.execCommand("copy");
+            } else if (window.getSelection) {
+                var range = document.createRange();
+                range.selectNode(document.getElementById(containerid));
+                window.getSelection().addRange(range);
+                document.execCommand("copy");
+            }
+        }
+
+    </script>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+
+    <!-- Bootstrap CSS -->
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+</head>
+<body>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script crossorigin="anonymous"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="/home">Thunder-Alert System</a>
+    <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+            data-target="#navbarNav" data-toggle="collapse" type="button">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item ">
+                <a class="nav-link" href="/home">Alerts</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/reports">Reports<span class="sr-only">(current)</span></a>
+
+            </li>
+            <!--  <li class="nav-item">
+                  <a class="nav-link" href="/admin/update">admin</a>
+              </li>-->
+            <li class="nav-item">
+                <a class="nav-link " href="/tele">Tele phase</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="/message">Message Phase</a>
+            </li>
+
+            <li class="nav navbar-nav pull-right">
+                <a class="nav-link" href="/logout">Log out</a>
+            </li>
+
+
+        </ul>
+    </div>
+</nav>
+<br>
+<br>
+
+<div class=" container text-primary h3 text-center">Lightning Whatsapp/Telegram Alert Details
+    <br>
+    <br>
+    <button class="btn btn-primary" onclick="document.location.reload(true)">refresh</button>
+</div>
+<div class="container jumbotron bg-white vertical-center align-middle ">
+    <% if(error.length > 0){ %>
+        <div class="alert alert-danger" role="alert">
+            <%= error %>
+        </div>
+    <% } %>
+    <% let cnt = 0 %>
+    <center>
+        <table border="1" class="table-bordered text-center">
+
+            <thead class="table  table-black table-bordered table-info">
+            <tr>
+                <th colspan="15">
+                    <center>SEOC-Lightning Message Communication Details</center>
+                </th>
+            </tr>
+            <tr>
+                <th rowspan="2"><br>Alert Id</th>
+                <th rowspan="2" colspan="3"><br>Date & ID</th>
+                <th colspan="5">
+                    <center>Whatsapp</center>
+                </th>
+                <th>telegram</th>
+                <th rowspan="2" colspan="3">
+                    <center>message format</center>
+                </th>
+                <th rowspan="2">Comments</th>
+                <th rowspan="2">Close Ticket</th>
+            </tr>
+            <tr>
+                <th>Dro</th>
+                <th>D.Section</th>
+                <th>RDO</th>
+                <th>Alerts</th>
+                <th>MRO</th>
+                <th>MRO</th>
+            </tr>
+            </thead>
+            <% for (let msg of messages){ %>
+
+                <form method="post" action="/message/<%= msg.id %>">
+                    <tbody>
+                    <tr>
+                        <td rowspan="3">
+                            <div class="form-group">
+                                <%= msg.id %>
+                            </div>
+                        </td>
+                        <td rowspan="3" colspan="3">
+                            <%= msg.date %><br>
+                            <center>&</center>
+                            <%= msg.time %>
+                        </td>
+                        <td rowspan="3"><%= msg.mandal.dro_hasWhatsApp %>
+                            <% if (msg.mandal.dro_hasWhatsApp === 'yes') { %>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input required class="form-check-input" name="checkDro" type="checkbox"
+                                               value="checkedValue">
+                                        verify
+                                    </label>
+                                </div>
+                            <% } %>
+
+                        </td>
+                        <td rowspan="3"><%= msg.mandal.super_hasWhatsApp %>
+                            <% if (msg.mandal.super_hasWhatsApp === 'yes') { %>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input required class="form-check-input" name="checkSuper" type="checkbox"
+                                               value="checkedValue">
+                                        verify
+                                    </label>
+                                </div>
+                            <% } %>
+                        </td>
+
+                        <td rowspan="3"><%= msg.mandal.rdo_hasWhatsApp %>
+                            <% if (msg.mandal.rdo_hasWhatsApp === 'yes') { %>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input required class="form-check-input" name="checkRdo" type="checkbox"
+                                               value="checkedValue">
+                                        verify
+                                    </label>
+                                </div>
+                            <% } %>
+                        </td>
+                        <td rowspan="3"><%= msg.mandal.alerts_hasWhatsApp %>
+                            <% if (msg.mandal.alerts_hasWhatsApp === 'yes') { %>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" name="checkAlert" type="checkbox"
+                                               value="checkedValue">
+                                        verify
+                                    </label>
+                                </div>
+                            <% } %>
+                        </td>
+                        <td rowspan="3"><%= msg.mandal.hasWhatsApp %>
+                            <% if (msg.mandal.hasWhatsApp === 'yes') { %>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input required class="form-check-input" name="checkMro" type="checkbox"
+                                               value="checkedValue">
+                                        verify
+                                    </label>
+                                </div>
+                            <% } %>
+                        </td>
+                        <td rowspan="3"><%= msg.mandal.hasTelegram %>
+                            <% if (msg.mandal.hasTelegram === 'yes') { %>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input required class="form-check-input" name="checkMroTel" type="checkbox"
+                                               value="checkedValue">
+                                        verify
+                                    </label>
+                                </div>
+                            <% } %>
+                        </td>
+                        <td colspan="3" rowspan="3" class="text-left">
+                            <div id="div<%= cnt %>">Date: <span class="text-info">*<%= msg.date %>*</span> &nbsp;&nbsp;
+                                Time: <span
+                                        class="text-info">*<%= msg.time %>*
+                         <br>
+                         </span><span class="text-info">*SEOC-APSDMA*</span>
+                                <br>Dear Sir/Madam,
+                                There is a possibility of <span class="text-info">*Lightning Strikes*</span> in <br>
+                                <span class="text-info">District: *<%= msg.mandal.dist %>*</span><br>
+                                <span class="text-info">Mandal: *<%= msg.mandal.mandal %>*</span>
+                                <br>
+                                Village:<span class="text-info">*ALL Villages*</span>
+                                In Other <span class="text-info">*30-40*</span> Minutes <br>
+                                Please notify all concern and take necessary action <br>
+                                <span class="text-info">*VRO are requested to be on Alert.* <br>*Regards*<br>*SEOC*</span>
+                                <br>
+                                <div class="text-center">
+                                    <button type="button" class="text-center btn btn-sm btn-primary "
+                                            onclick="CopyToClipboard('div<%= cnt %>')">
+                                        Copy
+                                    </button>
+                                </div>
+
+                            </div>
+
+                        </td>
+                        <td rowspan="3">
+                            <div class="form-group">
+                                <label for=""></label>
+                                <textarea required class="form-control" name="comments" rows="3"></textarea>
+                            </div>
+                        </td>
+                        <td rowspan="3">
+                            <input type="submit" class="btn btn-primary" value="close">
+                        </td>
+                    </tr>
+
+                    </tbody>
+                </form>
+                <% cnt++ %>
+            <% } %>
+        </table>
+    </center>
+</div>
+
+
+<footer class="page-footer font-small blue" style="background: #2d3246;">
+    <div class="footer-copyright text-center py-3" style="color: white;">© 2020 Copyright: APSDMA
+
+    </div>
+</footer>
+</body>
+</html>

@@ -11,10 +11,14 @@ const savedAlertSchema = new Schema({
     time: {
         type: String,
         required: true
+    },
+    date: {
+        type: String,
+        required: true
     }
 
 
 });
 
 
-module.exports = mongoose.model('savedalert', savedAlertSchema);
+module.exports = mongoose.model('messagephase', savedAlertSchema);
